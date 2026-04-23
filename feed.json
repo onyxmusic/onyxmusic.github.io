@@ -1,170 +1,520 @@
 {
   "tr": [
     {
-      "section_title": "Hit Şarkılar & Yeni Çıkanlar",
-      "items":[
+      "section_title": "Kış",
+      "items": [
         {
-          "title": "Hit Şarkılar Türkiye",
-          "id": "RDCLAK5uy_n7OdwqgA4C6ewA6dD-YAXJEqUC0lPHqUA"
+          "id": "RDCLAK5uy_nOUUn0uPng2213dSoIyfl-LCgC_IuGjbM",
+          "name": "Türkiye'den Dingin Enstrümantal",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_nOUUn0uPng2213dSoIyfl-LCgC_IuGjbM/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICL3l9c4GEAE=&rs=AOn4CLDQrlOKdGy3cwr69NB1RfmsXBRZmg&v=1776120509"
         },
         {
-          "title": "Yeni Türkçe Pop",
-          "id": "RDCLAK5uy_k31GPZp_nSsHeJEniR4MqtqFBRJatI-JI"
+          "id": "RDCLAK5uy_kb7EBi6y3GrtJri4_ZH56Ms786DFEimbM",
+          "name": "Lofi Loft",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_kb7EBi6y3GrtJri4_ZH56Ms786DFEimbM/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICMrj9c4GEAE=&rs=AOn4CLBOrxKoq0iY1BJs8q4EUPVcerKnbQ&v=1776120266"
         },
         {
-          "title": "Yeni Türkçe Rap",
-          "id": "RDCLAK5uy_n2YZ2tg_cPKwwuyYdZJwHHRG6pjc6DpTA"
+          "id": "RDCLAK5uy_neriXH6JbZPr7Pf4LOi5bGQP-_lWRZXs4",
+          "name": "Sıcak Caz",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_neriXH6JbZPr7Pf4LOi5bGQP-_lWRZXs4/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICLPo9c4GEAE=&rs=AOn4CLCS2vpMeC_F1CGoTjB8o1oF1ae6KQ&v=1776120883"
         },
         {
-          "title": "Pop Fresh",
-          "id": "RDCLAK5uy_nOwL35BM_GUTEbdbw_9FmvQhPWWdd3sAg"
+          "id": "RDCLAK5uy_kFiFlofDDuvu9gYiBrcI8cMG3V2Lab8xA",
+          "name": "Blues'un Kökeni",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_kFiFlofDDuvu9gYiBrcI8cMG3V2Lab8xA/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICMbb9c4GEAE=&rs=AOn4CLBVunpa-GmyeZVINbqqKhY6qrFF4Q&v=1776119238"
         },
         {
-          "title": "FLAŞ Turkish Pop",
-          "id": "RDCLAK5uy_n1j1GACZO4o7U1m708pa7jV1q7zR-cY44"
+          "id": "RDCLAK5uy_kiLhvcwQ77iHCtSSBSJd9b9qO3pqabOpk",
+          "name": "Taze Kahve",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_kiLhvcwQ77iHCtSSBSJd9b9qO3pqabOpk/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICP_h9c4GEAE=&rs=AOn4CLCES89dKgshxbaQ03ahB16frc9fiA&v=1776120063"
+        },
+        {
+          "id": "RDCLAK5uy_m0X_CFV7sbR3EKDoP_FvqyK5faV7xorUY",
+          "name": "Freshly Chilled",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_m0X_CFV7sbR3EKDoP_FvqyK5faV7xorUY/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICLLBns8GEAE=&rs=AOn4CLAvEqyDroBnP4yln_2fsDO0MMBM6Q&v=1776787634"
+        },
+        {
+          "id": "RDCLAK5uy_nzABe7CwJJ6FpItwp1LJHEejR40FtA_Q4",
+          "name": "Chill Out Klasikleri",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_nzABe7CwJJ6FpItwp1LJHEejR40FtA_Q4/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICIfr9c4GEAE=&rs=AOn4CLCn6Ncarw2uKjDJV5psH5hFuI40Og&v=1776121223"
+        },
+        {
+          "id": "RDCLAK5uy_nDL8KeBrUagwyISwNmyEiSfYgz1gVCesg",
+          "name": "Sakin Pop Klasikleri",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_nDL8KeBrUagwyISwNmyEiSfYgz1gVCesg/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICIfaqM8GEAE=&rs=AOn4CLC4ddop2VW1LSCZFITNywi_8xT1DQ&v=1776954631"
+        },
+        {
+          "id": "RDCLAK5uy_nyKVppE-RpLkeCcwLct4rvN9e8AAsS_qw",
+          "name": "Soft Rock Baladları",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_nyKVppE-RpLkeCcwLct4rvN9e8AAsS_qw/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICKzf9c4GEAE=&rs=AOn4CLBVWDydzsPgNPmXUa-3pqAIFu5sDw&v=1776119724"
+        },
+        {
+          "id": "RDCLAK5uy_mTrr21OCLdb2dJgl_BJ-6MdJDXWqB-1gc",
+          "name": "Yoga ve Meditasyon",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_mTrr21OCLdb2dJgl_BJ-6MdJDXWqB-1gc/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICPvb9c4GEAE=&rs=AOn4CLBSy_YtMd9KT_Tsq8pYaF_gzkJZwQ&v=1776119291"
+        },
+        {
+          "id": "RDCLAK5uy_n2cq0PxECLzVblC6NOorWjaCtF5NwXJT4",
+          "name": "Caz Gecesi",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_n2cq0PxECLzVblC6NOorWjaCtF5NwXJT4/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICOTghs8GEAE=&rs=AOn4CLAPw7WGVYzxtuElt3H0wFaoIBCb2Q&v=1776398436"
+        },
+        {
+          "id": "RDCLAK5uy_ldooV6iHaoPy6VKyVuHDq0DT4lh-3tRqQ",
+          "name": "Yumuşak Piyano",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_ldooV6iHaoPy6VKyVuHDq0DT4lh-3tRqQ/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICIK4hc8GEAE=&rs=AOn4CLBHVXkdUoJ38G-iKCmIaorXZG1E3A&v=1776376834"
         }
       ]
     },
     {
-      "section_title": "Ruh Hali: Kış & Rahatlama",
-      "items":[
+      "section_title": "Yeni Şarkılar",
+      "items": [
         {
-          "title": "Lofi Loft",
-          "id": "RDCLAK5uy_kb7EBi6y3GrtJri4_ZH56Ms786DFEimbM"
+          "id": "RDCLAK5uy_ncwbM766_rhOk_JllLnAXmv_5v21_b2bc",
+          "name": "RELEASED",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_ncwbM766_rhOk_JllLnAXmv_5v21_b2bc/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICLaKis8GEAE=&rs=AOn4CLBH8l9WtR9OSVSsCiZ59ds0SO-s7g&v=1776452918"
         },
         {
-          "title": "Taze Kahve",
-          "id": "RDCLAK5uy_kiLhvcwQ77iHCtSSBSJd9b9qO3pqabOpk"
+          "id": "RDCLAK5uy_k31GPZp_nSsHeJEniR4MqtqFBRJatI-JI",
+          "name": "Yeni Türkçe Pop",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_k31GPZp_nSsHeJEniR4MqtqFBRJatI-JI/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICNKYo88GEAE=&rs=AOn4CLAOSWZgOfWe8HrGewo_eqB2w3Cmtw&v=1776864338"
         },
         {
-          "title": "Türkiye'den Dingin Enstrümantal",
-          "id": "RDCLAK5uy_nOUUn0uPng2213dSoIyfl-LCgC_IuGjbM"
+          "id": "RDCLAK5uy_n2YZ2tg_cPKwwuyYdZJwHHRG6pjc6DpTA",
+          "name": "Yeni Türkçe Rap",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_n2YZ2tg_cPKwwuyYdZJwHHRG6pjc6DpTA/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICPKbhc8GEAE=&rs=AOn4CLCyvsi6TnBdXGpvGUrhAYP6r7vsiQ&v=1776373234"
         },
         {
-          "title": "Sıcak Caz",
-          "id": "RDCLAK5uy_neriXH6JbZPr7Pf4LOi5bGQP-_lWRZXs4"
+          "id": "RDCLAK5uy_kY5-Mk6p1h2nPp1Q94av5A_bzL7pByeMI",
+          "name": "Yeni Türküler",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_kY5-Mk6p1h2nPp1Q94av5A_bzL7pByeMI/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICPGbhc8GEAE=&rs=AOn4CLCdMm5U7JjjZHjkDCscdsm_U531IQ&v=1776373233"
         },
         {
-          "title": "Yoga ve Meditasyon",
-          "id": "RDCLAK5uy_mTrr21OCLdb2dJgl_BJ-6MdJDXWqB-1gc"
+          "id": "RDCLAK5uy_m4Nf66w53gEgzlYDl8qywtm_jOAIXvnrM",
+          "name": "Yeni Nesil Türkçe Rap",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_m4Nf66w53gEgzlYDl8qywtm_jOAIXvnrM/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICPPtpM8GEAE=&rs=AOn4CLC-TcQpyR4zXiH31HWQODx2bRR2Eg&v=1776891635"
+        },
+        {
+          "id": "RDCLAK5uy_n8UNNIBTs0TrIvaiuOcn6yXQSqWHHAsZ4",
+          "name": "Yeni Arabesk",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_n8UNNIBTs0TrIvaiuOcn6yXQSqWHHAsZ4/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICPSm4M4GEAE=&rs=AOn4CLD_KHlQZC_6S2Jsj5W575PXHFnbrg&v=1775768436"
+        },
+        {
+          "id": "RDCLAK5uy_nOwL35BM_GUTEbdbw_9FmvQhPWWdd3sAg",
+          "name": "Pop Fresh",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_nOwL35BM_GUTEbdbw_9FmvQhPWWdd3sAg/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICOb5mc8GEAE=&rs=AOn4CLBRdtXAo9Mn8YVAjgVAPDgJQpHn5g&v=1776712934"
         }
       ]
     },
     {
-      "section_title": "Türküler & Halk Müzikleri",
-      "items":[
+      "section_title": "Hit Şarkılar",
+      "items": [
         {
-          "title": "Eskimeyen Türküler",
-          "id": "RDCLAK5uy_n0BEng8y9HmKm6-moud8jAQ9RkE7Ie1G4"
+          "id": "RDCLAK5uy_n7OdwqgA4C6ewA6dD-YAXJEqUC0lPHqUA",
+          "name": "Hit Şarkılar Türkiye",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_n7OdwqgA4C6ewA6dD-YAXJEqUC0lPHqUA/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICJuu-s4GEAE=&rs=AOn4CLAmN9aVPz3osd92O3Gzi8nSaNZ48Q&v=1776195355"
         },
         {
-          "title": "Yeni Türküler",
-          "id": "RDCLAK5uy_kY5-Mk6p1h2nPp1Q94av5A_bzL7pByeMI"
+          "id": "RDCLAK5uy_n1j1GACZO4o7U1m708pa7jV1q7zR-cY44",
+          "name": "FLAŞ Turkish Pop",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_n1j1GACZO4o7U1m708pa7jV1q7zR-cY44/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICPSbhc8GEAE=&rs=AOn4CLBpzsIpCUmHzhedlD9W9NYowFdcHg&v=1776373236"
         },
         {
-          "title": "Akustik Türküler",
-          "id": "RDCLAK5uy_kKlrieyjRMawRNWejYDgUiWUr6OSoCp-4"
+          "id": "RDCLAK5uy_l8kJfTElp2zFMop7IboOXetbbKU3a9VeQ",
+          "name": "REST Turkish Rap",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_l8kJfTElp2zFMop7IboOXetbbKU3a9VeQ/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICPGbhc8GEAE=&rs=AOn4CLD37MBH3pT0bPgQNd5WL80vTqkOIA&v=1776373233"
         },
         {
-          "title": "Karadeniz Türküleri",
-          "id": "RDCLAK5uy_libYW_CF3kIfvFc3hWof7wNVYQl5mzV3Q"
+          "id": "RDCLAK5uy_kH6Y9fB6BTPzXdPX27zK79_t42tT_ya8c",
+          "name": "ANA SAHNE Turkish Rock",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_kH6Y9fB6BTPzXdPX27zK79_t42tT_ya8c/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICPKbhc8GEAE=&rs=AOn4CLDFMcceSjWtFA1p2itmy8YpAePhOA&v=1776373234"
         },
         {
-          "title": "Doğu Anadolu Türküleri",
-          "id": "RDCLAK5uy_mWErjt-FkztCN26qeIL_gb04fQCla4rQ0"
+          "id": "RDCLAK5uy_kVie1a2BgFYHSGG49CLjQ0xKpimhR1_Bc",
+          "name": "Canlı",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_kVie1a2BgFYHSGG49CLjQ0xKpimhR1_Bc/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICPGm4M4GEAE=&rs=AOn4CLBf636HBV1RYqEBn-ggXErfPJJYdw&v=1775768433"
+        },
+        {
+          "id": "RDCLAK5uy_kADtUlJvgkPzLJ9kC9DEB-2cgfsnMWdPs",
+          "name": "MEMLEKET Turkish Folk",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_kADtUlJvgkPzLJ9kC9DEB-2cgfsnMWdPs/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICOSN-s4GEAE=&rs=AOn4CLAQraUl0M-BnicA6zA31MBr9yQRkw&v=1776191204"
+        },
+        {
+          "id": "RDCLAK5uy_nzNvUl4jvbJpShHIgIMwxlJochlGU-OYs",
+          "name": "Hashtag Hits",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_nzNvUl4jvbJpShHIgIMwxlJochlGU-OYs/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICPKbhc8GEAE=&rs=AOn4CLDil45UBJuEetvUmQNOTtvssNmMeg&v=1776373234"
+        },
+        {
+          "id": "RDCLAK5uy_maMuZv8TdZTJ_ZYa1Ps0SBF5RgTJH8vkc",
+          "name": "Türkçe Indie Hotlist",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_maMuZv8TdZTJ_ZYa1Ps0SBF5RgTJH8vkc/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICMKIis8GEAE=&rs=AOn4CLDFaoBVmJziRzXXJ_zceOgiWhzapw&v=1776452674"
+        },
+        {
+          "id": "RDCLAK5uy_nJSDhRk8bscDVWp3jGGNTZxgpq98KeW98",
+          "name": "Arabesk Pop Hotlist",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_nJSDhRk8bscDVWp3jGGNTZxgpq98KeW98/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICPGbhc8GEAE=&rs=AOn4CLCHa1PM599cVOyw_jS0FJ-g0FOFaw&v=1776373233"
+        },
+        {
+          "id": "RDCLAK5uy_lBNUteBRencHzKelu5iDHwLF6mYqjL-JU",
+          "name": "Sertifikalı Pop",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_lBNUteBRencHzKelu5iDHwLF6mYqjL-JU/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICJe1mc8GEAE=&rs=AOn4CLA4FiGNP4pXAGC1AWwqfcqd_yqNzA&v=1776704151"
+        },
+        {
+          "id": "RDCLAK5uy_nyWocYSe0j8kcLWxzE7KlyO8ZMI9LLCK4",
+          "name": "Türkçe Akustik Hotlist",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_nyWocYSe0j8kcLWxzE7KlyO8ZMI9LLCK4/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICJSLis8GEAE=&rs=AOn4CLDfrgwr89okqKnRbol-V2PnJsrduQ&v=1776453012"
+        },
+        {
+          "id": "RDCLAK5uy_mvKJYMoCTwilbYjf-87ACK2MJahpsHrjE",
+          "name": "Arabesk Rap Hotlist",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_mvKJYMoCTwilbYjf-87ACK2MJahpsHrjE/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICPKbhc8GEAE=&rs=AOn4CLAkMgGpWmRylezZKmhqCzkOZExSsw&v=1776373234"
         }
       ]
     },
     {
-      "section_title": "Nostalji: Geçmişe Yolculuk",
-      "items":[
+      "section_title": "Arabesk",
+      "items": [
         {
-          "title": "Türkçe 1990'lar",
-          "id": "RDCLAK5uy_mhLCwdOhIfhWnBCZnN-B22eC2TbgXooqM"
+          "id": "RDCLAK5uy_nE4CrcCrDmLla_yf1amsKeskZwKmzFV0c",
+          "name": "Arabesk Rock",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_nE4CrcCrDmLla_yf1amsKeskZwKmzFV0c/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICPzb9c4GEAE=&rs=AOn4CLBjw1ICJEh6Tb2PFqKEsDd8GwAuSA&v=1776119292"
         },
         {
-          "title": "Türkçe 2000'ler",
-          "id": "RDCLAK5uy_kb4Y5W59NyIOPPWTR01n1zQkTJ787Tgk0"
+          "id": "RDCLAK5uy_l_OoFwPbm0VooI2_KA7IlIlfXwK_Z3YyM",
+          "name": "Fantezi Krallığı",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_l_OoFwPbm0VooI2_KA7IlIlfXwK_Z3YyM/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICPjY9c4GEAE=&rs=AOn4CLCuk87Rg-RYTz_TMV5j0u_aTtnLlg&v=1776118904"
         },
         {
-          "title": "Türkçe 1980'ler",
-          "id": "RDCLAK5uy_k441aATpPZWUfYb5hW9Sm_mFZ1gnHnfak"
+          "id": "RDCLAK5uy_lJebAEX__xHcXQfubdlhrrHtG5zR4PTBc",
+          "name": "Arabesk Pop Hitleri",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_lJebAEX__xHcXQfubdlhrrHtG5zR4PTBc/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICKPf9c4GEAE=&rs=AOn4CLC12RSOOeBsPmsEUMadzaI8syDsbg&v=1776119715"
         },
         {
-          "title": "Eskimeyen Türkçe Akustik",
-          "id": "RDCLAK5uy_kjQJh9d85PwdTFi8V03RleRqWdE6_17vo"
+          "id": "RDCLAK5uy_mDQ7NUGEEtEnCRVZKjFDqqT00mT4N8lbk",
+          "name": "Dünden Bugüne Arabesk Rap",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_mDQ7NUGEEtEnCRVZKjFDqqT00mT4N8lbk/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICIrZ9c4GEAE=&rs=AOn4CLB44aKYVPUZ3aGwuxcvnodiwzq2cQ&v=1776118922"
         }
       ]
     },
     {
-      "section_title": "Arabesk & Fantezi",
-      "items":[
+      "section_title": "Türkçe İndie",
+      "items": [
         {
-          "title": "Yeni Arabesk",
-          "id": "RDCLAK5uy_n8UNNIBTs0TrIvaiuOcn6yXQSqWHHAsZ4"
+          "id": "RDCLAK5uy_l2Y9mrA559EY5tfe8kK8YxdUVR0rADYBI",
+          "name": "Sakin Türkçe Indie",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_l2Y9mrA559EY5tfe8kK8YxdUVR0rADYBI/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICOn-os8GEAE=&rs=AOn4CLApeFfnToT1PlNtlMFwbmD15WcBZQ&v=1776861033"
         },
         {
-          "title": "Fantezi Krallığı",
-          "id": "RDCLAK5uy_l_OoFwPbm0VooI2_KA7IlIlfXwK_Z3YyM"
+          "id": "RDCLAK5uy_ndRnLUnP0uZJVUzS607uhNvdeCQjXj3qE",
+          "name": "Avaz Avaz Türkçe Indie",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_ndRnLUnP0uZJVUzS607uhNvdeCQjXj3qE/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICOji9c4GEAE=&rs=AOn4CLAB-mXePR01s1hiOxFyTNDaEn0njA&v=1776120168"
         },
         {
-          "title": "Ağla Sazım",
-          "id": "RDCLAK5uy_m_nTTDNmqZqV2E3Trgyxz8f-d_my9YSZk"
+          "id": "RDCLAK5uy_kha4t7zxJWIbFQonE6cWE6v144KJkqJQ0",
+          "name": "Türkçe Post-Punk & Darkwave",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_kha4t7zxJWIbFQonE6cWE6v144KJkqJQ0/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICMzlms8GEAE=&rs=AOn4CLDBH32rpo_KmWso9ewYlXoelwXUCA&v=1776726732"
         },
         {
-          "title": "Arabesk Pop Hitleri",
-          "id": "RDCLAK5uy_lJebAEX__xHcXQfubdlhrrHtG5zR4PTBc"
+          "id": "RDCLAK5uy_lZmVTh-cPRYcIAQ3KKIDZyA98oFJUH3EI",
+          "name": "Aşık Türkçe Indie",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_lZmVTh-cPRYcIAQ3KKIDZyA98oFJUH3EI/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICNm3_s4GEAE=&rs=AOn4CLAsGHH4TkBezMnTy7BhCJ1fFo4SLQ&v=1776262105"
+        },
+        {
+          "id": "RDCLAK5uy_mbO8rK39lM8U6sBbSggQKBHiBLrJ7jS2M",
+          "name": "Türkçe İndie Partisi",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_mbO8rK39lM8U6sBbSggQKBHiBLrJ7jS2M/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICOzm9c4GEAE=&rs=AOn4CLAknky2EQVwNcNliNOD2p8TVQSttQ&v=1776120684"
+        },
+        {
+          "id": "RDCLAK5uy_mZof0itI3uZm5tbyr3SuWNAWxO_QP-Scw",
+          "name": "Yazlık Türkçe Indie",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_mZof0itI3uZm5tbyr3SuWNAWxO_QP-Scw/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICLX-9c4GEAE=&rs=AOn4CLDNZGlUW8veXPv6FRoj2XJSwOJF5g&v=1776123701"
         }
       ]
     },
     {
-      "section_title": "Türkçe Rap & Hip-Hop",
-      "items":[
+      "section_title": "Moduna Göre",
+      "items": [
         {
-          "title": "REST Turkish Rap",
-          "id": "RDCLAK5uy_l8kJfTElp2zFMop7IboOXetbbKU3a9VeQ"
+          "id": "RDCLAK5uy_kB1PM1GFKy0KLYd3C5oZ59KHN-q2JcRRg",
+          "name": "Türkiye'den Elektronik Müzik",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_kB1PM1GFKy0KLYd3C5oZ59KHN-q2JcRRg/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICPKIo88GEAE=&rs=AOn4CLDLTeL1OQGTEgUXhbdktl6nNIe53Q&v=1776862322"
         },
         {
-          "title": "Yeni Nesil Türkçe Rap",
-          "id": "RDCLAK5uy_m4Nf66w53gEgzlYDl8qywtm_jOAIXvnrM"
+          "id": "RDCLAK5uy_nn7TrLh_PhbQirSe-UOw4Plnc68htwELs",
+          "name": "New Anatolian Wave",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_nn7TrLh_PhbQirSe-UOw4Plnc68htwELs/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICPHT9c4GEAE=&rs=AOn4CLCMdOaTCkuAUTeSLyYtxBUVlbr5bg&v=1776118257"
         },
         {
-          "title": "Türkçe Trap Partisi",
-          "id": "RDCLAK5uy_l63FFr2xGnXGVPfOWTNtAirWzsmZW_fBU"
+          "id": "RDCLAK5uy_k01s16yKt3DF85A_c7ZyiJ042HgbLqMdI",
+          "name": "Rota Oluşturuldu",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_k01s16yKt3DF85A_c7ZyiJ042HgbLqMdI/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICMzf9c4GEAE=&rs=AOn4CLCSV5_nuZrG88Ne1tht77kK4gVynA&v=1776119756"
         },
         {
-          "title": "2010'lar Türkçe Rap",
-          "id": "RDCLAK5uy_nbYoB8eT82PuLM9SwMHnlYRgDjAESXcjw"
+          "id": "RDCLAK5uy_lKXN_dz1MWKldqPyT6K-G79Sw4kC0XOsQ",
+          "name": "Türkçe Club Klasikleri",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_lKXN_dz1MWKldqPyT6K-G79Sw4kC0XOsQ/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICMro9c4GEAE=&rs=AOn4CLClKYty1oum9aK66V2SZdix1Mmlrg&v=1776120906"
+        },
+        {
+          "id": "RDCLAK5uy_nHy8cw6a0rx7FosldlxqBf7pnYTiNTQtc",
+          "name": "Türkçe Chill Out Partisi",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_nHy8cw6a0rx7FosldlxqBf7pnYTiNTQtc/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICJrf9c4GEAE=&rs=AOn4CLC0DDujwICPXhU_kp_DrVA_07hqQw&v=1776119706"
+        },
+        {
+          "id": "RDCLAK5uy_kiLhvcwQ77iHCtSSBSJd9b9qO3pqabOpk",
+          "name": "Taze Kahve",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_kiLhvcwQ77iHCtSSBSJd9b9qO3pqabOpk/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICP_h9c4GEAE=&rs=AOn4CLCES89dKgshxbaQ03ahB16frc9fiA&v=1776120063"
+        },
+        {
+          "id": "RDCLAK5uy_miEDbTEB2wkTklDaoV0_srC3Jqez-pTwA",
+          "name": "Eğlen Güzelim",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_miEDbTEB2wkTklDaoV0_srC3Jqez-pTwA/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICPnm9c4GEAE=&rs=AOn4CLD5leeCWJqkpnXG_QK1FTQ9CfyXeA&v=1776120697"
+        },
+        {
+          "id": "RDCLAK5uy_nU4fL9x1L2EqtVETx2yQ5Jf7A_BpUVFVg",
+          "name": "Ankara Havası",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_nU4fL9x1L2EqtVETx2yQ5Jf7A_BpUVFVg/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICODU9c4GEAE=&rs=AOn4CLCjjEykNDoOGLGmOnNia3BLSqZXWQ&v=1776118368"
+        },
+        {
+          "id": "RDCLAK5uy_ny_3fjH20gPvg3ZFCc4ITAoiJHRCF1F_8",
+          "name": "Çalışırken Dinlemelik",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_ny_3fjH20gPvg3ZFCc4ITAoiJHRCF1F_8/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICJLY9c4GEAE=&rs=AOn4CLDGLRmFnA_zOZmC6D2HLLBmYsU1Mg&v=1776118802"
+        },
+        {
+          "id": "RDCLAK5uy_nwi2pOvC9hy9_gxyh87wd7Urt6sgdVhEg",
+          "name": "Türkçe Club Şarkıları",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_nwi2pOvC9hy9_gxyh87wd7Urt6sgdVhEg/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICM-P-s4GEAE=&rs=AOn4CLCe8QFwyutbJLr2JqdpbXSn9Lo0CA&v=1776191439"
+        },
+        {
+          "id": "RDCLAK5uy_kaRoBBGlE8Xh1enKL7w9DqNyCkBaZJjOI",
+          "name": "Aşık Türkçe Akustik",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_kaRoBBGlE8Xh1enKL7w9DqNyCkBaZJjOI/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICKLY9c4GEAE=&rs=AOn4CLB1Ice78gKVh2mrn2ShTS2lM88vNQ&v=1776118818"
+        },
+        {
+          "id": "RDCLAK5uy_kODrJiB2r2jrx_oITwxntKLvofERV0NSE",
+          "name": "Nostaljik Türkçe Aşk",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_kODrJiB2r2jrx_oITwxntKLvofERV0NSE/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICL7n9c4GEAE=&rs=AOn4CLCt3JuGryupzHn0wBaiiDI5XsAkXA&v=1776120766"
+        }
+      ]
+    },
+    {
+      "section_title": "Türkçe Pop",
+      "items": [
+        {
+          "id": "RDCLAK5uy_nX6UmhaEyaWe200N_vATudKrScwKqiawI",
+          "name": "Türkçe Pop Partisi",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_nX6UmhaEyaWe200N_vATudKrScwKqiawI/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICKnT9c4GEAE=&rs=AOn4CLBgS8P7_Yx9r9Z1vn37H10TpkunAg&v=1776118185"
+        },
+        {
+          "id": "RDCLAK5uy_kmxYMUgERVjuxoAPA_WgY6f036fkLCTMI",
+          "name": "Neşeli Türkçe Pop",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_kmxYMUgERVjuxoAPA_WgY6f036fkLCTMI/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICLPR9c4GEAE=&rs=AOn4CLA-ZGSy8Pv298gg3af2TBH7dQwb1g&v=1776117939"
+        },
+        {
+          "id": "RDCLAK5uy_nqmfME1gwNMEd-b-9rSttKi306K2ogh7Y",
+          "name": "Slow Türkçe Pop",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_nqmfME1gwNMEd-b-9rSttKi306K2ogh7Y/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICNWJis8GEAE=&rs=AOn4CLASH8PahpZstZZeOgxfqt4E0QVwRg&v=1776452821"
+        },
+        {
+          "id": "RDCLAK5uy_lcqGMRa1AnE-FviLROb7BClCr3_14yp6A",
+          "name": "Eller Havaya",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_lcqGMRa1AnE-FviLROb7BClCr3_14yp6A/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICP2L-s4GEAE=&rs=AOn4CLA0u_8fmhxa7DbDqS6Gl2LjK9VeMA&v=1776190973"
+        },
+        {
+          "id": "RDCLAK5uy_mwsAsb3jr0f4bF6hnBNTnAXTsMY50unnA",
+          "name": "% 100 Türkçe Pop",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_mwsAsb3jr0f4bF6hnBNTnAXTsMY50unnA/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICIXp9c4GEAE=&rs=AOn4CLDydU6bJXPVhWYI5cwUSkfwYsN45w&v=1776120965"
+        }
+      ]
+    },
+    {
+      "section_title": "Türkçe Rap & Trap",
+      "items": [
+        {
+          "id": "RDCLAK5uy_l63FFr2xGnXGVPfOWTNtAirWzsmZW_fBU",
+          "name": "Türkçe Trap Partisi",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_l63FFr2xGnXGVPfOWTNtAirWzsmZW_fBU/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICPKm4M4GEAE=&rs=AOn4CLAOQov_BR0mgiMh8rqCb1eo2kUqeg&v=1775768434"
+        },
+        {
+          "id": "RDCLAK5uy_kB6tJoV5Jad0LvzVhWWN_XnOZH4iTYSjA",
+          "name": "Türkçe Rap Kardiyo",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_kB6tJoV5Jad0LvzVhWWN_XnOZH4iTYSjA/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICP7w9c4GEAE=&rs=AOn4CLD2h9ygVyQK8rHMSQLxJAMAD6Xjdg&v=1776121982"
+        },
+        {
+          "id": "RDCLAK5uy_lByOu5SN-hvLkhkgwr7yKau4lFHVk6mOc",
+          "name": "Türkçe Drill Partisi",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_lByOu5SN-hvLkhkgwr7yKau4lFHVk6mOc/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICPKbhc8GEAE=&rs=AOn4CLA-8gmM371NQ9L0KcFS2DPZt2pKqg&v=1776373234"
+        },
+        {
+          "id": "RDCLAK5uy_miLVOuCHnbtfW7swwNA8o-LjeiaDXy3x8",
+          "name": "Türkçe Rap'in Öncüleri",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_miLVOuCHnbtfW7swwNA8o-LjeiaDXy3x8/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICKvW9c4GEAE=&rs=AOn4CLAGZtTLsMQ2OdaBw49Aab1dP666cQ&v=1776118571"
+        },
+        {
+          "id": "RDCLAK5uy_lXabfA5_p-tyMqBnoqkzAuz2diR8OallA",
+          "name": "Temel Türkçe Rap",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_lXabfA5_p-tyMqBnoqkzAuz2diR8OallA/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICPrQ9c4GEAE=&rs=AOn4CLDycc_gz25-en_ZFrqMHIrl_l_OWg&v=1776117882"
+        },
+        {
+          "id": "RDCLAK5uy_kKzUODEz2Q7W1zlUPGAhi6IPFjwGZ5jTI",
+          "name": "Romantik Türkçe Rap",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_kKzUODEz2Q7W1zlUPGAhi6IPFjwGZ5jTI/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICIzX9c4GEAE=&rs=AOn4CLDApEZsgcCAO9I5V5kviKr-tL67JA&v=1776118668"
+        },
+        {
+          "id": "RDCLAK5uy_k_QltphdGpJaGxerBKasuAE7qGqotV5iQ",
+          "name": "Güncel Türkçe Trap",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_k_QltphdGpJaGxerBKasuAE7qGqotV5iQ/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICLzw9c4GEAE=&rs=AOn4CLA1QdbtZ7uGdNM65tTvC_J4L4jB9A&v=1776121916"
+        }
+      ]
+    },
+    {
+      "section_title": "Türkçe Rock",
+      "items": [
+        {
+          "id": "RDCLAK5uy_nkN2Fde5lIJN38ta7Tyvr8Uona03aHnRo",
+          "name": "Anadolu Rock Klasikleri",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_nkN2Fde5lIJN38ta7Tyvr8Uona03aHnRo/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICM7d9c4GEAE=&rs=AOn4CLDX9QMFocyhEi_5QCBIRykX86wgsw&v=1776119502"
+        },
+        {
+          "id": "RDCLAK5uy_mU1mi2mlNym0yTsQsFnrPRsQdDcS6-y6k",
+          "name": "Türkçe Rock Yol Şarkıları",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_mU1mi2mlNym0yTsQsFnrPRsQdDcS6-y6k/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICIzr9c4GEAE=&rs=AOn4CLBU-q19Dr5v4xRRN2lCJ1xRxGnO8w&v=1776121228"
+        },
+        {
+          "id": "RDCLAK5uy_m5iRJRUhtLWAf7JWYFNb3ANZkuxMK9yrw",
+          "name": "Güncel Türkçe Rock",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_m5iRJRUhtLWAf7JWYFNb3ANZkuxMK9yrw/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICPHR9c4GEAE=&rs=AOn4CLDMQW7kDzxvmPqU2BXXbFVKyuvfZA&v=1776118001"
+        },
+        {
+          "id": "RDCLAK5uy_mq6KpOULj_9zLh4CH3s9IIT_87Tyf9eIk",
+          "name": "Türkçe Rock Klasikleri",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_mq6KpOULj_9zLh4CH3s9IIT_87Tyf9eIk/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICN_i9c4GEAE=&rs=AOn4CLCodiP7kc38D0oExcCUS9vqaS1aOg&v=1776120159"
+        },
+        {
+          "id": "RDCLAK5uy_kcM9gyTOl7X_O5HqWLj-c9Y6ciUlE1m_U",
+          "name": "Türkçe Slow Rock",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_kcM9gyTOl7X_O5HqWLj-c9Y6ciUlE1m_U/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICNH-3M4GEAE=&rs=AOn4CLDiFvFBDHZyWlwoUWu8sJGcU6lkOg&v=1775714129"
+        },
+        {
+          "id": "RDCLAK5uy_lqu_4TS4yXKSAZDgxfGBxinLBiiQgNO84",
+          "name": "Türkçe Rock Cover Şarkılar",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_lqu_4TS4yXKSAZDgxfGBxinLBiiQgNO84/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICKT_984GEAE=&rs=AOn4CLD1njeKtgYZDzZ1ipCTUN3uMyg3fQ&v=1776156580"
+        },
+        {
+          "id": "RDCLAK5uy_nDVIvez-uLWJPb86S25zDqieTZRiGGS8Q",
+          "name": "Enerjik Türkçe Rock",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_nDVIvez-uLWJPb86S25zDqieTZRiGGS8Q/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICLyR-s4GEAE=&rs=AOn4CLBJzZRA3RruKLmCo2LQxTw5fPTH4g&v=1776191676"
+        },
+        {
+          "id": "RDCLAK5uy_kNzoWW0t1-XKu9wVhCr9LupejabDK3jrE",
+          "name": "Türkçe Rock Partisi",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_kNzoWW0t1-XKu9wVhCr9LupejabDK3jrE/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICLvm9c4GEAE=&rs=AOn4CLDbxvTngu2vIF4yklAAsT7dTp2wMQ&v=1776120635"
+        }
+      ]
+    },
+    {
+      "section_title": "Türkü",
+      "items": [
+        {
+          "id": "RDCLAK5uy_n0BEng8y9HmKm6-moud8jAQ9RkE7Ie1G4",
+          "name": "Eskimeyen Türküler",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_n0BEng8y9HmKm6-moud8jAQ9RkE7Ie1G4/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICKXr9c4GEAE=&rs=AOn4CLAXrjG3SAn5i3ytA_aksxzjMddahg&v=1776121253"
+        },
+        {
+          "id": "RDCLAK5uy_kKlrieyjRMawRNWejYDgUiWUr6OSoCp-4",
+          "name": "Akustik Türküler",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_kKlrieyjRMawRNWejYDgUiWUr6OSoCp-4/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICP_l9c4GEAE=&rs=AOn4CLBoxRrUaczO9wasUrVGfN7y5Ky_fA&v=1776120575"
+        },
+        {
+          "id": "RDCLAK5uy_m_nTTDNmqZqV2E3Trgyxz8f-d_my9YSZk",
+          "name": "Ağla Sazım",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_m_nTTDNmqZqV2E3Trgyxz8f-d_my9YSZk/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICLzR9c4GEAE=&rs=AOn4CLCxIXIVVCXkIoLWihHIcF-zqUGwig&v=1776117948"
+        },
+        {
+          "id": "RDCLAK5uy_nEITgjCBGBDK5yH3weRvxS4kwqCHV4FsQ",
+          "name": "Sevda Türküleri",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_nEITgjCBGBDK5yH3weRvxS4kwqCHV4FsQ/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICLPT9c4GEAE=&rs=AOn4CLBSAfyM9BqfWLpolCHrRAaLouM5IQ&v=1776118195"
+        },
+        {
+          "id": "RDCLAK5uy_kg6snDfDg87leAjqrTOYbsubf80HyUcuo",
+          "name": "Modern Karadeniz",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_kg6snDfDg87leAjqrTOYbsubf80HyUcuo/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICPGm4M4GEAE=&rs=AOn4CLCQzLUE-oFR9HeVc6M4Pa2PQm9yBw&v=1775768433"
+        },
+        {
+          "id": "RDCLAK5uy_libYW_CF3kIfvFc3hWof7wNVYQl5mzV3Q",
+          "name": "Karadeniz Türküleri",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_libYW_CF3kIfvFc3hWof7wNVYQl5mzV3Q/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICI_U9c4GEAE=&rs=AOn4CLBhRAxreeVGXhiXn9merT2NXSRPGg&v=1776118287"
+        },
+        {
+          "id": "RDCLAK5uy_mWErjt-FkztCN26qeIL_gb04fQCla4rQ0",
+          "name": "Doğu Anadolu Türküleri",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_mWErjt-FkztCN26qeIL_gb04fQCla4rQ0/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICIrj9c4GEAE=&rs=AOn4CLD-CM8GjZpHfW-EcTJE3svbpimDag&v=1776120202"
+        },
+        {
+          "id": "RDCLAK5uy_kisI6vnhNab8BOhcRtLAFV07SVnoqXJvM",
+          "name": "Ege Türküleri",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_kisI6vnhNab8BOhcRtLAFV07SVnoqXJvM/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICIHb9c4GEAE=&rs=AOn4CLBPq4UTjrVTSfqwUNxc5vsMpTMgkg&v=1776119169"
+        }
+      ]
+    },
+    {
+      "section_title": "Dönemler",
+      "items": [
+        {
+          "id": "RDCLAK5uy_k5cx6i-puyGDCZrYN-XNoqH1ap3LIgo_M",
+          "name": "Efkarın Sesi",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_k5cx6i-puyGDCZrYN-XNoqH1ap3LIgo_M/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICKnZ9c4GEAE=&rs=AOn4CLBLZCZ5WtIAotFzDV5RPBqBE-QgOg&v=1776118953"
+        },
+        {
+          "id": "RDCLAK5uy_mhLCwdOhIfhWnBCZnN-B22eC2TbgXooqM",
+          "name": "Türkçe 1990'lar",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_mhLCwdOhIfhWnBCZnN-B22eC2TbgXooqM/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICPbZ9c4GEAE=&rs=AOn4CLC1-ya6fWTZUnUfsX_etLiPI7PuPw&v=1776119030"
+        },
+        {
+          "id": "RDCLAK5uy_kjQJh9d85PwdTFi8V03RleRqWdE6_17vo",
+          "name": "Eskimeyen Türkçe Akustik",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_kjQJh9d85PwdTFi8V03RleRqWdE6_17vo/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICOPp9c4GEAE=&rs=AOn4CLDKEbSq2XWvjf6TOEQUPDB8rFvMww&v=1776121059"
+        },
+        {
+          "id": "RDCLAK5uy_mo6Yju-l1p19WsGcI9OjTMgyCZarfyEIk",
+          "name": "Türkçe 2010'lar",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_mo6Yju-l1p19WsGcI9OjTMgyCZarfyEIk/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICInS9c4GEAE=&rs=AOn4CLCSbQNy4Q9us5LXSHOmDtZI0mnfcQ&v=1776118025"
+        },
+        {
+          "id": "RDCLAK5uy_kb4Y5W59NyIOPPWTR01n1zQkTJ787Tgk0",
+          "name": "Türkçe 2000'ler",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_kb4Y5W59NyIOPPWTR01n1zQkTJ787Tgk0/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICMPh9c4GEAE=&rs=AOn4CLAYxABrIaUeTFA4lNzT2vF89N3__w&v=1776120003"
+        },
+        {
+          "id": "RDCLAK5uy_k441aATpPZWUfYb5hW9Sm_mFZ1gnHnfak",
+          "name": "Türkçe 1980'ler",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_k441aATpPZWUfYb5hW9Sm_mFZ1gnHnfak/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICI7n9c4GEAE=&rs=AOn4CLBowmePhdIPWw16dhdqym5RlELBnA&v=1776120718"
+        },
+        {
+          "id": "RDCLAK5uy_nc1ZTFel4232Z5KKm0pBcosMu1AePIvSk",
+          "name": "Türkçe 1970'ler",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_nc1ZTFel4232Z5KKm0pBcosMu1AePIvSk/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICMnQ9c4GEAE=&rs=AOn4CLDSrxyT75nEdg2azdo6SvXHPX8NSg&v=1776117833"
+        },
+        {
+          "id": "RDCLAK5uy_nbYoB8eT82PuLM9SwMHnlYRgDjAESXcjw",
+          "name": "2010'lar Türkçe Rap",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_nbYoB8eT82PuLM9SwMHnlYRgDjAESXcjw/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICODV9c4GEAE=&rs=AOn4CLCqX65KBmZbX9qhNFSnHjE7YXA9HQ&v=1776118496"
+        },
+        {
+          "id": "RDCLAK5uy_n36Y3vSsR6UeR7t2326OXUzX6tw8r5v34",
+          "name": "2010'lar Türkçe Rock",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_n36Y3vSsR6UeR7t2326OXUzX6tw8r5v34/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICLnT9c4GEAE=&rs=AOn4CLBOrCUyF4OjtnJk0yFMNkFZHtMXng&v=1776118201"
         }
       ]
     }
   ],
-  "en":[
+  "en": [
     {
-      "section_title": "Today's Top Hits",
-      "items":[
+      "section_title": "Global Top Hits",
+      "items": [
         {
-          "title": "Global Pop",
-          "id": "RDCLAK5uy_n7OdwqgA4C6ewA6dD-YAXJEqUC0lPHqUA"
-        },
-        {
-          "title": "Global Rap",
-          "id": "RDCLAK5uy_l8kJfTElp2zFMop7IboOXetbbKU3a9VeQ"
-        }
-      ]
-    },
-    {
-      "section_title": "Chill Vibes",
-      "items":[
-        {
-          "title": "Lofi Beats",
-          "id": "RDCLAK5uy_kb7EBi6y3GrtJri4_ZH56Ms786DFEimbM"
-        },
-        {
-          "title": "Acoustic Cafe",
-          "id": "RDCLAK5uy_kiLhvcwQ77iHCtSSBSJd9b9qO3pqabOpk"
+          "id": "RDCLAK5uy_ncwbM766_rhOk_JllLnAXmv_5v21_b2bc",
+          "name": "Released Global",
+          "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_ncwbM766_rhOk_JllLnAXmv_5v21_b2bc/sddefault.jpg"
         }
       ]
     }
   ]
-}
