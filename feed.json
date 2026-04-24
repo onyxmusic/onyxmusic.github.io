@@ -422,5 +422,789 @@
       {"id":"RDCLAK5uy_kLwgLlrxA4-_EchctXgTyHR4rwRaRv1wk","name":"House Music 2026","img":"https://i.ytimg.com/vi/vP-Z0VEC0RA/hqdefault.jpg"}
     ]
   }
+],
+  "es": [
+    {
+    "section_title": "Today's Biggest Hits",
+    "items": [
+      {"id":"RDCLAK5uy_kmPRjHDECIcuVwnKsx2Ng7fyNgFKWNJFs","name":"The Hit List","img":"https://i.ytimg.com/vi/nUsrYVxrDwI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kLWIr9gv1XLlPbaDS965-Db4TrBoUTxQ8","name":"Güncel En Hit Dans Parçaları","img":"https://i.ytimg.com/vi/ouEl3qTLc0M/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nhf3h98yS3LCk_bVNQu6GjWG7ARvMaiFQ","name":"NEON: Pop Hits","img":"https://i.ytimg.com/vi/8g7VclWsiaM/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lBGRuQnsG37Akr1CY4SxL0VWFbPrbO4gs","name":"Günün Hip-Hop Parçaları","img":"https://i.ytimg.com/vi/2wI4_-aMSk0/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nHGuTnohZ82uuk0HQle7s-UgP7h3aoCqg","name":"Taze Elektronik Dans Müziği","img":"https://i.ytimg.com/vi/Le97EH-ozlQ/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lOAAW-PX5XUed76iQefCxkOXd6m6ZvyiM","name":"Latin Now","img":"https://i.ytimg.com/vi/BgMU9Vuj17Y/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lfU6d5d-whk0KvABtxS0yZrj6n4NW2eTM","name":"Noise Riot: Rock Hits","img":"https://i.ytimg.com/vi/MoNhLJKLAyQ/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mu-BhJj3yO1OXEMzahs_aJVtNWJwAwFEE","name":"Highline R&B","img":"https://i.ytimg.com/vi/KFMYx1TibeQ/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mFO2tSOkp3Ti5zWQoaPsXJ-rhcKZ6iv30","name":"Hisler","img":"https://i.ytimg.com/vi/5Wq1iDyEjF8/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_m0Nsi5Jnn_g6qbvc7fywPRhEv1qN0PcMM","name":"Bugün'ün İndie Hitleri","img":"https://i.ytimg.com/vi/03e4eK64h4s/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_k5vcGRXixxemtzK1eKDS7BeHys7mvYOdk","name":"Maksimum Desibel: Günümüzün Rock Hitleri","img":"https://i.ytimg.com/vi/DIEI2YLYg6o/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_n4oG0HK-gS2c_tstquxLhCBjs-CF2g8Qg","name":"Line Up: Indie + Alternative","img":"https://i.ytimg.com/vi/P7dJM1UkG2s/hqdefault.jpg"}
+    ]
+  },
+  {
+    "section_title": "New & Trending",
+    "items": [
+      {"id":"RDCLAK5uy_k5n4srrEB1wgvIjPNTXS9G1ufE9WQxhnA","name":"RELEASED","img":"https://i.ytimg.com/vi/crWbG90dChw/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kLwgLlrxA4-_EchctXgTyHR4rwRaRv1wk","name":"House Music 2026","img":"https://i.ytimg.com/vi/vP-Z0VEC0RA/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kgq15xjENxUuOZNY3PFZhM_FcQjvwZn28","name":"Afropoppin'","img":"https://i.ytimg.com/vi/5WZgEITtg-w/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nOwL35BM_GUTEbdbw_9FmvQhPWWdd3sAg","name":"Pop Fresh","img":"https://i.ytimg.com/vi/eXmUnEcpFQ4/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_m0X_CFV7sbR3EKDoP_FvqyK5faV7xorUY","name":"Freshly Chilled","img":"https://i.ytimg.com/vi/V9PVRfjEBTI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_n3-fNPhB7TmNTTBRXDZhcnQJg2ahWDIY8","name":"Drum & Bass 2026","img":"https://i.ytimg.com/vi/osOoVUM2Owg/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nh3v6aejB2HjZPMJa7uuCMfyIKyH2K-kw","name":"Heavy Stereo","img":"https://i.ytimg.com/vi/zgaLAliC3-8/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_ktkqrgIqlP46yBkUsZp4go2j59McnSsYY","name":"Sakin Hype","img":"https://i.ytimg.com/vi/eu7rZDy2M3g/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lcd5mG0YlkNyzKYgBvnlAmAuALm5o6Wnk","name":"Young x Dazed","img":"https://i.ytimg.com/vi/wBWAYWwS_jY/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_k0KkqT3D_36qFNHE9rq_Iz8VT-ZV7Jt0o","name":"Alt-Frequencies","img":"https://i.ytimg.com/vi/KoBUE6I4R9I/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kumKEaPpcfaAOpnEdpjtp4jyLoiqZdRnU","name":"Luxe Life","img":"https://i.ytimg.com/vi/rtwpk9rb1Dc/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kBbljBMZ2exMXUc3MZdtXHsMwvGqf3eE8","name":"Yeni Electronica","img":"https://i.ytimg.com/vi/paEe6qTS20c/hqdefault.jpg"}
+    ]
+  },
+  {
+    "section_title": "All The Hits",
+    "items": [
+      {"id":"RDCLAK5uy_kWiJXUNLZM9EyS3GBGznl1ku8_cOos97U","name":"Huge Dance Hits","img":"https://i.ytimg.com/vi/60ItHLz5WEA/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lLMOe89gNlI8asCCYU_bcEc_2TC4M4bQY","name":"Afropop Hit'leri","img":"https://i.ytimg.com/vi/WqljXK1Sm2Y/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_k7h5535MeHE8xmgHsrZx7HOKH4lb5vAfY","name":"Massive Rock Hits","img":"https://i.ytimg.com/vi/xv-70a6yXfM/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nVT2-bFfxplES7OQSLcnwlJqpsQ9gn0yY","name":"Heavy Metal'in En Beğenilen Parçaları","img":"https://i.ytimg.com/vi/qMXESlny4-I/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lznqoXCDt_wH0Yu3_IK6q3chQI3d2G1cU","name":"Totally Pop","img":"https://i.ytimg.com/vi/q_48vyHWls4/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nrS6tX1-aHomOfpEBSbVYNfM9R58rAlrs","name":"Totally Hits","img":"https://i.ytimg.com/vi/KWoTyfPsqbE/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kIEEMKpM6yjpBI82J-4Ua3AAAwULUx7AE","name":"Indie Overload","img":"https://i.ytimg.com/vi/5cXCUp6j5M8/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nGTZ-bU3GDTL3y16JZY8OVn1rXIEgqkOM","name":"Hit Alternatif Parçalar","img":"https://i.ytimg.com/vi/VF-FGf_ZZiI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kP2172rQNb3KFXz880xp6M98R_ME5CIKA","name":"Rap Kulübü Klasikleri","img":"https://i.ytimg.com/vi/eaPzCHEQExs/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lnUHokP0KoSlL-ZliOoUWhsKfU5id-b2E","name":"Kraliçeler Konuşuyor","img":"https://i.ytimg.com/vi/hsm4poTWjMs/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nHSqCJjDrW9HBhCNdF6tWPdnOMngOv0wA","name":"Altın Pop","img":"https://i.ytimg.com/vi/hLQl3WQQoQ0/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nGla7fZdBfRak2-LrbYP0aHdjz8Lwv7lQ","name":"Ultimate Indie Anthems","img":"https://i.ytimg.com/vi/6hzrDeceEKc/hqdefault.jpg"}
+    ]
+  },
+  {
+    "section_title": "International Hits",
+    "items": [
+      {"id":"RDCLAK5uy_n9Fbdw7e6ap-98_A-8JYBmPv64v-Uaq1g","name":"Bollywood Hitlist","img":"https://i.ytimg.com/vi/Th2Op6uvNXw/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kmq8ZD0NbHbKkZZ6frtlEjd8khfeZrAd0","name":"Afrobeat zamanı","img":"https://i.ytimg.com/vi/RQOg16kmFJM/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_k27uu-EtQ_b5U2r26DNDZOmNqGdccUIGQ","name":"K.iNG","img":"https://i.ytimg.com/vi/7WuO_XaXsCY/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_l8kJfTElp2zFMop7IboOXetbbKU3a9VeQ","name":"REST Turkish Rap","img":"https://i.ytimg.com/vi/WgKhkmkEOTI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mdJ6PIrGn58UdshtRTLBCowfQXaY68ff4","name":"La Mezcla","img":"https://i.ytimg.com/vi/laqu7fCy9Vs/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mCvOm3kQy1RTBwDOGYkNhtHwMO89ffquk","name":"Crème French Pop","img":"https://i.ytimg.com/vi/9kBpbQDZdbQ/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lTF8NR57ogCQH2sespedzwyUhf5zlb0QE","name":"Aywa Araby","img":"https://i.ytimg.com/vi/TSLCBGGFXLE/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kvnwY7lh8VQkr7uLLsFPB06mhIwKAljbE","name":"Diretoria Brazil Hits","img":"https://i.ytimg.com/vi/NzzWICQ_gHM/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kAzvNwVxyZqDv4RypgYluniT5Or7V1rUU","name":"On Fleek French Urban Pop","img":"https://i.ytimg.com/vi/EIsA9cW0hVY/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mTKho9b7fMrAXOYXKCRCoowKDYvuIVpMQ","name":"Schlagerperlen","img":"https://i.ytimg.com/vi/674Wc0iX3-M/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_k5faEHND0iXJljeASESqJ3A8UtRr2FL00","name":"Topnejo","img":"https://i.ytimg.com/vi/10XarNSkw0s/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_n0COhN_xYbYY9RGEPF1oa3annopsPfkH0","name":"Quentura","img":"https://i.ytimg.com/vi/iODagP_LHgg/hqdefault.jpg"}
+    ]
+  },
+  {
+    "section_title": "Mood Music",
+    "items": [
+      {"id":"RDCLAK5uy_nHSqCJjDrW9HBhCNdF6tWPdnOMngOv0wA","name":"Altın Pop","img":"https://i.ytimg.com/vi/hLQl3WQQoQ0/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nyKVppE-RpLkeCcwLct4rvN9e8AAsS_qw","name":"Soft Rock Baladları","img":"https://i.ytimg.com/vi/n4RjJKxsamQ/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mfdqvCAl8wodlx2P2_Ai2gNkiRDAufkkI","name":"Neşeli Pop Şarkıları","img":"https://i.ytimg.com/vi/WcIcVapfqXw/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_myzznSrnHv4d3VAWYEFRkjuSvgiAXZshk","name":"Cool Rap","img":"https://i.ytimg.com/vi/mzB1VGEGcSU/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kF-D-D23zHZ5JcC1mO5EhQEPqZ9-SK4NU","name":"Pozitif Enerji Veren R&B","img":"https://i.ytimg.com/vi/adLGHcj_fmA/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lb6CVU6S4uVugLVNTU9WhqfaomWAgnho4","name":"Avaz Avaz Söylenecek Pop Şarkıları","img":"https://i.ytimg.com/vi/pa14VNsdSYM/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_m8UYTpmaUGhIlXpWiyukIgw4Ug_POVPNw","name":"Pozitif Enerji Veren Club","img":"https://i.ytimg.com/vi/YqeW9_5kURI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lVm93MPGWY2gMYbeUHn2Y5HnRNRzMbQfM","name":"Kendini Kaybet","img":"https://i.ytimg.com/vi/xFYQQPAOz7Y/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_n4bsKshkdwxaEJYz8ZXxh6kF9Frsf369k","name":"Chill Out","img":"https://i.ytimg.com/vi/-e55k1NICSA/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nBQm8_YpP--R6zU8p3dypKm1QKqzWY6qU","name":"EDM'le Şahaneyim Şahane","img":"https://i.ytimg.com/vi/KQ6zr6kCPj8/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_m0wlRoNn5iCTTgBedfoOQ19Jq9P3XTLIA","name":"Pozitif Enerji Veren Pop ve Rock şarkıları","img":"https://i.ytimg.com/vi/JGwWNGJdvx8/hqdefault.jpg"}
+    ]
+  },
+  {
+    "section_title": "Music from Spain",
+    "items": [
+      {"id":"RDCLAK5uy_ns0zdPCT6SFehpoLv5OqYHJZoqmbXwsTM","name":"Spanish Relaxing Pop","img":"https://i.ytimg.com/vi/3inw26U-os4/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_klkdmXJrzrkbQarGTsInTgw5gsKsvyXnM","name":"Flamenco Hits","img":"https://i.ytimg.com/vi/ZaklPkwIo8M/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kbhh4WuFG8Qc_db3Pxp6GokGtVq1TKSgY","name":"90s Chart Toppers","img":"https://i.ytimg.com/vi/otCpCn0l4Wo/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kfRWDH6v7xC-ejKKAhnOcXUowHn8OaLxY","name":"Spanish ballads","img":"https://i.ytimg.com/vi/I9cCPQVPv8o/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mODoXSJeiOpgt_UVHmVsURrDfXEx3Ruok","name":"Spanish Pop hits","img":"https://i.ytimg.com/vi/bBWzcvZRlU0/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mUsoYv4J3ya9O1lUmZzCcAssQRAqwr4Z0","name":"10s Spanish Pop","img":"https://i.ytimg.com/vi/F0rwOsAteXM/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nMjH-zwJOKTmoBGmVBQlTCML5WXHqxDOA","name":"Spanish Rock of the '80s and '90s","img":"https://i.ytimg.com/vi/1r-XsNYFhiU/hqdefault.jpg"}
+    ]
+  }
+],
+  "it": [
+    {
+    "section_title": "Today's Biggest Hits",
+    "items": [
+      {"id":"RDCLAK5uy_kmPRjHDECIcuVwnKsx2Ng7fyNgFKWNJFs","name":"The Hit List","img":"https://i.ytimg.com/vi/nUsrYVxrDwI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kLWIr9gv1XLlPbaDS965-Db4TrBoUTxQ8","name":"Güncel En Hit Dans Parçaları","img":"https://i.ytimg.com/vi/ouEl3qTLc0M/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nhf3h98yS3LCk_bVNQu6GjWG7ARvMaiFQ","name":"NEON: Pop Hits","img":"https://i.ytimg.com/vi/8g7VclWsiaM/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lBGRuQnsG37Akr1CY4SxL0VWFbPrbO4gs","name":"Günün Hip-Hop Parçaları","img":"https://i.ytimg.com/vi/2wI4_-aMSk0/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nHGuTnohZ82uuk0HQle7s-UgP7h3aoCqg","name":"Taze Elektronik Dans Müziği","img":"https://i.ytimg.com/vi/Le97EH-ozlQ/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lOAAW-PX5XUed76iQefCxkOXd6m6ZvyiM","name":"Latin Now","img":"https://i.ytimg.com/vi/BgMU9Vuj17Y/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lfU6d5d-whk0KvABtxS0yZrj6n4NW2eTM","name":"Noise Riot: Rock Hits","img":"https://i.ytimg.com/vi/MoNhLJKLAyQ/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mu-BhJj3yO1OXEMzahs_aJVtNWJwAwFEE","name":"Highline R&B","img":"https://i.ytimg.com/vi/KFMYx1TibeQ/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mFO2tSOkp3Ti5zWQoaPsXJ-rhcKZ6iv30","name":"Hisler","img":"https://i.ytimg.com/vi/5Wq1iDyEjF8/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_m0Nsi5Jnn_g6qbvc7fywPRhEv1qN0PcMM","name":"Bugün'ün İndie Hitleri","img":"https://i.ytimg.com/vi/03e4eK64h4s/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_k5vcGRXixxemtzK1eKDS7BeHys7mvYOdk","name":"Maksimum Desibel: Günümüzün Rock Hitleri","img":"https://i.ytimg.com/vi/DIEI2YLYg6o/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_n4oG0HK-gS2c_tstquxLhCBjs-CF2g8Qg","name":"Line Up: Indie + Alternative","img":"https://i.ytimg.com/vi/P7dJM1UkG2s/hqdefault.jpg"}
+    ]
+  },
+  {
+    "section_title": "New & Trending",
+    "items": [
+      {"id":"RDCLAK5uy_k5n4srrEB1wgvIjPNTXS9G1ufE9WQxhnA","name":"RELEASED","img":"https://i.ytimg.com/vi/crWbG90dChw/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kLwgLlrxA4-_EchctXgTyHR4rwRaRv1wk","name":"House Music 2026","img":"https://i.ytimg.com/vi/vP-Z0VEC0RA/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kgq15xjENxUuOZNY3PFZhM_FcQjvwZn28","name":"Afropoppin'","img":"https://i.ytimg.com/vi/5WZgEITtg-w/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nOwL35BM_GUTEbdbw_9FmvQhPWWdd3sAg","name":"Pop Fresh","img":"https://i.ytimg.com/vi/eXmUnEcpFQ4/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_m0X_CFV7sbR3EKDoP_FvqyK5faV7xorUY","name":"Freshly Chilled","img":"https://i.ytimg.com/vi/V9PVRfjEBTI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_n3-fNPhB7TmNTTBRXDZhcnQJg2ahWDIY8","name":"Drum & Bass 2026","img":"https://i.ytimg.com/vi/osOoVUM2Owg/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nh3v6aejB2HjZPMJa7uuCMfyIKyH2K-kw","name":"Heavy Stereo","img":"https://i.ytimg.com/vi/zgaLAliC3-8/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_ktkqrgIqlP46yBkUsZp4go2j59McnSsYY","name":"Sakin Hype","img":"https://i.ytimg.com/vi/eu7rZDy2M3g/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lcd5mG0YlkNyzKYgBvnlAmAuALm5o6Wnk","name":"Young x Dazed","img":"https://i.ytimg.com/vi/wBWAYWwS_jY/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_k0KkqT3D_36qFNHE9rq_Iz8VT-ZV7Jt0o","name":"Alt-Frequencies","img":"https://i.ytimg.com/vi/KoBUE6I4R9I/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kumKEaPpcfaAOpnEdpjtp4jyLoiqZdRnU","name":"Luxe Life","img":"https://i.ytimg.com/vi/rtwpk9rb1Dc/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kBbljBMZ2exMXUc3MZdtXHsMwvGqf3eE8","name":"Yeni Electronica","img":"https://i.ytimg.com/vi/paEe6qTS20c/hqdefault.jpg"}
+    ]
+  },
+  {
+    "section_title": "All The Hits",
+    "items": [
+      {"id":"RDCLAK5uy_kWiJXUNLZM9EyS3GBGznl1ku8_cOos97U","name":"Huge Dance Hits","img":"https://i.ytimg.com/vi/60ItHLz5WEA/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lLMOe89gNlI8asCCYU_bcEc_2TC4M4bQY","name":"Afropop Hit'leri","img":"https://i.ytimg.com/vi/WqljXK1Sm2Y/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_k7h5535MeHE8xmgHsrZx7HOKH4lb5vAfY","name":"Massive Rock Hits","img":"https://i.ytimg.com/vi/xv-70a6yXfM/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nVT2-bFfxplES7OQSLcnwlJqpsQ9gn0yY","name":"Heavy Metal'in En Beğenilen Parçaları","img":"https://i.ytimg.com/vi/qMXESlny4-I/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lznqoXCDt_wH0Yu3_IK6q3chQI3d2G1cU","name":"Totally Pop","img":"https://i.ytimg.com/vi/q_48vyHWls4/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nrS6tX1-aHomOfpEBSbVYNfM9R58rAlrs","name":"Totally Hits","img":"https://i.ytimg.com/vi/KWoTyfPsqbE/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kIEEMKpM6yjpBI82J-4Ua3AAAwULUx7AE","name":"Indie Overload","img":"https://i.ytimg.com/vi/5cXCUp6j5M8/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nGTZ-bU3GDTL3y16JZY8OVn1rXIEgqkOM","name":"Hit Alternatif Parçalar","img":"https://i.ytimg.com/vi/VF-FGf_ZZiI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kP2172rQNb3KFXz880xp6M98R_ME5CIKA","name":"Rap Kulübü Klasikleri","img":"https://i.ytimg.com/vi/eaPzCHEQExs/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lnUHokP0KoSlL-ZliOoUWhsKfU5id-b2E","name":"Kraliçeler Konuşuyor","img":"https://i.ytimg.com/vi/hsm4poTWjMs/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nHSqCJjDrW9HBhCNdF6tWPdnOMngOv0wA","name":"Altın Pop","img":"https://i.ytimg.com/vi/hLQl3WQQoQ0/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nGla7fZdBfRak2-LrbYP0aHdjz8Lwv7lQ","name":"Ultimate Indie Anthems","img":"https://i.ytimg.com/vi/6hzrDeceEKc/hqdefault.jpg"}
+    ]
+  },
+  {
+    "section_title": "International Hits",
+    "items": [
+      {"id":"RDCLAK5uy_n9Fbdw7e6ap-98_A-8JYBmPv64v-Uaq1g","name":"Bollywood Hitlist","img":"https://i.ytimg.com/vi/Th2Op6uvNXw/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kmq8ZD0NbHbKkZZ6frtlEjd8khfeZrAd0","name":"Afrobeat zamanı","img":"https://i.ytimg.com/vi/RQOg16kmFJM/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_k27uu-EtQ_b5U2r26DNDZOmNqGdccUIGQ","name":"K.iNG","img":"https://i.ytimg.com/vi/7WuO_XaXsCY/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_l8kJfTElp2zFMop7IboOXetbbKU3a9VeQ","name":"REST Turkish Rap","img":"https://i.ytimg.com/vi/WgKhkmkEOTI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mdJ6PIrGn58UdshtRTLBCowfQXaY68ff4","name":"La Mezcla","img":"https://i.ytimg.com/vi/laqu7fCy9Vs/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mCvOm3kQy1RTBwDOGYkNhtHwMO89ffquk","name":"Crème French Pop","img":"https://i.ytimg.com/vi/9kBpbQDZdbQ/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lTF8NR57ogCQH2sespedzwyUhf5zlb0QE","name":"Aywa Araby","img":"https://i.ytimg.com/vi/TSLCBGGFXLE/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kvnwY7lh8VQkr7uLLsFPB06mhIwKAljbE","name":"Diretoria Brazil Hits","img":"https://i.ytimg.com/vi/NzzWICQ_gHM/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kAzvNwVxyZqDv4RypgYluniT5Or7V1rUU","name":"On Fleek French Urban Pop","img":"https://i.ytimg.com/vi/EIsA9cW0hVY/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mTKho9b7fMrAXOYXKCRCoowKDYvuIVpMQ","name":"Schlagerperlen","img":"https://i.ytimg.com/vi/674Wc0iX3-M/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_k5faEHND0iXJljeASESqJ3A8UtRr2FL00","name":"Topnejo","img":"https://i.ytimg.com/vi/10XarNSkw0s/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_n0COhN_xYbYY9RGEPF1oa3annopsPfkH0","name":"Quentura","img":"https://i.ytimg.com/vi/iODagP_LHgg/hqdefault.jpg"}
+    ]
+  },
+  {
+    "section_title": "Mood Music",
+    "items": [
+      {"id":"RDCLAK5uy_nHSqCJjDrW9HBhCNdF6tWPdnOMngOv0wA","name":"Altın Pop","img":"https://i.ytimg.com/vi/hLQl3WQQoQ0/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nyKVppE-RpLkeCcwLct4rvN9e8AAsS_qw","name":"Soft Rock Baladları","img":"https://i.ytimg.com/vi/n4RjJKxsamQ/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mfdqvCAl8wodlx2P2_Ai2gNkiRDAufkkI","name":"Neşeli Pop Şarkıları","img":"https://i.ytimg.com/vi/WcIcVapfqXw/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_myzznSrnHv4d3VAWYEFRkjuSvgiAXZshk","name":"Cool Rap","img":"https://i.ytimg.com/vi/mzB1VGEGcSU/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kF-D-D23zHZ5JcC1mO5EhQEPqZ9-SK4NU","name":"Pozitif Enerji Veren R&B","img":"https://i.ytimg.com/vi/adLGHcj_fmA/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lb6CVU6S4uVugLVNTU9WhqfaomWAgnho4","name":"Avaz Avaz Söylenecek Pop Şarkıları","img":"https://i.ytimg.com/vi/pa14VNsdSYM/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_m8UYTpmaUGhIlXpWiyukIgw4Ug_POVPNw","name":"Pozitif Enerji Veren Club","img":"https://i.ytimg.com/vi/YqeW9_5kURI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lVm93MPGWY2gMYbeUHn2Y5HnRNRzMbQfM","name":"Kendini Kaybet","img":"https://i.ytimg.com/vi/xFYQQPAOz7Y/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_n4bsKshkdwxaEJYz8ZXxh6kF9Frsf369k","name":"Chill Out","img":"https://i.ytimg.com/vi/-e55k1NICSA/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nBQm8_YpP--R6zU8p3dypKm1QKqzWY6qU","name":"EDM'le Şahaneyim Şahane","img":"https://i.ytimg.com/vi/KQ6zr6kCPj8/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_m0wlRoNn5iCTTgBedfoOQ19Jq9P3XTLIA","name":"Pozitif Enerji Veren Pop ve Rock şarkıları","img":"https://i.ytimg.com/vi/JGwWNGJdvx8/hqdefault.jpg"}
+    ]
+  },
+  {
+    "section_title": "Music from Italy",
+    "items": [
+      {"id":"RDCLAK5uy_nk6496MBaplVdkilSBTe11JzpLFRwrTdw","name":"Italian Romance","img":"https://i.ytimg.com/vi/I5cL3rpp4SU/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_l0bXVFPS1J5YdFKRuHUAHSnPZq__2TEWw","name":"Shout Out Italian Hits: the 90s","img":"https://i.ytimg.com/vi/XheV-5NKjUg/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mazzQPp7KJMrcpdEow1RT4XCNinORA3h4","name":"Italian Singer-Songwriters","img":"https://i.ytimg.com/vi/R3Wf53M_YRM/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mKmV5gD_kmjl2lFJYp9Pnw-dKjtidPDHs","name":"Italian Rock","img":"https://i.ytimg.com/vi/vkWEvDK45pE/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_n7ZcT8sdcR5YfoGT9XQs-qjX1WxOLOhI0","name":"The Italian Hits of the 70s","img":"https://i.ytimg.com/vi/Nn1IeHL5DHY/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mkNY0kaMFA8QgJ1_7vAuLHYqAcGKL2_tc","name":"The Italian Hits of the 80s","img":"https://i.ytimg.com/vi/Nn1IeHL5DHY/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lVwO9t80w-EyNanPsrbGnwBgA5De6zd-Q","name":"The Italian Hits of the 90s","img":"https://i.ytimg.com/vi/w15oWDh02K4/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kAm3i0kTjksEISnGlqTOAjKMdlWjwLBbA","name":"Italian Voices","img":"https://i.ytimg.com/vi/KwPG6HvY9PQ/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lat7xmGbf6ZiacRIT43Qe62mk_vGUm5Jc","name":"Ultimate Italian Classics","img":"https://i.ytimg.com/vi/fZrIvE-3upw/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lnBaeHdokPIqCNCCwjLVAXqY4d33LCO0s","name":"Italian Pop Divas","img":"https://i.ytimg.com/vi/8mCBkGR_PRc/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kNpOoBDfcejD8yltMf5tbF6m2nzVErzW4","name":"Italian Movie Sing-Along","img":"https://i.ytimg.com/vi/KwPG6HvY9PQ/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kxsvMbjtV1-yJ5AySFgJRgUMeFBVCcZlI","name":"10s Italian Hip Hop","img":"https://i.ytimg.com/vi/HbfFG15Xd9U/hqdefault.jpg"}
+    ]
+  }
+],
+  "pt": [
+    {
+    "section_title": "Today's Biggest Hits",
+    "items": [
+      {"id":"RDCLAK5uy_kmPRjHDECIcuVwnKsx2Ng7fyNgFKWNJFs","name":"The Hit List","img":"https://i.ytimg.com/vi/nUsrYVxrDwI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kLWIr9gv1XLlPbaDS965-Db4TrBoUTxQ8","name":"Güncel En Hit Dans Parçaları","img":"https://i.ytimg.com/vi/ouEl3qTLc0M/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nhf3h98yS3LCk_bVNQu6GjWG7ARvMaiFQ","name":"NEON: Pop Hits","img":"https://i.ytimg.com/vi/8g7VclWsiaM/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lBGRuQnsG37Akr1CY4SxL0VWFbPrbO4gs","name":"Günün Hip-Hop Parçaları","img":"https://i.ytimg.com/vi/2wI4_-aMSk0/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nHGuTnohZ82uuk0HQle7s-UgP7h3aoCqg","name":"Taze Elektronik Dans Müziği","img":"https://i.ytimg.com/vi/Le97EH-ozlQ/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lOAAW-PX5XUed76iQefCxkOXd6m6ZvyiM","name":"Latin Now","img":"https://i.ytimg.com/vi/BgMU9Vuj17Y/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lfU6d5d-whk0KvABtxS0yZrj6n4NW2eTM","name":"Noise Riot: Rock Hits","img":"https://i.ytimg.com/vi/MoNhLJKLAyQ/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mu-BhJj3yO1OXEMzahs_aJVtNWJwAwFEE","name":"Highline R&B","img":"https://i.ytimg.com/vi/KFMYx1TibeQ/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mFO2tSOkp3Ti5zWQoaPsXJ-rhcKZ6iv30","name":"Hisler","img":"https://i.ytimg.com/vi/5Wq1iDyEjF8/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_m0Nsi5Jnn_g6qbvc7fywPRhEv1qN0PcMM","name":"Bugün'ün İndie Hitleri","img":"https://i.ytimg.com/vi/03e4eK64h4s/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_k5vcGRXixxemtzK1eKDS7BeHys7mvYOdk","name":"Maksimum Desibel: Günümüzün Rock Hitleri","img":"https://i.ytimg.com/vi/DIEI2YLYg6o/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_n4oG0HK-gS2c_tstquxLhCBjs-CF2g8Qg","name":"Line Up: Indie + Alternative","img":"https://i.ytimg.com/vi/P7dJM1UkG2s/hqdefault.jpg"}
+    ]
+  },
+  {
+    "section_title": "New & Trending",
+    "items": [
+      {"id":"RDCLAK5uy_k5n4srrEB1wgvIjPNTXS9G1ufE9WQxhnA","name":"RELEASED","img":"https://i.ytimg.com/vi/crWbG90dChw/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kLwgLlrxA4-_EchctXgTyHR4rwRaRv1wk","name":"House Music 2026","img":"https://i.ytimg.com/vi/vP-Z0VEC0RA/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kgq15xjENxUuOZNY3PFZhM_FcQjvwZn28","name":"Afropoppin'","img":"https://i.ytimg.com/vi/5WZgEITtg-w/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nOwL35BM_GUTEbdbw_9FmvQhPWWdd3sAg","name":"Pop Fresh","img":"https://i.ytimg.com/vi/eXmUnEcpFQ4/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_m0X_CFV7sbR3EKDoP_FvqyK5faV7xorUY","name":"Freshly Chilled","img":"https://i.ytimg.com/vi/V9PVRfjEBTI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_n3-fNPhB7TmNTTBRXDZhcnQJg2ahWDIY8","name":"Drum & Bass 2026","img":"https://i.ytimg.com/vi/osOoVUM2Owg/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nh3v6aejB2HjZPMJa7uuCMfyIKyH2K-kw","name":"Heavy Stereo","img":"https://i.ytimg.com/vi/zgaLAliC3-8/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_ktkqrgIqlP46yBkUsZp4go2j59McnSsYY","name":"Sakin Hype","img":"https://i.ytimg.com/vi/eu7rZDy2M3g/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lcd5mG0YlkNyzKYgBvnlAmAuALm5o6Wnk","name":"Young x Dazed","img":"https://i.ytimg.com/vi/wBWAYWwS_jY/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_k0KkqT3D_36qFNHE9rq_Iz8VT-ZV7Jt0o","name":"Alt-Frequencies","img":"https://i.ytimg.com/vi/KoBUE6I4R9I/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kumKEaPpcfaAOpnEdpjtp4jyLoiqZdRnU","name":"Luxe Life","img":"https://i.ytimg.com/vi/rtwpk9rb1Dc/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kBbljBMZ2exMXUc3MZdtXHsMwvGqf3eE8","name":"Yeni Electronica","img":"https://i.ytimg.com/vi/paEe6qTS20c/hqdefault.jpg"}
+    ]
+  },
+  {
+    "section_title": "All The Hits",
+    "items": [
+      {"id":"RDCLAK5uy_kWiJXUNLZM9EyS3GBGznl1ku8_cOos97U","name":"Huge Dance Hits","img":"https://i.ytimg.com/vi/60ItHLz5WEA/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lLMOe89gNlI8asCCYU_bcEc_2TC4M4bQY","name":"Afropop Hit'leri","img":"https://i.ytimg.com/vi/WqljXK1Sm2Y/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_k7h5535MeHE8xmgHsrZx7HOKH4lb5vAfY","name":"Massive Rock Hits","img":"https://i.ytimg.com/vi/xv-70a6yXfM/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nVT2-bFfxplES7OQSLcnwlJqpsQ9gn0yY","name":"Heavy Metal'in En Beğenilen Parçaları","img":"https://i.ytimg.com/vi/qMXESlny4-I/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lznqoXCDt_wH0Yu3_IK6q3chQI3d2G1cU","name":"Totally Pop","img":"https://i.ytimg.com/vi/q_48vyHWls4/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nrS6tX1-aHomOfpEBSbVYNfM9R58rAlrs","name":"Totally Hits","img":"https://i.ytimg.com/vi/KWoTyfPsqbE/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kIEEMKpM6yjpBI82J-4Ua3AAAwULUx7AE","name":"Indie Overload","img":"https://i.ytimg.com/vi/5cXCUp6j5M8/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nGTZ-bU3GDTL3y16JZY8OVn1rXIEgqkOM","name":"Hit Alternatif Parçalar","img":"https://i.ytimg.com/vi/VF-FGf_ZZiI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kP2172rQNb3KFXz880xp6M98R_ME5CIKA","name":"Rap Kulübü Klasikleri","img":"https://i.ytimg.com/vi/eaPzCHEQExs/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lnUHokP0KoSlL-ZliOoUWhsKfU5id-b2E","name":"Kraliçeler Konuşuyor","img":"https://i.ytimg.com/vi/hsm4poTWjMs/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nHSqCJjDrW9HBhCNdF6tWPdnOMngOv0wA","name":"Altın Pop","img":"https://i.ytimg.com/vi/hLQl3WQQoQ0/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nGla7fZdBfRak2-LrbYP0aHdjz8Lwv7lQ","name":"Ultimate Indie Anthems","img":"https://i.ytimg.com/vi/6hzrDeceEKc/hqdefault.jpg"}
+    ]
+  },
+  {
+    "section_title": "International Hits",
+    "items": [
+      {"id":"RDCLAK5uy_n9Fbdw7e6ap-98_A-8JYBmPv64v-Uaq1g","name":"Bollywood Hitlist","img":"https://i.ytimg.com/vi/Th2Op6uvNXw/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kmq8ZD0NbHbKkZZ6frtlEjd8khfeZrAd0","name":"Afrobeat zamanı","img":"https://i.ytimg.com/vi/RQOg16kmFJM/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_k27uu-EtQ_b5U2r26DNDZOmNqGdccUIGQ","name":"K.iNG","img":"https://i.ytimg.com/vi/7WuO_XaXsCY/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_l8kJfTElp2zFMop7IboOXetbbKU3a9VeQ","name":"REST Turkish Rap","img":"https://i.ytimg.com/vi/WgKhkmkEOTI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mdJ6PIrGn58UdshtRTLBCowfQXaY68ff4","name":"La Mezcla","img":"https://i.ytimg.com/vi/laqu7fCy9Vs/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mCvOm3kQy1RTBwDOGYkNhtHwMO89ffquk","name":"Crème French Pop","img":"https://i.ytimg.com/vi/9kBpbQDZdbQ/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lTF8NR57ogCQH2sespedzwyUhf5zlb0QE","name":"Aywa Araby","img":"https://i.ytimg.com/vi/TSLCBGGFXLE/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kvnwY7lh8VQkr7uLLsFPB06mhIwKAljbE","name":"Diretoria Brazil Hits","img":"https://i.ytimg.com/vi/NzzWICQ_gHM/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kAzvNwVxyZqDv4RypgYluniT5Or7V1rUU","name":"On Fleek French Urban Pop","img":"https://i.ytimg.com/vi/EIsA9cW0hVY/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mTKho9b7fMrAXOYXKCRCoowKDYvuIVpMQ","name":"Schlagerperlen","img":"https://i.ytimg.com/vi/674Wc0iX3-M/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_k5faEHND0iXJljeASESqJ3A8UtRr2FL00","name":"Topnejo","img":"https://i.ytimg.com/vi/10XarNSkw0s/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_n0COhN_xYbYY9RGEPF1oa3annopsPfkH0","name":"Quentura","img":"https://i.ytimg.com/vi/iODagP_LHgg/hqdefault.jpg"}
+    ]
+  },
+  {
+    "section_title": "Mood Music",
+    "items": [
+      {"id":"RDCLAK5uy_nHSqCJjDrW9HBhCNdF6tWPdnOMngOv0wA","name":"Altın Pop","img":"https://i.ytimg.com/vi/hLQl3WQQoQ0/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nyKVppE-RpLkeCcwLct4rvN9e8AAsS_qw","name":"Soft Rock Baladları","img":"https://i.ytimg.com/vi/n4RjJKxsamQ/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mfdqvCAl8wodlx2P2_Ai2gNkiRDAufkkI","name":"Neşeli Pop Şarkıları","img":"https://i.ytimg.com/vi/WcIcVapfqXw/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_myzznSrnHv4d3VAWYEFRkjuSvgiAXZshk","name":"Cool Rap","img":"https://i.ytimg.com/vi/mzB1VGEGcSU/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kF-D-D23zHZ5JcC1mO5EhQEPqZ9-SK4NU","name":"Pozitif Enerji Veren R&B","img":"https://i.ytimg.com/vi/adLGHcj_fmA/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lb6CVU6S4uVugLVNTU9WhqfaomWAgnho4","name":"Avaz Avaz Söylenecek Pop Şarkıları","img":"https://i.ytimg.com/vi/pa14VNsdSYM/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_m8UYTpmaUGhIlXpWiyukIgw4Ug_POVPNw","name":"Pozitif Enerji Veren Club","img":"https://i.ytimg.com/vi/YqeW9_5kURI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lVm93MPGWY2gMYbeUHn2Y5HnRNRzMbQfM","name":"Kendini Kaybet","img":"https://i.ytimg.com/vi/xFYQQPAOz7Y/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_n4bsKshkdwxaEJYz8ZXxh6kF9Frsf369k","name":"Chill Out","img":"https://i.ytimg.com/vi/-e55k1NICSA/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nBQm8_YpP--R6zU8p3dypKm1QKqzWY6qU","name":"EDM'le Şahaneyim Şahane","img":"https://i.ytimg.com/vi/KQ6zr6kCPj8/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_m0wlRoNn5iCTTgBedfoOQ19Jq9P3XTLIA","name":"Pozitif Enerji Veren Pop ve Rock şarkıları","img":"https://i.ytimg.com/vi/JGwWNGJdvx8/hqdefault.jpg"}
+    ]
+  }
+],
+  "ru": [
+    {
+    "section_title": "Today's Biggest Hits",
+    "items": [
+      {"id":"RDCLAK5uy_kmPRjHDECIcuVwnKsx2Ng7fyNgFKWNJFs","name":"The Hit List","img":"https://i.ytimg.com/vi/v9T_MGfzq7I/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kLWIr9gv1XLlPbaDS965-Db4TrBoUTxQ8","name":"Güncel En Hit Dans Parçaları","img":"https://i.ytimg.com/vi/ouEl3qTLc0M/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nhf3h98yS3LCk_bVNQu6GjWG7ARvMaiFQ","name":"NEON: Pop Hits","img":"https://i.ytimg.com/vi/366CV87TguE/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lBGRuQnsG37Akr1CY4SxL0VWFbPrbO4gs","name":"Günün Hip-Hop Parçaları","img":"https://i.ytimg.com/vi/mcg4z1gGbEw/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nHGuTnohZ82uuk0HQle7s-UgP7h3aoCqg","name":"Taze Elektronik Dans Müziği","img":"https://i.ytimg.com/vi/Le97EH-ozlQ/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lOAAW-PX5XUed76iQefCxkOXd6m6ZvyiM","name":"Latin Now","img":"https://i.ytimg.com/vi/dn3d8awSA0c/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mu-BhJj3yO1OXEMzahs_aJVtNWJwAwFEE","name":"Highline R&B","img":"https://i.ytimg.com/vi/Wr0e0zCwUB0/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_m0Nsi5Jnn_g6qbvc7fywPRhEv1qN0PcMM","name":"Bugün'ün İndie Hitleri","img":"https://i.ytimg.com/vi/Jg6ngjH2tCc/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_k5vcGRXixxemtzK1eKDS7BeHys7mvYOdk","name":"Maksimum Desibel: Günümüzün Rock Hitleri","img":"https://i.ytimg.com/vi/DIEI2YLYg6o/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_n4oG0HK-gS2c_tstquxLhCBjs-CF2g8Qg","name":"Line Up: Indie + Alternative","img":"https://i.ytimg.com/vi/P7dJM1UkG2s/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lbQ87tFQihzaDxmmfDoHbw5xQwBWUrMDk","name":"Orkestra","img":"https://i.ytimg.com/vi/ukYs8u79dxE/hqdefault.jpg"}
+    ]
+  },
+  {
+    "section_title": "New & Trending",
+    "items": [
+      {"id":"RDCLAK5uy_k5n4srrEB1wgvIjPNTXS9G1ufE9WQxhnA","name":"RELEASED","img":"https://i.ytimg.com/vi/6V-cA3xqdyc/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kLwgLlrxA4-_EchctXgTyHR4rwRaRv1wk","name":"House Music 2026","img":"https://i.ytimg.com/vi/vP-Z0VEC0RA/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kgq15xjENxUuOZNY3PFZhM_FcQjvwZn28","name":"Afropoppin'","img":"https://i.ytimg.com/vi/5WZgEITtg-w/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nOwL35BM_GUTEbdbw_9FmvQhPWWdd3sAg","name":"Pop Fresh","img":"https://i.ytimg.com/vi/yNa8jP4zoJo/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_m0X_CFV7sbR3EKDoP_FvqyK5faV7xorUY","name":"Freshly Chilled","img":"https://i.ytimg.com/vi/HLHKCLOrb4M/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_n3-fNPhB7TmNTTBRXDZhcnQJg2ahWDIY8","name":"Drum & Bass 2026","img":"https://i.ytimg.com/vi/osOoVUM2Owg/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nh3v6aejB2HjZPMJa7uuCMfyIKyH2K-kw","name":"Heavy Stereo","img":"https://i.ytimg.com/vi/lbc6CcZTp5E/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_ktkqrgIqlP46yBkUsZp4go2j59McnSsYY","name":"Sakin Hype","img":"https://i.ytimg.com/vi/U2IpeDPmjFo/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lcd5mG0YlkNyzKYgBvnlAmAuALm5o6Wnk","name":"Young x Dazed","img":"https://i.ytimg.com/vi/qV91x2YT9zI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_k0KkqT3D_36qFNHE9rq_Iz8VT-ZV7Jt0o","name":"Alt-Frequencies","img":"https://i.ytimg.com/vi/P7dJM1UkG2s/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kumKEaPpcfaAOpnEdpjtp4jyLoiqZdRnU","name":"Luxe Life","img":"https://i.ytimg.com/vi/g54UEosO_yM/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kBbljBMZ2exMXUc3MZdtXHsMwvGqf3eE8","name":"Yeni Electronica","img":"https://i.ytimg.com/vi/paEe6qTS20c/hqdefault.jpg"}
+    ]
+  },
+  {
+    "section_title": "All The Hits",
+    "items": [
+      {"id":"RDCLAK5uy_kWiJXUNLZM9EyS3GBGznl1ku8_cOos97U","name":"Huge Dance Hits","img":"https://i.ytimg.com/vi/60ItHLz5WEA/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lLMOe89gNlI8asCCYU_bcEc_2TC4M4bQY","name":"Afropop Hit'leri","img":"https://i.ytimg.com/vi/WqljXK1Sm2Y/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_k7h5535MeHE8xmgHsrZx7HOKH4lb5vAfY","name":"Massive Rock Hits","img":"https://i.ytimg.com/vi/qMXESlny4-I/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nVT2-bFfxplES7OQSLcnwlJqpsQ9gn0yY","name":"Heavy Metal'in En Beğenilen Parçaları","img":"https://i.ytimg.com/vi/qMXESlny4-I/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lznqoXCDt_wH0Yu3_IK6q3chQI3d2G1cU","name":"Totally Pop","img":"https://i.ytimg.com/vi/suAR1PYFNYA/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nrS6tX1-aHomOfpEBSbVYNfM9R58rAlrs","name":"Totally Hits","img":"https://i.ytimg.com/vi/ic8j13piAhQ/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kIEEMKpM6yjpBI82J-4Ua3AAAwULUx7AE","name":"Indie Overload","img":"https://i.ytimg.com/vi/oXSw8DGjf5E/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nGTZ-bU3GDTL3y16JZY8OVn1rXIEgqkOM","name":"Hit Alternatif Parçalar","img":"https://i.ytimg.com/vi/lbc6CcZTp5E/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kP2172rQNb3KFXz880xp6M98R_ME5CIKA","name":"Rap Kulübü Klasikleri","img":"https://i.ytimg.com/vi/eaPzCHEQExs/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lnUHokP0KoSlL-ZliOoUWhsKfU5id-b2E","name":"Kraliçeler Konuşuyor","img":"https://i.ytimg.com/vi/hsm4poTWjMs/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nHSqCJjDrW9HBhCNdF6tWPdnOMngOv0wA","name":"Altın Pop","img":"https://i.ytimg.com/vi/hLQl3WQQoQ0/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nGla7fZdBfRak2-LrbYP0aHdjz8Lwv7lQ","name":"Ultimate Indie Anthems","img":"https://i.ytimg.com/vi/6hzrDeceEKc/hqdefault.jpg"}
+    ]
+  },
+  {
+    "section_title": "International Hits",
+    "items": [
+      {"id":"RDCLAK5uy_n9Fbdw7e6ap-98_A-8JYBmPv64v-Uaq1g","name":"Bollywood Hitlist","img":"https://i.ytimg.com/vi/Th2Op6uvNXw/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kmq8ZD0NbHbKkZZ6frtlEjd8khfeZrAd0","name":"Afrobeat zamanı","img":"https://i.ytimg.com/vi/RQOg16kmFJM/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_k27uu-EtQ_b5U2r26DNDZOmNqGdccUIGQ","name":"K.iNG","img":"https://i.ytimg.com/vi/7WuO_XaXsCY/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_l8kJfTElp2zFMop7IboOXetbbKU3a9VeQ","name":"REST Turkish Rap","img":"https://i.ytimg.com/vi/WgKhkmkEOTI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mdJ6PIrGn58UdshtRTLBCowfQXaY68ff4","name":"La Mezcla","img":"https://i.ytimg.com/vi/laqu7fCy9Vs/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mCvOm3kQy1RTBwDOGYkNhtHwMO89ffquk","name":"Crème French Pop","img":"https://i.ytimg.com/vi/9kBpbQDZdbQ/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lTF8NR57ogCQH2sespedzwyUhf5zlb0QE","name":"Aywa Araby","img":"https://i.ytimg.com/vi/TSLCBGGFXLE/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kvnwY7lh8VQkr7uLLsFPB06mhIwKAljbE","name":"Diretoria Brazil Hits","img":"https://i.ytimg.com/vi/NzzWICQ_gHM/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kAzvNwVxyZqDv4RypgYluniT5Or7V1rUU","name":"On Fleek French Urban Pop","img":"https://i.ytimg.com/vi/K9anmn5pgxw/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mTKho9b7fMrAXOYXKCRCoowKDYvuIVpMQ","name":"Schlagerperlen","img":"https://i.ytimg.com/vi/674Wc0iX3-M/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_k5faEHND0iXJljeASESqJ3A8UtRr2FL00","name":"Topnejo","img":"https://i.ytimg.com/vi/1jlDqubhZvU/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_n0COhN_xYbYY9RGEPF1oa3annopsPfkH0","name":"Quentura","img":"https://i.ytimg.com/vi/iODagP_LHgg/hqdefault.jpg"}
+    ]
+  },
+  {
+    "section_title": "Mood Music",
+    "items": [
+      {"id":"RDCLAK5uy_nHSqCJjDrW9HBhCNdF6tWPdnOMngOv0wA","name":"Altın Pop","img":"https://i.ytimg.com/vi/hLQl3WQQoQ0/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nyKVppE-RpLkeCcwLct4rvN9e8AAsS_qw","name":"Soft Rock Baladları","img":"https://i.ytimg.com/vi/n4RjJKxsamQ/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mfdqvCAl8wodlx2P2_Ai2gNkiRDAufkkI","name":"Neşeli Pop Şarkıları","img":"https://i.ytimg.com/vi/CQLsdm1ZYAw/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_myzznSrnHv4d3VAWYEFRkjuSvgiAXZshk","name":"Cool Rap","img":"https://i.ytimg.com/vi/mzB1VGEGcSU/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kF-D-D23zHZ5JcC1mO5EhQEPqZ9-SK4NU","name":"Pozitif Enerji Veren R&B","img":"https://i.ytimg.com/vi/adLGHcj_fmA/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lb6CVU6S4uVugLVNTU9WhqfaomWAgnho4","name":"Avaz Avaz Söylenecek Pop Şarkıları","img":"https://i.ytimg.com/vi/pa14VNsdSYM/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_m8UYTpmaUGhIlXpWiyukIgw4Ug_POVPNw","name":"Pozitif Enerji Veren Club","img":"https://i.ytimg.com/vi/YqeW9_5kURI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lVm93MPGWY2gMYbeUHn2Y5HnRNRzMbQfM","name":"Kendini Kaybet","img":"https://i.ytimg.com/vi/xFYQQPAOz7Y/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_n4bsKshkdwxaEJYz8ZXxh6kF9Frsf369k","name":"Chill Out","img":"https://i.ytimg.com/vi/XpmeVNxZ-Ks/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nBQm8_YpP--R6zU8p3dypKm1QKqzWY6qU","name":"EDM'le Şahaneyim Şahane","img":"https://i.ytimg.com/vi/KQ6zr6kCPj8/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_m0wlRoNn5iCTTgBedfoOQ19Jq9P3XTLIA","name":"Pozitif Enerji Veren Pop ve Rock şarkıları","img":"https://i.ytimg.com/vi/JGwWNGJdvx8/hqdefault.jpg"}
+    ]
+  }
+],
+  "ar": [
+    {
+    "section_title": "أجمل الأغاني اليوم",
+    "items": [
+      {"id":"RDCLAK5uy_lTF8NR57ogCQH2sespedzwyUhf5zlb0QE","name":"Aywa Araby","img":"https://i.ytimg.com/vi/TSLCBGGFXLE/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mfTF5DCHZL0zf04WQdXAd8-1cQuvJZXzs","name":"Khaleeji Marra","img":"https://i.ytimg.com/vi/xcCx5pkYtOI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_k9pWa309yHa1jfBvjknzgIvMUGAFCwvjA","name":"Mahraganat","img":"https://i.ytimg.com/vi/_axOWRs2uvc/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nhydE9o1TmG1a4DdSCyOGAPBu7CNLAWis","name":"Gamed","img":"https://i.ytimg.com/vi/oZNKvrg4KP8/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_k814Dsq7Ltw1BARogb5Hixh5pUbwbE0A8","name":"Shkad Iraqi","img":"https://i.ytimg.com/vi/FG88yDVBTy4/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kr4mgbU6tuDKaYBwjtI6GbEA0ZJyT3FTA","name":"Sheilat","img":"https://i.ytimg.com/vi/qN3y0sHCBME/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lRT7O6Y2Bmqpyl2LA9sV8fUD4TWpQzzE0","name":"Maghreb Hotlist","img":"https://i.ytimg.com/vi/83essRYSr58/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kkurqiXxQOMI8VgDFB5p84Lnyt00A9QIA","name":"Lübnan Hotlist","img":"https://i.ytimg.com/vi/AjPKfZstWyM/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_n9Fbdw7e6ap-98_A-8JYBmPv64v-Uaq1g","name":"Bollywood Hitlist","img":"https://i.ytimg.com/vi/Th2Op6uvNXw/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mu-BhJj3yO1OXEMzahs_aJVtNWJwAwFEE","name":"Highline R&B","img":"https://i.ytimg.com/vi/KFMYx1TibeQ/hqdefault.jpg"}
+    ]
+  },
+  {
+    "section_title": "أجدد و أجمل الأغاني",
+    "items": [
+      {"id":"RDCLAK5uy_mC3tHtlDlzdSAyD3fIb0fWjPAvbXxSEjQ","name":"RELEASED","img":"https://i.ytimg.com/vi/SpquxVI9nZI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nrwKVmKEHU7FkyjxXz3yG7sGQH9CRPARE","name":"Yeni Mahraganat","img":"https://i.ytimg.com/vi/tJeQYR5aL6k/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kkDewCncbIEmpbXsGk-2OLy9aWQLMO2-g","name":"Yepyeni Arapça","img":"https://i.ytimg.com/vi/HzDGa1SvXVw/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nC3CD6X2VFZ3LZjjpAUgxH1Dluwpc0GmQ","name":"Yeni Mısır","img":"https://i.ytimg.com/vi/e998TlID5mE/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nxu_9mIvKXKXft_8xjMYUmmFyvo0Uv3eI","name":"Irak'tan Yepyeni","img":"https://i.ytimg.com/vi/GVesNS6W6a8/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nGZRi-an-ruqiZlNJSGhCDHucdp2FBNfI","name":"Yeni Nesil R&B","img":"https://i.ytimg.com/vi/1afjjqJUxQg/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_ncf7GgjSEDa0f_EiMC2D0px8NZ5RfPuz0","name":"Yepyeni Khaleeji","img":"https://i.ytimg.com/vi/lqH7kojXXeU/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_k7O9KByATGA1TqFYhyOkylpJ6fM1avtww","name":"Clout Rising","img":"https://i.ytimg.com/vi/NSZ26l3DIKE/hqdefault.jpg"}
+    ]
+  },
+  {
+    "section_title": "هيب-هوب",
+    "items": [
+      {"id":"RDCLAK5uy_lBGRuQnsG37Akr1CY4SxL0VWFbPrbO4gs","name":"Günün Hip-Hop Parçaları","img":"https://i.ytimg.com/vi/2wI4_-aMSk0/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nfFpW0kcdCmKFGMvORFMSqQG4QAXB2YXE","name":"عRAP","img":"https://i.ytimg.com/vi/-zZPHwjciTY/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_l_R-6is1bNUGonnSTSg0vF7r5cDj8ENZY","name":"Mısır'dan Rap","img":"https://i.ytimg.com/vi/ZH0IiGs6K_A/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_k0RPAZDb4p0DEIY5DKIR3vdKSGHSdIPM8","name":"Mağrip Rap","img":"https://i.ytimg.com/vi/P3TjnP-jAjE/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_l6VW_gdtNdhXipqvA-dm4HnJfnmbArbjQ","name":"Fresh Arabic Rap","img":"https://i.ytimg.com/vi/kCvuVJ1gzEs/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mVRuj5egfh21e-pXyA3ymx_0p4Xlg-c0I","name":"Popüler Hip Hop","img":"https://i.ytimg.com/vi/sNY_2TEmzho/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_k7O9KByATGA1TqFYhyOkylpJ6fM1avtww","name":"Clout Rising","img":"https://i.ytimg.com/vi/NSZ26l3DIKE/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_ldlwpMghzMwGCDSOA4Kw6TrOCXDaqXQMo","name":"Grime Hotlist","img":"https://i.ytimg.com/vi/bEp1VxlYcw8/hqdefault.jpg"}
+    ]
+  },
+  {
+    "section_title": "الربيع 🌤️",
+    "items": [
+      {"id":"RDCLAK5uy_mkQJpBKTH7S8iAdlq1khNLX-c1OhOhocM","name":"Cool Arapça","img":"https://i.ytimg.com/vi/Cs6i13GIyo8/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lmztFiBPwa16-qz6nwMaNrtVFPzCYNOkA","name":"Düşük Tempolu EDM ve House","img":"https://i.ytimg.com/vi/PT2_F-1esPk/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_liEN-UUeSCXa0iIeuHMeswEkxQXncSoXE","name":"Non-Stop Lite Pop","img":"https://i.ytimg.com/vi/pvPsJFRGleA/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mfdqvCAl8wodlx2P2_Ai2gNkiRDAufkkI","name":"Neşeli Pop Şarkıları","img":"https://i.ytimg.com/vi/WcIcVapfqXw/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mkEwQuegHYB8_aAzBO8Q__6gGoaFblISw","name":"Pozitif Hip Hop ve R&B","img":"https://i.ytimg.com/vi/8ekJMC8OtGU/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nbla9IlAw2OQmPRxOiBYdAl_jtWLDPH9Y","name":"Keyifli Bollywood","img":"https://i.ytimg.com/vi/FZLadzn5i6Q/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nlISyc3Ro85hbdC6z16nGQo5jif_dzk_M","name":"Sakin Arapça Indie","img":"https://i.ytimg.com/vi/BGkL2Pq-g3A/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_n_0vMGj-9WtHuj2fbdwMGsSxL_7qglBCI","name":"Rahatlatıcı Mısır Müzikleri","img":"https://i.ytimg.com/vi/ejvpVhvKesM/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kYIETxCqnBrhQxIa4dPqBD-NOHNn8O4KQ","name":"Keyifli Irak","img":"https://i.ytimg.com/vi/ETPU2RY_aCY/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nbu2-fubCWEuBFeksTcYQGCax2kixpsp4","name":"Keyifli Khaleeji","img":"https://i.ytimg.com/vi/zNOgNM0cRKI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_k3dazOzqqDagSIBhGET4VrDKHS9dEjXPA","name":"Sakin Khaleeji","img":"https://i.ytimg.com/vi/xcCx5pkYtOI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_laqTzdIfMc0lFCcLCFWl0BG468ZP19wNg","name":"Keyifli Arapça","img":"https://i.ytimg.com/vi/rhOAyPKHWEo/hqdefault.jpg"}
+    ]
+  },
+  {
+    "section_title": "أمزجة و أنشطة",
+    "items": [
+      {"id":"RDCLAK5uy_nZ-kEsmlcJGdCIYuPv4miPsFUf5uFK2v8","name":"Arapça Parti","img":"https://i.ytimg.com/vi/Rovy6Vqz7S4/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_laqTzdIfMc0lFCcLCFWl0BG468ZP19wNg","name":"Keyifli Arapça","img":"https://i.ytimg.com/vi/rhOAyPKHWEo/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nbu2-fubCWEuBFeksTcYQGCax2kixpsp4","name":"Keyifli Khaleeji","img":"https://i.ytimg.com/vi/zNOgNM0cRKI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mfdqvCAl8wodlx2P2_Ai2gNkiRDAufkkI","name":"Neşeli Pop Şarkıları","img":"https://i.ytimg.com/vi/WcIcVapfqXw/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mkQJpBKTH7S8iAdlq1khNLX-c1OhOhocM","name":"Cool Arapça","img":"https://i.ytimg.com/vi/Cs6i13GIyo8/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_k3dazOzqqDagSIBhGET4VrDKHS9dEjXPA","name":"Sakin Khaleeji","img":"https://i.ytimg.com/vi/xcCx5pkYtOI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_n_0vMGj-9WtHuj2fbdwMGsSxL_7qglBCI","name":"Rahatlatıcı Mısır Müzikleri","img":"https://i.ytimg.com/vi/ejvpVhvKesM/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kZV9OCuNPSp11tslT5Qu0NVG3WR8xGo_A","name":"Arap Kahvesi","img":"https://i.ytimg.com/vi/ejvpVhvKesM/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lX24L_CGP46xH6pM4FgXpX4yNr3jX9xpU","name":"Cardio Hip Hop","img":"https://i.ytimg.com/vi/5qm8PH4xAss/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mgTbGYlLvRaYK81TXg7JUq4_QJSmv5ok0","name":"Arapça Spor","img":"https://i.ytimg.com/vi/Ph_tbASm31Y/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mlHYBL9nz1_lgeGUTYxuP-3RP9bM4UPZw","name":"Arapça Aşk","img":"https://i.ytimg.com/vi/pDy8B_r81vY/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_noue4s9rsIYdEi4B0SlmW-UAmxLFdExPQ","name":"Khaleeji Aşk Şarkıları","img":"https://i.ytimg.com/vi/OXC9M3mrdmM/hqdefault.jpg"}
+    ]
+  },
+  {
+    "section_title": "عقود",
+    "items": [
+      {"id":"RDCLAK5uy_kG63hU__S8Rrge4JqChxFY77EllkYYtiU","name":"'10s Hits","img":"https://i.ytimg.com/vi/JGwWNGJdvx8/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kyrZb6bOpTdTXYjKEukHrBQTAmxdKAOZg","name":"2000'lerden Popüler Arapça","img":"https://i.ytimg.com/vi/60Jc7g3CwJc/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nUi8B-S9ckz5feHM7oMGyQQ_eKW2Zl9aE","name":"Avaz Avaz 2000'ler","img":"https://i.ytimg.com/vi/AJWtLf4-WWs/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lqSrdwHepiTVMT-jNl5tEGxoPCsYg0tEo","name":"2000'lerden Mısır Müzikleri","img":"https://i.ytimg.com/vi/O7Z2ukosMe0/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kpU2lLw70yfDQARwPHZczMb6XnAOzJPN8","name":"90'lardan Popüler Arapça","img":"https://i.ytimg.com/vi/KLJA-srM_yM/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_ms55UKAmQE5XAkphnhV1GPaWnd6fx_5Fc","name":"Avaz Avaz 1990'lar","img":"https://i.ytimg.com/vi/gJLIiF15wjQ/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nUb1klqZ6t3wV1pKAJ96Mfgj2tuxfSgJA","name":"90'lardan Mısır Müzikleri","img":"https://i.ytimg.com/vi/KLJA-srM_yM/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mOtWPn7u2d0KczxwxSwF-STPXHfeZ_UXw","name":"80'lerin eşlik edebileceğiniz Arapça şarkıları","img":"https://i.ytimg.com/vi/rJZ1B2IhulU/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kmPuJ7R7b9mIaF6otQaKbtFl2x94n9FDw","name":"Avaz Avaz 1980'ler","img":"https://i.ytimg.com/vi/djV11Xbc914/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lwfYRUYClF6hUd0dixuLd5S7I5r7CQoEo","name":"80'lerden Mısır Müzikleri","img":"https://i.ytimg.com/vi/rYB2rT69DBo/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nSR-QoChAT-W_U7lm3RV71eOgH5_coOkU","name":"Nostaljik Arapça","img":"https://i.ytimg.com/vi/nvr4lPoKqzI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nU2RJAlS7BH96fLlK6Eu0NgdQX46zNaWw","name":"Mısır'dan Eski Şarkılaar","img":"https://i.ytimg.com/vi/Od6LJhVvNOI/hqdefault.jpg"}
+    ]
+  },
+  {
+    "section_title": "حول العالم",
+    "items": [
+      {"id":"RDCLAK5uy_k27uu-EtQ_b5U2r26DNDZOmNqGdccUIGQ","name":"K.iNG","img":"https://i.ytimg.com/vi/7WuO_XaXsCY/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lOAAW-PX5XUed76iQefCxkOXd6m6ZvyiM","name":"Latin Now","img":"https://i.ytimg.com/vi/BgMU9Vuj17Y/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kmq8ZD0NbHbKkZZ6frtlEjd8khfeZrAd0","name":"Afrobeat zamanı","img":"https://i.ytimg.com/vi/RQOg16kmFJM/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_n9Fbdw7e6ap-98_A-8JYBmPv64v-Uaq1g","name":"Bollywood Hitlist","img":"https://i.ytimg.com/vi/Th2Op6uvNXw/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kuo_NioExeUmw07dFf8BzQ64DFFTlgE7Q","name":"Punjab Ateşi","img":"https://i.ytimg.com/vi/tlkb3cLfaOQ/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_ly6s4irLuZAcjEDwJmqcA_UtSipMyGgbQ","name":"The Hit List","img":"https://i.ytimg.com/vi/Mzgx9dp0Jdw/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_k5faEHND0iXJljeASESqJ3A8UtRr2FL00","name":"Topnejo","img":"https://i.ytimg.com/vi/10XarNSkw0s/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_k2f_-SF4oCrVKPcgHNVifHzjEHkNbvszU","name":"Filipinler'den Dinlendirici Müzikler","img":"https://i.ytimg.com/vi/omFa4Yk9Fmg/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_n1j1GACZO4o7U1m708pa7jV1q7zR-cY44","name":"FLAŞ Turkish Pop","img":"https://i.ytimg.com/vi/SQ6OL_RPcAk/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kj3rhiar1LINmyDcuFnXihEO0K1NQa2jI","name":"Alman hip hop sahnesinden en popüler parçalar.","img":"https://i.ytimg.com/vi/eMZ9IHyvwJM/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_n39vJEl_Q9L4IGJiwCHj0wP1IzLNJshqY","name":"Элита","img":"https://i.ytimg.com/vi/lxJkX1v-JyY/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nbK9qSkqYZvtMXH1fLCMmC1yn8HEm0W90","name":"J-Hits!","img":"https://i.ytimg.com/vi/SonfK-rTHPQ/hqdefault.jpg"}
+    ]
+  }
+],
+  "ja": [
+    {
+    "section_title": "新着＆トレンド",
+    "items": [
+      {"id":"RDCLAK5uy_nVjU2j4lOFyJicLDWEMjYmBkaejmrsx5M","name":"RELEASED","img":"https://i.ytimg.com/vi/7WuO_XaXsCY/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kl6OeTaLdRv4PeSblTfo75t13PAx_vzg8","name":"Hashtag Hits","img":"https://i.ytimg.com/vi/Gcvk4zcu25c/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mAXn3wpcHWlmfjpC2nSXtCUOxUdCRUP2Q","name":"Catch Up Japan","img":"https://i.ytimg.com/vi/fJI392yXm9g/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kTwZ5NfIyBzzjFuqiTyoKpigkqgPsxr74","name":"Covers Japan","img":"https://i.ytimg.com/vi/wTm2m3x3Ej8/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nnFk3RZd1AZRmPGOfN1aqrJoU8zk92iOg","name":"J-Pop'ta yükselenler","img":"https://i.ytimg.com/vi/sRj0Tpfwlr0/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_l5aa8m8-BDq-dxZGCowwrPv-VDFxSa2pM","name":"Vocaloid Hits","img":"https://i.ytimg.com/vi/19y8YTbvri8/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_ls7Hour_dLIU-qM70oNL73bVjy7pg9UtA","name":"Seul'den Tokyo'ya","img":"https://i.ytimg.com/vi/5TG_4h29VIg/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kPg2TV0-JyQhvB-uciA1_WNUELIv6vKGk","name":"Yeni J-Rock","img":"https://i.ytimg.com/vi/-6Ustxi6Mgg/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mYX7P594wNQ8ZiVm0W5ojPnZsdrNjF_JM","name":"Yeni J-Rap","img":"https://i.ytimg.com/vi/mKnDhftLR-c/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_loIETIgvjlS8xSa-krtp9SeQOB8nEpw18","name":"Yeniden Japonya","img":"https://i.ytimg.com/vi/fjSJivAPlBI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_l6Aq_7zbovuQzBhybSU9Ga-8HK070xNZk","name":"Showtime","img":"https://i.ytimg.com/vi/MjBhgmV2lJU/hqdefault.jpg"}
+    ]
+  },
+  {
+    "section_title": "春🌸",
+    "items": [
+      {"id":"RDCLAK5uy_lRj2PxRYIUGDG0p0KjsQ62d2lLYLfgXAw","name":"Spring J-Pop","img":"https://i.ytimg.com/vi/QjrkrVmC-8M/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mqEdnDxpl4TNzmZ4QNIYttSHKj0F06zi8","name":"Sakura Songs","img":"https://i.ytimg.com/vi/rpVvPAFaoqM/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_m9aCizAm3nmoGi5waYSaSFDm6XBIPl-Eo","name":"Springtime Feeling","img":"https://i.ytimg.com/vi/3sur4BmjQt8/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_khL5uRy4milJNYKDRwK571pXfYnshd16g","name":"Moral Veren Anime Şarkıları","img":"https://i.ytimg.com/vi/3Fz17pPuI4k/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nclEuDYH2pKDt4-K7DgFWrcw8bhUmkgos","name":"Dance Pop Japan","img":"https://i.ytimg.com/vi/DV_ZJZRKxZs/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kIcfhFcnJ9fdkKHw96Gvr6Q0_bAyWiZbM","name":"Reiwa Zamanından J-Pop","img":"https://i.ytimg.com/vi/LmZD-TU96q4/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kzXjLSabLv9qr8PPxWDhpCGLKedcT9Z4Y","name":"Pozitif kal","img":"https://i.ytimg.com/vi/MjeiIal1ZR0/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_muPPezCrTrwoL7Ep_9a69YkIaBjsyKTg0","name":"City Pop Today","img":"https://i.ytimg.com/vi/Px0Gp_yDiHE/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_ntdRx4j4KAbBT9I9Rh2tqgVLeODUQuygY","name":"Caz Baharı","img":"https://i.ytimg.com/vi/kq2zDGRgTz4/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_m54F1uvB7j6Vup6o3ESB-8YW1E0J9Pt80","name":"J-Pop Yol Şarkıları","img":"https://i.ytimg.com/vi/WsEhSXH497I/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mLvpLYIeQ_X8s55RNotnCgtr1aUHCm6ow","name":"J-Pop for Fresh Starts","img":"https://i.ytimg.com/vi/PZ3CB2vmGYo/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_m0wlRoNn5iCTTgBedfoOQ19Jq9P3XTLIA","name":"Pozitif Enerji Veren Pop ve Rock şarkıları","img":"https://i.ytimg.com/vi/JGwWNGJdvx8/hqdefault.jpg"}
+    ]
+  },
+  {
+    "section_title": "話題の音楽",
+    "items": [
+      {"id":"RDCLAK5uy_m1h6RaRmM8e_3k7ec4ZVJzfo2pXdLrY_k","name":"Popüler Şarkılar Listesi","img":"https://i.ytimg.com/vi/hurYJCgf-7Y/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lN7cCzqFOTV83PeDYGf_6N0DiMF4Pnl2E","name":"JAPANIQUE","img":"https://i.ytimg.com/vi/QLXHynvaH54/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nbK9qSkqYZvtMXH1fLCMmC1yn8HEm0W90","name":"J-Hits!","img":"https://i.ytimg.com/vi/SonfK-rTHPQ/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_k27uu-EtQ_b5U2r26DNDZOmNqGdccUIGQ","name":"K.iNG","img":"https://i.ytimg.com/vi/7WuO_XaXsCY/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mRcc2Y3l-RoZsDt27qu8CBGpKt-5w7v8g","name":"Anison! -Anime Songs-","img":"https://i.ytimg.com/vi/LmZD-TU96q4/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lHIxQxyz72wu0Bwn2U-t3VYz79ns_ESYQ","name":"Dijital","img":"https://i.ytimg.com/vi/moMo00VB1vQ/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_k-msS6PWOCGNcJo7gx0NQIPfyFzHglYEk","name":"J-Rock!","img":"https://i.ytimg.com/vi/OHAjc-ayhus/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nY_4tOjk2a_pNtiplJ_96RH0Hi5PQB5OQ","name":"J-Rap Flows","img":"https://i.ytimg.com/vi/9rbdaatUqwI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lWz_M51Amy8x5J-RtbH_MeNg4SWO0LZaA","name":"Groove City","img":"https://i.ytimg.com/vi/lxcZWDnmwGA/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mdDmZAbSwxQuM5T-y-RSvjAcBO5nSvarg","name":"Antenna","img":"https://i.ytimg.com/vi/2WbYksNqoTE/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kHiJYeN9KHADI5iV9WxeMU_hHtXn6o498","name":"Tokyo Club'ları","img":"https://i.ytimg.com/vi/oZ7qjq-L9oc/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mD1l6qiKHTiFmKKUax1NUznpM9m6daNTw","name":"Japon Boygroup'ları","img":"https://i.ytimg.com/vi/LAd_xp8kz60/hqdefault.jpg"}
+    ]
+  },
+  {
+    "section_title": "洋楽プレイリスト",
+    "items": [
+      {"id":"RDCLAK5uy_lBNUteBRencHzKelu5iDHwLF6mYqjL-JU","name":"Sertifikalı Pop","img":"https://i.ytimg.com/vi/V9PVRfjEBTI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kLWIr9gv1XLlPbaDS965-Db4TrBoUTxQ8","name":"Güncel En Hit Dans Parçaları","img":"https://i.ytimg.com/vi/ouEl3qTLc0M/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_k5vcGRXixxemtzK1eKDS7BeHys7mvYOdk","name":"Maksimum Desibel: Günümüzün Rock Hitleri","img":"https://i.ytimg.com/vi/DIEI2YLYg6o/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lBGRuQnsG37Akr1CY4SxL0VWFbPrbO4gs","name":"Günün Hip-Hop Parçaları","img":"https://i.ytimg.com/vi/2wI4_-aMSk0/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_m0Nsi5Jnn_g6qbvc7fywPRhEv1qN0PcMM","name":"Bugün'ün İndie Hitleri","img":"https://i.ytimg.com/vi/03e4eK64h4s/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mu-BhJj3yO1OXEMzahs_aJVtNWJwAwFEE","name":"Highline R&B","img":"https://i.ytimg.com/vi/KFMYx1TibeQ/hqdefault.jpg"}
+    ]
+  },
+  {
+    "section_title": "ムードにあわせて",
+    "items": [
+      {"id":"RDCLAK5uy_kvhjcPWzH7xZL-WnqGbiA_euQGy5_cbHI","name":"Avaz Avaz J-Pop","img":"https://i.ytimg.com/vi/LmZD-TU96q4/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kzXjLSabLv9qr8PPxWDhpCGLKedcT9Z4Y","name":"Pozitif kal","img":"https://i.ytimg.com/vi/MjeiIal1ZR0/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_m1CIAqS3N5vxATzzTCZOlQ2uyt6DdjqYY","name":"Rahatlatıcı J-Pop","img":"https://i.ytimg.com/vi/RoY_ZoWe-eI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_k_OEunzsOIJ_BOfbbTDgYN253bcPItURY","name":"Stres atan J-Pop","img":"https://i.ytimg.com/vi/NLIGDjKBLY0/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lgxk3X3ael8lmDjj9eNZ57byzI7hSWFNs","name":"Japonya'nın Aşk Şarkıları","img":"https://i.ytimg.com/vi/bWlknrhWjVw/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lyevq8yYHBWApU2AKRwrLdcWFXaRk94kk","name":"J-Lofi","img":"https://i.ytimg.com/vi/2nlpHXVBG2Q/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kb7EBi6y3GrtJri4_ZH56Ms786DFEimbM","name":"Lofi Loft","img":"https://i.ytimg.com/vi/JgI6z6aQhEA/hqdefault.jpg"}
+    ]
+  },
+  {
+    "section_title": "懐かしの音楽",
+    "items": [
+      {"id":"RDCLAK5uy_kDTLUEleq2B4vQB6JB5P1DApC4nRayHUs","name":"Japan Big Hits","img":"https://i.ytimg.com/vi/4wuWJ7GAc2s/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kCiC2hty_MCamSRVBdl1Bhcu-vRWxPBJw","name":"'10s J-Tunes Hits","img":"https://i.ytimg.com/vi/jhOVibLEDhA/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kjp6zyHpOx8iOCNf3PsYthXDWTY8ZtlW0","name":"2000'lerden Japonca Şarkılar","img":"https://i.ytimg.com/vi/zIEf-xJ8VE4/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_marQRZafMZINvyjyl_52k3oz1UJxs3Hk4","name":"1990'lardan Japonca Şarkılar","img":"https://i.ytimg.com/vi/HUTbH6ywrXk/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kEKTPKBC1v7lmR6uIdqDp6jg4R67imeXs","name":"1980'lerden Japonca Şarkılar","img":"https://i.ytimg.com/vi/pNNn0izjwDI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mnvuhZke__zGYhdT9rP6Et9jnmfGR2azc","name":"1970'lerden Japonca Şarkılar","img":"https://i.ytimg.com/vi/gfFy_xE0qOU/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mr4jZnUpTfqqDqv04G7nf6o2ZtlJpNRMk","name":"Heisei Era Hits","img":"https://i.ytimg.com/vi/upODO6OuOOk/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_k1xPjCtMRjetA1MAL7uvdG07c1BY4zHEw","name":"Showa Era Hits","img":"https://i.ytimg.com/vi/LsD7untORmo/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nuGXzOVdFHWvrqVQZr_2kWzGvVse4lejU","name":"Replay Japan","img":"https://i.ytimg.com/vi/H08YWE4CIFQ/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nCcK0iT_VrFHUW0o4uPHHWoO831lk2yww","name":"J-Rock Replay","img":"https://i.ytimg.com/vi/kGY6N9DL4Jw/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_n_0oxNdu51kEhJd9zfZCJlaJhwMaOCwWI","name":"J-Rap Replay","img":"https://i.ytimg.com/vi/wFJcIOMsOaU/hqdefault.jpg"}
+    ]
+  }
+],
+  "zh": [
+    {
+    "section_title": "最新上架及熱門歌曲",
+    "items": [
+      {"id":"RDCLAK5uy_mOmfogvkugBD9vd5EbejT2y82WidC6as0","name":"RELEASED","img":"https://i.ytimg.com/vi/zurhFnClzd4/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nLkOG7ku-sA7GVAnStgGCwcF-KnWmnMDI","name":"The Hit List","img":"https://i.ytimg.com/vi/5sOgJQ3N03Q/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mTDHYYJLCkFv8XL1Z8AFkMqF9RfQZzeRc","name":"Mando Flow","img":"https://i.ytimg.com/vi/qj2uhy6lgG4/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_ms281XCNJ52jooEbIELW2_VAp1GJ96qL4","name":"Canto Flow","img":"https://i.ytimg.com/vi/8NYRlCf3Kp8/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lBNUteBRencHzKelu5iDHwLF6mYqjL-JU","name":"Sertifikalı Pop","img":"https://i.ytimg.com/vi/V9PVRfjEBTI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lBGRuQnsG37Akr1CY4SxL0VWFbPrbO4gs","name":"Günün Hip-Hop Parçaları","img":"https://i.ytimg.com/vi/2wI4_-aMSk0/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mu-BhJj3yO1OXEMzahs_aJVtNWJwAwFEE","name":"Highline R&B","img":"https://i.ytimg.com/vi/KFMYx1TibeQ/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_k5vcGRXixxemtzK1eKDS7BeHys7mvYOdk","name":"Maksimum Desibel: Günümüzün Rock Hitleri","img":"https://i.ytimg.com/vi/DIEI2YLYg6o/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lJ8xZWiZj2GCw7MArjakb6b0zfvqwldps","name":"Country Hotlist","img":"https://i.ytimg.com/vi/nUsrYVxrDwI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kLWIr9gv1XLlPbaDS965-Db4TrBoUTxQ8","name":"Güncel En Hit Dans Parçaları","img":"https://i.ytimg.com/vi/ouEl3qTLc0M/hqdefault.jpg"}
+    ]
+  },
+  {
+    "section_title": "台灣音樂",
+    "items": [
+      {"id":"RDCLAK5uy_n_sz-xNYVBufENsdri7PFhP8ybpfkIlck","name":"Slow Mandopop","img":"https://i.ytimg.com/vi/AeatuvJ2jEQ/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mijutvVbzp7bbNlWt-B5U90qb5KplCkSQ","name":"Kafa Yormayan Mandopop","img":"https://i.ytimg.com/vi/AeatuvJ2jEQ/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_m4l9o8KGwQKrYuWFr1ej7hSrYOQDP6Jxw","name":"Pozitif Mandopop","img":"https://i.ytimg.com/vi/qj2uhy6lgG4/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nL9A_iWyUHayr1Xl5ZVwdZEwcOoPxn_o0","name":"Mandopop - Rap Aşkı","img":"https://i.ytimg.com/vi/dXgmoqhJIak/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lLKgIq0wXa-0Bo3gxebeQUwEBS3DtXjPg","name":"Mandopop Partisi","img":"https://i.ytimg.com/vi/w6_sChrkvw8/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nOraQS0DsAIt0F62Go-ztE9P4ssuIiL8c","name":"Mandopop - Rap Enerjisi","img":"https://i.ytimg.com/vi/dXgmoqhJIak/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_k9CSSpu431aC3IKxRhWmb5shTE8Em2y9Y","name":"Pozitif Mandopop Indie","img":"https://i.ytimg.com/vi/RcU8cCdhNp4/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mQM2-qOVfLCD2ZceUahSVgk4O1QoWCTZA","name":"Feel-Good Mandopop Hip-Hop","img":"https://i.ytimg.com/vi/cKRbMErj1LU/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nYonIJ562G-N9flfOyDmQY9GZ1A3k52Po","name":"Mandopop Rock 0026 Roll","img":"https://i.ytimg.com/vi/B2QoeaMJfps/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_majSkod416xBCGyhCK2uJbRgXCKVooQVU","name":"Slow Mandopop Indie Folk","img":"https://i.ytimg.com/vi/vEEpj8fTKwY/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_l8d3jZelEBCQHd9zKjONeTIpKcIK5FmmQ","name":"Mandopop Antrenmanı","img":"https://i.ytimg.com/vi/R2V9sHAlLuQ/hqdefault.jpg"}
+    ]
+  },
+  {
+    "section_title": "香港音樂",
+    "items": [
+      {"id":"RDCLAK5uy_lGZNsVQescoTzcvJkcEhSjpyn_98D4lq0","name":"Hong Kong'tan Aşk Şarkıları","img":"https://i.ytimg.com/vi/u14rrcxENDw/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lu4zadEar1WsI9-5kNL0ghpzte6evjqvk","name":"Hong Kong'dan Taze Taze","img":"https://i.ytimg.com/vi/B50VcJZvTI0/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kaFr0sT0OaeHejrSJXFr56IxrGf16TabY","name":"Slow Hong Kong Baladları","img":"https://i.ytimg.com/vi/s1Cf-BxwcyU/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mzon5sauDRzs4GQ0BJkeco7JAsB_nU43Q","name":"Hong Kong Enerjisi","img":"https://i.ytimg.com/vi/VolvXNFcWgM/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lLflfGbT8-l2FIVbzfyU5NH5n8DJpYLlo","name":"Hong Kong Party Music","img":"https://i.ytimg.com/vi/pBjz4qzj_zs/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_myH2Fs8dFJD5G5Qgb6XyRdsv8HRyCP4DE","name":"Refreshing Hong Kong Rock","img":"https://i.ytimg.com/vi/gXsmyDwkUno/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_k9H9MQqygYinUt6yfEdThre0gsfnvILng","name":"Hong Kong'tan Enerjik Rap","img":"https://i.ytimg.com/vi/Kh52aLqwXzI/hqdefault.jpg"}
+    ]
+  },
+  {
+    "section_title": "流行播放列表",
+    "items": [
+      {"id":"RDCLAK5uy_mfdqvCAl8wodlx2P2_Ai2gNkiRDAufkkI","name":"Neşeli Pop Şarkıları","img":"https://i.ytimg.com/vi/WcIcVapfqXw/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kY7Uomg8uSGAGuvMIKc3HsVg_ipocKTrE","name":"Pozitif Enerji Veren Pop Şarkıları","img":"https://i.ytimg.com/vi/U8QhB8_0t2g/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lb6CVU6S4uVugLVNTU9WhqfaomWAgnho4","name":"Avaz Avaz Söylenecek Pop Şarkıları","img":"https://i.ytimg.com/vi/pa14VNsdSYM/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_m2516Cz955UxQM4DgjKPrKeGwAcQ6wj3Q","name":"Popüler Funky Pop","img":"https://i.ytimg.com/vi/PMivT7MJ41M/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lOprH1vCx0efMJQDYichTFzifw_BkJgbg","name":"Pozitif Enerji Veren R&B ve Pop","img":"https://i.ytimg.com/vi/KNtJGQkC-WI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nUi8B-S9ckz5feHM7oMGyQQ_eKW2Zl9aE","name":"Avaz Avaz 2000'ler","img":"https://i.ytimg.com/vi/AJWtLf4-WWs/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_loc3QkpRI5iaLbS_laJf0_OwzvPeAYrYc","name":"Klasik Pop Partisi","img":"https://i.ytimg.com/vi/-N4jf6rtyuw/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_k5DxhF_vXgbHHoaQ_d2hRBlY11Qgr3xpY","name":"Güneşli Günler İçin Pop","img":"https://i.ytimg.com/vi/b7k0a5hYnSI/hqdefault.jpg"}
+    ]
+  },
+  {
+    "section_title": "韓國流行音樂熱門歌曲",
+    "items": [
+      {"id":"RDCLAK5uy_k27uu-EtQ_b5U2r26DNDZOmNqGdccUIGQ","name":"K.iNG","img":"https://i.ytimg.com/vi/7WuO_XaXsCY/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_l7wbVbkC-dG5fyEQQsBfjm_z3dLAhYyvo","name":"K-HITLIST","img":"https://i.ytimg.com/vi/1o5O2YvV3HU/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lxJoqDuhroQAeOd42owT2IKtZJYRpx5hw","name":"K-RISING","img":"https://i.ytimg.com/vi/O8dR2eWKq8A/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nMqMWmqwZwDvMcqcAohgO_Dp_7zT1nSC8","name":"BEAT ON","img":"https://i.ytimg.com/vi/5sOgJQ3N03Q/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lYPvoz4gPFnKMw_BFojpMk7xRSIqVBkEE","name":"SWAG ON","img":"https://i.ytimg.com/vi/WmOwzwSaUxI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_m9ty3WvAucm7-5KsKdro9_HnocE8LSS9o","name":"감성 On","img":"https://i.ytimg.com/vi/XRI4IKyslKc/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mHW5bcduhjB-PkTePAe6EoRMj1xNT8gzY","name":"K-Pop Kızlar Zirvesi","img":"https://i.ytimg.com/vi/CgCVZdcKcqY/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kSZ85qHgyyqQCKkCtrjbA3m8Am7GfOTcQ","name":"Kore'den Dizi Müzikleri","img":"https://i.ytimg.com/vi/yebNIHKAC4A/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lYcZ4MYVJGyRwpiW773f6tOgQGK8rqD9Q","name":"K-Pop Hakkında Her Şey","img":"https://i.ytimg.com/vi/jOnLqqDRfY4/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nEcCeflWNpzQNRExtAKjKkkX96wjom9Nc","name":"Kore Rap'iyle Seul Kapında","img":"https://i.ytimg.com/vi/EC9_h_elSAY/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_l7K78k4EkjcFojhd1617rmUjY-aet6-t0","name":"K-Pop Partisi","img":"https://i.ytimg.com/vi/RBaSiVjtKR4/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_m-MIH8e5UE7ERgHzrDjfMRhP-S-lWdzu4","name":"Duygusal K-Pop","img":"https://i.ytimg.com/vi/1BiWkZDiY7s/hqdefault.jpg"}
+    ]
+  },
+  {
+    "section_title": "日本流行音樂熱門歌曲",
+    "items": [
+      {"id":"RDCLAK5uy_nbK9qSkqYZvtMXH1fLCMmC1yn8HEm0W90","name":"J-Hits!","img":"https://i.ytimg.com/vi/SonfK-rTHPQ/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_k-msS6PWOCGNcJo7gx0NQIPfyFzHglYEk","name":"J-Rock!","img":"https://i.ytimg.com/vi/OHAjc-ayhus/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nY_4tOjk2a_pNtiplJ_96RH0Hi5PQB5OQ","name":"J-Rap Flows","img":"https://i.ytimg.com/vi/9rbdaatUqwI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mD1l6qiKHTiFmKKUax1NUznpM9m6daNTw","name":"Japon Boygroup'ları","img":"https://i.ytimg.com/vi/LAd_xp8kz60/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nrlkrr_u-6YV9RYdd7n2oSZgijayoiBHg","name":"Idol Japan","img":"https://i.ytimg.com/vi/ZqQzEQ629qg/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lWz_M51Amy8x5J-RtbH_MeNg4SWO0LZaA","name":"Groove City","img":"https://i.ytimg.com/vi/lxcZWDnmwGA/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lHIxQxyz72wu0Bwn2U-t3VYz79ns_ESYQ","name":"Dijital","img":"https://i.ytimg.com/vi/moMo00VB1vQ/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kcW2SIN71BXYfkt6m77btIWGW3X0pr8ew","name":"SSW","img":"https://i.ytimg.com/vi/qJmg-NDEBD0/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mdDmZAbSwxQuM5T-y-RSvjAcBO5nSvarg","name":"Antenna","img":"https://i.ytimg.com/vi/2WbYksNqoTE/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kDTLUEleq2B4vQB6JB5P1DApC4nRayHUs","name":"Japan Big Hits","img":"https://i.ytimg.com/vi/4wuWJ7GAc2s/hqdefault.jpg"}
+    ]
+  }
+],
+   "hi": [
+     {
+    "section_title": "India's Biggest Hits",
+    "items": [
+      {"id":"RDCLAK5uy_n9Fbdw7e6ap-98_A-8JYBmPv64v-Uaq1g","name":"Bollywood Hitlist","img":"https://i.ytimg.com/vi/Th2Op6uvNXw/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kuo_NioExeUmw07dFf8BzQ64DFFTlgE7Q","name":"Punjab Ateşi","img":"https://i.ytimg.com/vi/tlkb3cLfaOQ/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lj-zBExVYl7YN_NxXboDIh4A-wKGfgzNY","name":"I-Pop Hits!","img":"https://i.ytimg.com/vi/ITFYDGPHRg8/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lyVnWI5JnuwKJiuE-n1x-Un0mj9WlEyZw","name":"Tollywood Hitlist","img":"https://i.ytimg.com/vi/hcNVG7JCxoE/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nTbyVypdXPQd00z15bTWjZr7pG-26yyQ4","name":"Kollywood Hitlist","img":"https://i.ytimg.com/vi/WsHm_cWsANY/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mOvRWCE7v4C98UgkSVh5FTlD3osGjolas","name":"EKDUM","img":"https://i.ytimg.com/vi/tlkb3cLfaOQ/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_n17q7_2dwfDqWckpccDyTTkZ-g03jXuII","name":"Yükselen İndie","img":"https://i.ytimg.com/vi/3pjXCg_DO0c/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nhLiD_PquxQnzA35YpoaaAUv2ikZuYFgw","name":"Haryanvi Hitlist","img":"https://i.ytimg.com/vi/yrjDEU9F1bw/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nlUHwf0SaQlGN6n_1ZtWhhplysMPwjP2k","name":"Bhojpuri Hitlist","img":"https://i.ytimg.com/vi/cFlnBFkf1YI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nT-zkEpc2x7AVVP0XV9JvHSfkFsOtGMR8","name":"Mollywood Hitlist","img":"https://i.ytimg.com/vi/kzpS-A3QJqE/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mPBQePobkU9UZ100tOTfvTCdwWOHoiiPo","name":"Sandalwood Hitlist","img":"https://i.ytimg.com/vi/eVQ_YXv_bmc/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kjNBBWqyQ_Cy14B0P4xrcKgd39CRjXXKk","name":"Bollywood Dance Hitlist","img":"https://i.ytimg.com/vi/dESIGVxSSCE/hqdefault.jpg"}
+    ]
+  },
+  {
+    "section_title": "Discover New Music",
+    "items": [
+      {"id":"RDCLAK5uy_ksEjgm3H_7zOJ_RHzRjN1wY-_FFcs7aAU","name":"RELEASED","img":"https://i.ytimg.com/vi/5meceygQZ-s/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nNhhgRET3NcJ4SJBvqhAIJ6t7vjsQYowc","name":"Yeni Hint Müziği","img":"https://i.ytimg.com/vi/F7kP6phFY5M/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kkkZR6KAV5kBSqDCeaBb_pDDhA83VGFwg","name":"Pop Before It Breaks","img":"https://i.ytimg.com/vi/rnaO3ThJPlk/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mk3xwsayv9PxawuXS-U6ao9eMeNmSwYAM","name":"Yeni Pencap Müziği","img":"https://i.ytimg.com/vi/5meceygQZ-s/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_l8CaYQvBQWVT2st1VsW9JjODWisR_vd3U","name":"Yeni Telugu Müziği","img":"https://i.ytimg.com/vi/W5TMOqL045I/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nVQAtE2KBWk-ROQIc5o39Oup3hOLnYV0g","name":"Yeni Tamil Müziği","img":"https://i.ytimg.com/vi/XXo-VzYUIjo/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_k66J6mE65JgdE4zoeNSzmw_16JB_ueINE","name":"Yeni Hint Popu","img":"https://i.ytimg.com/vi/EjGvHicPSlk/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mDTfR8UPbTurG-Riq7QDI5mjT4a7H5eoI","name":"Ekdum Fresh","img":"https://i.ytimg.com/vi/o-iWYlgdUHw/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_l8jPcXx__5Dsu2D7vTiXPlO8pZhZsjBFk","name":"Yeni Hintli Indie","img":"https://i.ytimg.com/vi/UKLtxKOPxmY/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nTkyDVpCk3iCQG_3bDJyhGgb1uzcBZM4A","name":"Yeni Haryanvi Müzikleri","img":"https://i.ytimg.com/vi/JC6GEfjkyqE/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_k7O9KByATGA1TqFYhyOkylpJ6fM1avtww","name":"Clout Rising","img":"https://i.ytimg.com/vi/NSZ26l3DIKE/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nGZRi-an-ruqiZlNJSGhCDHucdp2FBNfI","name":"Yeni Nesil R&B","img":"https://i.ytimg.com/vi/1afjjqJUxQg/hqdefault.jpg"}
+    ]
+  },
+  {
+    "section_title": "Today's Global Hits",
+    "items": [
+      {"id":"RDCLAK5uy_kmPRjHDECIcuVwnKsx2Ng7fyNgFKWNJFs","name":"The Hit List","img":"https://i.ytimg.com/vi/nUsrYVxrDwI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lBGRuQnsG37Akr1CY4SxL0VWFbPrbO4gs","name":"Günün Hip-Hop Parçaları","img":"https://i.ytimg.com/vi/2wI4_-aMSk0/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lBNUteBRencHzKelu5iDHwLF6mYqjL-JU","name":"Sertifikalı Pop","img":"https://i.ytimg.com/vi/V9PVRfjEBTI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lJ8xZWiZj2GCw7MArjakb6b0zfvqwldps","name":"Country Hotlist","img":"https://i.ytimg.com/vi/nUsrYVxrDwI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kLWIr9gv1XLlPbaDS965-Db4TrBoUTxQ8","name":"Güncel En Hit Dans Parçaları","img":"https://i.ytimg.com/vi/ouEl3qTLc0M/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nHGuTnohZ82uuk0HQle7s-UgP7h3aoCqg","name":"Taze Elektronik Dans Müziği","img":"https://i.ytimg.com/vi/Le97EH-ozlQ/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_k5vcGRXixxemtzK1eKDS7BeHys7mvYOdk","name":"Maksimum Desibel: Günümüzün Rock Hitleri","img":"https://i.ytimg.com/vi/DIEI2YLYg6o/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kG3nZ1Boo4N_xKIZZcyZESTnLlhBgD06k","name":"Sub Condiment","img":"https://i.ytimg.com/vi/K1UtHznqhPk/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_m0Nsi5Jnn_g6qbvc7fywPRhEv1qN0PcMM","name":"Bugün'ün İndie Hitleri","img":"https://i.ytimg.com/vi/03e4eK64h4s/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kvnwY7lh8VQkr7uLLsFPB06mhIwKAljbE","name":"Diretoria Brazil Hits","img":"https://i.ytimg.com/vi/NzzWICQ_gHM/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mu-BhJj3yO1OXEMzahs_aJVtNWJwAwFEE","name":"Highline R&B","img":"https://i.ytimg.com/vi/KFMYx1TibeQ/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_k27uu-EtQ_b5U2r26DNDZOmNqGdccUIGQ","name":"K.iNG","img":"https://i.ytimg.com/vi/7WuO_XaXsCY/hqdefault.jpg"}
+    ]
+  },
+  {
+    "section_title": "Dance Dance Dance",
+    "items": [
+      {"id":"RDCLAK5uy_l_Bj8rMsjkhFMMs-eLrA17_zjr9r6g_Eg","name":"Bollywood Party","img":"https://i.ytimg.com/vi/YyepU5ztLf4/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nlOMew8qv8HGXb9HbshuU1OgH3aL_JMKA","name":"Punjabi Party Mix","img":"https://i.ytimg.com/vi/9wTEmuv6SvU/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nGC5IUV3lYF-P_wGb-LzMPFydA-RkPblc","name":"Tollywood Party Mix","img":"https://i.ytimg.com/vi/c2nHxn2P5EU/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_m_cn307EUnwiDOgAsOMM27CHhuJCX2ygk","name":"Desi Pop Partisi","img":"https://i.ytimg.com/vi/iOgR7hi90Ac/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_n7VIYx-oWOJQanlpBG6GRyLZxpWYMltB8","name":"Bhojpuri Partisi","img":"https://i.ytimg.com/vi/r8xjolKSPv8/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mN9vO_dypsJubNdWlO5JSTtCA0SI3o-88","name":"Haryanvi Partisi","img":"https://i.ytimg.com/vi/ZvXN0TcZLfQ/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kiDNaS5nAXxdzsqFElFKKKs0GUEFJE26w","name":"90s Bollywood Dance","img":"https://i.ytimg.com/vi/NROnIDjCudg/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nSkDb-Lz4JW4INCXyg42stHqPqg4qCDfc","name":"Machayenge Kya","img":"https://i.ytimg.com/vi/BpWK_4hrQTs/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kxyDfb8adHA-cigfDo_m-thB3GIvSiQSQ","name":"Kollywood Partisi","img":"https://i.ytimg.com/vi/2qCpY38ompo/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mDQBWjkxNbiV9e4n49YdIBAFm9azhvrCI","name":"Hintçe Indie Partisi","img":"https://i.ytimg.com/vi/rNhFzCsDSh8/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lXm4Xn4GwyFVjP0xgJvoZ6cdeBJZUmgSw","name":"Mollywood Partisi","img":"https://i.ytimg.com/vi/Xkwq6kqDlkQ/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kymAL5cE4HeekmTy6-3OXYuAucHRpvJ28","name":"Marathi Partisi","img":"https://i.ytimg.com/vi/sUf2PtEZris/hqdefault.jpg"}
+    ]
+  },
+  {
+    "section_title": "Romance",
+    "items": [
+      {"id":"RDCLAK5uy_mypHeJ-B5f7-OgrxJcXeiHSotjIJ_UDhQ","name":"Bollywood Romance Hitlist","img":"https://i.ytimg.com/vi/GX9x62kFsVU/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lbfDqlFOiRJekoTwNgiES65gcham4ZelA","name":"Bollywood: Öpüşme müzikleri","img":"https://i.ytimg.com/vi/BSJa1UytM8w/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mErBkQfx-R-FQHnM6CsikE72lJlMuFKNs","name":"Tollywood Romance Hitlist","img":"https://i.ytimg.com/vi/ykTzD9M7Ctk/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mUvTtdERIHEiVAHIkV3GRndrY-H4M2nnA","name":"Punjabi Romance Hitlist","img":"https://i.ytimg.com/vi/SZisWzyBdHI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mXUrV3_kqn3WUflvb3nZr35f3F5Q049H0","name":"Romantik Kollywood Hitlist","img":"https://i.ytimg.com/vi/iF5OOYEn6Q8/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_l-eWGUE283_FOVP60LfNdv6rjkDd-yGbQ","name":"Whispers In Bed","img":"https://i.ytimg.com/vi/gPpQNzQP6gE/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nvuvhmyPOP2y3L7hx-QYL7ABCl2E1amQQ","name":"I-Pop Romance","img":"https://i.ytimg.com/vi/n2dVFdqMYGA/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_l1oO11DBO4FD8U7bOrqUKK5Y_PkISUMQM","name":"Sweetheart Pop","img":"https://i.ytimg.com/vi/wqgUzLHgNMI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mgEm8q7vw-VJ8DeKUOCZqKgileRj9GnQ4","name":"Popüler Romantik Bollywood","img":"https://i.ytimg.com/vi/lBvbNxiVmZA/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mrtv7Q8jbt2mDcDC6z7wcWfk26dtOIBmc","name":"Slow Romantic Punjabi Songs","img":"https://i.ytimg.com/vi/rCOWo_CTYtc/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nLOvZAnN86K4f-fJ6tUi0xHUPBHLBBkVE","name":"Romantik Hindu Klasikleri","img":"https://i.ytimg.com/vi/0hVw_W9QGzQ/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kWKAcJROkxDk9mOVmfDSv9cycK_-Ci2yA","name":"00s Bollywood Romance","img":"https://i.ytimg.com/vi/m6Y8xEfyXTs/hqdefault.jpg"}
+    ]
+  },
+  {
+    "section_title": "All Time Hits",
+    "items": [
+      {"id":"RDCLAK5uy_mLJf8i5vYsqR7oTk6CNO4Ge49J3OU4sRs","name":"Eski Bollywood Klasikleri","img":"https://i.ytimg.com/vi/XuCp0r3vhPQ/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kw2wIlEv9llILhO0qoMTLsBBhmjzuibAc","name":"All-Time Hip Hop Hits","img":"https://i.ytimg.com/vi/xpVfcZ0ZcFM/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nmS3YoxSwVVQk9lEQJ0UX4ZCjXsW_psU8","name":"Listebaşı Pop","img":"https://i.ytimg.com/vi/ic8j13piAhQ/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kGe1PylaE2pmTrZZZh8PWLlh7eelpeZwo","name":"Iconic Kollywood Hits","img":"https://i.ytimg.com/vi/KUN5Uf9mObQ/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_loJPSV6vieb07DOApAZTqxQ2xQ85p-ix8","name":"Telugu Retro Essentials","img":"https://i.ytimg.com/vi/fmAJibQIvLY/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lGCIuty60Rwpfv_C841kKqn-1jZvggfZY","name":"Karnatik Klasikleri","img":"https://i.ytimg.com/vi/t6qB0dN0c_I/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lyuGyT2hcVaZaLltpUTw-2zy-9Jz0nTlY","name":"En Bilinen Hindustani Müzikler","img":"https://i.ytimg.com/vi/imuuKMDOZVk/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nusa99pjb23HT86uCZf-JW2rjJIGnpp_g","name":"Hindistan'dan Popüler Gazel","img":"https://i.ytimg.com/vi/gR240naAVP0/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_ne9LK1yhdHJsvZNIsmDirK1WT-sl7q8sQ","name":"Iconic Bollywood Hits","img":"https://i.ytimg.com/vi/QcQpqWhTBCE/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lWl4R36HfTugJP8kuewuq11tzUIB-cvnU","name":"Axomi Tamam Sangeet","img":"https://i.ytimg.com/vi/xlH3oCKnVfo/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kFs4DBLn3pFmAiXodtYyzaB5Xa_njue3A","name":"Hindistan'ın Unutulmaz İndie'si","img":"https://i.ytimg.com/vi/zZasH6qkn8M/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lhO-w4BZWObj7daKVuBz_A2wORvjyBCZU","name":"Heavy Metal Klasikleri","img":"https://i.ytimg.com/vi/6xjJ2XIbGRk/hqdefault.jpg"}
+    ]
+  },
+  {
+    "section_title": "90s Magic",
+    "items": [
+      {"id":"RDCLAK5uy_kiDNaS5nAXxdzsqFElFKKKs0GUEFJE26w","name":"90s Bollywood Dance","img":"https://i.ytimg.com/vi/NROnIDjCudg/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_l9nSIU91U-FUBH_0P9wB3dVewP9gCwD2Y","name":"1990'lardan Slow R&B","img":"https://i.ytimg.com/vi/YBB8valskCQ/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_n-6deo45Lmg4QTpcrmpalSGb46Z6eWpc4","name":"'90s Kollywood","img":"https://i.ytimg.com/vi/Z2b2STaRSDI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nOk4cfi6qEweyqTpziNz5hUzjCRnLzOqw","name":"90s Tollywood Romance","img":"https://i.ytimg.com/vi/Mq_gkVaMx64/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kiVGsxsxfhDCvIsBIQ1k3V0hRPeEz6SuE","name":"'90s One-Hit Wonders","img":"https://i.ytimg.com/vi/1lyu1KKwC74/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lG9Y0ygyS7rido4vIJF0reMGFWunV1d2Y","name":"90s Kollywood Romance","img":"https://i.ytimg.com/vi/mmc-FNhZwQU/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lHpBhjR3PefMmM-_sCM4cWOY6AcpxtCIk","name":"90s Chill: Bollywood","img":"https://i.ytimg.com/vi/sWqjZpBtcxc/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_myv3cB_L96tlcINvAx0uS9LdgTdweJMYM","name":"90'lar Hint Pop","img":"https://i.ytimg.com/vi/0tjVtYtZ384/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_ne3DJMol0EVIfwcuZnx2hQak0q6EbeBlY","name":"Essential '90s R&B","img":"https://i.ytimg.com/vi/DXvMT_mVbqw/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_l0pAECrSAnyfXn-bgZ6XveIzAjDixOiX0","name":"'90s Hip Hop","img":"https://i.ytimg.com/vi/aIXyKmElvv8/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_l5yCzA40GyoUM9jTOmiTp0xVj3Qx4Wjjk","name":"90s Soothing Tollywood","img":"https://i.ytimg.com/vi/efv3iHUarxY/hqdefault.jpg"}
+    ]
+  }
 ]
 }
