@@ -148,101 +148,71 @@
 ],
   "en": [
     {
-      "section_title": "New and trending",
-      "items": [
-        { "id": "RDCLAK5uy_lx_HcGQ3dqhBbBk3aaZPWoy2trdcdhfio", "name": "RELEASED", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_lx_HcGQ3dqhBbBk3aaZPWoy2trdcdhfio/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICPDYks8GEAE=&rs=AOn4CLD_6qJSO1HX-NuecU22AIVo87UkwQ&v=1776594032" },
-        { "id": "RDCLAK5uy_n3-fNPhB7TmNTTBRXDZhcnQJg2ahWDIY8", "name": "Drum & Bass 2026", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_n3-fNPhB7TmNTTBRXDZhcnQJg2ahWDIY8/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICMCe5M4GEAE=&rs=AOn4CLDsx3EZ2JcA4sG8Ul2TGuf-SQovEg&v=1775832896" },
-        { "id": "RDCLAK5uy_nOwL35BM_GUTEbdbw_9FmvQhPWWdd3sAg", "name": "Pop Fresh", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_nOwL35BM_GUTEbdbw_9FmvQhPWWdd3sAg/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICOb5mc8GEAE=&rs=AOn4CLDQjGyz5XNPwcyK2z2xvz5wDL_uBw&v=1776712934" },
-        { "id": "RDCLAK5uy_kLwgLlrxA4-_EchctXgTyHR4rwRaRv1wk", "name": "House Music 2026", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_kLwgLlrxA4-_EchctXgTyHR4rwRaRv1wk/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICOvR9c4GEAE=&rs=AOn4CLB-kdkIdXQjg35v8AiPExtkLYiZ3A&v=1776117995" },
-        { "id": "RDCLAK5uy_k5hnUgn7gTVO6aiZQF2qcSlxzNB-iF5rk", "name": "Sokaklar: Drill & Street Rap", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_k5hnUgn7gTVO6aiZQF2qcSlxzNB-iF5rk/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICJTUhc8GEAE=&rs=AOn4CLDBYBwKAAoWvrbwUZdPHEXaRPzldA&v=1776380436" },
-        { "id": "RDCLAK5uy_kBbljBMZ2exMXUc3MZdtXHsMwvGqf3eE8", "name": "Yeni Electronica", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_kBbljBMZ2exMXUc3MZdtXHsMwvGqf3eE8/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICNGJms8GEAE=&rs=AOn4CLBw_tcfMkqnPp58xK0ZMIVnUNKoZw&v=1776714961" },
-        { "id": "RDCLAK5uy_lDmrvWsJapdRC-uQzUdJmc1tPWB-jkzRM", "name": "Elektronik Ritimler", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_lDmrvWsJapdRC-uQzUdJmc1tPWB-jkzRM/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICNeMms8GEAE=&rs=AOn4CLAyzupzZtGH7XuODnxlxpj89Vg3Gg&v=1776715351" },
-        { "id": "RDCLAK5uy_l4QirOJJ99DTK5t5h7PdS_apsSClRfPpc", "name": "Yeni Alternatif ve Indie", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_l4QirOJJ99DTK5t5h7PdS_apsSClRfPpc/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICJXUhc8GEAE=&rs=AOn4CLD8MlfLg7-0cWNvnJJJUmTM9cgXmQ&v=1776380437" },
-        { "id": "RDCLAK5uy_k0KkqT3D_36qFNHE9rq_Iz8VT-ZV7Jt0o", "name": "Alt-Frequencies", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_k0KkqT3D_36qFNHE9rq_Iz8VT-ZV7Jt0o/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICJ3Uhc8GEAE=&rs=AOn4CLDLFvkgJeYUlkbPkH2VB5OxDCdEzA&v=1776380445" },
-        { "id": "RDCLAK5uy_kHqJTKgRLbBjlK0SRmaLgecTtXtyAhjvs", "name": "Yeni Dans 2026", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_kHqJTKgRLbBjlK0SRmaLgecTtXtyAhjvs/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICNOnms8GEAE=&rs=AOn4CLBKe9tzHuXgtDUxjEdI_aXvP6uFMA&v=1776718803" },
-        { "id": "RDCLAK5uy_nh3v6aejB2HjZPMJa7uuCMfyIKyH2K-kw", "name": "Heavy Stereo", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_nh3v6aejB2HjZPMJa7uuCMfyIKyH2K-kw/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICJPUhc8GEAE=&rs=AOn4CLDh2_XaRYZAHZlJdInlcX20VQPT_A&v=1776380435" },
-        { "id": "RDCLAK5uy_lFvj5xRFCJBtjkjdaPBCqiGOIxFjvsHI8", "name": "Underground Grime", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_lFvj5xRFCJBtjkjdaPBCqiGOIxFjvsHI8/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICLX4o88GEAE=&rs=AOn4CLBEN6zMk9FbqxrVCqy63wFm-R5PEA&v=1776876597" }
-      ]
-    },
-    {
-      "section_title": "Today's hits",
-      "items": [
-        { "id": "RDCLAK5uy_mkLtojKLOUUGwnu3ZnN5AaODijlieB-aQ", "name": "The Hit List", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_mkLtojKLOUUGwnu3ZnN5AaODijlieB-aQ/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICMXjmM8GEAE=&rs=AOn4CLBQGSwL-kzFCz8YDqMs9BjVtZkl2A&v=1776693701" },
-        { "id": "RDCLAK5uy_nhf3h98yS3LCk_bVNQu6GjWG7ARvMaiFQ", "name": "NEON: Pop Hits", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_nhf3h98yS3LCk_bVNQu6GjWG7ARvMaiFQ/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICLXbmc8GEAE=&rs=AOn4CLD-loyEjLkMIAOJsQGqPsc8XCzjXQ&v=1776709045" },
-        { "id": "RDCLAK5uy_mu-BhJj3yO1OXEMzahs_aJVtNWJwAwFEE", "name": "Highline R&B", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_mu-BhJj3yO1OXEMzahs_aJVtNWJwAwFEE/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICPXghs8GEAE=&rs=AOn4CLBsA1GRqjBtX4NYK6CzmtiK2-J3Dg&v=1776398453" },
-        { "id": "RDCLAK5uy_l2zLaMIWOqWSePvTSmt49GcuR8460ZR10", "name": "Hits Remixed", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_l2zLaMIWOqWSePvTSmt49GcuR8460ZR10/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICNWP-M4GEAE=&rs=AOn4CLDPnFItx-WNq9a4dtY4w_yMChrgVg&v=1776158677" },
-        { "id": "RDCLAK5uy_lMXERBY0Uw6-9ZW1DVmMu8cicbwkkg15Q", "name": "SAY NO MORE: Rap + R&B Hits", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_lMXERBY0Uw6-9ZW1DVmMu8cicbwkkg15Q/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICJPUhc8GEAE=&rs=AOn4CLAL5H_R_HKoi0QhYy4bOu9op1aUjw&v=1776380435" },
-        { "id": "RDCLAK5uy_nHGuTnohZ82uuk0HQle7s-UgP7h3aoCqg", "name": "Taze Elektronik Dans Müziği", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_nHGuTnohZ82uuk0HQle7s-UgP7h3aoCqg/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICP-nms8GEAE=&rs=AOn4CLCc1_osAgikoIGY9lrtHvDhqEIkIA&v=1776718847" },
-        { "id": "RDCLAK5uy_mdwsZFtQhJyGQPuQA612VoRPXp-OJfzx8", "name": "Hits Unplugged", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_mdwsZFtQhJyGQPuQA612VoRPXp-OJfzx8/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICOPQ9c4GEAE=&rs=AOn4CLDeCyzmX-q7dSD3UxfRsDb2j7aFOQ&v=1776117859" },
-        { "id": "RDCLAK5uy_miUZvgsFyAog8xtjdFBCnM3EGJcG5ZRUk", "name": "Motive: UK Rap", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_miUZvgsFyAog8xtjdFBCnM3EGJcG5ZRUk/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICJHUhc8GEAE=&rs=AOn4CLBduob9xedZHPqbbEG6GNW4cH5z2g&v=1776380433" },
-        { "id": "RDCLAK5uy_ldlwpMghzMwGCDSOA4Kw6TrOCXDaqXQMo", "name": "Grime Hotlist", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_ldlwpMghzMwGCDSOA4Kw6TrOCXDaqXQMo/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICIihhM8GEAE=&rs=AOn4CLDoa4U8B6V_wDUMST3qRUu4Gq2uAg&v=1776357512" },
-        { "id": "RDCLAK5uy_kgq15xjENxUuOZNY3PFZhM_FcQjvwZn28", "name": "Afropoppin'", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_kgq15xjENxUuOZNY3PFZhM_FcQjvwZn28/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICJPUhc8GEAE=&rs=AOn4CLCNYD7CjLiPyNSqLBq89lJ95nh2-Q&v=1776380435" },
-        { "id": "RDCLAK5uy_lfU6d5d-whk0KvABtxS0yZrj6n4NW2eTM", "name": "Noise Riot: Rock Hits", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_lfU6d5d-whk0KvABtxS0yZrj6n4NW2eTM/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICJXUhc8GEAE=&rs=AOn4CLCiEOJlM6shaaF1sB5MAd-I3h6xew&v=1776380437" },
-        { "id": "RDCLAK5uy_mFO2tSOkp3Ti5zWQoaPsXJ-rhcKZ6iv30", "name": "Hisler", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_mFO2tSOkp3Ti5zWQoaPsXJ-rhcKZ6iv30/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICOPfmc8GEAE=&rs=AOn4CLAW6T_jsCXxTSCel-TQ25XxUQy_HA&v=1776709603" }
-      ]
-    },
-    {
-      "section_title": "Pop",
-      "items": [
-        { "id": "RDCLAK5uy_nhf3h98yS3LCk_bVNQu6GjWG7ARvMaiFQ", "name": "NEON: Pop Hits", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_nhf3h98yS3LCk_bVNQu6GjWG7ARvMaiFQ/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICLXbmc8GEAE=&rs=AOn4CLD-loyEjLkMIAOJsQGqPsc8XCzjXQ&v=1776709045" },
-        { "id": "RDCLAK5uy_nHSqCJjDrW9HBhCNdF6tWPdnOMngOv0wA", "name": "Altın Pop", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_nHSqCJjDrW9HBhCNdF6tWPdnOMngOv0wA/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICJnn9c4GEAE=&rs=AOn4CLD0KL9imwLsIbahO_JvtvY9K0YqkQ&v=1776120729" },
-        { "id": "RDCLAK5uy_mFO2tSOkp3Ti5zWQoaPsXJ-rhcKZ6iv30", "name": "Hisler", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_mFO2tSOkp3Ti5zWQoaPsXJ-rhcKZ6iv30/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICOPfmc8GEAE=&rs=AOn4CLAW6T_jsCXxTSCel-TQ25XxUQy_HA&v=1776709603" },
-        { "id": "RDCLAK5uy_nOwL35BM_GUTEbdbw_9FmvQhPWWdd3sAg", "name": "Pop Fresh", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_nOwL35BM_GUTEbdbw_9FmvQhPWWdd3sAg/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICOb5mc8GEAE=&rs=AOn4CLDQjGyz5XNPwcyK2z2xvz5wDL_uBw&v=1776712934" },
-        { "id": "RDCLAK5uy_lznqoXCDt_wH0Yu3_IK6q3chQI3d2G1cU", "name": "Totally Pop", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_lznqoXCDt_wH0Yu3_IK6q3chQI3d2G1cU/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICJ_r9c4GEAE=&rs=AOn4CLDaMEPhNZzY0opO9oxlqLNIu6b7ag&v=1776121247" },
-        { "id": "RDCLAK5uy_nDL8KeBrUagwyISwNmyEiSfYgz1gVCesg", "name": "Sakin Pop Klasikleri", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_nDL8KeBrUagwyISwNmyEiSfYgz1gVCesg/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICIfaqM8GEAE=&rs=AOn4CLAUodF2hAvKEl9sO1fjD1TRsL3zyA&v=1776954631" },
-        { "id": "RDCLAK5uy_m_0U5VQNyyzwwH1lRi7cPAAGXqNQnAOqY", "name": "Uzanmışım Şöyle", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_m_0U5VQNyyzwwH1lRi7cPAAGXqNQnAOqY/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICP3ghs8GEAE=&rs=AOn4CLAOTTeuBl8wvMETwGfjoKgf_4H3RQ&v=1776398461" },
-        { "id": "RDCLAK5uy_lcd5mG0YlkNyzKYgBvnlAmAuALm5o6Wnk", "name": "Young x Dazed", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_lcd5mG0YlkNyzKYgBvnlAmAuALm5o6Wnk/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICOSEms8GEAE=&rs=AOn4CLCSGBjZBmoOmPP4zYzeSyhVO6KkDg&v=1776714340" },
-        { "id": "RDCLAK5uy_lsdV5oBPFEC87QS1yTL1UFbqzVmKNAisE", "name": "Yalnız Kalpler Kulübü", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_lsdV5oBPFEC87QS1yTL1UFbqzVmKNAisE/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICPmFms8GEAE=&rs=AOn4CLBLSZzUDc7bQ8iItBwsHO2w56tVGQ&v=1776714489" },
-        { "id": "RDCLAK5uy_k5DSSJlM3YuIZ3ib0b0PVdfnP91-M1tHs", "name": "Pop Kraliyeti", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_k5DSSJlM3YuIZ3ib0b0PVdfnP91-M1tHs/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICL-Bms8GEAE=&rs=AOn4CLAXJMXXBkqFQFyWRbOkuZ1imt7N9w&v=1776713919" },
-        { "id": "RDCLAK5uy_nUi8B-S9ckz5feHM7oMGyQQ_eKW2Zl9aE", "name": "Avaz Avaz 2000'ler", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_nUi8B-S9ckz5feHM7oMGyQQ_eKW2Zl9aE/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICPyGqM8GEAE=&rs=AOn4CLCEelLefGN_T7SXhRKQGAdvtGxu4g&v=1776943996" },
-        { "id": "RDCLAK5uy_mskumg0IAsFq8sc8BRg-lthojGsBj_zHc", "name": "70s Sing-Alongs", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_mskumg0IAsFq8sc8BRg-lthojGsBj_zHc/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICMCYqc8GEAE=&rs=AOn4CLC7RiYGiz_4p4uedEp3zIkB3nWWXQ&v=1776962624" }
-      ]
-    },
-    {
-      "section_title": "Mood music",
-      "items": [
-        { "id": "RDCLAK5uy_nBQm8_YpP--R6zU8p3dypKm1QKqzWY6qU", "name": "EDM'le Şahaneyim Şahane", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_nBQm8_YpP--R6zU8p3dypKm1QKqzWY6qU/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICJXW9c4GEAE=&rs=AOn4CLAs79_Z3kdoPWgu9aFkN7gwCT8JWw&v=1776118549" },
-        { "id": "RDCLAK5uy_l7u7RCjtiI_I3m5EgnI-V9yWAgx0RNy1E", "name": "Tüm Zamanların Hareketli Şarkıları", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_l7u7RCjtiI_I3m5EgnI-V9yWAgx0RNy1E/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICLTV9c4GEAE=&rs=AOn4CLDCa-za-zDdgcPYLYPb8cGQuuQGzA&v=1776118452" },
-        { "id": "RDCLAK5uy_mfdqvCAl8wodlx2P2_Ai2gNkiRDAufkkI", "name": "Neşeli Pop Şarkıları", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_mfdqvCAl8wodlx2P2_Ai2gNkiRDAufkkI/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICLz29c4GEAE=&rs=AOn4CLB0Pu5H9aXP-Y4ipY6q4-cbOvymdg&v=1776122684" },
-        { "id": "RDCLAK5uy_lb6CVU6S4uVugLVNTU9WhqfaomWAgnho4", "name": "Avaz Avaz Söylenecek Pop Şarkıları", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_lb6CVU6S4uVugLVNTU9WhqfaomWAgnho4/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICIS_qc8GEAE=&rs=AOn4CLAqa3_D5gXelyqBY3n2uV0MgE4VIA&v=1776967556" },
-        { "id": "RDCLAK5uy_mAN54iG7e4mH1GxlhPRHopQCW5eXg17LI", "name": "Mutluluk Zirvede", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_mAN54iG7e4mH1GxlhPRHopQCW5eXg17LI/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICOjk9c4GEAE=&rs=AOn4CLAYHPBD0wnGeNUxyuUXIkhdJQsZGg&v=1776120424" },
-        { "id": "RDCLAK5uy_m_0U5VQNyyzwwH1lRi7cPAAGXqNQnAOqY", "name": "Uzanmışım Şöyle", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_m_0U5VQNyyzwwH1lRi7cPAAGXqNQnAOqY/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICP3ghs8GEAE=&rs=AOn4CLAOTTeuBl8wvMETwGfjoKgf_4H3RQ&v=1776398461" },
-        { "id": "RDCLAK5uy_nyKVppE-RpLkeCcwLct4rvN9e8AAsS_qw", "name": "Soft Rock Baladları", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_nyKVppE-RpLkeCcwLct4rvN9e8AAsS_qw/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICKzf9c4GEAE=&rs=AOn4CLC0z25nBV1nOtVn14s64XuQo88GlQ&v=1776119724" },
-        { "id": "RDCLAK5uy_m0wlRoNn5iCTTgBedfoOQ19Jq9P3XTLIA", "name": "Pozitif Enerji Veren Pop ve Rock şarkıları", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_m0wlRoNn5iCTTgBedfoOQ19Jq9P3XTLIA/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICPzj9c4GEAE=&rs=AOn4CLCOeBTGYS3UQ5RV5KYSNaOZoc6gCQ&v=1776120316" },
-        { "id": "RDCLAK5uy_kF-D-D23zHZ5JcC1mO5EhQEPqZ9-SK4NU", "name": "Pozitif Enerji Veren R&B", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_kF-D-D23zHZ5JcC1mO5EhQEPqZ9-SK4NU/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICM7p9c4GEAE=&rs=AOn4CLD63IluYqYpLEPIGc3ZUtBjaXIzoQ&v=1776121038" },
-        { "id": "RDCLAK5uy_kDbOKa_TCEawlmyd3bIhWj9oMaKs0U9UQ", "name": "Enerjik Hard Rock", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_kDbOKa_TCEawlmyd3bIhWj9oMaKs0U9UQ/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICMvZ9c4GEAE=&rs=AOn4CLDdNZSF7ddjA9QAk6kXfl_OwwcWbg&v=1776118987" },
-        { "id": "RDCLAK5uy_lVm93MPGWY2gMYbeUHn2Y5HnRNRzMbQfM", "name": "Kendini Kaybet", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_lVm93MPGWY2gMYbeUHn2Y5HnRNRzMbQfM/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICObR9c4GEAE=&rs=AOn4CLDjkPZG_thoGiMCCu2Z4M333hRz6w&v=1776117990" }
-      ]
-    },
-    {
-      "section_title": "New Rap + R&B",
-      "items": [
-        { "id": "RDCLAK5uy_miUZvgsFyAog8xtjdFBCnM3EGJcG5ZRUk", "name": "Motive: UK Rap", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_miUZvgsFyAog8xtjdFBCnM3EGJcG5ZRUk/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICJHUhc8GEAE=&rs=AOn4CLBduob9xedZHPqbbEG6GNW4cH5z2g&v=1776380433" },
-        { "id": "RDCLAK5uy_lMXERBY0Uw6-9ZW1DVmMu8cicbwkkg15Q", "name": "SAY NO MORE: Rap + R&B Hits", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_lMXERBY0Uw6-9ZW1DVmMu8cicbwkkg15Q/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICJPUhc8GEAE=&rs=AOn4CLAL5H_R_HKoi0QhYy4bOu9op1aUjw&v=1776380435" },
-        { "id": "RDCLAK5uy_ldlwpMghzMwGCDSOA4Kw6TrOCXDaqXQMo", "name": "Grime Hotlist", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_ldlwpMghzMwGCDSOA4Kw6TrOCXDaqXQMo/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICIihhM8GEAE=&rs=AOn4CLDoa4U8B6V_wDUMST3qRUu4Gq2uAg&v=1776357512" },
-        { "id": "RDCLAK5uy_kgq15xjENxUuOZNY3PFZhM_FcQjvwZn28", "name": "Afropoppin'", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_kgq15xjENxUuOZNY3PFZhM_FcQjvwZn28/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICJPUhc8GEAE=&rs=AOn4CLCNYD7CjLiPyNSqLBq89lJ95nh2-Q&v=1776380435" },
-        { "id": "RDCLAK5uy_ktkqrgIqlP46yBkUsZp4go2j59McnSsYY", "name": "Sakin Hype", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_ktkqrgIqlP46yBkUsZp4go2j59McnSsYY/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICJHUhc8GEAE=&rs=AOn4CLDRQJYx6bpSjE9wiAXuyz65udhpLw&v=1776380433" },
-        { "id": "RDCLAK5uy_k7O9KByATGA1TqFYhyOkylpJ6fM1avtww", "name": "Clout Rising", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_k7O9KByATGA1TqFYhyOkylpJ6fM1avtww/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICOfghs8GEAE=&rs=AOn4CLA-BkZGIIjy9-39ZfE4zC6NAtsdQA&v=1776398439" },
-        { "id": "RDCLAK5uy_lG3FgN_S5jJJ2LLquGH9rN9kImDwj5McI", "name": "UK R&B Flava", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_lG3FgN_S5jJJ2LLquGH9rN9kImDwj5McI/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICJrX9c4GEAE=&rs=AOn4CLBTCffxtSI-cjuNDfj7E80fiK3ltA&v=1776118682" },
-        { "id": "RDCLAK5uy_k5hnUgn7gTVO6aiZQF2qcSlxzNB-iF5rk", "name": "Sokaklar: Drill & Street Rap", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_k5hnUgn7gTVO6aiZQF2qcSlxzNB-iF5rk/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICJTUhc8GEAE=&rs=AOn4CLDBYBwKAAoWvrbwUZdPHEXaRPzldA&v=1776380436" },
-        { "id": "RDCLAK5uy_lFvj5xRFCJBtjkjdaPBCqiGOIxFjvsHI8", "name": "Underground Grime", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_lFvj5xRFCJBtjkjdaPBCqiGOIxFjvsHI8/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICLX4o88GEAE=&rs=AOn4CLBEN6zMk9FbqxrVCqy63wFm-R5PEA&v=1776876597" },
-        { "id": "RDCLAK5uy_k-VwoPTdue37tAVv432KoO441O1qXHPQo", "name": "UK Hip Hop", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_k-VwoPTdue37tAVv432KoO441O1qXHPQo/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICM7e9c4GEAE=&rs=AOn4CLAQvA5okjyjxjJAjkz7lACCkkMmmg&v=1776119630" },
-        { "id": "RDCLAK5uy_mU3RUHFrxa5DNAl9BVKhq3Dzqsx6pXgts", "name": "Alt Rap", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_mU3RUHFrxa5DNAl9BVKhq3Dzqsx6pXgts/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICLrb9c4GEAE=&rs=AOn4CLCVRMDjibciMQFbE5YeMiIVQ9HRBw&v=1776119226" }
-      ]
-    },
-    {
-      "section_title": "Decades",
-      "items": [
-        { "id": "RDCLAK5uy_m0s0ctV0GL5LQ-ezVkvlEeENYDuSxxLa8", "name": "The Hits: '10s", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_m0s0ctV0GL5LQ-ezVkvlEeENYDuSxxLa8/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICLXd9c4GEAE=&rs=AOn4CLCCS5pZQr1Ztx1sh0FnME-apOecAw&v=1776119477" },
-        { "id": "RDCLAK5uy_mVQsicmiGWIirrcMMQO4g7QL3BQKuKCSM", "name": "The Hits: 00s", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_mVQsicmiGWIirrcMMQO4g7QL3BQKuKCSM/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICLzY9c4GEAE=&rs=AOn4CLDt6Ao-g-tcGh-RorbEHA9Kf2OPgA&v=1776118844" },
-        { "id": "RDCLAK5uy_ljQLy9SdcdiFQIYBpboY8pL1owtu8XYs0", "name": "1990'ların Hit Şarkıları", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_ljQLy9SdcdiFQIYBpboY8pL1owtu8XYs0/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICOTl9c4GEAE=&rs=AOn4CLBxOnRYWiZhJ_eABf9yXYVofSwrnQ&v=1776120548" },
-        { "id": "RDCLAK5uy_k0l94lEKnWoV7TFPCbdtubvekIRsNAlyE", "name": "The Hits: '80s", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_k0l94lEKnWoV7TFPCbdtubvekIRsNAlyE/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICN3U9c4GEAE=&rs=AOn4CLB8OK6ZDMwDNQfLw0w8eZJ6EK2-uQ&v=1776118365" },
-        { "id": "RDCLAK5uy_myl2Kxu04jRiia7vYY6jnavWDeUP8xLhY", "name": "1970'lerin Hit Şarkıları", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_myl2Kxu04jRiia7vYY6jnavWDeUP8xLhY/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICI_l9c4GEAE=&rs=AOn4CLBr9V05pKt34nG8_w8TD9kHbIZjPQ&v=1776120463" },
-        { "id": "RDCLAK5uy_lMtgHN1pPa51EuEeofuIeJXi36DlzJ3sM", "name": "60'ların En Popüler Şarkıları", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_lMtgHN1pPa51EuEeofuIeJXi36DlzJ3sM/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICLvi9c4GEAE=&rs=AOn4CLAmoFo_TEq-yUDUcT5GklkUE4HReA&v=1776120123" },
-        { "id": "RDCLAK5uy_kKGEdz0FFfSNkeqpuqFBx6ixXWvSJn0nU", "name": "The Hits: 50s", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_kKGEdz0FFfSNkeqpuqFBx6ixXWvSJn0nU/sddefault.jpg?sqp=CMiCqs8Gir7X7AMICMrl9c4GEAE=&rs=AOn4CLCO6jtcaXgdROOs7Fdvs4zzAO7wlg&v=1776120522" }
-      ]
-    }
-  ],
+    "section_title": "New & Trending Songs",
+    "items": [
+      {"id":"RDCLAK5uy_k5n4srrEB1wgvIjPNTXS9G1ufE9WQxhnA","name":"RELEASED","img":"https://i.ytimg.com/vi/crWbG90dChw/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lS3E3PgpboCkZ_PfLPCkLLNPI1uH6kfc0","name":"The Short List","img":"https://i.ytimg.com/vi/gDb91xKfa4E/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kkkZR6KAV5kBSqDCeaBb_pDDhA83VGFwg","name":"Pop Before It Breaks","img":"https://i.ytimg.com/vi/rnaO3ThJPlk/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_m5k78k1nN5yDlb_kmGHUVXALhIgHjtq4s","name":"Hashtag Hits","img":"https://i.ytimg.com/vi/P7dJM1UkG2s/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_k7O9KByATGA1TqFYhyOkylpJ6fM1avtww","name":"Clout Rising","img":"https://i.ytimg.com/vi/fEl_ug9VfvQ/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_l-JbTcCK10aQ5AFrXLmiNt9sVCbnCDVC0","name":"Yeni Vibe","img":"https://i.ytimg.com/vi/o2fNrCaGzbU/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_n0vqPVYwwLGVv8XMpjj7IovO50hqegreo","name":"Yeni Nesil Country","img":"https://i.ytimg.com/vi/QKqVNr4xFPI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lFJ89YweCFLE5XiRWX9CZ6UHulZ5uTAWw","name":"Genre Blurring","img":"https://i.ytimg.com/vi/85UJ8Rvfj9g/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mB1zoU6QkDs2Ls369_DU8_JbHCp3Wdd90","name":"Urbano 2026","img":"https://i.ytimg.com/vi/wFGuhlLOU-o/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nGZRi-an-ruqiZlNJSGhCDHucdp2FBNfI","name":"Yeni Nesil R&B","img":"https://i.ytimg.com/vi/hzLZVTSiUrg/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_n7QjhERM2Q4Ha5B6t6ZmzyhOtRYjQtxKk","name":"Üstün Flowlar","img":"https://i.ytimg.com/vi/j4NPNp8SEk0/hqdefault.jpg"}
+    ]
+  },
+  {
+    "section_title": "Today's Biggest Hits",
+    "items": [
+      {"id":"RDCLAK5uy_kmPRjHDECIcuVwnKsx2Ng7fyNgFKWNJFs","name":"The Hit List","img":"https://i.ytimg.com/vi/nUsrYVxrDwI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lBNUteBRencHzKelu5iDHwLF6mYqjL-JU","name":"Sertifikalı Pop","img":"https://i.ytimg.com/vi/V9PVRfjEBTI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lBGRuQnsG37Akr1CY4SxL0VWFbPrbO4gs","name":"Günün Hip-Hop Parçaları","img":"https://i.ytimg.com/vi/2wI4_-aMSk0/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lOAAW-PX5XUed76iQefCxkOXd6m6ZvyiM","name":"Latin Now","img":"https://i.ytimg.com/vi/FUHaycnjzKg/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lJ8xZWiZj2GCw7MArjakb6b0zfvqwldps","name":"Country Hotlist","img":"https://i.ytimg.com/vi/nUsrYVxrDwI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kLWIr9gv1XLlPbaDS965-Db4TrBoUTxQ8","name":"Güncel En Hit Dans Parçaları","img":"https://i.ytimg.com/vi/ouEl3qTLc0M/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_k5vcGRXixxemtzK1eKDS7BeHys7mvYOdk","name":"Maksimum Desibel: Günümüzün Rock Hitleri","img":"https://i.ytimg.com/vi/DIEI2YLYg6o/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_m0Nsi5Jnn_g6qbvc7fywPRhEv1qN0PcMM","name":"Bugün'ün İndie Hitleri","img":"https://i.ytimg.com/vi/03e4eK64h4s/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mu-BhJj3yO1OXEMzahs_aJVtNWJwAwFEE","name":"Highline R&B","img":"https://i.ytimg.com/vi/TG1Vt7Czs8g/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kV0Nh-OIcnh8LppyiFE4lhhWZEvaPQEOY","name":"Hot Reggaeton","img":"https://i.ytimg.com/vi/Fsr14-8sxtA/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kUFCSc-grF3m-L_49W6p1QyGsMbueEbog","name":"Karayiplerin Nabzı","img":"https://i.ytimg.com/vi/iXRDmpGUfRc/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mU14EejSbDsfLuPc9KpNzoC0o-YQvi6I4","name":"Hristiyan Hitleri","img":"https://i.ytimg.com/vi/hefLdjeclSs/hqdefault.jpg"}
+    ]
+  },
+  {
+    "section_title": "Fun Throwbacks",
+    "items": [
+      {"id":"RDCLAK5uy_nQkPLhMF6chdzKSlWdX8NHMrLVpdci-eU","name":"The Hits: '90s","img":"https://i.ytimg.com/vi/FrLequ6dUdM/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lQi-t2mN-swhdhGPOg4h4Zw-P5KzdwUSM","name":"'90s R&B Chill","img":"https://i.ytimg.com/vi/lbnoG2dsUk0/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kpxnNxJpPZjLKbL9WgvrPuErWkUxMP6x4","name":"1990'lardan Country","img":"https://i.ytimg.com/vi/d05tQrhNMkA/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_m_h-nx7OCFaq9AlyXv78lG0AuloqW_NUA","name":"1990'larda Alternatif Rock","img":"https://i.ytimg.com/vi/hTWKbfoikeg/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_l0pAECrSAnyfXn-bgZ6XveIzAjDixOiX0","name":"'90s Hip Hop","img":"https://i.ytimg.com/vi/aIXyKmElvv8/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_l6aLGm9YTfnptXPJCncaK3NpN_0bX3I0w","name":"'90s Rock Chillout","img":"https://i.ytimg.com/vi/8SbUC-UaAxE/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_ltlS29HmNHZb3oCsEjfXmZhIGaWpaDZck","name":"'90s Dance","img":"https://i.ytimg.com/vi/K0HSD_i2DvA/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_l9nSIU91U-FUBH_0P9wB3dVewP9gCwD2Y","name":"1990'lardan Slow R&B","img":"https://i.ytimg.com/vi/YBB8valskCQ/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lwDv3rm5dXJn1Y8v5xXYzrQVhYq-3lro0","name":"90'lar R&B Partisi","img":"https://i.ytimg.com/vi/FrLequ6dUdM/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nvu_HUY0DPNpbB_V0moUfs9s5zABAF8xQ","name":"Ultimate '90s Party","img":"https://i.ytimg.com/vi/HEXWRTEbj1I/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mpx6f-Md6iPbWSaizatzQIHfcF33fmT7E","name":"Essential '90s Hip Hop","img":"https://i.ytimg.com/vi/lpZgKI97K1M/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nFD4lodGvr1kb0xlJOOfEi0tGWI7cQKK0","name":"'90s Pop-Rock Hits","img":"https://i.ytimg.com/vi/NdYWuo9OFAw/hqdefault.jpg"}
+    ]
+  },
+  {
+    "section_title": "Music for any Mood, Moment, or Vibe",
+    "items": [
+      {"id":"RDCLAK5uy_k1VVBVsS6pu1pVkYZK2B0EWic3i4j_TY4","name":"İçimdeki Rap Canavarı","img":"https://i.ytimg.com/vi/B9synWjqBn8/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mVJ3RRi_YBfUJnZnQxLAedQQcXHujbUcg","name":"Pump-Up Pop","img":"https://i.ytimg.com/vi/OPf0YbXqDm0/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_lO74S3KkDlWRLJtq3gYY9-FHmxckj7AXU","name":"Country Tailgate","img":"https://i.ytimg.com/vi/7Lb9dq-JZFI/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kb7EBi6y3GrtJri4_ZH56Ms786DFEimbM","name":"Lofi Loft","img":"https://i.ytimg.com/vi/JgI6z6aQhEA/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kfYirvQ6KXjHJBgPBl5kAqoWrg4VMMkiY","name":"Cuffin' Season","img":"https://i.ytimg.com/vi/Jx9h3iWudTU/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mSaYvcoVvag_GrAc593WX3MoxTLvUXYT8","name":"Rahatlatıcı Akşam","img":"https://i.ytimg.com/vi/ixvyqLcm7Kc/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kKEOZ3x5ED4hNxb8lHXhOp5cHFW_CbwMk","name":"Low Key","img":"https://i.ytimg.com/vi/ma8u5GfX4gg/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_kwJTdGJj4KpaItCZogif_xkH69VyeERKw","name":"R&B Partisi","img":"https://i.ytimg.com/vi/6qatTTscK4c/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_mfut9V_o1n9nVG_m5yZ3ztCif29AHUffI","name":"Sakin ve Rahat Rock","img":"https://i.ytimg.com/vi/OMOGaugKpzs/hqdefault.jpg"},
+      {"id":"RDCLAK5uy_nfs_t4FUu00E5ED6lveEBBX1VMYe1mFjk","name":"Dance Pop Bangers","img":"https://i.ytimg.com/vi/k2qgadSvNyU/hqdefault.jpg"}
+    ]
+  }
+],
   "fr": [
     {
       "section_title": "Ambiance printanière",
