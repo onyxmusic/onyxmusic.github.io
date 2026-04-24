@@ -1,22 +1,70 @@
 {
   "tr": [
     {
-      "section_title": "Kış",
-      "items": [
-        { "id": "RDCLAK5uy_nOUUn0uPng2213dSoIyfl-LCgC_IuGjbM", "name": "Türkiye'den Dingin Enstrümantal", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_nOUUn0uPng2213dSoIyfl-LCgC_IuGjbM/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICL3l9c4GEAE=&rs=AOn4CLDQrlOKdGy3cwr69NB1RfmsXBRZmg&v=1776120509" },
-        { "id": "RDCLAK5uy_kb7EBi6y3GrtJri4_ZH56Ms786DFEimbM", "name": "Lofi Loft", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_kb7EBi6y3GrtJri4_ZH56Ms786DFEimbM/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICMrj9c4GEAE=&rs=AOn4CLBOrxKoq0iY1BJs8q4EUPVcerKnbQ&v=1776120266" },
-        { "id": "RDCLAK5uy_neriXH6JbZPr7Pf4LOi5bGQP-_lWRZXs4", "name": "Sıcak Caz", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_neriXH6JbZPr7Pf4LOi5bGQP-_lWRZXs4/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICLPo9c4GEAE=&rs=AOn4CLCS2vpMeC_F1CGoTjB8o1oF1ae6KQ&v=1776120883" },
-        { "id": "RDCLAK5uy_kFiFlofDDuvu9gYiBrcI8cMG3V2Lab8xA", "name": "Blues'un Kökeni", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_kFiFlofDDuvu9gYiBrcI8cMG3V2Lab8xA/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICMbb9c4GEAE=&rs=AOn4CLBVunpa-GmyeZVINbqqKhY6qrFF4Q&v=1776119238" },
-        { "id": "RDCLAK5uy_kiLhvcwQ77iHCtSSBSJd9b9qO3pqabOpk", "name": "Taze Kahve", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_kiLhvcwQ77iHCtSSBSJd9b9qO3pqabOpk/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICP_h9c4GEAE=&rs=AOn4CLCES89dKgshxbaQ03ahB16frc9fiA&v=1776120063" },
-        { "id": "RDCLAK5uy_m0X_CFV7sbR3EKDoP_FvqyK5faV7xorUY", "name": "Freshly Chilled", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_m0X_CFV7sbR3EKDoP_FvqyK5faV7xorUY/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICLLBns8GEAE=&rs=AOn4CLAvEqyDroBnP4yln_2fsDO0MMBM6Q&v=1776787634" },
-        { "id": "RDCLAK5uy_nzABe7CwJJ6FpItwp1LJHEejR40FtA_Q4", "name": "Chill Out Klasikleri", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_nzABe7CwJJ6FpItwp1LJHEejR40FtA_Q4/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICIfr9c4GEAE=&rs=AOn4CLCn6Ncarw2uKjDJV5psH5hFuI40Og&v=1776121223" },
-        { "id": "RDCLAK5uy_nDL8KeBrUagwyISwNmyEiSfYgz1gVCesg", "name": "Sakin Pop Klasikleri", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_nDL8KeBrUagwyISwNmyEiSfYgz1gVCesg/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICIfaqM8GEAE=&rs=AOn4CLC4ddop2VW1LSCZFITNywi_8xT1DQ&v=1776954631" },
-        { "id": "RDCLAK5uy_nyKVppE-RpLkeCcwLct4rvN9e8AAsS_qw", "name": "Soft Rock Baladları", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_nyKVppE-RpLkeCcwLct4rvN9e8AAsS_qw/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICKzf9c4GEAE=&rs=AOn4CLBVWDydzsPgNPmXUa-3pqAIFu5sDw&v=1776119724" },
-        { "id": "RDCLAK5uy_mTrr21OCLdb2dJgl_BJ-6MdJDXWqB-1gc", "name": "Yoga ve Meditasyon", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_mTrr21OCLdb2dJgl_BJ-6MdJDXWqB-1gc/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICPvb9c4GEAE=&rs=AOn4CLBSy_YtMd9KT_Tsq8pYaF_gzkJZwQ&v=1776119291" },
-        { "id": "RDCLAK5uy_n2cq0PxECLzVblC6NOorWjaCtF5NwXJT4", "name": "Caz Gecesi", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_n2cq0PxECLzVblC6NOorWjaCtF5NwXJT4/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICOTghs8GEAE=&rs=AOn4CLAPw7WGVYzxtuElt3H0wFaoIBCb2Q&v=1776398436" },
-        { "id": "RDCLAK5uy_ldooV6iHaoPy6VKyVuHDq0DT4lh-3tRqQ", "name": "Yumuşak Piyano", "img": "https://i9.ytimg.com/s_p/RDCLAK5uy_ldooV6iHaoPy6VKyVuHDq0DT4lh-3tRqQ/sddefault.jpg?sqp=CMi3qc8Gir7X7AMICIK4hc8GEAE=&rs=AOn4CLBHVXkdUoJ38G-iKCmIaorXZG1E3A&v=1776376834" }
-      ]
-    },
+    "section_title": "Kış",
+    "items": [
+      {
+        "id": "RDCLAK5uy_nOUUn0uPng2213dSoIyfl-LCgC_IuGjbM",
+        "name": "Türkiye'den Dingin Enstrümantal",
+        "img": "https://i.ytimg.com/vi/lITK1pWM-LY/hqdefault.jpg"
+      },
+      {
+        "id": "RDCLAK5uy_kb7EBi6y3GrtJri4_ZH56Ms786DFEimbM",
+        "name": "Lofi Loft",
+        "img": "https://i.ytimg.com/vi/JgI6z6aQhEA/hqdefault.jpg"
+      },
+      {
+        "id": "RDCLAK5uy_neriXH6JbZPr7Pf4LOi5bGQP-_lWRZXs4",
+        "name": "Sıcak Caz",
+        "img": "https://i.ytimg.com/vi/DAN2TQjQOpY/hqdefault.jpg"
+      },
+      {
+        "id": "RDCLAK5uy_kFiFlofDDuvu9gYiBrcI8cMG3V2Lab8xA",
+        "name": "Blues'un Kökeni",
+        "img": "https://i.ytimg.com/vi/ClpR3fOKPRA/hqdefault.jpg"
+      },
+      {
+        "id": "RDCLAK5uy_kiLhvcwQ77iHCtSSBSJd9b9qO3pqabOpk",
+        "name": "Taze Kahve",
+        "img": "https://i.ytimg.com/vi/V-sivPFfQn4/hqdefault.jpg"
+      },
+      {
+        "id": "RDCLAK5uy_m0X_CFV7sbR3EKDoP_FvqyK5faV7xorUY",
+        "name": "Freshly Chilled",
+        "img": "https://i.ytimg.com/vi/V9PVRfjEBTI/hqdefault.jpg"
+      },
+      {
+        "id": "RDCLAK5uy_nzABe7CwJJ6FpItwp1LJHEejR40FtA_Q4",
+        "name": "Chill Out Klasikleri",
+        "img": "https://i.ytimg.com/vi/13EifDb4GYs/hqdefault.jpg"
+      },
+      {
+        "id": "RDCLAK5uy_nDL8KeBrUagwyISwNmyEiSfYgz1gVCesg",
+        "name": "Sakin Pop Klasikleri",
+        "img": "https://i.ytimg.com/vi/lp-EO5I60KA/hqdefault.jpg"
+      },
+      {
+        "id": "RDCLAK5uy_nyKVppE-RpLkeCcwLct4rvN9e8AAsS_qw",
+        "name": "Soft Rock Baladları",
+        "img": "https://i.ytimg.com/vi/n4RjJKxsamQ/hqdefault.jpg"
+      },
+      {
+        "id": "RDCLAK5uy_mTrr21OCLdb2dJgl_BJ-6MdJDXWqB-1gc",
+        "name": "Yoga ve Meditasyon",
+        "img": "https://i.ytimg.com/vi/DNZDI6p0fFI/hqdefault.jpg"
+      },
+      {
+        "id": "RDCLAK5uy_n2cq0PxECLzVblC6NOorWjaCtF5NwXJT4",
+        "name": "Caz Gecesi",
+        "img": "https://i.ytimg.com/vi/TAMP9zGjvYI/hqdefault.jpg"
+      },
+      {
+        "id": "RDCLAK5uy_ldooV6iHaoPy6VKyVuHDq0DT4lh-3tRqQ",
+        "name": "Yumuşak Piyano",
+        "img": "https://i.ytimg.com/vi/peeWNtGKoD4/hqdefault.jpg"
+      }
+    ]
+  },
     {
       "section_title": "Yeni Şarkılar",
       "items": [
