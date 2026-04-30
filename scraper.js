@@ -1,7 +1,6 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 
-// KRAL İŞTE 12 DİLİN URL'LERİ (Ülke ve Dil kodları ayarlandı)
 const TARGET_URLS = {
   "tr": "https://www.youtube.com/feed/music?gl=TR&hl=tr",
   "en": "https://www.youtube.com/feed/music?gl=US&hl=en",
@@ -17,30 +16,32 @@ const TARGET_URLS = {
   "zh": "https://www.youtube.com/feed/music?gl=TW&hl=zh-TW"
 };
 
+// YENİ NESİL BEKLEME MOTORU (Eski sürümdeki hatayı çözer)
+const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
+
 (async () => {
   console.log("🚀 OnyxMusic Otomatik Scraper Başlıyor...");
   
   const browser = await puppeteer.launch({ 
-    headless: "new",
+    headless: true,
     args:['--no-sandbox', '--disable-setuid-sandbox'] 
   });
 
-  // Senin feed.json'ın ana iskeleti
   const fullFeed = {};
 
   for (const [langCode, url] of Object.entries(TARGET_URLS)) {
     console.log(`\n⏳ İşleniyor:[${langCode.toUpperCase()}] -> ${url}`);
     const page = await browser.newPage();
     
-    // YouTube'un bot olduğumuzu anlamaması için
     await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36');
 
     try {
       await page.goto(url, { waitUntil: 'networkidle2', timeout: 60000 });
-      await page.waitForTimeout(2000); // Sayfanın oturmasını bekle
+      
+      // YENİ BEKLEME KOMUTUMUZ BURADA:
+      await delay(2000); 
       
       console.log(`   Sayfa aşağı kaydırılıyor...`);
-      // Sayfayı aşağı kaydırma motoru
       await page.evaluate(async () => {
         await new Promise((resolve) => {
           let totalHeight = 0;
@@ -56,9 +57,8 @@ const TARGET_URLS = {
         });
       });
 
-      // SENİN KENDİ YAZDIĞIN KODUN SİSTEME GÖMÜLMÜŞ HALİ
       const sectionData = await page.evaluate(async () => {
-        const delay = ms => new Promise(res => setTimeout(res, ms));
+        const innerDelay = ms => new Promise(res => setTimeout(res, ms));
         
         async function getFirstVideoId(playlistId) {
           try {
@@ -98,21 +98,19 @@ const TARGET_URLS = {
               });
             }
 
-            // Kapak Resmi Çekici
             const videoId = await getFirstVideoId(id);
             const img = videoId ? `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg` : "";
             
             items.push({ id, name: name || "İsimsiz", img });
             seenIds.add(id);
             
-            await delay(200); // Ban yememek için 0.2 saniye bekle
+            await innerDelay(200); 
           }
           if (items.length > 0) sections.push({ section_title: sectionTitle, items });
         }
         return sections;
       });
 
-      // Tam olarak senin JSON formatın: "tr": [ { section_title: "...", items: [...] } ]
       fullFeed[langCode] = sectionData;
       console.log(`   ✅ ${sectionData.length} kategori başarıyla çekildi!`);
 
@@ -125,7 +123,6 @@ const TARGET_URLS = {
 
   await browser.close();
 
-  // Sonuçları feed.json dosyasına yaz
   fs.writeFileSync('feed.json', JSON.stringify(fullFeed, null, 2), 'utf-8');
   console.log("\n🎉 İşlem Tamamlandı! Tüm diller feed.json dosyasına kaydedildi.");
 })();
