@@ -1,7 +1,7 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 
-// Bütün diller ve ülkeler (Kusursuz liste)
+// Bütün diller ve ülkeler
 const REGIONS = {
   "tr": { gl: "TR", hl: "tr" },
   "en": { gl: "US", hl: "en" },
@@ -20,7 +20,7 @@ const REGIONS = {
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
 (async () => {
-  console.log("🚀 OnyxMusic Otomatik Scraper Başlıyor...");
+  console.log("🚀 OnyxMusic Otomatik Scraper Başlıyor (Orijinal Kapak Modu)...");
   
   const browser = await puppeteer.launch({ 
     headless: true,
@@ -36,7 +36,7 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
     const page = await browser.newPage();
     await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36');
 
-    // 1. YouTube'u Kandıran Çerez (Senin de konsolda test ettiğin komut)
+    // 1. YouTube'u Kandıran Çerez (Dil ve Ülke Ayarı)
     await page.setCookie({
       name: 'PREF',
       value: `hl=${config.hl}&gl=${config.gl}`,
@@ -56,7 +56,7 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
       await page.goto(url, { waitUntil: 'networkidle2', timeout: 60000 });
       await delay(2000); 
       
-      console.log(`   Sayfa aşağı kaydırılıyor...`);
+      console.log(`   Sayfa aşağı kaydırılıyor (Kapakların yüklenmesi için)...`);
       await page.evaluate(async () => {
         await new Promise((resolve) => {
           let totalHeight = 0;
@@ -65,25 +65,16 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
             let scrollHeight = document.body.scrollHeight;
             window.scrollBy(0, distance);
             totalHeight += distance;
-            if (totalHeight >= scrollHeight || totalHeight > 6000) { 
+            // Tüm resimlerin yüklenmesi için bol bol aşağı kaydırıyoruz
+            if (totalHeight >= scrollHeight || totalHeight > 8000) { 
               clearInterval(timer); resolve(); 
             }
-          }, 400);
+          }, 300);
         });
       });
 
-      const sectionData = await page.evaluate(async () => {
-        const innerDelay = ms => new Promise(res => setTimeout(res, ms));
-        
-        async function getFirstVideoId(playlistId) {
-          try {
-            const res = await fetch(`https://www.youtube.com/playlist?list=${playlistId}`);
-            const text = await res.text();
-            const match = text.match(/"videoId":"([a-zA-Z0-9_-]{11})"/);
-            return match ? match[1] : null;
-          } catch (e) { return null; }
-        }
-
+      // 👑 SİHİR BURADA: Artık arka plana girmiyoruz, doğrudan ekrandaki orijinal resmi alıyoruz!
+      const sectionData = await page.evaluate(() => {
         const sections =[];
         const elements = document.querySelectorAll('ytd-rich-section-renderer, ytd-shelf-renderer');
         
@@ -113,13 +104,19 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
               });
             }
 
-            const videoId = await getFirstVideoId(id);
-            const img = videoId ? `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg` : "";
-            
+            // 👑 ORİJİNAL KAPAK RESMİNİ YAKALAMA
+            let img = "";
+            const imgEl = card.querySelector('img');
+            if (imgEl) {
+              img = imgEl.src || "";
+              // Bazen YouTube resim yüklenene kadar sahte bir base64 resim koyar, böyle bir durum varsa data-thumb'ı alıyoruz
+              if (img.startsWith('data:image') || img.includes('pixel_')) {
+                img = imgEl.getAttribute('data-thumb') || img;
+              }
+            }
+
             items.push({ id, name: name || "İsimsiz", img });
             seenIds.add(id);
-            
-            await innerDelay(200); 
           }
           if (items.length > 0) sections.push({ section_title: sectionTitle, items });
         }
@@ -127,10 +124,10 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
       });
 
       fullFeed[langCode] = sectionData;
-      console.log(`   ✅ ${sectionData.length} kategori başarıyla çekildi!`);
+      console.log(`   ✅ ${sectionData.length} kategori ve orijinal kapaklar başarıyla çekildi!`);
 
     } catch (error) {
-      console.error(`   ❌ Hata oluştu [${langCode}]:`, error.message);
+      console.error(`   ❌ Hata oluştu[${langCode}]:`, error.message);
     } finally {
       await page.close();
     }
@@ -139,5 +136,5 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
   await browser.close();
 
   fs.writeFileSync('feed.json', JSON.stringify(fullFeed, null, 2), 'utf-8');
-  console.log("\n🎉 İşlem Tamamlandı! Tüm diller feed.json dosyasına kaydedildi.");
+  console.log("\n🎉 İşlem Tamamlandı! Tüm diller ve orijinal kapaklar feed.json dosyasına ışık hızında kaydedildi.");
 })();
