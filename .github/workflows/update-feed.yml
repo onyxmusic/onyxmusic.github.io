@@ -1,0 +1,32 @@
+name: OnyxMusic Feed Guncelleyici
+
+on:
+  schedule:
+    # Her gece Türkiye saati ile sabah 05:00'da çalışır (UTC'ye göre 02:00)
+    - cron: '0 2 * * *'
+  workflow_dispatch: # Senin istediğin zaman elle tetikleyebilmen için buton ekler
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Depoyu Klonla
+        uses: actions/checkout@v3
+
+      - name: Node.js Kurulumu
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Gerekli Paketleri Yükle (Puppeteer)
+        run: npm install
+
+      - name: Scraper'ı (Kazıyıcıyı) Çalıştır
+        run: node scraper.js
+
+      - name: Yeni feed.json dosyasını Github'a Kaydet
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "🚀 Otomatik Güncelleme: feed.json yeni müziklerle yenilendi!"
+          file_pattern: feed.json
