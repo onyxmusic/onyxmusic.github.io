@@ -1,35 +1,20 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 
-const TARGET_URLS = {
-  "tr": "https://www.youtube.com/feed/music?gl=TR&hl=tr",
-  "en": "https://www.youtube.com/feed/music?gl=US&hl=en",
-  "fr": "https://www.youtube.com/feed/music?gl=FR&hl=fr",
-  "de": "https://www.youtube.com/feed/music?gl=DE&hl=de",
-  "es": "https://www.youtube.com/feed/music?gl=ES&hl=es",
-  "it": "https://www.youtube.com/feed/music?gl=IT&hl=it",
-  "pt": "https://www.youtube.com/feed/music?gl=BR&hl=pt",
-  "ru": "https://www.youtube.com/feed/music?gl=RU&hl=ru",
-  "ar": "https://www.youtube.com/feed/music?gl=AE&hl=ar",
-  "ja": "https://www.youtube.com/feed/music?gl=JP&hl=ja",
-  "hi": "https://www.youtube.com/feed/music?gl=IN&hl=hi",
-  "zh": "https://www.youtube.com/feed/music?gl=TW&hl=zh-TW"
-};
-
-// 👑 KRAL BURASI YENİ EKLENDİ: Tarayıcının kimlik dilleri (Maskeler)
-const ACCEPT_LANGUAGES = {
-  "tr": "tr-TR,tr;q=0.9",
-  "en": "en-US,en;q=0.9",
-  "fr": "fr-FR,fr;q=0.9",
-  "de": "de-DE,de;q=0.9",
-  "es": "es-ES,es;q=0.9",
-  "it": "it-IT,it;q=0.9",
-  "pt": "pt-BR,pt;q=0.9",
-  "ru": "ru-RU,ru;q=0.9",
-  "ar": "ar-AE,ar;q=0.9",
-  "ja": "ja-JP,ja;q=0.9",
-  "hi": "hi-IN,hi;q=0.9",
-  "zh": "zh-TW,zh;q=0.9"
+// Bütün diller ve ülkeler (Kusursuz liste)
+const REGIONS = {
+  "tr": { gl: "TR", hl: "tr" },
+  "en": { gl: "US", hl: "en" },
+  "fr": { gl: "FR", hl: "fr" },
+  "de": { gl: "DE", hl: "de" },
+  "es": { gl: "ES", hl: "es" },
+  "it": { gl: "IT", hl: "it" },
+  "pt": { gl: "BR", hl: "pt" },
+  "ru": { gl: "RU", hl: "ru" },
+  "ar": { gl: "AE", hl: "ar" },
+  "ja": { gl: "JP", hl: "ja" },
+  "hi": { gl: "IN", hl: "hi" },
+  "zh": { gl: "TW", hl: "zh-TW" }
 };
 
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
@@ -44,15 +29,27 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
   const fullFeed = {};
 
-  for (const[langCode, url] of Object.entries(TARGET_URLS)) {
-    console.log(`\n⏳ İşleniyor:[${langCode.toUpperCase()}] -> ${url}`);
-    const page = await browser.newPage();
+  for (const [langCode, config] of Object.entries(REGIONS)) {
+    const url = `https://www.youtube.com/feed/music`;
+    console.log(`\n⏳ İşleniyor: [${langCode.toUpperCase()}] (Dil: ${config.hl}, Ülke: ${config.gl})`);
     
+    const page = await browser.newPage();
     await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36');
 
-    // 👑 İŞTE SİHİRLİ SATIR: YouTube'a "Ben bu dilde konuşuyorum" diyoruz.
-    await page.setExtraHTTPHeaders({
-      'Accept-Language': ACCEPT_LANGUAGES[langCode]
+    // 1. YouTube'u Kandıran Çerez (Senin de konsolda test ettiğin komut)
+    await page.setCookie({
+      name: 'PREF',
+      value: `hl=${config.hl}&gl=${config.gl}`,
+      domain: '.youtube.com',
+      path: '/'
+    });
+
+    // 2. Çerez Onay Ekranını Atlamak İçin
+    await page.setCookie({
+      name: 'SOCS',
+      value: 'CAESEwgDEgk0ODE3Nzk3MjQaAmVuIAEaBgiA_LyaBg',
+      domain: '.youtube.com',
+      path: '/'
     });
 
     try {
@@ -133,7 +130,7 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
       console.log(`   ✅ ${sectionData.length} kategori başarıyla çekildi!`);
 
     } catch (error) {
-      console.error(`   ❌ Hata oluştu[${langCode}]:`, error.message);
+      console.error(`   ❌ Hata oluştu [${langCode}]:`, error.message);
     } finally {
       await page.close();
     }
