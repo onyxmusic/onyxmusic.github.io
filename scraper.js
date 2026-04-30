@@ -16,7 +16,22 @@ const TARGET_URLS = {
   "zh": "https://www.youtube.com/feed/music?gl=TW&hl=zh-TW"
 };
 
-// YENİ NESİL BEKLEME MOTORU (Eski sürümdeki hatayı çözer)
+// 👑 KRAL BURASI YENİ EKLENDİ: Tarayıcının kimlik dilleri (Maskeler)
+const ACCEPT_LANGUAGES = {
+  "tr": "tr-TR,tr;q=0.9",
+  "en": "en-US,en;q=0.9",
+  "fr": "fr-FR,fr;q=0.9",
+  "de": "de-DE,de;q=0.9",
+  "es": "es-ES,es;q=0.9",
+  "it": "it-IT,it;q=0.9",
+  "pt": "pt-BR,pt;q=0.9",
+  "ru": "ru-RU,ru;q=0.9",
+  "ar": "ar-AE,ar;q=0.9",
+  "ja": "ja-JP,ja;q=0.9",
+  "hi": "hi-IN,hi;q=0.9",
+  "zh": "zh-TW,zh;q=0.9"
+};
+
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
 (async () => {
@@ -29,16 +44,19 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
   const fullFeed = {};
 
-  for (const [langCode, url] of Object.entries(TARGET_URLS)) {
+  for (const[langCode, url] of Object.entries(TARGET_URLS)) {
     console.log(`\n⏳ İşleniyor:[${langCode.toUpperCase()}] -> ${url}`);
     const page = await browser.newPage();
     
     await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36');
 
+    // 👑 İŞTE SİHİRLİ SATIR: YouTube'a "Ben bu dilde konuşuyorum" diyoruz.
+    await page.setExtraHTTPHeaders({
+      'Accept-Language': ACCEPT_LANGUAGES[langCode]
+    });
+
     try {
       await page.goto(url, { waitUntil: 'networkidle2', timeout: 60000 });
-      
-      // YENİ BEKLEME KOMUTUMUZ BURADA:
       await delay(2000); 
       
       console.log(`   Sayfa aşağı kaydırılıyor...`);
