@@ -19,9 +19,18 @@ const REGIONS = {
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
 (async () => {
+  console.log("🚀 OnyxMusic Ultra-Scraper Başlıyor (RAM Korumalı)...");
+  
+  // 👑 GITHUB SUNUCULARININ ÇÖKMESİNİ ENGELLEYEN AYARLAR
   const browser = await puppeteer.launch({ 
     headless: true,
-    args:['--no-sandbox', '--disable-setuid-sandbox', '--disable-blink-features=AutomationControlled'] 
+    args:[
+      '--no-sandbox', 
+      '--disable-setuid-sandbox', 
+      '--disable-dev-shm-usage', // Hafıza şişmesini engeller
+      '--disable-gpu',           // Ekran kartı yükünü kapatır
+      '--disable-blink-features=AutomationControlled'
+    ] 
   });
 
   const fullFeed = {};
@@ -40,26 +49,25 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
     try {
       await page.goto(url, { waitUntil: 'networkidle2', timeout: 60000 });
       
-      // TÜM PLAYLİSTLERİ VE KAPAKLARI YÜKLEME DÖNGÜSÜ
+      // TÜM PLAYLİSTLERİ YÜKLEME DÖNGÜSÜ
       await page.evaluate(async () => {
         await new Promise((resolve) => {
           let totalHeight = 0;
-          let distance = 600; // Her adımda inilecek mesafe
+          let distance = 600; 
           let timer = setInterval(() => {
             let scrollHeight = document.body.scrollHeight;
             window.scrollBy(0, distance);
             totalHeight += distance;
             
-            // Sayfanın en altına veya 15000 piksele gelene kadar in (Hiçbir şeyi kaçırmamak için)
             if (totalHeight >= scrollHeight || totalHeight > 15000) { 
               clearInterval(timer);
               resolve(); 
             }
-          }, 800); // Her kaydırmada resimlerin yüklenmesi için bekleme süresi
+          }, 800); 
         });
       });
 
-      await delay(3000); // Kaydırma bittikten sonra son yüklemeler için bekle
+      await delay(3000); 
 
       const sectionData = await page.evaluate(() => {
         const sections =[];
@@ -77,15 +85,12 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
             if (!link) return;
             const id = link.href.match(/list=([^&]+)/)?.[1];
             
-            // ORİJİNAL KAPAK BULUCU
             const imgEl = card.querySelector('img');
             let img = "";
             if (imgEl) {
                 let src = imgEl.src || "";
                 let srcset = imgEl.srcset ? imgEl.srcset.split(',').pop().trim().split(' ')[0] : "";
                 let thumb = imgEl.getAttribute('data-thumb') || "";
-                
-                // Kalite önceliğine göre kapağı seç
                 img = srcset || thumb || src;
             }
 
@@ -99,16 +104,15 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
       });
 
       fullFeed[langCode] = sectionData;
-      console.log(`   ✅ ${sectionData.length} kategori, tüm playlistler ve orijinal kapaklar çekildi.`);
+      console.log(`   ✅ ${sectionData.length} kategori ve kapaklar çekildi.`);
     } catch (e) {
       console.error(`   ❌ Hata [${langCode}]: ${e.message}`);
     }
-    await page.close();
+    await page.close(); // İşlem biten sekmeyi kapat ki RAM dolsun
   }
 
   await browser.close();
 
-  // GitHub zamanlayıcısını tetiklemek için package.json son güncelleme tarihini yazdırıyoruz
   try {
       const pkgInfo = JSON.parse(fs.readFileSync('package.json', 'utf8'));
       pkgInfo.lastUpdated = new Date().toISOString();
