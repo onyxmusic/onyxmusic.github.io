@@ -72,13 +72,13 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
       const sectionData = await page.evaluate(async () => {
         const innerDelay = ms => new Promise(res => setTimeout(res, ms));
         
-        // ✅ DEĞİŞEN KISIM: og:image ile orijinal playlist kapağını çek
+        // ✅ &amp; decode edildi
         async function getPlaylistThumbnail(playlistId) {
           try {
             const res = await fetch(`https://www.youtube.com/playlist?list=${playlistId}`);
             const text = await res.text();
             const match = text.match(/<meta property="og:image" content="([^"]+)"/);
-            return match ? match[1] : "";
+            return match ? match[1].replace(/&amp;/g, '&') : "";
           } catch (e) { return ""; }
         }
 
@@ -111,7 +111,6 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
               });
             }
 
-            // ✅ Orijinal playlist kapağını çek
             const img = await getPlaylistThumbnail(id);
             
             items.push({ id, name: name || "İsimsiz", img });
