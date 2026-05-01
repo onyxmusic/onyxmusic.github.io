@@ -19,123 +19,123 @@ const REGIONS = {
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
 (async () => {
-  console.log("🚀 OnyxMusic Ultra-Scraper Başlıyor (Tam Çekim & RAM Korumalı)...");
+  console.log("🚀 OnyxMusic Otomatik Scraper Başlıyor...");
   
+  const browser = await puppeteer.launch({ 
+    headless: true,
+    args: ['--no-sandbox', '--disable-setuid-sandbox'] 
+  });
+
   const fullFeed = {};
 
   for (const [langCode, config] of Object.entries(REGIONS)) {
-    const url = 'https://www.youtube.com/feed/music';
-    console.log(`\n⏳ İşleniyor: [${langCode.toUpperCase()}]`);
+    const url = `https://www.youtube.com/feed/music`;
+    console.log(`\n⏳ İşleniyor: [${langCode.toUpperCase()}] (Dil: ${config.hl}, Ülke: ${config.gl})`);
     
-    // 👑 RAM ÇÖKMESİNE KESİN ÇÖZÜM: Her dil için tarayıcıyı sıfırdan açıyoruz!
-    const browser = await puppeteer.launch({ 
-      headless: true,
-      args:[
-        '--no-sandbox', 
-        '--disable-setuid-sandbox', 
-        '--disable-dev-shm-usage',
-        '--disable-accelerated-2d-canvas',
-        '--disable-gpu'
-      ] 
+    const page = await browser.newPage();
+    await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36');
+
+    await page.setCookie({
+      name: 'PREF',
+      value: `hl=${config.hl}&gl=${config.gl}`,
+      domain: '.youtube.com',
+      path: '/'
+    });
+
+    await page.setCookie({
+      name: 'SOCS',
+      value: 'CAESEwgDEgk0ODE3Nzk3MjQaAmVuIAEaBgiA_LyaBg',
+      domain: '.youtube.com',
+      path: '/'
     });
 
     try {
-      const page = await browser.newPage();
-      await page.setViewport({ width: 1280, height: 1080 });
-      await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
-
-      await page.setCookie({ name: 'PREF', value: `hl=${config.hl}&gl=${config.gl}`, domain: '.youtube.com', path: '/' });
-      await page.setCookie({ name: 'SOCS', value: 'CAESEwgDEgk0ODE3Nzk3MjQaAmVuIAEaBgiA_LyaBg', domain: '.youtube.com', path: '/' });
-
       await page.goto(url, { waitUntil: 'networkidle2', timeout: 60000 });
-      await delay(2000);
+      await delay(2000); 
       
-      console.log(`   🎨 Tüm kategorilerin yüklenmesi bekleniyor...`);
-      
-      // 👑 EKSİK ÇEKMEYE KESİN ÇÖZÜM: Gerçek insan gibi dibe kadar iner ve yeni yüklemeleri bekler
+      console.log(`   Sayfa aşağı kaydırılıyor...`);
       await page.evaluate(async () => {
         await new Promise((resolve) => {
-          let lastHeight = 0;
-          let unchangedCount = 0;
-          
+          let totalHeight = 0;
+          let distance = 300;
           let timer = setInterval(() => {
-            window.scrollBy(0, 800);
-            let newHeight = document.documentElement.scrollHeight;
-            
-            // Eğer sayfa boyutu değişmediyse (yani en alta geldiysek)
-            if (newHeight === lastHeight) {
-              unchangedCount++;
-              // 5 kez (yaklaşık 2.5 saniye) denemesine rağmen yeni içerik gelmediyse işlemi bitir
-              if (unchangedCount >= 5) {
-                clearInterval(timer);
-                resolve();
-              }
-            } else {
-              // Yeni içerik geldiyse sayacı sıfırla ve kaydırmaya devam et
-              unchangedCount = 0;
-              lastHeight = newHeight;
+            let scrollHeight = document.body.scrollHeight;
+            window.scrollBy(0, distance);
+            totalHeight += distance;
+            if (totalHeight >= scrollHeight || totalHeight > 6000) { 
+              clearInterval(timer); resolve(); 
             }
-          }, 500); 
+          }, 400);
         });
       });
 
-      await delay(2000); // Son resimlerin kalitesinin netleşmesi için ekstra bekle
-
-      const sectionData = await page.evaluate(() => {
-        const sections =[];
-        const shelves = document.querySelectorAll('ytd-rich-section-renderer, ytd-shelf-renderer');
+      const sectionData = await page.evaluate(async () => {
+        const innerDelay = ms => new Promise(res => setTimeout(res, ms));
         
-        shelves.forEach(shelf => {
-          const title = shelf.querySelector('#title, #title-text, yt-formatted-string')?.textContent?.trim();
-          if (!title) return;
+        // ✅ DEĞİŞEN KISIM: og:image ile orijinal playlist kapağını çek
+        async function getPlaylistThumbnail(playlistId) {
+          try {
+            const res = await fetch(`https://www.youtube.com/playlist?list=${playlistId}`);
+            const text = await res.text();
+            const match = text.match(/<meta property="og:image" content="([^"]+)"/);
+            return match ? match[1] : "";
+          } catch (e) { return ""; }
+        }
 
-          const items =[];
-          const cards = shelf.querySelectorAll('ytd-rich-item-renderer, ytd-grid-playlist-renderer, ytd-compact-playlist-renderer');
+        const sections = [];
+        const elements = document.querySelectorAll('ytd-rich-section-renderer, ytd-shelf-renderer');
+        
+        for (let section of elements) {
+          const sectionTitle = section.querySelector('#title, #title-text, yt-formatted-string')?.textContent?.trim();
+          if (!sectionTitle) continue;
+
+          const items = [];
+          const seenIds = new Set();
+          const cards = section.querySelectorAll('ytd-rich-item-renderer, ytd-grid-playlist-renderer, ytd-compact-playlist-renderer');
           
-          cards.forEach(card => {
-            const link = card.querySelector('a[href*="list=RDCLAK"], a[href*="list=PL"]');
-            if (!link) return;
-            const id = link.href.match(/list=([^&]+)/)?.[1];
+          for (let card of cards) {
+            const linkEl = card.querySelector('a[href*="list=RDCLAK"], a[href*="list=PL"]');
+            if (!linkEl) continue;
             
-            // 👑 ORİJİNAL KAPAK BULUCU
-            const imgEl = card.querySelector('img');
-            let img = "";
-            if (imgEl) {
-                let src = imgEl.src || "";
-                let srcset = imgEl.srcset ? imgEl.srcset.split(',').pop().trim().split(' ')[0] : "";
-                let thumb = imgEl.getAttribute('data-thumb') || "";
-                
-                // En yüksek kaliteyi seç
-                img = srcset || thumb || src;
+            const match = linkEl.href.match(/list=((?:RDCLAK|PL)[^&]+)/);
+            if (!match) continue;
+            
+            const id = match[1];
+            if (seenIds.has(id)) continue;
+
+            let name = card.querySelector('#video-title')?.textContent?.trim() || card.querySelector('h3')?.textContent?.trim();
+            if (!name) {
+              card.querySelectorAll('a[href*="list=RDCLAK"], a[href*="list=PL"]').forEach(a => {
+                const text = a.querySelector('span, yt-formatted-string')?.textContent?.trim() || a.textContent?.trim() || a.title;
+                if (text && !text.match(/\d+\s*(şarkı|video|songs|videos|canciones)/i)) name = text;
+              });
             }
 
-            if (id && img && !img.includes('pixel')) {
-                items.push({ id, name: card.querySelector('#video-title, h3')?.textContent?.trim() || "İsimsiz", img });
-            }
-          });
-          if (items.length > 0) sections.push({ section_title: title, items });
-        });
+            // ✅ Orijinal playlist kapağını çek
+            const img = await getPlaylistThumbnail(id);
+            
+            items.push({ id, name: name || "İsimsiz", img });
+            seenIds.add(id);
+            
+            await innerDelay(200); 
+          }
+          if (items.length > 0) sections.push({ section_title: sectionTitle, items });
+        }
         return sections;
       });
 
       fullFeed[langCode] = sectionData;
-      console.log(`   ✅ BAŞARILI: Tam ${sectionData.length} kategori çekildi!`);
+      console.log(`   ✅ ${sectionData.length} kategori başarıyla çekildi!`);
 
-    } catch (e) {
-      console.error(`   ❌ Hata [${langCode}]: ${e.message}`);
+    } catch (error) {
+      console.error(`   ❌ Hata oluştu [${langCode}]:`, error.message);
     } finally {
-      // 👑 İŞİ BİTEN TARAYICIYI TAMAMEN KAPAT, RAM'İ BOŞALT
-      await browser.close(); 
+      await page.close();
     }
   }
 
-  // GitHub zamanlayıcısını tetiklemek için package.json son güncelleme tarihini yazdırıyoruz
-  try {
-      const pkgInfo = JSON.parse(fs.readFileSync('package.json', 'utf8'));
-      pkgInfo.lastUpdated = new Date().toISOString();
-      fs.writeFileSync('package.json', JSON.stringify(pkgInfo, null, 2), 'utf-8');
-  } catch (e) {}
+  await browser.close();
 
   fs.writeFileSync('feed.json', JSON.stringify(fullFeed, null, 2), 'utf-8');
-  console.log("\n🎉 İŞLEM KUSURSUZ TAMAMLANDI! feed.json dosyası kaydedildi.");
+  console.log("\n🎉 İşlem Tamamlandı! Tüm diller feed.json dosyasına kaydedildi.");
 })();
