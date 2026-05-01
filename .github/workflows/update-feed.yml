@@ -3,7 +3,7 @@ name: OnyxMusic Feed Guncelleyici
 on:
   schedule:
     # Her gece Türkiye saati ile sabah 05:00'da çalışır (UTC'ye göre 02:00)
-    - cron: '0 2 * * *'
+    - cron: '0 2,16 * * *'
   workflow_dispatch: # Senin istediğin zaman elle tetikleyebilmen için buton ekler
 
 jobs:
