@@ -19,55 +19,67 @@ const REGIONS = {
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
 (async () => {
-  console.log("🚀 OnyxMusic Ultra-Scraper Başlıyor (RAM Korumalı)...");
+  console.log("🚀 OnyxMusic Ultra-Scraper Başlıyor (Tam Çekim & RAM Korumalı)...");
   
-  // 👑 GITHUB SUNUCULARININ ÇÖKMESİNİ ENGELLEYEN AYARLAR
-  const browser = await puppeteer.launch({ 
-    headless: true,
-    args:[
-      '--no-sandbox', 
-      '--disable-setuid-sandbox', 
-      '--disable-dev-shm-usage', // Hafıza şişmesini engeller
-      '--disable-gpu',           // Ekran kartı yükünü kapatır
-      '--disable-blink-features=AutomationControlled'
-    ] 
-  });
-
   const fullFeed = {};
 
   for (const [langCode, config] of Object.entries(REGIONS)) {
     const url = 'https://www.youtube.com/feed/music';
     console.log(`\n⏳ İşleniyor: [${langCode.toUpperCase()}]`);
     
-    const page = await browser.newPage();
-    await page.setViewport({ width: 1280, height: 1080 });
-    await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
-
-    await page.setCookie({ name: 'PREF', value: `hl=${config.hl}&gl=${config.gl}`, domain: '.youtube.com', path: '/' });
-    await page.setCookie({ name: 'SOCS', value: 'CAESEwgDEgk0ODE3Nzk3MjQaAmVuIAEaBgiA_LyaBg', domain: '.youtube.com', path: '/' });
+    // 👑 RAM ÇÖKMESİNE KESİN ÇÖZÜM: Her dil için tarayıcıyı sıfırdan açıyoruz!
+    const browser = await puppeteer.launch({ 
+      headless: true,
+      args:[
+        '--no-sandbox', 
+        '--disable-setuid-sandbox', 
+        '--disable-dev-shm-usage',
+        '--disable-accelerated-2d-canvas',
+        '--disable-gpu'
+      ] 
+    });
 
     try {
+      const page = await browser.newPage();
+      await page.setViewport({ width: 1280, height: 1080 });
+      await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
+
+      await page.setCookie({ name: 'PREF', value: `hl=${config.hl}&gl=${config.gl}`, domain: '.youtube.com', path: '/' });
+      await page.setCookie({ name: 'SOCS', value: 'CAESEwgDEgk0ODE3Nzk3MjQaAmVuIAEaBgiA_LyaBg', domain: '.youtube.com', path: '/' });
+
       await page.goto(url, { waitUntil: 'networkidle2', timeout: 60000 });
+      await delay(2000);
       
-      // TÜM PLAYLİSTLERİ YÜKLEME DÖNGÜSÜ
+      console.log(`   🎨 Tüm kategorilerin yüklenmesi bekleniyor...`);
+      
+      // 👑 EKSİK ÇEKMEYE KESİN ÇÖZÜM: Gerçek insan gibi dibe kadar iner ve yeni yüklemeleri bekler
       await page.evaluate(async () => {
         await new Promise((resolve) => {
-          let totalHeight = 0;
-          let distance = 600; 
+          let lastHeight = 0;
+          let unchangedCount = 0;
+          
           let timer = setInterval(() => {
-            let scrollHeight = document.body.scrollHeight;
-            window.scrollBy(0, distance);
-            totalHeight += distance;
+            window.scrollBy(0, 800);
+            let newHeight = document.documentElement.scrollHeight;
             
-            if (totalHeight >= scrollHeight || totalHeight > 15000) { 
-              clearInterval(timer);
-              resolve(); 
+            // Eğer sayfa boyutu değişmediyse (yani en alta geldiysek)
+            if (newHeight === lastHeight) {
+              unchangedCount++;
+              // 5 kez (yaklaşık 2.5 saniye) denemesine rağmen yeni içerik gelmediyse işlemi bitir
+              if (unchangedCount >= 5) {
+                clearInterval(timer);
+                resolve();
+              }
+            } else {
+              // Yeni içerik geldiyse sayacı sıfırla ve kaydırmaya devam et
+              unchangedCount = 0;
+              lastHeight = newHeight;
             }
-          }, 800); 
+          }, 500); 
         });
       });
 
-      await delay(3000); 
+      await delay(2000); // Son resimlerin kalitesinin netleşmesi için ekstra bekle
 
       const sectionData = await page.evaluate(() => {
         const sections =[];
@@ -85,12 +97,15 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
             if (!link) return;
             const id = link.href.match(/list=([^&]+)/)?.[1];
             
+            // 👑 ORİJİNAL KAPAK BULUCU
             const imgEl = card.querySelector('img');
             let img = "";
             if (imgEl) {
                 let src = imgEl.src || "";
                 let srcset = imgEl.srcset ? imgEl.srcset.split(',').pop().trim().split(' ')[0] : "";
                 let thumb = imgEl.getAttribute('data-thumb') || "";
+                
+                // En yüksek kaliteyi seç
                 img = srcset || thumb || src;
             }
 
@@ -104,15 +119,17 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
       });
 
       fullFeed[langCode] = sectionData;
-      console.log(`   ✅ ${sectionData.length} kategori ve kapaklar çekildi.`);
+      console.log(`   ✅ BAŞARILI: Tam ${sectionData.length} kategori çekildi!`);
+
     } catch (e) {
       console.error(`   ❌ Hata [${langCode}]: ${e.message}`);
+    } finally {
+      // 👑 İŞİ BİTEN TARAYICIYI TAMAMEN KAPAT, RAM'İ BOŞALT
+      await browser.close(); 
     }
-    await page.close(); // İşlem biten sekmeyi kapat ki RAM dolsun
   }
 
-  await browser.close();
-
+  // GitHub zamanlayıcısını tetiklemek için package.json son güncelleme tarihini yazdırıyoruz
   try {
       const pkgInfo = JSON.parse(fs.readFileSync('package.json', 'utf8'));
       pkgInfo.lastUpdated = new Date().toISOString();
@@ -120,5 +137,5 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
   } catch (e) {}
 
   fs.writeFileSync('feed.json', JSON.stringify(fullFeed, null, 2), 'utf-8');
-  console.log("🎉 İşlem Tamamlandı!");
+  console.log("\n🎉 İŞLEM KUSURSUZ TAMAMLANDI! feed.json dosyası kaydedildi.");
 })();
