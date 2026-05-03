@@ -2,9 +2,9 @@ name: Update Feed
 
 on:
   schedule:
-    - cron: '0 2 * * *'   # 05:00 TR
-    - cron: '30 16 * * *' # 19:30 TR
-    - cron: '0 13 * * *'
+    - cron: '0 0 * * *'   # 05:00 TR
+    - cron: '0 8 * * *' # 19:30 TR
+    - cron: '0 16 * * *'
   workflow_dispatch:       # Elle de başlatılabilir
 
 jobs:
