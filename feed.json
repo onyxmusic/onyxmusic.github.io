@@ -131,12 +131,12 @@
         {
           "id": "RDCLAK5uy_maMuZv8TdZTJ_ZYa1Ps0SBF5RgTJH8vkc",
           "name": "Türkçe Indie Hotlist",
-          "img": "https://i.ytimg.com/vi/ME_b4LSij3E/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/5tpncmy29ZY/hqdefault.jpg"
         },
         {
           "id": "RDCLAK5uy_nJSDhRk8bscDVWp3jGGNTZxgpq98KeW98",
           "name": "Arabesk Pop Hotlist",
-          "img": "https://i.ytimg.com/vi/Wy1B_yc8hQA/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/hK7K8mZuTHs/hqdefault.jpg"
         },
         {
           "id": "RDCLAK5uy_lBNUteBRencHzKelu5iDHwLF6mYqjL-JU",
@@ -513,7 +513,7 @@
         {
           "id": "RDCLAK5uy_k5n4srrEB1wgvIjPNTXS9G1ufE9WQxhnA",
           "name": "RELEASED",
-          "img": "https://i.ytimg.com/vi/JlfnEms4vRI/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/ipOSrQNrp1U/hqdefault.jpg"
         },
         {
           "id": "RDCLAK5uy_lS3E3PgpboCkZ_PfLPCkLLNPI1uH6kfc0",
@@ -815,6 +815,71 @@
   ],
   "fr": [
     {
+      "section_title": "Eurovision Party",
+      "items": [
+        {
+          "id": "RDCLAK5uy_kL-nWMqnRoPuUCh9toq5gatFti1kFokH0",
+          "name": "Eurovision 2026",
+          "img": "https://i.ytimg.com/vi/qQX5G51XWN0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nDiaOPOaPYGAY_WGjPnhkNe7Bj53W-6IE",
+          "name": "Eurovision : les lauréats historiques",
+          "img": "https://i.ytimg.com/vi/n3-O9y4gUSE/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_kdleYRgJfVdtXtDEkPne9S9UPQnNL_6K0",
+          "name": "Top Eurovision Hits",
+          "img": "https://i.ytimg.com/vi/bcnWysA9gxo/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_lb6CVU6S4uVugLVNTU9WhqfaomWAgnho4",
+          "name": "Tubes pop à reprendre en chœur",
+          "img": "https://i.ytimg.com/vi/Ys7-6_t7OEQ/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_loc3QkpRI5iaLbS_laJf0_OwzvPeAYrYc",
+          "name": "Soirée pop classique",
+          "img": "https://i.ytimg.com/vi/JGwWNGJdvx8/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nZgpioZcDw6oYAp4o3oUNTWdVK0j_XyWo",
+          "name": "'10s Party",
+          "img": "https://i.ytimg.com/vi/2zNSgSzhBfM/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nTc5NFhV7JpI-gyG_lsnjNp2mrpsDnG58",
+          "name": "Rainbow party 🌈",
+          "img": "https://i.ytimg.com/vi/bcnWysA9gxo/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_lEJSMz3ixa8UNloLg1geQT_DsB0C9a02g",
+          "name": "80s Pop Party",
+          "img": "https://i.ytimg.com/vi/Qs-8xYwYJAQ/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nvu_HUY0DPNpbB_V0moUfs9s5zABAF8xQ",
+          "name": "La meilleure fête des années 1990",
+          "img": "https://i.ytimg.com/vi/HEXWRTEbj1I/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nUi8B-S9ckz5feHM7oMGyQQ_eKW2Zl9aE",
+          "name": "Hits des années 2000",
+          "img": "https://i.ytimg.com/vi/yd8jh9QYfEs/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mgVILQJR6PIbFvXyYCjmwbSVxmgaVTELI",
+          "name": "Disco endiablé",
+          "img": "https://i.ytimg.com/vi/SVMwGHdOr4Y/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mkXiaMATud8GJQ3aX7f0nCeCqvehA9wTQ",
+          "name": "Dance Party Hits",
+          "img": "https://i.ytimg.com/vi/kOkQ4T5WO9E/hqdefault.jpg"
+        }
+      ]
+    },
+    {
       "section_title": "Ambiance printanière",
       "items": [
         {
@@ -885,7 +950,7 @@
         {
           "id": "RDCLAK5uy_mfdY-wgukpeBhEvTg6BPW_WgcUKX7rXaA",
           "name": "Nouveaux sons Rap",
-          "img": "https://i.ytimg.com/vi/UXgr4JtyM-I/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/TMYhNdRMAoc/hqdefault.jpg"
         },
         {
           "id": "RDCLAK5uy_n8xRDDZKf5vOGK0qLOhvgb4I8oDzk0CWA",
@@ -1136,6 +1201,71 @@
     }
   ],
   "de": [
+    {
+      "section_title": "Eurovision Party",
+      "items": [
+        {
+          "id": "RDCLAK5uy_kL-nWMqnRoPuUCh9toq5gatFti1kFokH0",
+          "name": "Eurovision 2026",
+          "img": "https://i.ytimg.com/vi/qQX5G51XWN0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nDiaOPOaPYGAY_WGjPnhkNe7Bj53W-6IE",
+          "name": "Eurovision Song Contest: Alle Gewinner",
+          "img": "https://i.ytimg.com/vi/n3-O9y4gUSE/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_kdleYRgJfVdtXtDEkPne9S9UPQnNL_6K0",
+          "name": "Die Eurovision Hits",
+          "img": "https://i.ytimg.com/vi/bcnWysA9gxo/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_lb6CVU6S4uVugLVNTU9WhqfaomWAgnho4",
+          "name": "Pop Hits zum Mitsingen",
+          "img": "https://i.ytimg.com/vi/Ys7-6_t7OEQ/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_loc3QkpRI5iaLbS_laJf0_OwzvPeAYrYc",
+          "name": "Pop Party Klassiker",
+          "img": "https://i.ytimg.com/vi/JGwWNGJdvx8/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nZgpioZcDw6oYAp4o3oUNTWdVK0j_XyWo",
+          "name": "'10s Party",
+          "img": "https://i.ytimg.com/vi/2zNSgSzhBfM/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nTc5NFhV7JpI-gyG_lsnjNp2mrpsDnG58",
+          "name": "Regenbogen Party 🌈",
+          "img": "https://i.ytimg.com/vi/bcnWysA9gxo/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_lEJSMz3ixa8UNloLg1geQT_DsB0C9a02g",
+          "name": "80s Pop Party",
+          "img": "https://i.ytimg.com/vi/Qs-8xYwYJAQ/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nvu_HUY0DPNpbB_V0moUfs9s5zABAF8xQ",
+          "name": "Ultimative 90er-Party",
+          "img": "https://i.ytimg.com/vi/HEXWRTEbj1I/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nUi8B-S9ckz5feHM7oMGyQQ_eKW2Zl9aE",
+          "name": "Die besten Hits der 2000er",
+          "img": "https://i.ytimg.com/vi/yd8jh9QYfEs/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mgVILQJR6PIbFvXyYCjmwbSVxmgaVTELI",
+          "name": "Disco Inferno",
+          "img": "https://i.ytimg.com/vi/SVMwGHdOr4Y/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mkXiaMATud8GJQ3aX7f0nCeCqvehA9wTQ",
+          "name": "Dance Party Hits",
+          "img": "https://i.ytimg.com/vi/kOkQ4T5WO9E/hqdefault.jpg"
+        }
+      ]
+    },
     {
       "section_title": "Frühlingsstimmung",
       "items": [
@@ -1537,7 +1667,7 @@
         {
           "id": "RDCLAK5uy_n4JlAuNLjhr4Sz8BQVS9IfeQiiKnx2_bc",
           "name": "RELEASED",
-          "img": "https://i.ytimg.com/vi/JlfnEms4vRI/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/ipOSrQNrp1U/hqdefault.jpg"
         },
         {
           "id": "RDCLAK5uy_lKL2i08SARZR_vSo5PW_JlM0YW12agYf0",
@@ -1689,7 +1819,7 @@
         {
           "id": "RDCLAK5uy_k5n4srrEB1wgvIjPNTXS9G1ufE9WQxhnA",
           "name": "RELEASED",
-          "img": "https://i.ytimg.com/vi/JlfnEms4vRI/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/ipOSrQNrp1U/hqdefault.jpg"
         },
         {
           "id": "RDCLAK5uy_kLwgLlrxA4-_EchctXgTyHR4rwRaRv1wk",
@@ -1804,7 +1934,7 @@
         {
           "id": "RDCLAK5uy_nHSqCJjDrW9HBhCNdF6tWPdnOMngOv0wA",
           "name": "Pop de Oro",
-          "img": "https://i.ytimg.com/vi/hLQl3WQQoQ0/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/UQ8cXH7qbVU/hqdefault.jpg"
         },
         {
           "id": "RDCLAK5uy_nGla7fZdBfRak2-LrbYP0aHdjz8Lwv7lQ",
@@ -1884,7 +2014,7 @@
         {
           "id": "RDCLAK5uy_nHSqCJjDrW9HBhCNdF6tWPdnOMngOv0wA",
           "name": "Pop de Oro",
-          "img": "https://i.ytimg.com/vi/hLQl3WQQoQ0/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/UQ8cXH7qbVU/hqdefault.jpg"
         },
         {
           "id": "RDCLAK5uy_nyKVppE-RpLkeCcwLct4rvN9e8AAsS_qw",
@@ -2066,7 +2196,7 @@
         {
           "id": "RDCLAK5uy_k5n4srrEB1wgvIjPNTXS9G1ufE9WQxhnA",
           "name": "NUOVE USCITE",
-          "img": "https://i.ytimg.com/vi/JlfnEms4vRI/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/ipOSrQNrp1U/hqdefault.jpg"
         },
         {
           "id": "RDCLAK5uy_kLwgLlrxA4-_EchctXgTyHR4rwRaRv1wk",
@@ -2181,7 +2311,7 @@
         {
           "id": "RDCLAK5uy_nHSqCJjDrW9HBhCNdF6tWPdnOMngOv0wA",
           "name": "Le migliori hit rilassanti di sempre",
-          "img": "https://i.ytimg.com/vi/hLQl3WQQoQ0/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/UQ8cXH7qbVU/hqdefault.jpg"
         },
         {
           "id": "RDCLAK5uy_nGla7fZdBfRak2-LrbYP0aHdjz8Lwv7lQ",
@@ -2261,7 +2391,7 @@
         {
           "id": "RDCLAK5uy_nHSqCJjDrW9HBhCNdF6tWPdnOMngOv0wA",
           "name": "Le migliori hit rilassanti di sempre",
-          "img": "https://i.ytimg.com/vi/hLQl3WQQoQ0/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/UQ8cXH7qbVU/hqdefault.jpg"
         },
         {
           "id": "RDCLAK5uy_nyKVppE-RpLkeCcwLct4rvN9e8AAsS_qw",
@@ -2800,7 +2930,7 @@
         {
           "id": "RDCLAK5uy_k5n4srrEB1wgvIjPNTXS9G1ufE9WQxhnA",
           "name": "НОВИНКИ",
-          "img": "https://i.ytimg.com/vi/JlfnEms4vRI/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/ipOSrQNrp1U/hqdefault.jpg"
         },
         {
           "id": "RDCLAK5uy_kLwgLlrxA4-_EchctXgTyHR4rwRaRv1wk",
@@ -2915,7 +3045,7 @@
         {
           "id": "RDCLAK5uy_nHSqCJjDrW9HBhCNdF6tWPdnOMngOv0wA",
           "name": "Золотые поп-хиты",
-          "img": "https://i.ytimg.com/vi/hLQl3WQQoQ0/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/UQ8cXH7qbVU/hqdefault.jpg"
         },
         {
           "id": "RDCLAK5uy_nGla7fZdBfRak2-LrbYP0aHdjz8Lwv7lQ",
@@ -2995,7 +3125,7 @@
         {
           "id": "RDCLAK5uy_nHSqCJjDrW9HBhCNdF6tWPdnOMngOv0wA",
           "name": "Золотые поп-хиты",
-          "img": "https://i.ytimg.com/vi/hLQl3WQQoQ0/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/UQ8cXH7qbVU/hqdefault.jpg"
         },
         {
           "id": "RDCLAK5uy_nyKVppE-RpLkeCcwLct4rvN9e8AAsS_qw",
@@ -3127,7 +3257,7 @@
         {
           "id": "RDCLAK5uy_mC3tHtlDlzdSAyD3fIb0fWjPAvbXxSEjQ",
           "name": "RELEASED",
-          "img": "https://i.ytimg.com/vi/JlfnEms4vRI/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/ipOSrQNrp1U/hqdefault.jpg"
         },
         {
           "id": "RDCLAK5uy_nrwKVmKEHU7FkyjxXz3yG7sGQH9CRPARE",
@@ -3137,7 +3267,7 @@
         {
           "id": "RDCLAK5uy_kkDewCncbIEmpbXsGk-2OLy9aWQLMO2-g",
           "name": "عربي جديد",
-          "img": "https://i.ytimg.com/vi/icc_X9247fs/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/ypK_gBblavU/hqdefault.jpg"
         },
         {
           "id": "RDCLAK5uy_nC3CD6X2VFZ3LZjjpAUgxH1Dluwpc0GmQ",
@@ -3504,7 +3634,7 @@
         {
           "id": "RDCLAK5uy_l5aa8m8-BDq-dxZGCowwrPv-VDFxSa2pM",
           "name": "ボカロHits",
-          "img": "https://i.ytimg.com/vi/icBDYkfxpMs/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/adE8jVLoLPo/hqdefault.jpg"
         },
         {
           "id": "RDCLAK5uy_ls7Hour_dLIU-qM70oNL73bVjy7pg9UtA",
@@ -4021,7 +4151,7 @@
         {
           "id": "RDCLAK5uy_l8CaYQvBQWVT2st1VsW9JjODWisR_vd3U",
           "name": "न्यू म्यूज़िक तेलुगु",
-          "img": "https://i.ytimg.com/vi/Rr5LN0EWOfw/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/RAwEo3eJfBw/hqdefault.jpg"
         },
         {
           "id": "RDCLAK5uy_nVQAtE2KBWk-ROQIc5o39Oup3hOLnYV0g",
@@ -4568,12 +4698,12 @@
         {
           "id": "RDCLAK5uy_n_sz-xNYVBufENsdri7PFhP8ybpfkIlck",
           "name": "輕柔華語抒情歌",
-          "img": "https://i.ytimg.com/vi/AeatuvJ2jEQ/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/jeRu6h4XbUU/hqdefault.jpg"
         },
         {
           "id": "RDCLAK5uy_mijutvVbzp7bbNlWt-B5U90qb5KplCkSQ",
           "name": "琅琅上口的華語歌",
-          "img": "https://i.ytimg.com/vi/AeatuvJ2jEQ/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/jcd6xxeZf4I/hqdefault.jpg"
         },
         {
           "id": "RDCLAK5uy_m4l9o8KGwQKrYuWFr1ej7hSrYOQDP6Jxw",
