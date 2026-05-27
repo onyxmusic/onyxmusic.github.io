@@ -3137,6 +3137,106 @@
   ],
   "ar": [
     {
+      "section_title": "أجدد و أجمل الأغاني",
+      "items": [
+        {
+          "id": "RDCLAK5uy_mC3tHtlDlzdSAyD3fIb0fWjPAvbXxSEjQ",
+          "name": "RELEASED",
+          "img": "https://i.ytimg.com/vi/vxfZ6INPx-A/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nrwKVmKEHU7FkyjxXz3yG7sGQH9CRPARE",
+          "name": "مهرجانات جديدة",
+          "img": "https://i.ytimg.com/vi/G4oMe4Kcypw/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_kkDewCncbIEmpbXsGk-2OLy9aWQLMO2-g",
+          "name": "عربي جديد",
+          "img": "https://i.ytimg.com/vi/2H6CuDOvYvU/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nC3CD6X2VFZ3LZjjpAUgxH1Dluwpc0GmQ",
+          "name": "مصري جديد",
+          "img": "https://i.ytimg.com/vi/qYvNW0YvVE0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nxu_9mIvKXKXft_8xjMYUmmFyvo0Uv3eI",
+          "name": "عراقي جديد",
+          "img": "https://i.ytimg.com/vi/xtxAOylAQoo/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nGZRi-an-ruqiZlNJSGhCDHucdp2FBNfI",
+          "name": "جديد الآر ان بي",
+          "img": "https://i.ytimg.com/vi/Pz-SZlU4C10/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_ncf7GgjSEDa0f_EiMC2D0px8NZ5RfPuz0",
+          "name": "خليجي جديد",
+          "img": "https://i.ytimg.com/vi/ubt6zWnPl7Q/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_k7O9KByATGA1TqFYhyOkylpJ6fM1avtww",
+          "name": "Clout Rising",
+          "img": "https://i.ytimg.com/vi/SD4yRDY9mek/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "section_title": "عيد مبارك 🌙✨",
+      "items": [
+        {
+          "id": "RDCLAK5uy_k2OYqPg43nZTTCvVe5NuhwicugPlPg9rw",
+          "name": "\"إي دي إم\" بالعربي عالبال",
+          "img": "https://i.ytimg.com/vi/x_4pnGTRVCY/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nZ-kEsmlcJGdCIYuPv4miPsFUf5uFK2v8",
+          "name": "أرقص و إفرح",
+          "img": "https://i.ytimg.com/vi/TMNX51vMtW0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nU-8tsTJccPKgam0dRyl65IG7KDGsu1f8",
+          "name": "فرحة كبيرة",
+          "img": "https://i.ytimg.com/vi/3knHALzEC7M/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nv-k4tlNoIYtsPgLrt19JSIBQNGYuLdns",
+          "name": "حفلة مصرية",
+          "img": "https://i.ytimg.com/vi/DcpZm1KtOxw/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_lPjlW9s89WQaynRhm_f1hUwAIL8McUgds",
+          "name": "اللي جاي أحلى",
+          "img": "https://i.ytimg.com/vi/3knHALzEC7M/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nPvMNMnckDpXHFkCelBd24gZY826lSLjE",
+          "name": "هيصة",
+          "img": "https://i.ytimg.com/vi/QZVm__-o6HI/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mhmPRtdsF1Qcf-4iiXifBtxNVpsUJhnM4",
+          "name": "حفلة عراقية",
+          "img": "https://i.ytimg.com/vi/sE6vJ9jyEKs/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_lex9NHfswlZnM4EZ8TyJ0QSLaf5Q-hJoI",
+          "name": "حفلة خليجية",
+          "img": "https://i.ytimg.com/vi/wcssYcD8znU/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_ktbe4Tsk60yxKW5C6M3_N5pMwftU8ZsAg",
+          "name": "حفلة دبكة",
+          "img": "https://i.ytimg.com/vi/VZAkoOVfrPg/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_kNzXhllAADgH6Xij7N5NkSEEer-2z3-EE",
+          "name": "شيلات عالبال",
+          "img": "https://i.ytimg.com/vi/1jD3P6EmTv8/hqdefault.jpg"
+        }
+      ]
+    },
+    {
       "section_title": "أجمل الأغاني اليوم",
       "items": [
         {
@@ -3192,51 +3292,6 @@
       ]
     },
     {
-      "section_title": "أجدد و أجمل الأغاني",
-      "items": [
-        {
-          "id": "RDCLAK5uy_mC3tHtlDlzdSAyD3fIb0fWjPAvbXxSEjQ",
-          "name": "RELEASED",
-          "img": "https://i.ytimg.com/vi/vxfZ6INPx-A/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_nrwKVmKEHU7FkyjxXz3yG7sGQH9CRPARE",
-          "name": "مهرجانات جديدة",
-          "img": "https://i.ytimg.com/vi/G4oMe4Kcypw/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_kkDewCncbIEmpbXsGk-2OLy9aWQLMO2-g",
-          "name": "عربي جديد",
-          "img": "https://i.ytimg.com/vi/2H6CuDOvYvU/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_nC3CD6X2VFZ3LZjjpAUgxH1Dluwpc0GmQ",
-          "name": "مصري جديد",
-          "img": "https://i.ytimg.com/vi/qYvNW0YvVE0/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_nxu_9mIvKXKXft_8xjMYUmmFyvo0Uv3eI",
-          "name": "عراقي جديد",
-          "img": "https://i.ytimg.com/vi/xtxAOylAQoo/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_nGZRi-an-ruqiZlNJSGhCDHucdp2FBNfI",
-          "name": "جديد الآر ان بي",
-          "img": "https://i.ytimg.com/vi/Pz-SZlU4C10/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_ncf7GgjSEDa0f_EiMC2D0px8NZ5RfPuz0",
-          "name": "خليجي جديد",
-          "img": "https://i.ytimg.com/vi/ubt6zWnPl7Q/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_k7O9KByATGA1TqFYhyOkylpJ6fM1avtww",
-          "name": "Clout Rising",
-          "img": "https://i.ytimg.com/vi/SD4yRDY9mek/hqdefault.jpg"
-        }
-      ]
-    },
-    {
       "section_title": "هيب-هوب",
       "items": [
         {
@@ -3278,71 +3333,6 @@
           "id": "RDCLAK5uy_ldlwpMghzMwGCDSOA4Kw6TrOCXDaqXQMo",
           "name": "The Grime Hotlist",
           "img": "https://i.ytimg.com/vi/z43fM-SRpI8/hqdefault.jpg"
-        }
-      ]
-    },
-    {
-      "section_title": "الربيع 🌤️",
-      "items": [
-        {
-          "id": "RDCLAK5uy_mkQJpBKTH7S8iAdlq1khNLX-c1OhOhocM",
-          "name": "مزاج الربيع",
-          "img": "https://i.ytimg.com/vi/Cs6i13GIyo8/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_lmztFiBPwa16-qz6nwMaNrtVFPzCYNOkA",
-          "name": "أغاني \"هاوس\" و \"إي دي إم\" هادئة",
-          "img": "https://i.ytimg.com/vi/PT2_F-1esPk/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_liEN-UUeSCXa0iIeuHMeswEkxQXncSoXE",
-          "name": "\"بوب\" لا نهائي",
-          "img": "https://i.ytimg.com/vi/pvPsJFRGleA/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_mfdqvCAl8wodlx2P2_Ai2gNkiRDAufkkI",
-          "name": "أحلى أغاني البوب المرحة",
-          "img": "https://i.ytimg.com/vi/WcIcVapfqXw/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_mkEwQuegHYB8_aAzBO8Q__6gGoaFblISw",
-          "name": "موسيقى هيب هوب مبهجة",
-          "img": "https://i.ytimg.com/vi/u9rdzKwhxhI/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_nbla9IlAw2OQmPRxOiBYdAl_jtWLDPH9Y",
-          "name": "الحياة جميلة في بوليوود",
-          "img": "https://i.ytimg.com/vi/FZLadzn5i6Q/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_nlISyc3Ro85hbdC6z16nGQo5jif_dzk_M",
-          "name": "إندي\" عربي هادىء\"",
-          "img": "https://i.ytimg.com/vi/BGkL2Pq-g3A/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_n_0vMGj-9WtHuj2fbdwMGsSxL_7qglBCI",
-          "name": "أغاني مصرية للاسترخاء",
-          "img": "https://i.ytimg.com/vi/ejvpVhvKesM/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_kYIETxCqnBrhQxIa4dPqBD-NOHNn8O4KQ",
-          "name": "عراقي على مودك",
-          "img": "https://i.ytimg.com/vi/ETPU2RY_aCY/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_nbu2-fubCWEuBFeksTcYQGCax2kixpsp4",
-          "name": "مستانس",
-          "img": "https://i.ytimg.com/vi/zNOgNM0cRKI/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_k3dazOzqqDagSIBhGET4VrDKHS9dEjXPA",
-          "name": "أغاني خليجية هادئة",
-          "img": "https://i.ytimg.com/vi/_LTjhKM8tvs/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_laqTzdIfMc0lFCcLCFWl0BG468ZP19wNg",
-          "name": "إحساس جميل",
-          "img": "https://i.ytimg.com/vi/rhOAyPKHWEo/hqdefault.jpg"
         }
       ]
     },
@@ -4768,7 +4758,7 @@
         {
           "id": "RDCLAK5uy_lYPvoz4gPFnKMw_BFojpMk7xRSIqVBkEE",
           "name": "SWAG ON",
-          "img": "https://i.ytimg.com/vi/VQ-z0VGRVm4/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/BBwnbXfOk4I/hqdefault.jpg"
         },
         {
           "id": "RDCLAK5uy_m9ty3WvAucm7-5KsKdro9_HnocE8LSS9o",
