@@ -1,21 +1,19 @@
 name: Update Feed
-
 on:
   schedule:
-    - cron: '0 0 * * *'   # 05:00 TR
-    - cron: '0 8 * * *' # 19:30 TR
+    - cron: '0 0 * * *'
+    - cron: '0 8 * * *'
     - cron: '0 16 * * *'
-  workflow_dispatch:       # Elle de başlatılabilir
+  workflow_dispatch:
 
 jobs:
   update-feed:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0   # ← Tüm history çek, diverge sorununu önler
+          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -25,6 +23,9 @@ jobs:
       - name: Run npm install
         run: npm install
 
+      - name: Install Chrome
+        run: npx puppeteer browsers install chrome
+
       - name: Run node scraper.js
         run: node scraper.js
 
@@ -33,4 +34,4 @@ jobs:
         with:
           commit_message: "🔄 Otomatik Güncelleme: feed.json ve Orijinal Kapaklar yönlendi!"
           file_pattern: feed.json package.json
-          push_options: '--force'   # ← Diverge sorununu bu çözüyor
+          push_options: '--force'
