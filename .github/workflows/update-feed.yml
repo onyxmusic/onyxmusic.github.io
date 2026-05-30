@@ -1,38 +1,34 @@
 name: Update Feed
+
 on:
   schedule:
     - cron: '0 0 * * *'
     - cron: '0 8 * * *'
     - cron: '0 16 * * *'
   workflow_dispatch:
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   update-feed:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+      - uses: actions/checkout@v4
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: '24'
+          node-version: 24
 
-      - name: Run npm install
+      - name: Clear Puppeteer Cache
+        run: rm -rf ~/.cache/puppeteer
+
+      - name: Install Dependencies
         run: npm install
+
+      - name: Verify Puppeteer
+        run: npm ls puppeteer
 
       - name: Install Chrome
         run: npx puppeteer browsers install chrome
 
-      - name: Run node scraper.js
+      - name: Run Scraper
         run: node scraper.js
-
-      - name: Commit & Push
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "🔄 Otomatik Güncelleme: feed.json ve Orijinal Kapaklar yönlendi!"
-          file_pattern: feed.json package.json
-          push_options: '--force'
