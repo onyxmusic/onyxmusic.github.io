@@ -22,10 +22,11 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 (async () => {
   console.log("🚀 OnyxMusic Otomatik Scraper Başlıyor...");
   
-  const browser = await puppeteer.launch({ 
-    headless: true,
-    args:['--no-sandbox', '--disable-setuid-sandbox'] 
-  });
+  const browser = await puppeteer.launch({
+  executablePath: process.env.PUPPETEER_EXECUTABLE_PATH,
+  headless: true,
+  args: ['--no-sandbox', '--disable-setuid-sandbox']
+});
 
   const fullFeed = {};
 
