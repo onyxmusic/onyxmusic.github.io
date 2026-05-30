@@ -20,14 +20,13 @@ jobs:
         with:
           node-version: '24'
 
-      - name: Remove Puppeteer Cache
-        run: rm -rf ~/.cache/puppeteer
+      - name: Install Google Chrome
+        uses: browser-actions/setup-chrome@v1
 
       - name: Install Dependencies
         run: npm install
 
-      - name: Install Chrome
-        run: npx puppeteer browsers install chrome
-
       - name: Run Scraper
+        env:
+          PUPPETEER_EXECUTABLE_PATH: ${{ steps.setup-chrome.outputs.chrome-path }}
         run: node scraper.js
