@@ -5,6 +5,5 @@
   "main": "scraper.js",
   "dependencies": {
     "puppeteer": "^24.10.2"
-  },
-  "lastUpdated": "2026-05-01T15:36:43.735Z"
+  }
 }
