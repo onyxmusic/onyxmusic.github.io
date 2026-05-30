@@ -21,7 +21,8 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
 (async () => {
   console.log("🚀 OnyxMusic Otomatik Scraper Başlıyor...");
-  
+
+  console.log('Chrome Path:', process.env.PUPPETEER_EXECUTABLE_PATH);
   const browser = await puppeteer.launch({
   executablePath: process.env.PUPPETEER_EXECUTABLE_PATH,
   headless: true,
