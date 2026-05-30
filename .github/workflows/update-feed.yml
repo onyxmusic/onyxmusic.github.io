@@ -24,11 +24,5 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: Verify Puppeteer
-        run: npm ls puppeteer
-
-      - name: Install Chrome
-        run: npx puppeteer browsers install chrome
-
       - name: Run Scraper
         run: node scraper.js
