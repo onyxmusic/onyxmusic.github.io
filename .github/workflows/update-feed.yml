@@ -12,17 +12,22 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
-          node-version: 24
+          node-version: '24'
 
       - name: Remove Puppeteer Cache
         run: rm -rf ~/.cache/puppeteer
 
       - name: Install Dependencies
         run: npm install
+
+      - name: Install Chrome
+        run: npx puppeteer browsers install chrome
 
       - name: Run Scraper
         run: node scraper.js
