@@ -21,7 +21,11 @@ jobs:
           node-version: '24'
 
       - name: Install Google Chrome
+        id: setup-chrome
         uses: browser-actions/setup-chrome@v1
+
+      - name: Show Chrome Path
+        run: echo "${{ steps.setup-chrome.outputs.chrome-path }}"
 
       - name: Install Dependencies
         run: npm install
