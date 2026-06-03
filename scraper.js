@@ -1,7 +1,6 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 
-// Bütün diller ve ülkeler (Kusursuz liste)
 const REGIONS = {
   "tr": { gl: "TR", hl: "tr" },
   "en": { gl: "US", hl: "en" },
@@ -24,10 +23,10 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
   console.log('Chrome Path:', process.env.PUPPETEER_EXECUTABLE_PATH);
   const browser = await puppeteer.launch({
-  executablePath: process.env.PUPPETEER_EXECUTABLE_PATH,
-  headless: true,
-  args: ['--no-sandbox', '--disable-setuid-sandbox']
-});
+    executablePath: process.env.PUPPETEER_EXECUTABLE_PATH,
+    headless: true,
+    args: ['--no-sandbox', '--disable-setuid-sandbox']
+  });
 
   const fullFeed = {};
 
@@ -38,7 +37,6 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
     const page = await browser.newPage();
     await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36');
 
-    // 1. YouTube'u Kandıran Çerez (Senin de konsolda test ettiğin komut)
     await page.setCookie({
       name: 'PREF',
       value: `hl=${config.hl}&gl=${config.gl}`,
@@ -46,7 +44,6 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
       path: '/'
     });
 
-    // 2. Çerez Onay Ekranını Atlamak İçin
     await page.setCookie({
       name: 'SOCS',
       value: 'CAESEwgDEgk0ODE3Nzk3MjQaAmVuIAEaBgiA_LyaBg',
@@ -56,23 +53,39 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
     try {
       await page.goto(url, { waitUntil: 'networkidle2', timeout: 60000 });
-      await delay(2000); 
-      
+      await delay(3000); // ← 2000'den 3000'e çıkardım
+
       console.log(`   Sayfa aşağı kaydırılıyor...`);
+
+      // ↓↓↓ SCROLL BLOĞU DEĞİŞTİ ↓↓↓
       await page.evaluate(async () => {
         await new Promise((resolve) => {
-          let totalHeight = 0;
-          let distance = 300;
-          let timer = setInterval(() => {
-            let scrollHeight = document.body.scrollHeight;
-            window.scrollBy(0, distance);
-            totalHeight += distance;
-            if (totalHeight >= scrollHeight || totalHeight > 6000) { 
-              clearInterval(timer); resolve(); 
+          let lastSectionCount = 0;
+          let stableRounds = 0;
+
+          const timer = setInterval(() => {
+            window.scrollBy(0, 400);
+
+            const currentCount = document.querySelectorAll(
+              'ytd-rich-section-renderer, ytd-shelf-renderer'
+            ).length;
+
+            if (currentCount === lastSectionCount) {
+              stableRounds++;
+              if (stableRounds >= 4) {
+                clearInterval(timer);
+                resolve();
+              }
+            } else {
+              stableRounds = 0;
+              lastSectionCount = currentCount;
             }
-          }, 400);
+          }, 600);
         });
       });
+
+      await delay(2000); // scroll bitti, son render için bekle
+      // ↑↑↑ SCROLL BLOĞU DEĞİŞTİ ↑↑↑
 
       const sectionData = await page.evaluate(async () => {
         const innerDelay = ms => new Promise(res => setTimeout(res, ms));
@@ -86,14 +99,14 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
           } catch (e) { return null; }
         }
 
-        const sections =[];
+        const sections = [];
         const elements = document.querySelectorAll('ytd-rich-section-renderer, ytd-shelf-renderer');
         
         for (let section of elements) {
           const sectionTitle = section.querySelector('#title, #title-text, yt-formatted-string')?.textContent?.trim();
           if (!sectionTitle) continue;
 
-          const items =[];
+          const items = [];
           const seenIds = new Set();
           const cards = section.querySelectorAll('ytd-rich-item-renderer, ytd-grid-playlist-renderer, ytd-compact-playlist-renderer');
           
