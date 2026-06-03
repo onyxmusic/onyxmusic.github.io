@@ -53,7 +53,7 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
     try {
       await page.goto(url, { waitUntil: 'networkidle2', timeout: 60000 });
-      await delay(3000); // ← 2000'den 3000'e çıkardım
+      await delay(6000); // ← 2000'den 3000'e çıkardım
 
       console.log(`   Sayfa aşağı kaydırılıyor...`);
 
