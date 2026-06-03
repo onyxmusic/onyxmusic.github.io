@@ -53,24 +53,23 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
     try {
       await page.goto(url, { waitUntil: 'networkidle2', timeout: 60000 });
-      await delay(6000); // ← 2000'den 3000'e çıkardım
+      await delay(5000);
 
       console.log(`   Sayfa aşağı kaydırılıyor...`);
 
-      // ↓↓↓ SCROLL BLOĞU DEĞİŞTİ ↓↓↓
       await page.evaluate(async () => {
         await new Promise((resolve) => {
-          let lastSectionCount = 0;
+          let lastCardCount = 0;  // ← DEĞİŞTİ: section değil kart sayıyoruz
           let stableRounds = 0;
 
           const timer = setInterval(() => {
             window.scrollBy(0, 400);
 
             const currentCount = document.querySelectorAll(
-              'ytd-rich-section-renderer, ytd-shelf-renderer'
-            ).length;
+              'ytd-rich-item-renderer, ytd-grid-playlist-renderer, ytd-compact-playlist-renderer, ytd-lockup-view-model'
+            ).length;  // ← DEĞİŞTİ: kart elementleri
 
-            if (currentCount === lastSectionCount) {
+            if (currentCount === lastCardCount) {
               stableRounds++;
               if (stableRounds >= 8) {
                 clearInterval(timer);
@@ -78,14 +77,13 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
               }
             } else {
               stableRounds = 0;
-              lastSectionCount = currentCount;
+              lastCardCount = currentCount;
             }
           }, 600);
         });
       });
 
-      await delay(5000); // scroll bitti, son render için bekle
-      // ↑↑↑ SCROLL BLOĞU DEĞİŞTİ ↑↑↑
+      await delay(2000);
 
       const sectionData = await page.evaluate(async () => {
         const innerDelay = ms => new Promise(res => setTimeout(res, ms));
