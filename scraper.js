@@ -72,7 +72,7 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
             if (currentCount === lastSectionCount) {
               stableRounds++;
-              if (stableRounds >= 4) {
+              if (stableRounds >= 8) {
                 clearInterval(timer);
                 resolve();
               }
@@ -84,7 +84,7 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
         });
       });
 
-      await delay(2000); // scroll bitti, son render için bekle
+      await delay(5000); // scroll bitti, son render için bekle
       // ↑↑↑ SCROLL BLOĞU DEĞİŞTİ ↑↑↑
 
       const sectionData = await page.evaluate(async () => {
