@@ -483,7 +483,7 @@
         {
           "id": "RDCLAK5uy_k7O9KByATGA1TqFYhyOkylpJ6fM1avtww",
           "name": "Clout Rising: New Hip-Hop",
-          "img": "https://i.ytimg.com/vi/1a0Q1oaW9fU/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/YFqij4KDlhY/hqdefault.jpg"
         },
         {
           "id": "RDCLAK5uy_l-JbTcCK10aQ5AFrXLmiNt9sVCbnCDVC0",
@@ -548,7 +548,7 @@
         {
           "id": "RDCLAK5uy_kLWIr9gv1XLlPbaDS965-Db4TrBoUTxQ8",
           "name": "Chroma: Today's Dance Hits",
-          "img": "https://i.ytimg.com/vi/bS9C1ipyMy8/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/imQDelNtwwU/hqdefault.jpg"
         },
         {
           "id": "RDCLAK5uy_k5vcGRXixxemtzK1eKDS7BeHys7mvYOdk",
@@ -1082,6 +1082,71 @@
   ],
   "de": [
     {
+      "section_title": "All-Time-Hits",
+      "items": [
+        {
+          "id": "RDCLAK5uy_lE8vDUUYCoBsJBbfDuXtEvUFS0T5kno3E",
+          "name": "Hits zum Mitsingen",
+          "img": "https://i.ytimg.com/vi/Zi_XLOBDo_Y/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_khNGopKCT_t38MZ1W7z4kERrqprkXovxo",
+          "name": "Megahits der 80er",
+          "img": "https://i.ytimg.com/vi/rY0WxgSXdEE/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mgp55cLDaUpOfO6foH8FeCecHjwcf7WQk",
+          "name": "Schlagerklassiker",
+          "img": "https://i.ytimg.com/vi/qXkW84YIPR0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_kOXsvZ4T6fkCUI0c2SzeW0attMxbnPSsQ",
+          "name": "Deutscher Hip-Hop: Allstars",
+          "img": "https://i.ytimg.com/vi/qdtLCfEcPL4/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nmS3YoxSwVVQk9lEQJ0UX4ZCjXsW_psU8",
+          "name": "Pop's Biggest Hits",
+          "img": "https://i.ytimg.com/vi/ic8j13piAhQ/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n6SrZCXHJyauQkV7oJurMirl_-kbQAqEg",
+          "name": "Megahits der 90er",
+          "img": "https://i.ytimg.com/vi/JYIaWeVL1JM/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nZiG9ehz_MQoWQxY5yElsLHCcG0tv9PRg",
+          "name": "Classic Rock's Greatest Hits",
+          "img": "https://i.ytimg.com/vi/OMOGaugKpzs/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_kP2172rQNb3KFXz880xp6M98R_ME5CIKA",
+          "name": "Hip-Hop Club Hits",
+          "img": "https://i.ytimg.com/vi/eaPzCHEQExs/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_kh8Lql3OCDc5uAW9WsrPpQFymSgp5euyI",
+          "name": "Neue Deutsche Welle",
+          "img": "https://i.ytimg.com/vi/oESfa8jt0p8/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_kvH_VWOl1tx0Ad4H2F_4jaTMnImcuCFXc",
+          "name": "Deutschpop Throwback",
+          "img": "https://i.ytimg.com/vi/b3cU182bGfQ/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nnb9fZvK1_GAwF1WL251R55gV5F8Zc-uY",
+          "name": "Megahits der 10er",
+          "img": "https://i.ytimg.com/vi/lWA2pjMjpBs/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mUGmSJdYQ0-QVRlHtO6i31P9z777fp2mQ",
+          "name": "Megahits der 00er",
+          "img": "https://i.ytimg.com/vi/LOZuxwVk7TU/hqdefault.jpg"
+        }
+      ]
+    },
+    {
       "section_title": "Sommer, Sonne, Gute Laune",
       "items": [
         {
@@ -1168,71 +1233,6 @@
           "id": "RDCLAK5uy_l8kJfTElp2zFMop7IboOXetbbKU3a9VeQ",
           "name": "REST Turkish Rap",
           "img": "https://i.ytimg.com/vi/FvrcJQbQDTg/hqdefault.jpg"
-        }
-      ]
-    },
-    {
-      "section_title": "All-Time-Hits",
-      "items": [
-        {
-          "id": "RDCLAK5uy_lE8vDUUYCoBsJBbfDuXtEvUFS0T5kno3E",
-          "name": "Hits zum Mitsingen",
-          "img": "https://i.ytimg.com/vi/Zi_XLOBDo_Y/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_khNGopKCT_t38MZ1W7z4kERrqprkXovxo",
-          "name": "Megahits der 80er",
-          "img": "https://i.ytimg.com/vi/rY0WxgSXdEE/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_mgp55cLDaUpOfO6foH8FeCecHjwcf7WQk",
-          "name": "Schlagerklassiker",
-          "img": "https://i.ytimg.com/vi/qXkW84YIPR0/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_kOXsvZ4T6fkCUI0c2SzeW0attMxbnPSsQ",
-          "name": "Deutscher Hip-Hop: Allstars",
-          "img": "https://i.ytimg.com/vi/qdtLCfEcPL4/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_nmS3YoxSwVVQk9lEQJ0UX4ZCjXsW_psU8",
-          "name": "Pop's Biggest Hits",
-          "img": "https://i.ytimg.com/vi/ic8j13piAhQ/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_n6SrZCXHJyauQkV7oJurMirl_-kbQAqEg",
-          "name": "Megahits der 90er",
-          "img": "https://i.ytimg.com/vi/JYIaWeVL1JM/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_nZiG9ehz_MQoWQxY5yElsLHCcG0tv9PRg",
-          "name": "Classic Rock's Greatest Hits",
-          "img": "https://i.ytimg.com/vi/OMOGaugKpzs/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_kP2172rQNb3KFXz880xp6M98R_ME5CIKA",
-          "name": "Hip-Hop Club Hits",
-          "img": "https://i.ytimg.com/vi/eaPzCHEQExs/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_kh8Lql3OCDc5uAW9WsrPpQFymSgp5euyI",
-          "name": "Neue Deutsche Welle",
-          "img": "https://i.ytimg.com/vi/oESfa8jt0p8/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_kvH_VWOl1tx0Ad4H2F_4jaTMnImcuCFXc",
-          "name": "Deutschpop Throwback",
-          "img": "https://i.ytimg.com/vi/b3cU182bGfQ/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_nnb9fZvK1_GAwF1WL251R55gV5F8Zc-uY",
-          "name": "Megahits der 10er",
-          "img": "https://i.ytimg.com/vi/lWA2pjMjpBs/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_mUGmSJdYQ0-QVRlHtO6i31P9z777fp2mQ",
-          "name": "Megahits der 00er",
-          "img": "https://i.ytimg.com/vi/LOZuxwVk7TU/hqdefault.jpg"
         }
       ]
     },
@@ -1347,7 +1347,7 @@
         {
           "id": "RDCLAK5uy_lKL2i08SARZR_vSo5PW_JlM0YW12agYf0",
           "name": "Deutschrap Takeoff",
-          "img": "https://i.ytimg.com/vi/Tg80GfpT4WU/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/VLcQQ4KizHg/hqdefault.jpg"
         },
         {
           "id": "RDCLAK5uy_n_0Hb7zC0P1j7UCRF4bbaMjn046Z9oyyU",
@@ -1467,7 +1467,7 @@
         {
           "id": "RDCLAK5uy_khFJzdpmtk0_MaUuWNgqYbNamuGV623kk",
           "name": "Techno Room",
-          "img": "https://i.ytimg.com/vi/AUSl0rtytz8/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/Xpwn2gjpdnc/hqdefault.jpg"
         },
         {
           "id": "RDCLAK5uy_lRr2S1Nmk-a4qeSFpU0WoLuVETphGyBP8",
@@ -1497,7 +1497,7 @@
         {
           "id": "RDCLAK5uy_lKL2i08SARZR_vSo5PW_JlM0YW12agYf0",
           "name": "Deutschrap Takeoff",
-          "img": "https://i.ytimg.com/vi/Tg80GfpT4WU/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/VLcQQ4KizHg/hqdefault.jpg"
         },
         {
           "id": "RDCLAK5uy_lJvy5U2ysw2Kwv72qeNPkrjDxu5fsvogU",
@@ -1584,7 +1584,7 @@
         {
           "id": "RDCLAK5uy_kLWIr9gv1XLlPbaDS965-Db4TrBoUTxQ8",
           "name": "Éxitos actuales del dance",
-          "img": "https://i.ytimg.com/vi/bS9C1ipyMy8/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/imQDelNtwwU/hqdefault.jpg"
         },
         {
           "id": "RDCLAK5uy_nhf3h98yS3LCk_bVNQu6GjWG7ARvMaiFQ",
@@ -1804,7 +1804,7 @@
         {
           "id": "RDCLAK5uy_lTF8NR57ogCQH2sespedzwyUhf5zlb0QE",
           "name": "Aywa Araby",
-          "img": "https://i.ytimg.com/vi/MaYcBiaCCww/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/CMLyKA5_Riw/hqdefault.jpg"
         },
         {
           "id": "RDCLAK5uy_kvnwY7lh8VQkr7uLLsFPB06mhIwKAljbE",
@@ -1961,7 +1961,7 @@
         {
           "id": "RDCLAK5uy_kLWIr9gv1XLlPbaDS965-Db4TrBoUTxQ8",
           "name": "Le hit dance del momento",
-          "img": "https://i.ytimg.com/vi/bS9C1ipyMy8/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/imQDelNtwwU/hqdefault.jpg"
         },
         {
           "id": "RDCLAK5uy_nhf3h98yS3LCk_bVNQu6GjWG7ARvMaiFQ",
@@ -2181,7 +2181,7 @@
         {
           "id": "RDCLAK5uy_lTF8NR57ogCQH2sespedzwyUhf5zlb0QE",
           "name": "Aywa Araby",
-          "img": "https://i.ytimg.com/vi/MaYcBiaCCww/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/CMLyKA5_Riw/hqdefault.jpg"
         },
         {
           "id": "RDCLAK5uy_kvnwY7lh8VQkr7uLLsFPB06mhIwKAljbE",
@@ -2760,7 +2760,7 @@
         {
           "id": "RDCLAK5uy_kLWIr9gv1XLlPbaDS965-Db4TrBoUTxQ8",
           "name": "Современные танцевальные хиты",
-          "img": "https://i.ytimg.com/vi/bS9C1ipyMy8/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/imQDelNtwwU/hqdefault.jpg"
         },
         {
           "id": "RDCLAK5uy_nhf3h98yS3LCk_bVNQu6GjWG7ARvMaiFQ",
@@ -2980,7 +2980,7 @@
         {
           "id": "RDCLAK5uy_lTF8NR57ogCQH2sespedzwyUhf5zlb0QE",
           "name": "Арабские Aywa хиты",
-          "img": "https://i.ytimg.com/vi/MaYcBiaCCww/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/CMLyKA5_Riw/hqdefault.jpg"
         },
         {
           "id": "RDCLAK5uy_kvnwY7lh8VQkr7uLLsFPB06mhIwKAljbE",
@@ -3127,7 +3127,7 @@
         {
           "id": "RDCLAK5uy_k7O9KByATGA1TqFYhyOkylpJ6fM1avtww",
           "name": "Clout Rising",
-          "img": "https://i.ytimg.com/vi/1a0Q1oaW9fU/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/YFqij4KDlhY/hqdefault.jpg"
         }
       ]
     },
@@ -3137,7 +3137,7 @@
         {
           "id": "RDCLAK5uy_lTF8NR57ogCQH2sespedzwyUhf5zlb0QE",
           "name": "أيوَه عربي",
-          "img": "https://i.ytimg.com/vi/MaYcBiaCCww/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/CMLyKA5_Riw/hqdefault.jpg"
         },
         {
           "id": "RDCLAK5uy_mfTF5DCHZL0zf04WQdXAd8-1cQuvJZXzs",
@@ -3202,7 +3202,7 @@
         {
           "id": "RDCLAK5uy_l_R-6is1bNUGonnSTSg0vF7r5cDj8ENZY",
           "name": "راب مصري",
-          "img": "https://i.ytimg.com/vi/UPYN_0bZCKc/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/QsLSbN9lSDw/hqdefault.jpg"
         },
         {
           "id": "RDCLAK5uy_k0RPAZDb4p0DEIY5DKIR3vdKSGHSdIPM8",
@@ -3222,7 +3222,7 @@
         {
           "id": "RDCLAK5uy_k7O9KByATGA1TqFYhyOkylpJ6fM1avtww",
           "name": "Clout Rising",
-          "img": "https://i.ytimg.com/vi/1a0Q1oaW9fU/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/YFqij4KDlhY/hqdefault.jpg"
         },
         {
           "id": "RDCLAK5uy_ldlwpMghzMwGCDSOA4Kw6TrOCXDaqXQMo",
@@ -3554,71 +3554,6 @@
       ]
     },
     {
-      "section_title": "ゴールデンウィーク",
-      "items": [
-        {
-          "id": "RDCLAK5uy_m54F1uvB7j6Vup6o3ESB-8YW1E0J9Pt80",
-          "name": "ドライブ気分",
-          "img": "https://i.ytimg.com/vi/n5ntakgegH8/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_nX_TphCH6hT3jvDiBysi6tHe6N5-JQ710",
-          "name": "ファミリーソングス",
-          "img": "https://i.ytimg.com/vi/Wkrs11bLvpo/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_k1xPjCtMRjetA1MAL7uvdG07c1BY4zHEw",
-          "name": "昭和ソングス",
-          "img": "https://i.ytimg.com/vi/whHgqxwzvpA/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_mdRHD6Ohyjk6hyrj-dSaKkkGJdQwNHHBM",
-          "name": "Party Time! 定番パーティーヒッツ",
-          "img": "https://i.ytimg.com/vi/ekr2nIex040/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_nLuGy99a-IWFlVNKXs0x9d9ru_KO0syDQ",
-          "name": "New Anime -2026春-",
-          "img": "https://i.ytimg.com/vi/hA_9r-3jkSg/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_lRj2PxRYIUGDG0p0KjsQ62d2lLYLfgXAw",
-          "name": "春ソングス",
-          "img": "https://i.ytimg.com/vi/hJhiIu6pbCA/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_kvhjcPWzH7xZL-WnqGbiA_euQGy5_cbHI",
-          "name": "歌いたくなるJ-Pop",
-          "img": "https://i.ytimg.com/vi/LmZD-TU96q4/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_mnYw2fAF0LiUAkPUKEiESCn3izHwjN6kM",
-          "name": "春日和チルアウト",
-          "img": "https://i.ytimg.com/vi/dawrQnvwMTY/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_lEJr50W3KmJEJpSzXRwC8oUzDeOVsh-Hs",
-          "name": "昭和歌謡",
-          "img": "https://i.ytimg.com/vi/66INiv_HLUw/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_kIcfhFcnJ9fdkKHw96Gvr6Q0_bAyWiZbM",
-          "name": "令和ソングス",
-          "img": "https://i.ytimg.com/vi/LmZD-TU96q4/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_nyHvBYfH5eU0lnHtKudwBU2baBWYcAHzs",
-          "name": "J-Pop パーティー",
-          "img": "https://i.ytimg.com/vi/mLW35YMzELE/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_kW4l3hmtC_Aq2XCvin1b3h6tziPMH0tsk",
-          "name": "カラオケヒッツ",
-          "img": "https://i.ytimg.com/vi/ZVUxJsPfoX8/hqdefault.jpg"
-        }
-      ]
-    },
-    {
       "section_title": "春🌸",
       "items": [
         {
@@ -3694,7 +3629,7 @@
         {
           "id": "RDCLAK5uy_kLWIr9gv1XLlPbaDS965-Db4TrBoUTxQ8",
           "name": "ダンスの最新ヒット曲",
-          "img": "https://i.ytimg.com/vi/bS9C1ipyMy8/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/imQDelNtwwU/hqdefault.jpg"
         },
         {
           "id": "RDCLAK5uy_k5vcGRXixxemtzK1eKDS7BeHys7mvYOdk",
@@ -3981,7 +3916,7 @@
         {
           "id": "RDCLAK5uy_nVQAtE2KBWk-ROQIc5o39Oup3hOLnYV0g",
           "name": "न्यू म्यूज़िक तमिल",
-          "img": "https://i.ytimg.com/vi/wPiD8kJcgyg/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/AuE1FEhr5G8/hqdefault.jpg"
         },
         {
           "id": "RDCLAK5uy_k66J6mE65JgdE4zoeNSzmw_16JB_ueINE",
@@ -4006,7 +3941,7 @@
         {
           "id": "RDCLAK5uy_k7O9KByATGA1TqFYhyOkylpJ6fM1avtww",
           "name": "क्लॉट राइजिंग : न्यू हिप हॉप",
-          "img": "https://i.ytimg.com/vi/1a0Q1oaW9fU/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/YFqij4KDlhY/hqdefault.jpg"
         },
         {
           "id": "RDCLAK5uy_nGZRi-an-ruqiZlNJSGhCDHucdp2FBNfI",
@@ -4041,7 +3976,7 @@
         {
           "id": "RDCLAK5uy_kLWIr9gv1XLlPbaDS965-Db4TrBoUTxQ8",
           "name": "आज के डांस हिट्स",
-          "img": "https://i.ytimg.com/vi/bS9C1ipyMy8/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/imQDelNtwwU/hqdefault.jpg"
         },
         {
           "id": "RDCLAK5uy_nHGuTnohZ82uuk0HQle7s-UgP7h3aoCqg",
@@ -4438,17 +4373,17 @@
         {
           "id": "RDCLAK5uy_nLkOG7ku-sA7GVAnStgGCwcF-KnWmnMDI",
           "name": "熱門歌曲清單",
-          "img": "https://i.ytimg.com/vi/83C3TZ4Zm_o/hqdefault.jpg"
+          "img": ""
         },
         {
           "id": "RDCLAK5uy_mTDHYYJLCkFv8XL1Z8AFkMqF9RfQZzeRc",
           "name": "Mando Flow",
-          "img": "https://i.ytimg.com/vi/tkwD6DLp62k/hqdefault.jpg"
+          "img": ""
         },
         {
           "id": "RDCLAK5uy_ms281XCNJ52jooEbIELW2_VAp1GJ96qL4",
           "name": "Canto Flow",
-          "img": "https://i.ytimg.com/vi/g1GBE8eeNyM/hqdefault.jpg"
+          "img": ""
         },
         {
           "id": "RDCLAK5uy_lBNUteBRencHzKelu5iDHwLF6mYqjL-JU",
@@ -4458,27 +4393,27 @@
         {
           "id": "RDCLAK5uy_lBGRuQnsG37Akr1CY4SxL0VWFbPrbO4gs",
           "name": "流行嘻哈金曲",
-          "img": "https://i.ytimg.com/vi/SD4yRDY9mek/hqdefault.jpg"
+          "img": ""
         },
         {
           "id": "RDCLAK5uy_mu-BhJj3yO1OXEMzahs_aJVtNWJwAwFEE",
           "name": "Highline R&B",
-          "img": "https://i.ytimg.com/vi/A__GXZsG3hk/hqdefault.jpg"
+          "img": ""
         },
         {
           "id": "RDCLAK5uy_k5vcGRXixxemtzK1eKDS7BeHys7mvYOdk",
           "name": "Maximum Decibels: Today's Rock Hits",
-          "img": "https://i.ytimg.com/vi/ak4Ti54Y6rY/hqdefault.jpg"
+          "img": ""
         },
         {
           "id": "RDCLAK5uy_lJ8xZWiZj2GCw7MArjakb6b0zfvqwldps",
           "name": "Country Hotlist",
-          "img": "https://i.ytimg.com/vi/A3G_7XgK2B4/hqdefault.jpg"
+          "img": ""
         },
         {
           "id": "RDCLAK5uy_kLWIr9gv1XLlPbaDS965-Db4TrBoUTxQ8",
           "name": "本日熱門舞曲",
-          "img": "https://i.ytimg.com/vi/bS9C1ipyMy8/hqdefault.jpg"
+          "img": ""
         }
       ]
     },
@@ -4498,7 +4433,7 @@
         {
           "id": "RDCLAK5uy_m4l9o8KGwQKrYuWFr1ej7hSrYOQDP6Jxw",
           "name": "輕鬆愉快的華語音樂",
-          "img": "https://i.ytimg.com/vi/mcJB9H0Nvbc/hqdefault.jpg"
+          "img": ""
         },
         {
           "id": "RDCLAK5uy_nL9A_iWyUHayr1Xl5ZVwdZEwcOoPxn_o0",
@@ -4523,12 +4458,12 @@
         {
           "id": "RDCLAK5uy_mQM2-qOVfLCD2ZceUahSVgk4O1QoWCTZA",
           "name": "輕鬆愉快的華語嘻哈",
-          "img": "https://i.ytimg.com/vi/f6aYUpkNbkA/hqdefault.jpg"
+          "img": ""
         },
         {
           "id": "RDCLAK5uy_nYonIJ562G-N9flfOyDmQY9GZ1A3k52Po",
           "name": "華語搖滾樂",
-          "img": "https://i.ytimg.com/vi/Hgnpi3eBQ9o/hqdefault.jpg"
+          "img": ""
         },
         {
           "id": "RDCLAK5uy_majSkod416xBCGyhCK2uJbRgXCKVooQVU",
@@ -4548,12 +4483,12 @@
         {
           "id": "RDCLAK5uy_lGZNsVQescoTzcvJkcEhSjpyn_98D4lq0",
           "name": "粵語情歌合輯",
-          "img": "https://i.ytimg.com/vi/u14rrcxENDw/hqdefault.jpg"
+          "img": ""
         },
         {
           "id": "RDCLAK5uy_lu4zadEar1WsI9-5kNL0ghpzte6evjqvk",
           "name": "令人振奮的香港音樂",
-          "img": "https://i.ytimg.com/vi/ulw7MPdwy7s/hqdefault.jpg"
+          "img": ""
         },
         {
           "id": "RDCLAK5uy_kaFr0sT0OaeHejrSJXFr56IxrGf16TabY",
@@ -4563,22 +4498,22 @@
         {
           "id": "RDCLAK5uy_mzon5sauDRzs4GQ0BJkeco7JAsB_nU43Q",
           "name": "香港高能量樂曲合輯",
-          "img": "https://i.ytimg.com/vi/N2pHRj07BlM/hqdefault.jpg"
+          "img": ""
         },
         {
           "id": "RDCLAK5uy_lLflfGbT8-l2FIVbzfyU5NH5n8DJpYLlo",
           "name": "香港派對音樂合輯",
-          "img": "https://i.ytimg.com/vi/pBjz4qzj_zs/hqdefault.jpg"
+          "img": ""
         },
         {
           "id": "RDCLAK5uy_myH2Fs8dFJD5G5Qgb6XyRdsv8HRyCP4DE",
           "name": "令人清新的香港輕搖滾樂",
-          "img": "https://i.ytimg.com/vi/4AQkaSCfAz0/hqdefault.jpg"
+          "img": ""
         },
         {
           "id": "RDCLAK5uy_k9H9MQqygYinUt6yfEdThre0gsfnvILng",
           "name": "提振精神的香港嘻哈音樂",
-          "img": "https://i.ytimg.com/vi/fWeZxGTq3DY/hqdefault.jpg"
+          "img": ""
         }
       ]
     },
@@ -4598,12 +4533,12 @@
         {
           "id": "RDCLAK5uy_lb6CVU6S4uVugLVNTU9WhqfaomWAgnho4",
           "name": "就要大聲唱出來的熱門金曲",
-          "img": "https://i.ytimg.com/vi/Ys7-6_t7OEQ/hqdefault.jpg"
+          "img": ""
         },
         {
           "id": "RDCLAK5uy_m2516Cz955UxQM4DgjKPrKeGwAcQ6wj3Q",
           "name": "放克流行金曲",
-          "img": "https://i.ytimg.com/vi/PMivT7MJ41M/hqdefault.jpg"
+          "img": ""
         },
         {
           "id": "RDCLAK5uy_lOprH1vCx0efMJQDYichTFzifw_BkJgbg",
@@ -4613,17 +4548,17 @@
         {
           "id": "RDCLAK5uy_nUi8B-S9ckz5feHM7oMGyQQ_eKW2Zl9aE",
           "name": "00 年代琅琅上口的歌曲",
-          "img": "https://i.ytimg.com/vi/yd8jh9QYfEs/hqdefault.jpg"
+          "img": ""
         },
         {
           "id": "RDCLAK5uy_loc3QkpRI5iaLbS_laJf0_OwzvPeAYrYc",
           "name": "派對流行經典",
-          "img": "https://i.ytimg.com/vi/JGwWNGJdvx8/hqdefault.jpg"
+          "img": ""
         },
         {
           "id": "RDCLAK5uy_k5DxhF_vXgbHHoaQ_d2hRBlY11Qgr3xpY",
           "name": "陽光流行",
-          "img": "https://i.ytimg.com/vi/b7k0a5hYnSI/hqdefault.jpg"
+          "img": ""
         }
       ]
     },
@@ -4633,22 +4568,22 @@
         {
           "id": "RDCLAK5uy_k27uu-EtQ_b5U2r26DNDZOmNqGdccUIGQ",
           "name": "K.iNG",
-          "img": "https://i.ytimg.com/vi/83C3TZ4Zm_o/hqdefault.jpg"
+          "img": ""
         },
         {
           "id": "RDCLAK5uy_l7wbVbkC-dG5fyEQQsBfjm_z3dLAhYyvo",
           "name": "K-HITLIST",
-          "img": "https://i.ytimg.com/vi/PVzSI9PpkXc/hqdefault.jpg"
+          "img": ""
         },
         {
           "id": "RDCLAK5uy_lxJoqDuhroQAeOd42owT2IKtZJYRpx5hw",
           "name": "K-RISING",
-          "img": "https://i.ytimg.com/vi/QRSSyK8CgU0/hqdefault.jpg"
+          "img": ""
         },
         {
           "id": "RDCLAK5uy_nMqMWmqwZwDvMcqcAohgO_Dp_7zT1nSC8",
           "name": "BEAT ON",
-          "img": "https://i.ytimg.com/vi/Jxgbfc89hNI/hqdefault.jpg"
+          "img": ""
         },
         {
           "id": "RDCLAK5uy_lYPvoz4gPFnKMw_BFojpMk7xRSIqVBkEE",
@@ -4658,27 +4593,27 @@
         {
           "id": "RDCLAK5uy_m9ty3WvAucm7-5KsKdro9_HnocE8LSS9o",
           "name": "감성 On",
-          "img": "https://i.ytimg.com/vi/oEQTh959YDg/hqdefault.jpg"
+          "img": ""
         },
         {
           "id": "RDCLAK5uy_mHW5bcduhjB-PkTePAe6EoRMj1xNT8gzY",
           "name": "韓國熱門女歌手",
-          "img": "https://i.ytimg.com/vi/83C3TZ4Zm_o/hqdefault.jpg"
+          "img": ""
         },
         {
           "id": "RDCLAK5uy_kSZ85qHgyyqQCKkCtrjbA3m8Am7GfOTcQ",
           "name": "韓劇OST",
-          "img": "https://i.ytimg.com/vi/yebNIHKAC4A/hqdefault.jpg"
+          "img": ""
         },
         {
           "id": "RDCLAK5uy_lYcZ4MYVJGyRwpiW773f6tOgQGK8rqD9Q",
           "name": "韓國流行樂大集合",
-          "img": "https://i.ytimg.com/vi/QERKD90hG98/hqdefault.jpg"
+          "img": ""
         },
         {
           "id": "RDCLAK5uy_nEcCeflWNpzQNRExtAKjKkkX96wjom9Nc",
           "name": "韓國嘻哈樂：喚醒首爾!",
-          "img": "https://i.ytimg.com/vi/wYERwcjPczc/hqdefault.jpg"
+          "img": ""
         },
         {
           "id": "RDCLAK5uy_l7K78k4EkjcFojhd1617rmUjY-aet6-t0",
@@ -4688,7 +4623,7 @@
         {
           "id": "RDCLAK5uy_m-MIH8e5UE7ERgHzrDjfMRhP-S-lWdzu4",
           "name": "K-Pop 抒情音樂",
-          "img": "https://i.ytimg.com/vi/SNn_H_Q2moo/hqdefault.jpg"
+          "img": ""
         }
       ]
     },
@@ -4698,17 +4633,17 @@
         {
           "id": "RDCLAK5uy_nbK9qSkqYZvtMXH1fLCMmC1yn8HEm0W90",
           "name": "J-Hits!",
-          "img": "https://i.ytimg.com/vi/Yk4YzpnTe6c/hqdefault.jpg"
+          "img": ""
         },
         {
           "id": "RDCLAK5uy_k-msS6PWOCGNcJo7gx0NQIPfyFzHglYEk",
           "name": "J-Rock!",
-          "img": "https://i.ytimg.com/vi/irc_nLf9elw/hqdefault.jpg"
+          "img": ""
         },
         {
           "id": "RDCLAK5uy_nY_4tOjk2a_pNtiplJ_96RH0Hi5PQB5OQ",
           "name": "J-Rap Flows",
-          "img": "https://i.ytimg.com/vi/LIFU7Xq0uNI/hqdefault.jpg"
+          "img": ""
         },
         {
           "id": "RDCLAK5uy_mD1l6qiKHTiFmKKUax1NUznpM9m6daNTw",
@@ -4718,7 +4653,7 @@
         {
           "id": "RDCLAK5uy_nrlkrr_u-6YV9RYdd7n2oSZgijayoiBHg",
           "name": "Idol Japan",
-          "img": "https://i.ytimg.com/vi/m8J3g2KEsd8/hqdefault.jpg"
+          "img": ""
         },
         {
           "id": "RDCLAK5uy_lWz_M51Amy8x5J-RtbH_MeNg4SWO0LZaA",
@@ -4738,12 +4673,12 @@
         {
           "id": "RDCLAK5uy_mdDmZAbSwxQuM5T-y-RSvjAcBO5nSvarg",
           "name": "Antenna",
-          "img": "https://i.ytimg.com/vi/7P-XT-PokAI/hqdefault.jpg"
+          "img": ""
         },
         {
           "id": "RDCLAK5uy_kDTLUEleq2B4vQB6JB5P1DApC4nRayHUs",
           "name": "Japan Big Hits",
-          "img": "https://i.ytimg.com/vi/4wuWJ7GAc2s/hqdefault.jpg"
+          "img": ""
         }
       ]
     }
