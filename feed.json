@@ -1,6 +1,71 @@
 {
   "tr": [
     {
+      "section_title": "Torcida pelo Brasil 🇧🇷⚽",
+      "items": [
+        {
+          "id": "RDCLAK5uy_khMgnOqejqkxlibg018jDIIL0XobU1i9k",
+          "name": "Let's go Brazil",
+          "img": "https://i.ytimg.com/vi/5JThWsDVlf0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mG4e0qrPPQG9ukBuGbMRNtZ-jh_UKdhNQ",
+          "name": "Pagode and Football",
+          "img": "https://i.ytimg.com/vi/VbOFUY7KG1Q/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_ma0jIF8qa2LzuPRTt8YKB10fJAxHmglEc",
+          "name": "Brazilian Funk and Football",
+          "img": "https://i.ytimg.com/vi/5JThWsDVlf0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nKMe0pfVZXSxbOU2TySCu3VgAKpviEUX0",
+          "name": "Pagode Samba Club",
+          "img": "https://i.ytimg.com/vi/VNnd55XCX1E/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mXL6FEB4PZxOngOFFi6pFjberT2oMYL-c",
+          "name": "Sertanejo Party",
+          "img": "https://i.ytimg.com/vi/aaLYhwadeE0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n1kaC0SMsbKhFD2ODeqTpCXqF_JFpK7jU",
+          "name": "Galibiyete Doğru",
+          "img": "https://i.ytimg.com/vi/rb0bjyt1OD0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n6wY0J-gqiwfyjFOJUGrp-EdEVV37Kaww",
+          "name": "Soccer Stadium Anthems",
+          "img": "https://i.ytimg.com/vi/pRpeEdMmmQ0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_l9Qw11eDkPAlLBB1xlZdxG-u0sXffJhy0",
+          "name": "Resenha",
+          "img": "https://i.ytimg.com/vi/VNnd55XCX1E/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_lyO8CdV-pHd2Vu54Qzf-cFYvKJB4GiILY",
+          "name": "The Hit List",
+          "img": "https://i.ytimg.com/vi/VNnd55XCX1E/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n0COhN_xYbYY9RGEPF1oa3annopsPfkH0",
+          "name": "Quentura",
+          "img": "https://i.ytimg.com/vi/IZZOZ5cQaWo/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_ljghXQ9bHNpyxDxcXOagYeZYIITqGj7eU",
+          "name": "Brezilya Funk Partisi",
+          "img": "https://i.ytimg.com/vi/mMFN_-p7fqM/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nrGLhsv_AjZV_l-chm9Wxg2nRbQTsey5o",
+          "name": "Rap Funk Karışımı",
+          "img": "https://i.ytimg.com/vi/StGgzGjZ67Y/hqdefault.jpg"
+        }
+      ]
+    },
+    {
       "section_title": "Yeni Şarkılar",
       "items": [
         {
@@ -386,7 +451,7 @@
         {
           "id": "RDCLAK5uy_kisI6vnhNab8BOhcRtLAFV07SVnoqXJvM",
           "name": "Ege Türküleri",
-          "img": "https://i.ytimg.com/vi/oIZhgRyQFWQ/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/qeEL2On-wZU/hqdefault.jpg"
         }
       ]
     },
@@ -457,6 +522,71 @@
     }
   ],
   "en": [
+    {
+      "section_title": "Torcida pelo Brasil 🇧🇷⚽",
+      "items": [
+        {
+          "id": "RDCLAK5uy_khMgnOqejqkxlibg018jDIIL0XobU1i9k",
+          "name": "Let's go Brazil",
+          "img": "https://i.ytimg.com/vi/5JThWsDVlf0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mG4e0qrPPQG9ukBuGbMRNtZ-jh_UKdhNQ",
+          "name": "Pagode and Football",
+          "img": "https://i.ytimg.com/vi/VbOFUY7KG1Q/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_ma0jIF8qa2LzuPRTt8YKB10fJAxHmglEc",
+          "name": "Brazilian Funk and Football",
+          "img": "https://i.ytimg.com/vi/5JThWsDVlf0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nKMe0pfVZXSxbOU2TySCu3VgAKpviEUX0",
+          "name": "Pagode Samba Club",
+          "img": "https://i.ytimg.com/vi/VNnd55XCX1E/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mXL6FEB4PZxOngOFFi6pFjberT2oMYL-c",
+          "name": "Sertanejo Party",
+          "img": "https://i.ytimg.com/vi/aaLYhwadeE0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n1kaC0SMsbKhFD2ODeqTpCXqF_JFpK7jU",
+          "name": "Road to Glory",
+          "img": "https://i.ytimg.com/vi/rb0bjyt1OD0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n6wY0J-gqiwfyjFOJUGrp-EdEVV37Kaww",
+          "name": "Soccer Stadium Anthems",
+          "img": "https://i.ytimg.com/vi/pRpeEdMmmQ0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_l9Qw11eDkPAlLBB1xlZdxG-u0sXffJhy0",
+          "name": "Resenha Pagode",
+          "img": "https://i.ytimg.com/vi/VNnd55XCX1E/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_lyO8CdV-pHd2Vu54Qzf-cFYvKJB4GiILY",
+          "name": "The Hit List",
+          "img": "https://i.ytimg.com/vi/VNnd55XCX1E/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n0COhN_xYbYY9RGEPF1oa3annopsPfkH0",
+          "name": "Quentura",
+          "img": "https://i.ytimg.com/vi/IZZOZ5cQaWo/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_ljghXQ9bHNpyxDxcXOagYeZYIITqGj7eU",
+          "name": "Brazilian Funk Party",
+          "img": "https://i.ytimg.com/vi/mMFN_-p7fqM/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nrGLhsv_AjZV_l-chm9Wxg2nRbQTsey5o",
+          "name": "Rap Funk Connection",
+          "img": "https://i.ytimg.com/vi/StGgzGjZ67Y/hqdefault.jpg"
+        }
+      ]
+    },
     {
       "section_title": "New & Trending Songs",
       "items": [
@@ -759,6 +889,71 @@
     }
   ],
   "fr": [
+    {
+      "section_title": "Torcida pelo Brasil 🇧🇷⚽",
+      "items": [
+        {
+          "id": "RDCLAK5uy_khMgnOqejqkxlibg018jDIIL0XobU1i9k",
+          "name": "Vai, Brasil",
+          "img": "https://i.ytimg.com/vi/5JThWsDVlf0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mG4e0qrPPQG9ukBuGbMRNtZ-jh_UKdhNQ",
+          "name": "Pagode and Football",
+          "img": "https://i.ytimg.com/vi/VbOFUY7KG1Q/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_ma0jIF8qa2LzuPRTt8YKB10fJAxHmglEc",
+          "name": "Brazilian Funk and Football",
+          "img": "https://i.ytimg.com/vi/5JThWsDVlf0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nKMe0pfVZXSxbOU2TySCu3VgAKpviEUX0",
+          "name": "Pagode Samba Club",
+          "img": "https://i.ytimg.com/vi/VNnd55XCX1E/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mXL6FEB4PZxOngOFFi6pFjberT2oMYL-c",
+          "name": "Sertanejo Party",
+          "img": "https://i.ytimg.com/vi/aaLYhwadeE0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n1kaC0SMsbKhFD2ODeqTpCXqF_JFpK7jU",
+          "name": "La route de la gloire",
+          "img": "https://i.ytimg.com/vi/rb0bjyt1OD0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n6wY0J-gqiwfyjFOJUGrp-EdEVV37Kaww",
+          "name": "Soccer Stadium Anthems",
+          "img": "https://i.ytimg.com/vi/pRpeEdMmmQ0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_l9Qw11eDkPAlLBB1xlZdxG-u0sXffJhy0",
+          "name": "Resenha",
+          "img": "https://i.ytimg.com/vi/VNnd55XCX1E/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_lyO8CdV-pHd2Vu54Qzf-cFYvKJB4GiILY",
+          "name": "The Hit List",
+          "img": "https://i.ytimg.com/vi/VNnd55XCX1E/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n0COhN_xYbYY9RGEPF1oa3annopsPfkH0",
+          "name": "Quentura",
+          "img": "https://i.ytimg.com/vi/IZZOZ5cQaWo/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_ljghXQ9bHNpyxDxcXOagYeZYIITqGj7eU",
+          "name": "Soirée Funk au Brésil",
+          "img": "https://i.ytimg.com/vi/mMFN_-p7fqM/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nrGLhsv_AjZV_l-chm9Wxg2nRbQTsey5o",
+          "name": "Connexion Rap Funk",
+          "img": "https://i.ytimg.com/vi/StGgzGjZ67Y/hqdefault.jpg"
+        }
+      ]
+    },
     {
       "section_title": "Ambiance printanière",
       "items": [
@@ -1082,6 +1277,71 @@
   ],
   "de": [
     {
+      "section_title": "Torcida pelo Brasil 🇧🇷⚽",
+      "items": [
+        {
+          "id": "RDCLAK5uy_khMgnOqejqkxlibg018jDIIL0XobU1i9k",
+          "name": "Let's go Brazil",
+          "img": "https://i.ytimg.com/vi/5JThWsDVlf0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mG4e0qrPPQG9ukBuGbMRNtZ-jh_UKdhNQ",
+          "name": "Pagode and Football",
+          "img": "https://i.ytimg.com/vi/VbOFUY7KG1Q/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_ma0jIF8qa2LzuPRTt8YKB10fJAxHmglEc",
+          "name": "Brazilian Funk and Football",
+          "img": "https://i.ytimg.com/vi/5JThWsDVlf0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nKMe0pfVZXSxbOU2TySCu3VgAKpviEUX0",
+          "name": "Pagode Samba Club",
+          "img": "https://i.ytimg.com/vi/VNnd55XCX1E/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mXL6FEB4PZxOngOFFi6pFjberT2oMYL-c",
+          "name": "Sertanejo Party",
+          "img": "https://i.ytimg.com/vi/aaLYhwadeE0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n1kaC0SMsbKhFD2ODeqTpCXqF_JFpK7jU",
+          "name": "Der Weg zum Ruhm",
+          "img": "https://i.ytimg.com/vi/rb0bjyt1OD0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n6wY0J-gqiwfyjFOJUGrp-EdEVV37Kaww",
+          "name": "Fußball Stadionhymnen",
+          "img": "https://i.ytimg.com/vi/pRpeEdMmmQ0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_l9Qw11eDkPAlLBB1xlZdxG-u0sXffJhy0",
+          "name": "Resenha",
+          "img": "https://i.ytimg.com/vi/VNnd55XCX1E/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_lyO8CdV-pHd2Vu54Qzf-cFYvKJB4GiILY",
+          "name": "The Hit List",
+          "img": "https://i.ytimg.com/vi/VNnd55XCX1E/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n0COhN_xYbYY9RGEPF1oa3annopsPfkH0",
+          "name": "Quentura",
+          "img": "https://i.ytimg.com/vi/IZZOZ5cQaWo/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_ljghXQ9bHNpyxDxcXOagYeZYIITqGj7eU",
+          "name": "Rio Funk Party",
+          "img": "https://i.ytimg.com/vi/mMFN_-p7fqM/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nrGLhsv_AjZV_l-chm9Wxg2nRbQTsey5o",
+          "name": "Rap Funk Verschmelzung",
+          "img": "https://i.ytimg.com/vi/StGgzGjZ67Y/hqdefault.jpg"
+        }
+      ]
+    },
+    {
       "section_title": "All-Time-Hits",
       "items": [
         {
@@ -1262,7 +1522,7 @@
         {
           "id": "RDCLAK5uy_kEBBeiM3vLTUSZI97z7RYrwx3RFU_E004",
           "name": "Tropical House",
-          "img": "https://i.ytimg.com/vi/3FzOwAEQoF4/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/foE1mO2yM04/hqdefault.jpg"
         },
         {
           "id": "RDCLAK5uy_meKJG4fRVGUG1Z5P6O-OVRJIja9U3Ctt8",
@@ -1462,12 +1722,12 @@
         {
           "id": "RDCLAK5uy_kEBBeiM3vLTUSZI97z7RYrwx3RFU_E004",
           "name": "Tropical House",
-          "img": "https://i.ytimg.com/vi/3FzOwAEQoF4/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/foE1mO2yM04/hqdefault.jpg"
         },
         {
           "id": "RDCLAK5uy_khFJzdpmtk0_MaUuWNgqYbNamuGV623kk",
           "name": "Techno Room",
-          "img": "https://i.ytimg.com/vi/AUSl0rtytz8/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/Xpwn2gjpdnc/hqdefault.jpg"
         },
         {
           "id": "RDCLAK5uy_lRr2S1Nmk-a4qeSFpU0WoLuVETphGyBP8",
@@ -1573,6 +1833,71 @@
     }
   ],
   "es": [
+    {
+      "section_title": "Torcida pelo Brasil 🇧🇷⚽",
+      "items": [
+        {
+          "id": "RDCLAK5uy_khMgnOqejqkxlibg018jDIIL0XobU1i9k",
+          "name": "Fuerza Brasil",
+          "img": "https://i.ytimg.com/vi/5JThWsDVlf0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mG4e0qrPPQG9ukBuGbMRNtZ-jh_UKdhNQ",
+          "name": "Pagode and Football",
+          "img": "https://i.ytimg.com/vi/VbOFUY7KG1Q/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_ma0jIF8qa2LzuPRTt8YKB10fJAxHmglEc",
+          "name": "Brazilian Funk and Football",
+          "img": "https://i.ytimg.com/vi/5JThWsDVlf0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nKMe0pfVZXSxbOU2TySCu3VgAKpviEUX0",
+          "name": "Pagode Samba Club",
+          "img": "https://i.ytimg.com/vi/VNnd55XCX1E/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mXL6FEB4PZxOngOFFi6pFjberT2oMYL-c",
+          "name": "Sertanejo Party",
+          "img": "https://i.ytimg.com/vi/aaLYhwadeE0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n1kaC0SMsbKhFD2ODeqTpCXqF_JFpK7jU",
+          "name": "Camino a la gloria",
+          "img": "https://i.ytimg.com/vi/rb0bjyt1OD0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n6wY0J-gqiwfyjFOJUGrp-EdEVV37Kaww",
+          "name": "Soccer Stadium Anthems",
+          "img": "https://i.ytimg.com/vi/pRpeEdMmmQ0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_l9Qw11eDkPAlLBB1xlZdxG-u0sXffJhy0",
+          "name": "Reseña de Pagode",
+          "img": "https://i.ytimg.com/vi/VNnd55XCX1E/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_lyO8CdV-pHd2Vu54Qzf-cFYvKJB4GiILY",
+          "name": "The Hit List",
+          "img": "https://i.ytimg.com/vi/VNnd55XCX1E/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n0COhN_xYbYY9RGEPF1oa3annopsPfkH0",
+          "name": "Quentura",
+          "img": "https://i.ytimg.com/vi/IZZOZ5cQaWo/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_ljghXQ9bHNpyxDxcXOagYeZYIITqGj7eU",
+          "name": "Fiesta funk brasileña",
+          "img": "https://i.ytimg.com/vi/mMFN_-p7fqM/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nrGLhsv_AjZV_l-chm9Wxg2nRbQTsey5o",
+          "name": "Conexión Rap-Funk Brasilero",
+          "img": "https://i.ytimg.com/vi/StGgzGjZ67Y/hqdefault.jpg"
+        }
+      ]
+    },
     {
       "section_title": "Today's Biggest Hits",
       "items": [
@@ -1951,6 +2276,71 @@
   ],
   "it": [
     {
+      "section_title": "Torcida pelo Brasil 🇧🇷⚽",
+      "items": [
+        {
+          "id": "RDCLAK5uy_khMgnOqejqkxlibg018jDIIL0XobU1i9k",
+          "name": "Let's go Brazil",
+          "img": "https://i.ytimg.com/vi/5JThWsDVlf0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mG4e0qrPPQG9ukBuGbMRNtZ-jh_UKdhNQ",
+          "name": "Pagode and Football",
+          "img": "https://i.ytimg.com/vi/VbOFUY7KG1Q/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_ma0jIF8qa2LzuPRTt8YKB10fJAxHmglEc",
+          "name": "Brazilian Funk and Football",
+          "img": "https://i.ytimg.com/vi/5JThWsDVlf0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nKMe0pfVZXSxbOU2TySCu3VgAKpviEUX0",
+          "name": "Pagode Samba Club",
+          "img": "https://i.ytimg.com/vi/VNnd55XCX1E/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mXL6FEB4PZxOngOFFi6pFjberT2oMYL-c",
+          "name": "Sertanejo Party",
+          "img": "https://i.ytimg.com/vi/aaLYhwadeE0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n1kaC0SMsbKhFD2ODeqTpCXqF_JFpK7jU",
+          "name": "Road to Glory",
+          "img": "https://i.ytimg.com/vi/rb0bjyt1OD0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n6wY0J-gqiwfyjFOJUGrp-EdEVV37Kaww",
+          "name": "Soccer Stadium Anthems",
+          "img": "https://i.ytimg.com/vi/pRpeEdMmmQ0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_l9Qw11eDkPAlLBB1xlZdxG-u0sXffJhy0",
+          "name": "Resenha",
+          "img": "https://i.ytimg.com/vi/VNnd55XCX1E/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_lyO8CdV-pHd2Vu54Qzf-cFYvKJB4GiILY",
+          "name": "The Hit List",
+          "img": "https://i.ytimg.com/vi/VNnd55XCX1E/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n0COhN_xYbYY9RGEPF1oa3annopsPfkH0",
+          "name": "Quentura",
+          "img": "https://i.ytimg.com/vi/IZZOZ5cQaWo/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_ljghXQ9bHNpyxDxcXOagYeZYIITqGj7eU",
+          "name": "Baile funk",
+          "img": "https://i.ytimg.com/vi/mMFN_-p7fqM/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nrGLhsv_AjZV_l-chm9Wxg2nRbQTsey5o",
+          "name": "Rap Funk Connection",
+          "img": "https://i.ytimg.com/vi/StGgzGjZ67Y/hqdefault.jpg"
+        }
+      ]
+    },
+    {
       "section_title": "Today's Biggest Hits",
       "items": [
         {
@@ -2326,7 +2716,7 @@
         {
           "id": "RDCLAK5uy_kNpOoBDfcejD8yltMf5tbF6m2nzVErzW4",
           "name": "Cinema Italia",
-          "img": "https://i.ytimg.com/vi/F9E8nIKjkYc/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/CNHL66K8S2I/hqdefault.jpg"
         },
         {
           "id": "RDCLAK5uy_kxsvMbjtV1-yJ5AySFgJRgUMeFBVCcZlI",
@@ -2408,12 +2798,77 @@
         {
           "id": "RDCLAK5uy_nzIJJxW33Z5MDKatl21TypOmIatWNyJs4",
           "name": "Forró romântico",
-          "img": "https://i.ytimg.com/vi/8fP_qVq4uQ8/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/IFJkCFdQO48/hqdefault.jpg"
         },
         {
           "id": "RDCLAK5uy_nSq4gNxK239Y2gIXlxnJ1DaPwgCKA6MTI",
           "name": "Toca no Paredão",
           "img": "https://i.ytimg.com/vi/FYz81lpGwsQ/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "section_title": "Torcida pelo Brasil 🇧🇷⚽",
+      "items": [
+        {
+          "id": "RDCLAK5uy_khMgnOqejqkxlibg018jDIIL0XobU1i9k",
+          "name": "Vai, Brasil",
+          "img": "https://i.ytimg.com/vi/5JThWsDVlf0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mG4e0qrPPQG9ukBuGbMRNtZ-jh_UKdhNQ",
+          "name": "Pagode e Futebol",
+          "img": "https://i.ytimg.com/vi/VbOFUY7KG1Q/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_ma0jIF8qa2LzuPRTt8YKB10fJAxHmglEc",
+          "name": "Funk e Futebol",
+          "img": "https://i.ytimg.com/vi/5JThWsDVlf0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nKMe0pfVZXSxbOU2TySCu3VgAKpviEUX0",
+          "name": "Pagode Samba Clube",
+          "img": "https://i.ytimg.com/vi/VNnd55XCX1E/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mXL6FEB4PZxOngOFFi6pFjberT2oMYL-c",
+          "name": "Festa Sertaneja",
+          "img": "https://i.ytimg.com/vi/aaLYhwadeE0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n1kaC0SMsbKhFD2ODeqTpCXqF_JFpK7jU",
+          "name": "Caminho para a Glória",
+          "img": "https://i.ytimg.com/vi/rb0bjyt1OD0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n6wY0J-gqiwfyjFOJUGrp-EdEVV37Kaww",
+          "name": "Som das Arquibancadas",
+          "img": "https://i.ytimg.com/vi/pRpeEdMmmQ0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_l9Qw11eDkPAlLBB1xlZdxG-u0sXffJhy0",
+          "name": "Resenha Pagode",
+          "img": "https://i.ytimg.com/vi/VNnd55XCX1E/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_lyO8CdV-pHd2Vu54Qzf-cFYvKJB4GiILY",
+          "name": "The Hit List",
+          "img": "https://i.ytimg.com/vi/VNnd55XCX1E/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n0COhN_xYbYY9RGEPF1oa3annopsPfkH0",
+          "name": "Quentura Forró",
+          "img": "https://i.ytimg.com/vi/IZZOZ5cQaWo/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_ljghXQ9bHNpyxDxcXOagYeZYIITqGj7eU",
+          "name": "Festa Funk",
+          "img": "https://i.ytimg.com/vi/mMFN_-p7fqM/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nrGLhsv_AjZV_l-chm9Wxg2nRbQTsey5o",
+          "name": "Conexão Rap Funk",
+          "img": "https://i.ytimg.com/vi/StGgzGjZ67Y/hqdefault.jpg"
         }
       ]
     },
@@ -2749,6 +3204,71 @@
     }
   ],
   "ru": [
+    {
+      "section_title": "Torcida pelo Brasil 🇧🇷⚽",
+      "items": [
+        {
+          "id": "RDCLAK5uy_khMgnOqejqkxlibg018jDIIL0XobU1i9k",
+          "name": "Let's go Brazil",
+          "img": "https://i.ytimg.com/vi/5JThWsDVlf0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mG4e0qrPPQG9ukBuGbMRNtZ-jh_UKdhNQ",
+          "name": "Pagode and Football",
+          "img": "https://i.ytimg.com/vi/VbOFUY7KG1Q/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_ma0jIF8qa2LzuPRTt8YKB10fJAxHmglEc",
+          "name": "Brazilian Funk and Football",
+          "img": "https://i.ytimg.com/vi/5JThWsDVlf0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nKMe0pfVZXSxbOU2TySCu3VgAKpviEUX0",
+          "name": "Pagode Samba Club",
+          "img": "https://i.ytimg.com/vi/VNnd55XCX1E/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mXL6FEB4PZxOngOFFi6pFjberT2oMYL-c",
+          "name": "Sertanejo Party",
+          "img": "https://i.ytimg.com/vi/aaLYhwadeE0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n1kaC0SMsbKhFD2ODeqTpCXqF_JFpK7jU",
+          "name": "Road to Glory",
+          "img": "https://i.ytimg.com/vi/rb0bjyt1OD0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n6wY0J-gqiwfyjFOJUGrp-EdEVV37Kaww",
+          "name": "Soccer Stadium Anthems",
+          "img": "https://i.ytimg.com/vi/pRpeEdMmmQ0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_l9Qw11eDkPAlLBB1xlZdxG-u0sXffJhy0",
+          "name": "Resenha",
+          "img": "https://i.ytimg.com/vi/VNnd55XCX1E/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_lyO8CdV-pHd2Vu54Qzf-cFYvKJB4GiILY",
+          "name": "The Hit List",
+          "img": "https://i.ytimg.com/vi/VNnd55XCX1E/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n0COhN_xYbYY9RGEPF1oa3annopsPfkH0",
+          "name": "Quentura",
+          "img": "https://i.ytimg.com/vi/IZZOZ5cQaWo/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_ljghXQ9bHNpyxDxcXOagYeZYIITqGj7eU",
+          "name": "Бразильская фанк-вечеринка",
+          "img": "https://i.ytimg.com/vi/mMFN_-p7fqM/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nrGLhsv_AjZV_l-chm9Wxg2nRbQTsey5o",
+          "name": "Rap Funk Connection",
+          "img": "https://i.ytimg.com/vi/StGgzGjZ67Y/hqdefault.jpg"
+        }
+      ]
+    },
     {
       "section_title": "Today's Biggest Hits",
       "items": [
@@ -3086,6 +3606,71 @@
     }
   ],
   "ar": [
+    {
+      "section_title": "Torcida pelo Brasil 🇧🇷⚽",
+      "items": [
+        {
+          "id": "RDCLAK5uy_khMgnOqejqkxlibg018jDIIL0XobU1i9k",
+          "name": "Let's go Brazil",
+          "img": "https://i.ytimg.com/vi/5JThWsDVlf0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mG4e0qrPPQG9ukBuGbMRNtZ-jh_UKdhNQ",
+          "name": "Pagode and Football",
+          "img": "https://i.ytimg.com/vi/VbOFUY7KG1Q/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_ma0jIF8qa2LzuPRTt8YKB10fJAxHmglEc",
+          "name": "Brazilian Funk and Football",
+          "img": "https://i.ytimg.com/vi/5JThWsDVlf0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nKMe0pfVZXSxbOU2TySCu3VgAKpviEUX0",
+          "name": "Pagode Samba Club",
+          "img": "https://i.ytimg.com/vi/VNnd55XCX1E/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mXL6FEB4PZxOngOFFi6pFjberT2oMYL-c",
+          "name": "Sertanejo Party",
+          "img": "https://i.ytimg.com/vi/aaLYhwadeE0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n1kaC0SMsbKhFD2ODeqTpCXqF_JFpK7jU",
+          "name": "الطريق الى المجد",
+          "img": "https://i.ytimg.com/vi/rb0bjyt1OD0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n6wY0J-gqiwfyjFOJUGrp-EdEVV37Kaww",
+          "name": "Soccer Stadium Anthems",
+          "img": "https://i.ytimg.com/vi/pRpeEdMmmQ0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_l9Qw11eDkPAlLBB1xlZdxG-u0sXffJhy0",
+          "name": "Resenha",
+          "img": "https://i.ytimg.com/vi/VNnd55XCX1E/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_lyO8CdV-pHd2Vu54Qzf-cFYvKJB4GiILY",
+          "name": "The Hit List",
+          "img": "https://i.ytimg.com/vi/VNnd55XCX1E/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n0COhN_xYbYY9RGEPF1oa3annopsPfkH0",
+          "name": "Quentura",
+          "img": "https://i.ytimg.com/vi/IZZOZ5cQaWo/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_ljghXQ9bHNpyxDxcXOagYeZYIITqGj7eU",
+          "name": "Brazilian Funk Party",
+          "img": "https://i.ytimg.com/vi/mMFN_-p7fqM/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nrGLhsv_AjZV_l-chm9Wxg2nRbQTsey5o",
+          "name": "راب فنك",
+          "img": "https://i.ytimg.com/vi/StGgzGjZ67Y/hqdefault.jpg"
+        }
+      ]
+    },
     {
       "section_title": "أجدد و أجمل الأغاني",
       "items": [
@@ -3429,6 +4014,106 @@
   ],
   "ja": [
     {
+      "section_title": "Torcida pelo Brasil 🇧🇷⚽",
+      "items": [
+        {
+          "id": "RDCLAK5uy_khMgnOqejqkxlibg018jDIIL0XobU1i9k",
+          "name": "Let's go Brazil",
+          "img": "https://i.ytimg.com/vi/5JThWsDVlf0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mG4e0qrPPQG9ukBuGbMRNtZ-jh_UKdhNQ",
+          "name": "Pagode and Football",
+          "img": "https://i.ytimg.com/vi/VbOFUY7KG1Q/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_ma0jIF8qa2LzuPRTt8YKB10fJAxHmglEc",
+          "name": "Brazilian Funk and Football",
+          "img": "https://i.ytimg.com/vi/5JThWsDVlf0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nKMe0pfVZXSxbOU2TySCu3VgAKpviEUX0",
+          "name": "Pagode Samba Club",
+          "img": "https://i.ytimg.com/vi/VNnd55XCX1E/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mXL6FEB4PZxOngOFFi6pFjberT2oMYL-c",
+          "name": "Sertanejo Party",
+          "img": "https://i.ytimg.com/vi/aaLYhwadeE0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n1kaC0SMsbKhFD2ODeqTpCXqF_JFpK7jU",
+          "name": "Road to Glory",
+          "img": "https://i.ytimg.com/vi/rb0bjyt1OD0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n6wY0J-gqiwfyjFOJUGrp-EdEVV37Kaww",
+          "name": "Soccer Stadium Anthems",
+          "img": "https://i.ytimg.com/vi/pRpeEdMmmQ0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_l9Qw11eDkPAlLBB1xlZdxG-u0sXffJhy0",
+          "name": "Resenha",
+          "img": "https://i.ytimg.com/vi/VNnd55XCX1E/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_lyO8CdV-pHd2Vu54Qzf-cFYvKJB4GiILY",
+          "name": "The Hit List",
+          "img": "https://i.ytimg.com/vi/VNnd55XCX1E/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n0COhN_xYbYY9RGEPF1oa3annopsPfkH0",
+          "name": "Quentura",
+          "img": "https://i.ytimg.com/vi/IZZOZ5cQaWo/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_ljghXQ9bHNpyxDxcXOagYeZYIITqGj7eU",
+          "name": "Brazilian Funk Party",
+          "img": "https://i.ytimg.com/vi/mMFN_-p7fqM/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nrGLhsv_AjZV_l-chm9Wxg2nRbQTsey5o",
+          "name": "Rap Funk Connection",
+          "img": "https://i.ytimg.com/vi/StGgzGjZ67Y/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "section_title": "MUSIC AWARDS JAPAN 2026 : ノミネート",
+      "items": [
+        {
+          "id": "RDCLAK5uy_lnA6uOXVq8waKMxqHPFMKe4yQQPm-5DV8",
+          "name": "MUSIC AWARDS JAPAN 2026 ノミネート作品",
+          "img": "https://i.ytimg.com/vi/r_AOa3yVz8A/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_kSRez2j51cPlJqX2cPs9E-q-3Ap9YA-pU",
+          "name": "Presenting 藤井 風",
+          "img": "https://i.ytimg.com/vi/UJgPpzZcxGU/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mbAtFq61xxTGZS9trrdnmb8rdqtPJPdio",
+          "name": "Presenting HANA",
+          "img": "https://i.ytimg.com/vi/ZsbxeewF1mQ/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nGsmqZY69zwGl1Z26nrwSY8bfKeilhSmY",
+          "name": "Presenting Mrs. GREEN APPLE",
+          "img": "https://i.ytimg.com/vi/9NJI7cLZ2Qg/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_lRsoGVR8TJW4xDVg50D9nR8bfIhkEa2Fg",
+          "name": "Presenting サカナクション",
+          "img": "https://i.ytimg.com/vi/iRb67zfMF7M/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_m9t0TCPOp3z-nlKLyQu94e3U6HjmbiPjE",
+          "name": "Presenting 米津玄師",
+          "img": "https://i.ytimg.com/vi/1cnndBdzCAk/hqdefault.jpg"
+        }
+      ]
+    },
+    {
       "section_title": "新着＆トレンド",
       "items": [
         {
@@ -3550,71 +4235,6 @@
           "id": "RDCLAK5uy_mD1l6qiKHTiFmKKUax1NUznpM9m6daNTw",
           "name": "Boys Group Japan",
           "img": "https://i.ytimg.com/vi/FYtxm8GA5ok/hqdefault.jpg"
-        }
-      ]
-    },
-    {
-      "section_title": "春🌸",
-      "items": [
-        {
-          "id": "RDCLAK5uy_lRj2PxRYIUGDG0p0KjsQ62d2lLYLfgXAw",
-          "name": "春ソングス",
-          "img": "https://i.ytimg.com/vi/hJhiIu6pbCA/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_mqEdnDxpl4TNzmZ4QNIYttSHKj0F06zi8",
-          "name": "桜ソングス",
-          "img": "https://i.ytimg.com/vi/rpVvPAFaoqM/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_m9aCizAm3nmoGi5waYSaSFDm6XBIPl-Eo",
-          "name": "Springtime Feeling",
-          "img": "https://i.ytimg.com/vi/3sur4BmjQt8/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_khL5uRy4milJNYKDRwK571pXfYnshd16g",
-          "name": "元気がでるアニメソング",
-          "img": "https://i.ytimg.com/vi/3Fz17pPuI4k/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_nclEuDYH2pKDt4-K7DgFWrcw8bhUmkgos",
-          "name": "Dance Pop Japan",
-          "img": "https://i.ytimg.com/vi/LlpzDnZr1vw/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_kIcfhFcnJ9fdkKHw96Gvr6Q0_bAyWiZbM",
-          "name": "令和ソングス",
-          "img": "https://i.ytimg.com/vi/LmZD-TU96q4/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_kzXjLSabLv9qr8PPxWDhpCGLKedcT9Z4Y",
-          "name": "ポジティブ！",
-          "img": "https://i.ytimg.com/vi/MjeiIal1ZR0/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_muPPezCrTrwoL7Ep_9a69YkIaBjsyKTg0",
-          "name": "City Pop: Today",
-          "img": "https://i.ytimg.com/vi/O5JN8l4pgOo/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_ntdRx4j4KAbBT9I9Rh2tqgVLeODUQuygY",
-          "name": "Springtime Jazz",
-          "img": "https://i.ytimg.com/vi/kq2zDGRgTz4/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_m54F1uvB7j6Vup6o3ESB-8YW1E0J9Pt80",
-          "name": "ドライブ気分",
-          "img": "https://i.ytimg.com/vi/n5ntakgegH8/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_mLvpLYIeQ_X8s55RNotnCgtr1aUHCm6ow",
-          "name": "新生活 応援ソングス",
-          "img": "https://i.ytimg.com/vi/hJhiIu6pbCA/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_m0wlRoNn5iCTTgBedfoOQ19Jq9P3XTLIA",
-          "name": "ハッピー ポップ&ロック",
-          "img": "https://i.ytimg.com/vi/JGwWNGJdvx8/hqdefault.jpg"
         }
       ]
     },
@@ -3780,6 +4400,71 @@
     }
   ],
   "hi": [
+    {
+      "section_title": "Torcida pelo Brasil 🇧🇷⚽",
+      "items": [
+        {
+          "id": "RDCLAK5uy_khMgnOqejqkxlibg018jDIIL0XobU1i9k",
+          "name": "Let's go Brazil",
+          "img": "https://i.ytimg.com/vi/5JThWsDVlf0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mG4e0qrPPQG9ukBuGbMRNtZ-jh_UKdhNQ",
+          "name": "Pagode and Football",
+          "img": "https://i.ytimg.com/vi/VbOFUY7KG1Q/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_ma0jIF8qa2LzuPRTt8YKB10fJAxHmglEc",
+          "name": "Brazilian Funk and Football",
+          "img": "https://i.ytimg.com/vi/5JThWsDVlf0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nKMe0pfVZXSxbOU2TySCu3VgAKpviEUX0",
+          "name": "Pagode Samba Club",
+          "img": "https://i.ytimg.com/vi/VNnd55XCX1E/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mXL6FEB4PZxOngOFFi6pFjberT2oMYL-c",
+          "name": "Sertanejo Party",
+          "img": "https://i.ytimg.com/vi/aaLYhwadeE0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n1kaC0SMsbKhFD2ODeqTpCXqF_JFpK7jU",
+          "name": "Road to Glory",
+          "img": "https://i.ytimg.com/vi/rb0bjyt1OD0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n6wY0J-gqiwfyjFOJUGrp-EdEVV37Kaww",
+          "name": "Soccer Stadium Anthems",
+          "img": "https://i.ytimg.com/vi/pRpeEdMmmQ0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_l9Qw11eDkPAlLBB1xlZdxG-u0sXffJhy0",
+          "name": "Resenha",
+          "img": "https://i.ytimg.com/vi/VNnd55XCX1E/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_lyO8CdV-pHd2Vu54Qzf-cFYvKJB4GiILY",
+          "name": "The Hit List",
+          "img": "https://i.ytimg.com/vi/VNnd55XCX1E/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n0COhN_xYbYY9RGEPF1oa3annopsPfkH0",
+          "name": "Quentura",
+          "img": "https://i.ytimg.com/vi/IZZOZ5cQaWo/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_ljghXQ9bHNpyxDxcXOagYeZYIITqGj7eU",
+          "name": "ब्रज़ीलियन फंक पार्टी प्लेलिस्ट",
+          "img": "https://i.ytimg.com/vi/mMFN_-p7fqM/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nrGLhsv_AjZV_l-chm9Wxg2nRbQTsey5o",
+          "name": "रॅप फंक कनेक्शन",
+          "img": "https://i.ytimg.com/vi/StGgzGjZ67Y/hqdefault.jpg"
+        }
+      ]
+    },
     {
       "section_title": "India's Biggest Hits",
       "items": [
@@ -4363,6 +5048,71 @@
   ],
   "zh": [
     {
+      "section_title": "Torcida pelo Brasil 🇧🇷⚽",
+      "items": [
+        {
+          "id": "RDCLAK5uy_khMgnOqejqkxlibg018jDIIL0XobU1i9k",
+          "name": "Let's go Brazil",
+          "img": "https://i.ytimg.com/vi/5JThWsDVlf0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mG4e0qrPPQG9ukBuGbMRNtZ-jh_UKdhNQ",
+          "name": "Pagode and Football",
+          "img": "https://i.ytimg.com/vi/VbOFUY7KG1Q/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_ma0jIF8qa2LzuPRTt8YKB10fJAxHmglEc",
+          "name": "Brazilian Funk and Football",
+          "img": "https://i.ytimg.com/vi/5JThWsDVlf0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nKMe0pfVZXSxbOU2TySCu3VgAKpviEUX0",
+          "name": "Pagode Samba Club",
+          "img": "https://i.ytimg.com/vi/VNnd55XCX1E/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mXL6FEB4PZxOngOFFi6pFjberT2oMYL-c",
+          "name": "Sertanejo Party",
+          "img": "https://i.ytimg.com/vi/aaLYhwadeE0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n1kaC0SMsbKhFD2ODeqTpCXqF_JFpK7jU",
+          "name": "榮耀之路",
+          "img": "https://i.ytimg.com/vi/rb0bjyt1OD0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n6wY0J-gqiwfyjFOJUGrp-EdEVV37Kaww",
+          "name": "Soccer Stadium Anthems",
+          "img": "https://i.ytimg.com/vi/pRpeEdMmmQ0/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_l9Qw11eDkPAlLBB1xlZdxG-u0sXffJhy0",
+          "name": "Resenha",
+          "img": "https://i.ytimg.com/vi/VNnd55XCX1E/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_lyO8CdV-pHd2Vu54Qzf-cFYvKJB4GiILY",
+          "name": "The Hit List",
+          "img": "https://i.ytimg.com/vi/VNnd55XCX1E/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n0COhN_xYbYY9RGEPF1oa3annopsPfkH0",
+          "name": "Quentura",
+          "img": "https://i.ytimg.com/vi/IZZOZ5cQaWo/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_ljghXQ9bHNpyxDxcXOagYeZYIITqGj7eU",
+          "name": "巴西放克派對",
+          "img": "https://i.ytimg.com/vi/mMFN_-p7fqM/hqdefault.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nrGLhsv_AjZV_l-chm9Wxg2nRbQTsey5o",
+          "name": "Rap Funk Connection",
+          "img": "https://i.ytimg.com/vi/StGgzGjZ67Y/hqdefault.jpg"
+        }
+      ]
+    },
+    {
       "section_title": "最新上架及熱門歌曲",
       "items": [
         {
@@ -4453,7 +5203,7 @@
         {
           "id": "RDCLAK5uy_k9CSSpu431aC3IKxRhWmb5shTE8Em2y9Y",
           "name": "輕鬆愉快的華語 Indie",
-          "img": "https://i.ytimg.com/vi/qTrqZblkmPs/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/SwRNkQW9paM/hqdefault.jpg"
         },
         {
           "id": "RDCLAK5uy_mQM2-qOVfLCD2ZceUahSVgk4O1QoWCTZA",
