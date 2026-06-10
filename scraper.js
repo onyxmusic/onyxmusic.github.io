@@ -18,14 +18,30 @@ const REGIONS = {
 
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
+// Fetch işlemini tarayıcıdan (page.evaluate) Node.js tarafına aldık.
+async function getFirstVideoIdNode(playlistId) {
+  try {
+    const res = await fetch(`https://www.youtube.com/playlist?list=${playlistId}`, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+      }
+    });
+    const text = await res.text();
+    const match = text.match(/"videoId":"([a-zA-Z0-9_-]{11})"/);
+    return match ? match[1] : null;
+  } catch (e) {
+    return null;
+  }
+}
+
 (async () => {
   console.log("🚀 OnyxMusic Otomatik Scraper Başlıyor...");
 
-  console.log('Chrome Path:', process.env.PUPPETEER_EXECUTABLE_PATH);
+  // Ortam değişkeni yoksa standart yolu bulabilmesi için fallback eklendi.
   const browser = await puppeteer.launch({
-    executablePath: process.env.PUPPETEER_EXECUTABLE_PATH,
-    headless: true,
-    args: ['--no-sandbox', '--disable-setuid-sandbox']
+    executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || undefined,
+    headless: "new", // Modern ve daha stabil headless modu
+    args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage']
   });
 
   const fullFeed = {};
@@ -37,37 +53,25 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
     const page = await browser.newPage();
     await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36');
 
-    await page.setCookie({
-      name: 'PREF',
-      value: `hl=${config.hl}&gl=${config.gl}`,
-      domain: '.youtube.com',
-      path: '/'
-    });
-
-    await page.setCookie({
-      name: 'SOCS',
-      value: 'CAESEwgDEgk0ODE3Nzk3MjQaAmVuIAEaBgiA_LyaBg',
-      domain: '.youtube.com',
-      path: '/'
-    });
+    await page.setCookie({ name: 'PREF', value: `hl=${config.hl}&gl=${config.gl}`, domain: '.youtube.com', path: '/' });
+    await page.setCookie({ name: 'SOCS', value: 'CAESEwgDEgk0ODE3Nzk3MjQaAmVuIAEaBgiA_LyaBg', domain: '.youtube.com', path: '/' });
 
     try {
       await page.goto(url, { waitUntil: 'networkidle2', timeout: 60000 });
-      await delay(5000);
+      await delay(3000); // Gereksiz uzun beklemeyi biraz kısalttık
 
       console.log(`   Sayfa aşağı kaydırılıyor...`);
 
       await page.evaluate(async () => {
         await new Promise((resolve) => {
-          let lastCardCount = 0;  // ← DEĞİŞTİ: section değil kart sayıyoruz
+          let lastCardCount = 0;
           let stableRounds = 0;
 
           const timer = setInterval(() => {
             window.scrollBy(0, 400);
-
             const currentCount = document.querySelectorAll(
               'ytd-rich-item-renderer, ytd-grid-playlist-renderer, ytd-compact-playlist-renderer, ytd-lockup-view-model'
-            ).length;  // ← DEĞİŞTİ: kart elementleri
+            ).length;
 
             if (currentCount === lastCardCount) {
               stableRounds++;
@@ -83,20 +87,10 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
         });
       });
 
-      await delay(2000);
+      await delay(1500);
 
-      const sectionData = await page.evaluate(async () => {
-        const innerDelay = ms => new Promise(res => setTimeout(res, ms));
-        
-        async function getFirstVideoId(playlistId) {
-          try {
-            const res = await fetch(`https://www.youtube.com/playlist?list=${playlistId}`);
-            const text = await res.text();
-            const match = text.match(/"videoId":"([a-zA-Z0-9_-]{11})"/);
-            return match ? match[1] : null;
-          } catch (e) { return null; }
-        }
-
+      // Tarayıcı içinde SADECE DOM okuma yapıyoruz. Ağ isteklerini kaldırdık.
+      const rawSections = await page.evaluate(() => {
         const sections = [];
         const elements = document.querySelectorAll('ytd-rich-section-renderer, ytd-shelf-renderer');
         
@@ -126,21 +120,31 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
               });
             }
 
-            const videoId = await getFirstVideoId(id);
-            const img = videoId ? `https://i.ytimg.com/vi/${videoId}/maxresdefault.jpg` : "";
-            
-            items.push({ id, name: name || "İsimsiz", img });
+            items.push({ id, name: name || "İsimsiz" });
             seenIds.add(id);
-            
-            await innerDelay(200); 
           }
           if (items.length > 0) sections.push({ section_title: sectionTitle, items });
         }
         return sections;
       });
 
-      fullFeed[langCode] = sectionData;
-      console.log(`   ✅ ${sectionData.length} kategori başarıyla çekildi!`);
+      console.log(`   Kapak fotoğrafları çekiliyor (${rawSections.length} kategori)...`);
+
+      // Node.js tarafında Promise.all ile paralel Fetch atarak hızı artırıyoruz.
+      const processedSections = [];
+      for (const section of rawSections) {
+        const processedItems = await Promise.all(
+          section.items.map(async (item) => {
+            const videoId = await getFirstVideoIdNode(item.id);
+            const img = videoId ? `https://i.ytimg.com/vi/${videoId}/maxresdefault.jpg` : "";
+            return { ...item, img };
+          })
+        );
+        processedSections.push({ section_title: section.section_title, items: processedItems });
+      }
+
+      fullFeed[langCode] = processedSections;
+      console.log(`   ✅ Veriler başarıyla işlendi!`);
 
     } catch (error) {
       console.error(`   ❌ Hata oluştu [${langCode}]:`, error.message);
