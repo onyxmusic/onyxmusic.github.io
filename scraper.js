@@ -2,184 +2,249 @@ const puppeteer = require('puppeteer');
 const fs = require('fs');
 
 const REGIONS = {
-  "tr": { gl: "TR", hl: "tr" },
-  "en": { gl: "US", hl: "en" },
-  "fr": { gl: "FR", hl: "fr" },
-  "de": { gl: "DE", hl: "de" },
-  "es": { gl: "ES", hl: "es" },
-  "it": { gl: "IT", hl: "it" },
-  "pt": { gl: "BR", hl: "pt" },
-  "ru": { gl: "RU", hl: "ru" },
-  "ar": { gl: "AE", hl: "ar" },
-  "ja": { gl: "JP", hl: "ja" },
-  "hi": { gl: "IN", hl: "hi" },
-  "zh": { gl: "TW", hl: "zh-TW" }
+  tr: { gl: 'TR', hl: 'tr' },
+  en: { gl: 'US', hl: 'en' },
+  fr: { gl: 'FR', hl: 'fr' },
+  de: { gl: 'DE', hl: 'de' },
+  es: { gl: 'ES', hl: 'es' },
+  it: { gl: 'IT', hl: 'it' },
+  pt: { gl: 'BR', hl: 'pt' },
+  ru: { gl: 'RU', hl: 'ru' },
+  ar: { gl: 'AE', hl: 'ar' },
+  ja: { gl: 'JP', hl: 'ja' },
+  hi: { gl: 'IN', hl: 'hi' },
+  zh: { gl: 'TW', hl: 'zh-TW' }
 };
 
-const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
+const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+async function autoScroll(page, {
+  maxRounds = 70,
+  stableRoundsToStop = 6,
+  waitMs = 1200
+} = {}) {
+  let lastCount = -1;
+  let lastHeight = -1;
+  let stableRounds = 0;
+
+  for (let i = 0; i < maxRounds; i++) {
+    await page.evaluate(() => {
+      const delta = Math.max(window.innerHeight * 0.9, 900);
+
+      const targets = [
+        document.scrollingElement,
+        document.querySelector('ytd-app'),
+        document.querySelector('#content'),
+        document.body
+      ].filter(Boolean);
+
+      for (const el of targets) {
+        try {
+          el.scrollTop = (el.scrollTop || 0) + delta;
+        } catch {}
+        try {
+          el.scrollBy(0, delta);
+        } catch {}
+      }
+
+      window.scrollBy(0, delta);
+    });
+
+    // Scroll event'in gerçekten işlenmesi için küçük bekleme
+    await delay(waitMs);
+
+    const [count, height] = await Promise.all([
+      page.evaluate((selector) => document.querySelectorAll(selector).length,
+        [
+          'ytd-rich-item-renderer',
+          'ytd-grid-playlist-renderer',
+          'ytd-compact-playlist-renderer',
+          'ytd-rich-grid-media',
+          'ytd-playlist-renderer',
+          'ytmusic-responsive-list-item-renderer',
+          'ytmusic-shelf-renderer',
+          'ytd-rich-section-renderer',
+          'ytd-shelf-renderer'
+        ].join(',')
+      ),
+      page.evaluate(() =>
+        Math.max(
+          document.documentElement.scrollHeight,
+          document.body.scrollHeight,
+          document.documentElement.offsetHeight,
+          document.body.offsetHeight
+        )
+      )
+    ]);
+
+    const sameCount = count === lastCount;
+    const sameHeight = height === lastHeight;
+
+    if (sameCount && sameHeight) {
+      stableRounds++;
+    } else {
+      stableRounds = 0;
+      lastCount = count;
+      lastHeight = height;
+    }
+
+    if (stableRounds >= stableRoundsToStop) {
+      break;
+    }
+  }
+}
 
 (async () => {
-  console.log("🚀 OnyxMusic Otomatik Scraper Başlıyor (Fetch Aktif, Tam Kapsamlı Sürüm)...");
+  console.log('🚀 OnyxMusic Otomatik Scraper Başlıyor...');
+  console.log('Chrome Path:', process.env.PUPPETEER_EXECUTABLE_PATH);
 
   const browser = await puppeteer.launch({
     executablePath: process.env.PUPPETEER_EXECUTABLE_PATH,
-    headless: true, // İşlemi görmek istersen false yapabilirsin
+    headless: true,
     args: ['--no-sandbox', '--disable-setuid-sandbox']
   });
 
   const fullFeed = {};
 
-  for (const [langCode, config] of Object.entries(REGIONS)) {
-    const url = `https://www.youtube.com/feed/music`;
-    console.log(`\n⏳ İşleniyor: [${langCode.toUpperCase()}] (Dil: ${config.hl}, Ülke: ${config.gl})`);
-    
-    const page = await browser.newPage();
-    await page.setViewport({ width: 1920, height: 1080 }); // Geniş ekran, daha çok kart gösterir
-    await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36');
+  try {
+    for (const [langCode, config] of Object.entries(REGIONS)) {
+      const url = 'https://www.youtube.com/feed/music';
+      console.log(`\n⏳ İşleniyor: [${langCode.toUpperCase()}] (Dil: ${config.hl}, Ülke: ${config.gl})`);
 
-    await page.setCookie({
-      name: 'PREF',
-      value: `hl=${config.hl}&gl=${config.gl}`,
-      domain: '.youtube.com',
-      path: '/'
-    });
+      const page = await browser.newPage();
+      await page.setViewport({ width: 1600, height: 2200 });
+      await page.setUserAgent(
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+      );
 
-    await page.setCookie({
-      name: 'SOCS',
-      value: 'CAESEwgDEgk0ODE3Nzk3MjQaAmVuIAEaBgiA_LyaBg',
-      domain: '.youtube.com',
-      path: '/'
-    });
+      await page.setCookie({
+        name: 'PREF',
+        value: `hl=${config.hl}&gl=${config.gl}`,
+        domain: '.youtube.com',
+        path: '/'
+      });
 
-    try {
-      await page.goto(url, { waitUntil: 'networkidle2', timeout: 60000 });
-      console.log(`   Sayfa aşağı kaydırılarak ana bölümler yükletiliyor...`);
+      await page.setCookie({
+        name: 'SOCS',
+        value: 'CAESEwgDEgk0ODE3Nzk3MjQaAmVuIAEaBgiA_LyaBg',
+        domain: '.youtube.com',
+        path: '/'
+      });
 
-      // 1. AŞAMA: Aşağı kaydır ve tüm rafları yükle
-      await page.evaluate(async () => {
-        await new Promise((resolve) => {
-          let lastCount = 0;
-          let stableRounds = 0;
-          const timer = setInterval(() => {
-            window.scrollBy(0, 500);
-            const currentCount = document.querySelectorAll('ytd-rich-section-renderer, ytd-shelf-renderer').length;
-            if (currentCount === lastCount) {
-              stableRounds++;
-              if (stableRounds >= 5) {
-                clearInterval(timer);
-                resolve();
-              }
-            } else {
-              stableRounds = 0;
-              lastCount = currentCount;
-            }
-          }, 800);
+      try {
+        await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 });
+
+        // Sayfanın ana içerikleri gelsin
+        await page.waitForSelector('ytd-rich-section-renderer, ytd-shelf-renderer', { timeout: 30000 }).catch(() => {});
+        await delay(4000);
+
+        console.log('   Sayfa kaydırılıyor...');
+        await autoScroll(page, {
+          maxRounds: 90,
+          stableRoundsToStop: 7,
+          waitMs: 1100
         });
-      });
 
-      console.log(`   Yatay listeler (sağ oklar) sonuna kadar açılıyor... Bu işlem biraz sürebilir.`);
+        await delay(2000);
 
-      // 2. AŞAMA: Her yatay listeyi bul ve sonuna kadar sağ oka tıkla (4 tane sınırını kaldıran kod)
-      await page.evaluate(async () => {
-        const wait = (ms) => new Promise(res => setTimeout(res, ms));
-        const carousels = document.querySelectorAll('yt-horizontal-list-renderer');
-        
-        for (let carousel of carousels) {
-          let rightArrowContainer = carousel.querySelector('#right-arrow');
-          let rightBtn = rightArrowContainer ? rightArrowContainer.querySelector('button') : null;
-          let attempts = 0;
-          
-          // Ok butonu varsa ve gizli (hidden) değilse tıklamaya devam et
-          while (rightArrowContainer && !rightArrowContainer.hasAttribute('hidden') && attempts < 20) {
-            if (rightBtn) {
-              rightBtn.click();
-              await wait(800); // Tıkladıktan sonra yeni kartların DOM'a inmesini bekle
+        const sectionData = await page.evaluate(async () => {
+          const innerDelay = (ms) => new Promise((res) => setTimeout(res, ms));
+
+          async function getFirstVideoId(playlistId) {
+            try {
+              const res = await fetch(`https://www.youtube.com/playlist?list=${playlistId}`, {
+                credentials: 'include'
+              });
+              const text = await res.text();
+              const match = text.match(/"videoId":"([a-zA-Z0-9_-]{11})"/);
+              return match ? match[1] : null;
+            } catch (e) {
+              return null;
             }
-            attempts++;
           }
-        }
-      });
 
-      console.log(`   Veriler toplanıyor ve Fetch ile resimler çekiliyor...`);
+          function getSectionTitleFromCard(card) {
+            const section = card.closest(
+              'ytd-rich-section-renderer, ytd-shelf-renderer, ytd-rich-shelf-renderer, ytd-item-section-renderer'
+            );
 
-      // 3. AŞAMA: Fetch ile ID ve Verileri Çekme (Senin istediğin orijinal yöntem)
-      const sectionData = await page.evaluate(async () => {
-        const innerDelay = ms => new Promise(res => setTimeout(res, ms));
-        
-        // Fotoğrafları getiren fetch fonksiyonu
-        async function getFirstVideoId(playlistId) {
-          try {
-            const res = await fetch(`https://www.youtube.com/playlist?list=${playlistId}`);
-            const text = await res.text();
-            const match = text.match(/"videoId":"([a-zA-Z0-9_-]{11})"/);
-            return match ? match[1] : null;
-          } catch (e) { return null; }
-        }
+            if (!section) return 'Diğer';
 
-        const sections = [];
-        const elements = document.querySelectorAll('ytd-rich-section-renderer, ytd-shelf-renderer');
-        
-        for (let section of elements) {
-          const sectionTitle = section.querySelector('#title, #title-text, yt-formatted-string')?.textContent?.trim();
-          if (!sectionTitle) continue;
+            const titleEl = section.querySelector(
+              '#title, #title-text, yt-formatted-string#title, yt-formatted-string'
+            );
 
-          const items = [];
-          const seenIds = new Set();
-          
-          // Rafın içindeki tüm oynatma listesi linklerini bul (Artık oklara bastığımız için 4'ten fazla çıkacak)
-          const cards = section.querySelectorAll('a[href*="list=RDCLAK"], a[href*="list=PL"]');
-          
-          for (let linkEl of cards) {
-            const match = linkEl.href.match(/list=((?:RDCLAK|PL)[^&]+)/);
+            const title = titleEl?.textContent?.trim();
+            return title || 'Diğer';
+          }
+
+          const cards = document.querySelectorAll(
+            [
+              'ytd-rich-item-renderer',
+              'ytd-grid-playlist-renderer',
+              'ytd-compact-playlist-renderer',
+              'ytd-playlist-renderer',
+              'ytmusic-responsive-list-item-renderer'
+            ].join(',')
+          );
+
+          const grouped = new Map();
+
+          for (const card of cards) {
+            const linkEl = card.querySelector('a[href*="list="]');
+            if (!linkEl) continue;
+
+            const href = linkEl.getAttribute('href') || linkEl.href || '';
+            const match = href.match(/[?&]list=([^&]+)/);
             if (!match) continue;
-            
-            const id = match[1];
-            if (seenIds.has(id)) continue;
 
-            // İsim Bulma
-            let name = "";
-            let parentCard = linkEl.closest('ytd-rich-item-renderer, ytd-grid-playlist-renderer, ytd-compact-station-renderer, ytd-playlist-renderer');
-            if (parentCard) {
-              name = parentCard.querySelector('#video-title, #title, h3')?.textContent?.trim();
+            const id = decodeURIComponent(match[1]);
+            if (!id) continue;
+
+            const sectionTitle = getSectionTitleFromCard(card);
+            if (!grouped.has(sectionTitle)) grouped.set(sectionTitle, new Map());
+
+            const sectionMap = grouped.get(sectionTitle);
+            if (sectionMap.has(id)) continue;
+
+            let name =
+              card.querySelector('#video-title')?.textContent?.trim() ||
+              card.querySelector('h3')?.textContent?.trim() ||
+              linkEl.textContent?.trim() ||
+              linkEl.title?.trim() ||
+              'İsimsiz';
+
+            // "12 videos", "34 songs" gibi sayı etiketlerini ayıkla
+            if (/^\d+\s*(şarkı|video|songs|videos|canciones)/i.test(name)) {
+              name = linkEl.title?.trim() || 'İsimsiz';
             }
-            
-            if (!name) {
-              name = linkEl.querySelector('span, yt-formatted-string')?.textContent?.trim() || linkEl.textContent?.trim() || linkEl.title;
-            }
 
-            // Temizleme işlemi ("50 şarkı" vs. yazıyorsa yoksay)
-            if (name && name.match(/\d+\s*(şarkı|video|songs|videos|canciones)/i)) continue;
-            if (!name) continue;
-
-            // Fetch ile Resmi Çek
             const videoId = await getFirstVideoId(id);
-            const img = videoId ? `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg` : `https://i.ytimg.com/vi/${id.replace('RDCLAK', '')}/hqdefault.jpg`;
-            
-            items.push({ id, name, img });
-            seenIds.add(id);
-            
-            await innerDelay(300); // Üst üste çok hızlı fetch atıp ban yememek için 0.3 sn bekle
+            const img = videoId ? `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg` : '';
+
+            sectionMap.set(id, { id, name, img });
+            await innerDelay(120);
           }
-          if (items.length > 0) sections.push({ section_title: sectionTitle, items });
-        }
-        return sections;
-      });
 
-      fullFeed[langCode] = sectionData;
-      
-      // Kaç öğe çekildiğini hesapla ve ekrana yazdır
-      let totalPlaylists = sectionData.reduce((acc, curr) => acc + curr.items.length, 0);
-      console.log(`   ✅ ${sectionData.length} kategori, toplam ${totalPlaylists} playlist başarıyla çekildi!`);
+          return [...grouped.entries()].map(([section_title, itemsMap]) => ({
+            section_title,
+            items: [...itemsMap.values()]
+          }));
+        });
 
-    } catch (error) {
-      console.error(`   ❌ Hata oluştu [${langCode}]:`, error.message);
-    } finally {
-      await page.close();
+        fullFeed[langCode] = sectionData;
+        console.log(`   ✅ ${sectionData.length} kategori başarıyla çekildi!`);
+
+      } catch (error) {
+        console.error(`   ❌ Hata oluştu [${langCode}]:`, error.message);
+      } finally {
+        await page.close();
+      }
     }
+
+    fs.writeFileSync('feed.json', JSON.stringify(fullFeed, null, 2), 'utf-8');
+    console.log('\n🎉 İşlem Tamamlandı! Tüm diller feed.json dosyasına kaydedildi.');
+  } finally {
+    await browser.close();
   }
-
-  await browser.close();
-
-  fs.writeFileSync('feed.json', JSON.stringify(fullFeed, null, 2), 'utf-8');
-  console.log("\n🎉 İşlem Tamamlandı! Tüm diller feed.json dosyasına kaydedildi.");
 })();
