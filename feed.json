@@ -309,6 +309,11 @@
           "img": "https://i.ytimg.com/vi/kXKhNI4DLHM/hqdefault.jpg"
         },
         {
+          "id": "OLAK5uy_mFBgHnPi7PIkt7vlG84rCduzVjFtuHnpM",
+          "name": "20 Trend Video - Türkiye",
+          "img": "https://i.ytimg.com/vi/q2IMrkhSjSA/hqdefault.jpg"
+        },
+        {
           "id": "PL4fGSI1pDJn5kI81J1fYWK5eZRl1zJ5kM",
           "name": "En Popüler 100 Global Müzik Videosu",
           "img": "https://i.ytimg.com/vi/fcnDmrtj6Sk/hqdefault.jpg"
@@ -421,9 +426,24 @@
       "section_title": "Top Charts",
       "items": [
         {
+          "id": "PL4fGSI1pDJn6O1LS0XSdF3RyO0Rq_LDeI",
+          "name": "Top 100 Songs United States",
+          "img": "https://i.ytimg.com/vi/nUsrYVxrDwI/hqdefault.jpg"
+        },
+        {
           "id": "PL4fGSI1pDJn69On1f-8NAvX_CYlx7QyZc",
           "name": "Top 100 Music Videos United States",
           "img": "https://i.ytimg.com/vi/SD4yRDY9mek/hqdefault.jpg"
+        },
+        {
+          "id": "OLAK5uy_kNWGJvgWVqlt5LsFDL9Sdluly4M8TvGkM",
+          "name": "Trending 20 United States",
+          "img": "https://i.ytimg.com/vi/vrY1THC_NQE/hqdefault.jpg"
+        },
+        {
+          "id": "PL4fGSI1pDJn6puJdseH2Rt9sMvt9E2M4i",
+          "name": "Top 100 Songs Global",
+          "img": "https://i.ytimg.com/vi/fcnDmrtj6Sk/hqdefault.jpg"
         }
       ]
     }
@@ -543,6 +563,11 @@
           "img": "https://i.ytimg.com/vi/jodJzaVZfj8/hqdefault.jpg"
         },
         {
+          "id": "OLAK5uy_mnRyLDuByhBA_r8-L9ugjllTxfVytwAp0",
+          "name": "Les 20 clips tendance France",
+          "img": "https://i.ytimg.com/vi/_ce6WahKNW8/hqdefault.jpg"
+        },
+        {
           "id": "PL4fGSI1pDJn6puJdseH2Rt9sMvt9E2M4i",
           "name": "Top 100 des titres dans le monde",
           "img": "https://i.ytimg.com/vi/fcnDmrtj6Sk/hqdefault.jpg"
@@ -598,46 +623,6 @@
           "id": "RDCLAK5uy_kOXsvZ4T6fkCUI0c2SzeW0attMxbnPSsQ",
           "name": "Deutscher Hip-Hop: Allstars",
           "img": "https://i.ytimg.com/vi/qdtLCfEcPL4/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_nmS3YoxSwVVQk9lEQJ0UX4ZCjXsW_psU8",
-          "name": "Pop's Biggest Hits",
-          "img": "https://i.ytimg.com/vi/ic8j13piAhQ/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_n6SrZCXHJyauQkV7oJurMirl_-kbQAqEg",
-          "name": "Megahits der 90er",
-          "img": "https://i.ytimg.com/vi/JYIaWeVL1JM/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_nZiG9ehz_MQoWQxY5yElsLHCcG0tv9PRg",
-          "name": "Classic Rock's Greatest Hits",
-          "img": "https://i.ytimg.com/vi/OMOGaugKpzs/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_kP2172rQNb3KFXz880xp6M98R_ME5CIKA",
-          "name": "Hip-Hop Club Hits",
-          "img": "https://i.ytimg.com/vi/eaPzCHEQExs/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_kh8Lql3OCDc5uAW9WsrPpQFymSgp5euyI",
-          "name": "Neue Deutsche Welle",
-          "img": "https://i.ytimg.com/vi/oESfa8jt0p8/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_kvH_VWOl1tx0Ad4H2F_4jaTMnImcuCFXc",
-          "name": "Deutschpop Throwback",
-          "img": "https://i.ytimg.com/vi/b3cU182bGfQ/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_nnb9fZvK1_GAwF1WL251R55gV5F8Zc-uY",
-          "name": "Megahits der 10er",
-          "img": "https://i.ytimg.com/vi/lWA2pjMjpBs/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_mUGmSJdYQ0-QVRlHtO6i31P9z777fp2mQ",
-          "name": "Megahits der 00er",
-          "img": "https://i.ytimg.com/vi/LOZuxwVk7TU/hqdefault.jpg"
         }
       ]
     },
@@ -663,16 +648,6 @@
           "id": "RDCLAK5uy_l0NNK9-Z-5g0Lkf-TpctvuwqSxLByMnN4",
           "name": "Classic Rock-Sommer",
           "img": "https://i.ytimg.com/vi/1w7OgIMMRc4/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_nLZYYRoJCDij69F72mBY6C_Ga9i1Z-rW8",
-          "name": "'80s Summer Grooves",
-          "img": "https://i.ytimg.com/vi/djV11Xbc914/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_mujRHdE8CFCR_QuoJQgeXEHYo3ivt7JBk",
-          "name": "Sonnen-Klassiker",
-          "img": "https://i.ytimg.com/vi/KQetemT1sWc/hqdefault.jpg"
         }
       ]
     },
@@ -698,36 +673,6 @@
           "id": "RDCLAK5uy_mTKho9b7fMrAXOYXKCRCoowKDYvuIVpMQ",
           "name": "Schlagerperlen",
           "img": "https://i.ytimg.com/vi/SniCL4xbRqw/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_l6lSnRziP_Qt6EA5-nmhXZ3uQz76JRZw4",
-          "name": "Glow: Dance Hits",
-          "img": "https://i.ytimg.com/vi/VCUSH0pWnTc/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_k8X5cgTG2AnXbnkwEV7uQFptEKvSRmkjU",
-          "name": "Lautstark: Indie & Deutschrock Hits",
-          "img": "https://i.ytimg.com/vi/tb4Tn6meiuI/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_l7H4q0R8IUIwZI2gnfpnzQzkVUnnHqH00",
-          "name": "Modulation: Electronic Hits",
-          "img": "https://i.ytimg.com/vi/q_31ryl-RMM/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_nhf3h98yS3LCk_bVNQu6GjWG7ARvMaiFQ",
-          "name": "NEON: Pop Hits",
-          "img": "https://i.ytimg.com/vi/366CV87TguE/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_n1j1GACZO4o7U1m708pa7jV1q7zR-cY44",
-          "name": "FLAŞ Turkish Pop",
-          "img": "https://i.ytimg.com/vi/vFUU6TOKv3w/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_l8kJfTElp2zFMop7IboOXetbbKU3a9VeQ",
-          "name": "REST Turkish Rap",
-          "img": "https://i.ytimg.com/vi/FvrcJQbQDTg/hqdefault.jpg"
         }
       ]
     },
@@ -753,46 +698,6 @@
           "id": "RDCLAK5uy_lRr2S1Nmk-a4qeSFpU0WoLuVETphGyBP8",
           "name": "Minimal Techno Flow",
           "img": "https://i.ytimg.com/vi/zqWDoGXJ9tM/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_kEBBeiM3vLTUSZI97z7RYrwx3RFU_E004",
-          "name": "Tropical House",
-          "img": "https://i.ytimg.com/vi/foE1mO2yM04/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_meKJG4fRVGUG1Z5P6O-OVRJIja9U3Ctt8",
-          "name": "Party Schlager",
-          "img": "https://i.ytimg.com/vi/NLb-rbmcmvk/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_n38QBvlkETFzw_TX8Z7wfA733kKr2vo0o",
-          "name": "Brazilian Phonk (slowed)",
-          "img": "https://i.ytimg.com/vi/ZHNsXtbicIY/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_kOwmIQLjxvqBZ98AP3eARfb2MI1kaie4g",
-          "name": "Gaming Phonk",
-          "img": "https://i.ytimg.com/vi/_LtAZDujqIw/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_nKsmIDujCJTYRInvAJirUkn0KjgwKNiZE",
-          "name": "Die schönsten Disney Songs",
-          "img": "https://i.ytimg.com/vi/Ddl2UmDp_zg/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_m55iAnFa25l8bl7m8vsTsmGph3-_yVBW0",
-          "name": "Hits zum Mitsingen: Deutschland",
-          "img": "https://i.ytimg.com/vi/YScncKo0yRY/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_m5BMYwuJbcooMFbKC821i2yIljq-MC-fk",
-          "name": "Party Time",
-          "img": "https://i.ytimg.com/vi/JRfuAukYTKg/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_mTrr21OCLdb2dJgl_BJ-6MdJDXWqB-1gc",
-          "name": "Yoga & Meditation - Entspannungsmusik",
-          "img": "https://i.ytimg.com/vi/DNZDI6p0fFI/hqdefault.jpg"
         }
       ]
     },
@@ -818,36 +723,6 @@
           "id": "RDCLAK5uy_mNI4xGDvO3hANTfAnMpgMRuFyxmhcRPoA",
           "name": "Gute Laune Deutschrap",
           "img": "https://i.ytimg.com/vi/J5-rJsiKJng/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_kOXsvZ4T6fkCUI0c2SzeW0attMxbnPSsQ",
-          "name": "Deutscher Hip-Hop: Allstars",
-          "img": "https://i.ytimg.com/vi/qdtLCfEcPL4/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_kALCBm3tpg2jxGslk0EAtH6iujrEupNEc",
-          "name": "Deutschrap Party",
-          "img": "https://i.ytimg.com/vi/82NBsCOQoi4/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_nWaAX9JldNYVBWUVUlUDUCxjZB23Z4pho",
-          "name": "Deutschrap & Liebe",
-          "img": "https://i.ytimg.com/vi/Uk1tuVK8MXc/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_mHKp8F2qSlLALwrUR4BML9DIS8Ra5wFI4",
-          "name": "Graustufen Rap",
-          "img": "https://i.ytimg.com/vi/oU-JLw4TILk/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_lKL2i08SARZR_vSo5PW_JlM0YW12agYf0",
-          "name": "Deutschrap Takeoff",
-          "img": "https://i.ytimg.com/vi/VLcQQ4KizHg/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_n_0Hb7zC0P1j7UCRF4bbaMjn046Z9oyyU",
-          "name": "Lass die Straße reden!",
-          "img": "https://i.ytimg.com/vi/w9ao2MEiuP8/hqdefault.jpg"
         }
       ]
     },
@@ -873,21 +748,6 @@
           "id": "RDCLAK5uy_nenOSTslbPzvZvk80XYPco7MsXFpzFhO0",
           "name": "Malle für Alle!",
           "img": "https://i.ytimg.com/vi/GFbgR0J48mM/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_kh8Lql3OCDc5uAW9WsrPpQFymSgp5euyI",
-          "name": "Neue Deutsche Welle",
-          "img": "https://i.ytimg.com/vi/oESfa8jt0p8/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_nmIXHaaeVFhiHZtMELYpv6_dNb6t3jPrM",
-          "name": "Schlager Motivation",
-          "img": "https://i.ytimg.com/vi/8-Mv16dbHFo/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_ku902qxzW4E40XXPJDuMzt3rs5X8lxu6Y",
-          "name": "Modern Schlager",
-          "img": "https://i.ytimg.com/vi/Bkj3IVIO2Os/hqdefault.jpg"
         }
       ]
     },
@@ -913,16 +773,6 @@
           "id": "RDCLAK5uy_n8Hg9csbDQCPDH-PKmWZmKVG_oMgvrozY",
           "name": "Melancholiebe",
           "img": "https://i.ytimg.com/vi/zABLecsR5UE/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_kZdxcIsmHONbbqhPSpUELGUBpMw-Gy-_o",
-          "name": "Liebe",
-          "img": "https://i.ytimg.com/vi/fVbaKTKoPAM/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_lJvy5U2ysw2Kwv72qeNPkrjDxu5fsvogU",
-          "name": "Deutschpop 2026",
-          "img": "https://i.ytimg.com/vi/B9rByfWCdcw/hqdefault.jpg"
         }
       ]
     },
@@ -948,36 +798,6 @@
           "id": "RDCLAK5uy_lpDndrjgkdnk6rdJ2-dpwdb41Mt4caq8s",
           "name": "Aktuelle Clubsounds",
           "img": "https://i.ytimg.com/vi/i34pFNr42mc/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_k3ZZMbcC_yMLnKyto6L54zeVkj7Yytk3g",
-          "name": "Aktueller Hardstyle",
-          "img": "https://i.ytimg.com/vi/FI_j7Av-Udo/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_kEBBeiM3vLTUSZI97z7RYrwx3RFU_E004",
-          "name": "Tropical House",
-          "img": "https://i.ytimg.com/vi/foE1mO2yM04/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_khFJzdpmtk0_MaUuWNgqYbNamuGV623kk",
-          "name": "Techno Room",
-          "img": "https://i.ytimg.com/vi/AUSl0rtytz8/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_lRr2S1Nmk-a4qeSFpU0WoLuVETphGyBP8",
-          "name": "Minimal Techno Flow",
-          "img": "https://i.ytimg.com/vi/zqWDoGXJ9tM/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_nBQm8_YpP--R6zU8p3dypKm1QKqzWY6qU",
-          "name": "Stadium EDM",
-          "img": "https://i.ytimg.com/vi/KQ6zr6kCPj8/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_lWfuEE9muOjxNxKnvVL_KZOhsMG7-FxMI",
-          "name": "Electro Entschleunigung",
-          "img": "https://i.ytimg.com/vi/Vh5j7zDpy-4/hqdefault.jpg"
         }
       ]
     },
@@ -1003,41 +823,6 @@
           "id": "RDCLAK5uy_kbCOLoGMEP6u3N72wiPQJwwuEcqM9vM3A",
           "name": "Hits von Morgen",
           "img": "https://i.ytimg.com/vi/RGq8HhCxYrM/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_k3ZZMbcC_yMLnKyto6L54zeVkj7Yytk3g",
-          "name": "Aktueller Hardstyle",
-          "img": "https://i.ytimg.com/vi/FI_j7Av-Udo/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_lpDndrjgkdnk6rdJ2-dpwdb41Mt4caq8s",
-          "name": "Aktuelle Clubsounds",
-          "img": "https://i.ytimg.com/vi/i34pFNr42mc/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_nDvySWD6leKd1bHWuza4GH5x-duDcRy38",
-          "name": "Vitamin D(ance)",
-          "img": "https://i.ytimg.com/vi/ZeKXM1f-izs/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_nOwL35BM_GUTEbdbw_9FmvQhPWWdd3sAg",
-          "name": "Brandneuer Pop",
-          "img": "https://i.ytimg.com/vi/R9uoynRJcBw/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_l4QirOJJ99DTK5t5h7PdS_apsSClRfPpc",
-          "name": "New Alternative Indie",
-          "img": "https://i.ytimg.com/vi/mh4AQkw4Jjc/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_n3-fNPhB7TmNTTBRXDZhcnQJg2ahWDIY8",
-          "name": "Drum & Bass 2026",
-          "img": "https://i.ytimg.com/vi/DNEdnKq9Hj0/hqdefault.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_kLwgLlrxA4-_EchctXgTyHR4rwRaRv1wk",
-          "name": "House Music 2026",
-          "img": "https://i.ytimg.com/vi/gJYjbDnyx-o/hqdefault.jpg"
         }
       ]
     },
@@ -1055,13 +840,13 @@
           "img": "https://i.ytimg.com/vi/fcnDmrtj6Sk/hqdefault.jpg"
         },
         {
-          "id": "PL4fGSI1pDJn6puJdseH2Rt9sMvt9E2M4i",
-          "name": "Top 100 weltweit",
-          "img": "https://i.ytimg.com/vi/fcnDmrtj6Sk/hqdefault.jpg"
+          "id": "OLAK5uy_nPQBmQpOIYYxuvYW4gIHsjgDqX9kc--Dg",
+          "name": "Top 20 in Deutschland",
+          "img": "https://i.ytimg.com/vi/-FBwd9cWJoQ/hqdefault.jpg"
         },
         {
-          "id": "PL4fGSI1pDJn5kI81J1fYWK5eZRl1zJ5kM",
-          "name": "Top 100 der Musikvideos weltweit",
+          "id": "PL4fGSI1pDJn6puJdseH2Rt9sMvt9E2M4i",
+          "name": "Top 100 weltweit",
           "img": "https://i.ytimg.com/vi/fcnDmrtj6Sk/hqdefault.jpg"
         }
       ]
@@ -1221,6 +1006,11 @@
     {
       "section_title": "Charts",
       "items": [
+        {
+          "id": "PL4fGSI1pDJn6puJdseH2Rt9sMvt9E2M4i",
+          "name": "Las 100 canciones más populares en todo el mundo",
+          "img": "https://i.ytimg.com/vi/fcnDmrtj6Sk/hqdefault.jpg"
+        },
         {
           "id": "PL4fGSI1pDJn5kI81J1fYWK5eZRl1zJ5kM",
           "name": "Los 100 vídeos musicales más populares en todo el mundo",
@@ -1386,6 +1176,11 @@
         {
           "id": "PL4fGSI1pDJn6puJdseH2Rt9sMvt9E2M4i",
           "name": "I 100 brani più ascoltati nel mondo",
+          "img": "https://i.ytimg.com/vi/fcnDmrtj6Sk/hqdefault.jpg"
+        },
+        {
+          "id": "PL4fGSI1pDJn5kI81J1fYWK5eZRl1zJ5kM",
+          "name": "I 100 video musicali più visti nel mondo",
           "img": "https://i.ytimg.com/vi/fcnDmrtj6Sk/hqdefault.jpg"
         }
       ]
@@ -1556,6 +1351,11 @@
           "img": "https://i.ytimg.com/vi/2yreX_ZCfgM/hqdefault.jpg"
         },
         {
+          "id": "OLAK5uy_nxSJNrV0WQ9XbKv_4R9Y98EYwJnZBgkfg",
+          "name": "Brasil: 20 vídeos em alta",
+          "img": "https://i.ytimg.com/vi/RA_WdQytvlE/hqdefault.jpg"
+        },
+        {
           "id": "PL4fGSI1pDJn6puJdseH2Rt9sMvt9E2M4i",
           "name": "Top 100 músicas no mundo",
           "img": "https://i.ytimg.com/vi/fcnDmrtj6Sk/hqdefault.jpg"
@@ -1573,7 +1373,7 @@
         {
           "id": "RDCLAK5uy_nTnqah_CdeOdgJqrTGspJoN7YwiKEtTyU",
           "name": "Sertanejo 2026",
-          "img": "https://i.ytimg.com/vi/5uy_nTnqah_CdeOdgJqrTGspJoN7YwiKEtTyU/hqdefault.jpg"
+          "img": "https://i.ytimg.com/vi/zuROgevsxKw/hqdefault.jpg"
         },
         {
           "id": "RDCLAK5uy_knDxxA86J7eMR2wbjretIDCu6tZIW9ss0",
@@ -2047,6 +1847,11 @@
           "img": "https://i.ytimg.com/vi/2I25AFSBm2g/hqdefault.jpg"
         },
         {
+          "id": "OLAK5uy_nMa6r07BbcC_Q8PrrS1CVHH2aGJRIkWu0",
+          "name": "人気上昇中の曲 - 日本",
+          "img": "https://i.ytimg.com/vi/naoGk-Zjc1s/hqdefault.jpg"
+        },
+        {
           "id": "PL4fGSI1pDJn6puJdseH2Rt9sMvt9E2M4i",
           "name": "世界で人気の曲トップ 100",
           "img": "https://i.ytimg.com/vi/fcnDmrtj6Sk/hqdefault.jpg"
@@ -2201,7 +2006,7 @@
         {
           "id": "RDCLAK5uy_lJ8xZWiZj2GCw7MArjakb6b0zfvqwldps",
           "name": "कंट्री हॉटलिस्ट",
-          "img": "https://i.ytimg.com/vi/A3G_7XgK2B4/hqdefault.jpg"
+          "img": ""
         }
       ]
     },
@@ -2217,6 +2022,11 @@
           "id": "PL4fGSI1pDJn4pTWyM3t61lOyZ6_4jcNOw",
           "name": "भारत के टॉप 100 गाने",
           "img": "https://i.ytimg.com/vi/YyepU5ztLf4/hqdefault.jpg"
+        },
+        {
+          "id": "OLAK5uy_lSTp1DIuzZBUyee3kDsXwPgP25WdfwB40",
+          "name": "भारत में 20 ट्रेंडिंग वीडियो",
+          "img": "https://i.ytimg.com/vi/3CDOd4GdcUQ/hqdefault.jpg"
         },
         {
           "id": "PL4fGSI1pDJn6puJdseH2Rt9sMvt9E2M4i",
