@@ -53,7 +53,7 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
     try {
       await page.goto(url, { waitUntil: 'networkidle2', timeout: 60000 });
-      await delay(15000);
+      await delay(5000);
 
       console.log(`   Sayfa aşağı kaydırılıyor...`);
 
@@ -63,7 +63,7 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
           let stableRounds = 0;
 
           const timer = setInterval(() => {
-            window.scrollBy(0, 250);
+            window.scrollBy(0, 400);
 
             const currentCount = document.querySelectorAll(
               'ytd-rich-item-renderer, ytd-grid-playlist-renderer, ytd-compact-playlist-renderer, ytd-lockup-view-model'
@@ -71,7 +71,7 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
             if (currentCount === lastCardCount) {
               stableRounds++;
-              if (stableRounds >= 15) {
+              if (stableRounds >= 8) {
                 clearInterval(timer);
                 resolve();
               }
@@ -79,7 +79,7 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
               stableRounds = 0;
               lastCardCount = currentCount;
             }
-          }, 800);
+          }, 600);
         });
       });
 
@@ -132,7 +132,7 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
             items.push({ id, name: name || "İsimsiz", img });
             seenIds.add(id);
             
-            await innerDelay(500); 
+            await innerDelay(200); 
           }
           if (items.length > 0) sections.push({ section_title: sectionTitle, items });
         }
