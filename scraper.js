@@ -57,17 +57,18 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
       console.log(`   Sayfa aşağı kaydırılıyor...`);
 
+      // Tüm kart tiplerini sayarak scroll et
       await page.evaluate(async () => {
         await new Promise((resolve) => {
-          let lastCardCount = 0;  // ← DEĞİŞTİ: section değil kart sayıyoruz
+          let lastCardCount = 0;
           let stableRounds = 0;
 
           const timer = setInterval(() => {
             window.scrollBy(0, 400);
 
             const currentCount = document.querySelectorAll(
-              'ytd-rich-item-renderer, ytd-grid-playlist-renderer, ytd-compact-playlist-renderer, ytd-lockup-view-model'
-            ).length;  // ← DEĞİŞTİ: kart elementleri
+              'ytd-rich-item-renderer, ytd-grid-playlist-renderer, ytd-compact-playlist-renderer, ytd-lockup-view-model, ytd-reel-item-renderer'
+            ).length;
 
             if (currentCount === lastCardCount) {
               stableRounds++;
@@ -97,6 +98,42 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
           } catch (e) { return null; }
         }
 
+        // Playlist ID'sini herhangi bir href'den çıkart
+        function extractPlaylistId(href) {
+          if (!href) return null;
+          const match = href.match(/[?&]list=([A-Za-z0-9_-]+)/);
+          return match ? match[1] : null;
+        }
+
+        // Kartten isim çıkart - tüm olası seçicileri dene
+        function extractName(card) {
+          const selectors = [
+            '#video-title',
+            'h3',
+            '.yt-lockup-metadata-view-model-wiz__title',
+            '.ytd-lockup-view-model-wiz__metadata-container h3',
+            '[class*="title"] span',
+            '[class*="title"]',
+            'a span',
+            'yt-formatted-string',
+          ];
+          for (const sel of selectors) {
+            const el = card.querySelector(sel);
+            const text = el?.textContent?.trim();
+            if (text && text.length > 1 && !text.match(/^\d+$/)) return text;
+          }
+          // Son çare: tüm linklerin title/text'i
+          let found = null;
+          card.querySelectorAll('a[href*="list="]').forEach(a => {
+            if (found) return;
+            const text = a.title?.trim() || a.querySelector('span, yt-formatted-string')?.textContent?.trim() || a.textContent?.trim();
+            if (text && text.length > 1 && !text.match(/\d+\s*(şarkı|video|songs|videos|canciones|canzoni|lieder)/i)) {
+              found = text;
+            }
+          });
+          return found;
+        }
+
         const sections = [];
         const elements = document.querySelectorAll('ytd-rich-section-renderer, ytd-shelf-renderer');
         
@@ -106,34 +143,38 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
           const items = [];
           const seenIds = new Set();
-          const cards = section.querySelectorAll('ytd-rich-item-renderer, ytd-grid-playlist-renderer, ytd-compact-playlist-renderer');
+
+          // TÜM kart tiplerini yakala
+          const cards = section.querySelectorAll(
+            'ytd-rich-item-renderer, ytd-grid-playlist-renderer, ytd-compact-playlist-renderer, ytd-lockup-view-model, ytd-reel-item-renderer'
+          );
           
           for (let card of cards) {
-            const linkEl = card.querySelector('a[href*="list=RDCLAK"], a[href*="list=PL"]');
-            if (!linkEl) continue;
+            // Karttaki tüm list= linklerini tara
+            const allLinks = card.querySelectorAll('a[href*="list="]');
+            let playlistId = null;
             
-            const match = linkEl.href.match(/list=((?:RDCLAK|PL)[^&]+)/);
-            if (!match) continue;
-            
-            const id = match[1];
-            if (seenIds.has(id)) continue;
-
-            let name = card.querySelector('#video-title')?.textContent?.trim() || card.querySelector('h3')?.textContent?.trim();
-            if (!name) {
-              card.querySelectorAll('a[href*="list=RDCLAK"], a[href*="list=PL"]').forEach(a => {
-                const text = a.querySelector('span, yt-formatted-string')?.textContent?.trim() || a.textContent?.trim() || a.title;
-                if (text && !text.match(/\d+\s*(şarkı|video|songs|videos|canciones)/i)) name = text;
-              });
+            for (const link of allLinks) {
+              const id = extractPlaylistId(link.href);
+              if (id && !seenIds.has(id)) {
+                playlistId = id;
+                break;
+              }
             }
 
-            const videoId = await getFirstVideoId(id);
+            if (!playlistId) continue;
+            if (seenIds.has(playlistId)) continue;
+
+            const name = extractName(card) || "İsimsiz";
+            const videoId = await getFirstVideoId(playlistId);
             const img = videoId ? `https://i.ytimg.com/vi/${videoId}/maxresdefault.jpg` : "";
             
-            items.push({ id, name: name || "İsimsiz", img });
-            seenIds.add(id);
+            items.push({ id: playlistId, name, img });
+            seenIds.add(playlistId);
             
             await innerDelay(200); 
           }
+
           if (items.length > 0) sections.push({ section_title: sectionTitle, items });
         }
         return sections;
@@ -151,6 +192,12 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
   await browser.close();
 
-  fs.writeFileSync('feed.json', JSON.stringify(fullFeed, null, 2), 'utf-8');
+  // ✅ TIMESTAMP: Her run'da feed.json değişsin, git her zaman commit atsın
+  const output = {
+    updated_at: new Date().toISOString(),
+    feed: fullFeed
+  };
+
+  fs.writeFileSync('feed.json', JSON.stringify(output, null, 2), 'utf-8');
   console.log("\n🎉 İşlem Tamamlandı! Tüm diller feed.json dosyasına kaydedildi.");
 })();
