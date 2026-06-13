@@ -94,7 +94,7 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
             return (
               text.includes('daha fazla göster') ||
               text.includes('show more')  ||
-              text.includes('öostrar más')    ||
+              text.includes('mostrar más')    ||
               text.includes('plus')       ||
               text.includes('mehr anzeigen')       ||
               text.includes('mostra altro')      ||
@@ -103,7 +103,7 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
               text.includes('عرض المزيد')     ||
               text.includes('もっと見る')     ||
               text.includes('और दिखाएं')         ||
-              text.includes('顯示更多')
+              text.includes('顯示完整資訊')
             );
           });
           if (buttons.length === 0) return 0;
