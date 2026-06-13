@@ -92,18 +92,18 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
           const buttons = Array.from(document.querySelectorAll('button, tp-yt-paper-button, yt-button-shape button')).filter(btn => {
             const text = (btn.textContent || '').trim().toLowerCase();
             return (
-              text.includes('Daha fazla göster') ||
-              text.includes('Show more')  ||
-              text.includes('Mostrar más')    ||
+              text.includes('daha fazla göster') ||
+              text.includes('show more')  ||
+              text.includes('öostrar más')    ||
               text.includes('plus')       ||
-              text.includes('Mehr anzeigen')       ||
-              text.includes('Mostra altro')      ||
-              text.includes('Mostrar mais')       ||
+              text.includes('mehr anzeigen')       ||
+              text.includes('mostra altro')      ||
+              text.includes('mostrar mais')       ||
               text.includes('ещё')        ||
               text.includes('عرض المزيد')     ||
               text.includes('もっと見る')     ||
               text.includes('और दिखाएं')         ||
-              text.includes('展开')
+              text.includes('顯示更多')
             );
           });
           if (buttons.length === 0) return 0;
