@@ -68,7 +68,6 @@ async function downloadImage(url) {
 async function uploadToGitHub(filePath, imageBuffer) {
   const base64Content = imageBuffer.toString('base64');
 
-  // Önce mevcut SHA'yı al (güncelleme için gerekli)
   let sha = null;
   await new Promise((resolve) => {
     const options = {
@@ -93,7 +92,6 @@ async function uploadToGitHub(filePath, imageBuffer) {
     req.end();
   });
 
-  // Yükle
   return new Promise((resolve, reject) => {
     const body = JSON.stringify({
       message: `🖼️ Add thumbnail: ${path.basename(filePath)}`,
@@ -133,38 +131,41 @@ async function uploadToGitHub(filePath, imageBuffer) {
   });
 }
 
-// Playlist için thumbnail işle - var mı kontrol et, yoksa indir ve yükle
+// Playlist için thumbnail işle
 async function getOrUploadThumbnail(playlistId, thumbnailUrl) {
   const fileName = `${THUMBNAILS_DIR}/${playlistId}.jpg`;
   const rawGitHubUrl = `https://raw.githubusercontent.com/${GITHUB_REPO}/${GITHUB_BRANCH}/${fileName}`;
 
-  // GitHub'da zaten var mı?
   const exists = await checkFileExistsOnGitHub(fileName);
   if (exists) {
-    console.log(`   ⚡ Zaten var, atlandı: ${playlistId}`);
+    console.log(`    ⚡ Zaten var, atlandı: ${playlistId}`);
     return rawGitHubUrl;
   }
 
-  // Yoksa indir ve yükle
   try {
-    console.log(`   📥 İndiriliyor: ${playlistId}`);
+    console.log(`    📥 İndiriliyor: ${playlistId}`);
     const imageBuffer = await downloadImage(thumbnailUrl);
     const uploaded = await uploadToGitHub(fileName, imageBuffer);
     if (uploaded) {
-      console.log(`   ✅ GitHub'a yüklendi: ${playlistId}`);
+      console.log(`    ✅ GitHub'a yüklendi: ${playlistId}`);
       return rawGitHubUrl;
     }
   } catch (e) {
-    console.error(`   ❌ Thumbnail yükleme hatası (${playlistId}):`, e.message);
+    console.error(`    ❌ Thumbnail yükleme hatası (${playlistId}):`, e.message);
   }
 
-  // Hata olursa eski ilk video linkini döndür
   return null;
 }
 
 (async () => {
   console.log("🚀 OnyxMusic Otomatik Scraper Başlıyor...");
   console.log('Chrome Path:', process.env.PUPPETEER_EXECUTABLE_PATH);
+
+  // GitHub Actions pathspec hatasını engellemek için yerelde klasörü garantiye alıyoruz
+  if (!fs.existsSync(THUMBNAILS_DIR)) {
+    fs.mkdirSync(THUMBNAILS_DIR, { recursive: true });
+    console.log(`📁 Yerel '${THUMBNAILS_DIR}' klasörü otomatik oluşturuldu.`);
+  }
 
   const browser = await puppeteer.launch({
     executablePath: process.env.PUPPETEER_EXECUTABLE_PATH,
@@ -200,7 +201,7 @@ async function getOrUploadThumbnail(playlistId, thumbnailUrl) {
       await delay(5000);
 
       // ── 1. SCROLL ──
-      console.log(`   Sayfa aşağı kaydırılıyor...`);
+      console.log(`    Sayfa aşağı kaydırılıyor...`);
       await page.evaluate(async () => {
         await new Promise((resolve) => {
           let lastCount = 0;
@@ -244,7 +245,7 @@ async function getOrUploadThumbnail(playlistId, thumbnailUrl) {
         });
 
         if (clicked === 0) break;
-        console.log(`   📂 ${clicked} "Daha fazla göster" butonu tıklandı...`);
+        console.log(`    📂 ${clicked} "Daha fazla göster" butonu tıklandı...`);
         await delay(1500);
         expandRound++;
       }
@@ -260,17 +261,12 @@ async function getOrUploadThumbnail(playlistId, thumbnailUrl) {
             const res = await fetch(`https://www.youtube.com/playlist?list=${playlistId}`);
             const text = await res.text();
 
-            // Orjinal playlist thumbnail'ını çek
             const thumbMatch = text.match(/"og:image"\s+content="([^"]+)"/);
             const thumbnailUrl = thumbMatch ? thumbMatch[1] : null;
 
-            // İlk video ID'sini de çek (fallback için)
-            const videoMatch = text.match(/"videoId":"([a-zA-Z0-9_-]{11})"/);
-            const firstVideoId = videoMatch ? videoMatch[1] : null;
-
-            return { thumbnailUrl, firstVideoId };
+            return { thumbnailUrl };
           } catch (e) {
-            return { thumbnailUrl: null, firstVideoId: null };
+            return { thumbnailUrl: null };
           }
         }
 
@@ -327,15 +323,12 @@ async function getOrUploadThumbnail(playlistId, thumbnailUrl) {
             if (!playlistId) continue;
 
             const name = extractName(card) || 'İsimsiz';
-            const { thumbnailUrl, firstVideoId } = await getPlaylistInfo(playlistId);
+            const { thumbnailUrl } = await getPlaylistInfo(playlistId);
 
-            // thumbnailUrl = orjinal playlist kapağı (sqp= parametreli, geçici)
-            // firstVideoId = fallback için
             items.push({
               id: playlistId,
               name,
-              thumbnailUrl, // GitHub'a yüklemek için geçici saklıyoruz
-              firstVideoId  // fallback için
+              thumbnailUrl
             });
             seenIds.add(playlistId);
             await innerDelay(200);
@@ -346,36 +339,55 @@ async function getOrUploadThumbnail(playlistId, thumbnailUrl) {
         return sections;
       });
 
-      // ── 4. THUMBNAIL'LARI GITHUB'A YÜKLE ──
-      console.log(`   🖼️ Thumbnail'lar GitHub'a yükleniyor...`);
+      // ── 4. URL DÜZENLEME VE GITHUB'A YÜKLEME ──
+      console.log(`    🖼️ Playlist kapakları işleniyor ve GitHub'a yükleniyor...`);
       for (const section of sectionData) {
         for (const item of section.items) {
           let finalImg = null;
 
+          // Eğer link video kapağıysa (/vi/) istemiyoruz, tamamen eliyoruz
+          if (item.thumbnailUrl && item.thumbnailUrl.includes('/vi/')) {
+            item.thumbnailUrl = null;
+          }
+
+          // Gelen link playlist/mix resmi ise yapısını bozmadan maxresdefault.jpg yapıyoruz
+          if (item.thumbnailUrl && item.thumbnailUrl.includes('ytimg.com')) {
+            let src = item.thumbnailUrl;
+            let urlParcalari = src.split('?');
+            let anaYol = urlParcalari[0];
+            let tokenParametreleri = urlParcalari[1] ? '?' + urlParcalari[1] : '';
+            
+            let yolParcalari = anaYol.split('/');
+            if (yolParcalari.length > 0) {
+              let sonDosyaAdi = yolParcalari[yolParcalari.length - 1];
+              
+              if (sonDosyaAdi.endsWith('.jpg') || sonDosyaAdi.includes('default') || sonDosyaAdi.includes('tile')) {
+                yolParcalari[yolParcalari.length - 1] = 'maxresdefault.jpg';
+              }
+              
+              // Güvenlik tokenlerini (?sqp=...) arkasına çakıp linki güncelliyoruz
+              item.thumbnailUrl = yolParcalari.join('/') + tokenParametreleri;
+            }
+          }
+
+          // Temizlenen orjinal playlist kapağını GitHub'a gönder
           if (item.thumbnailUrl) {
-            // Orjinal playlist kapağını GitHub'a yükle
             finalImg = await getOrUploadThumbnail(item.id, item.thumbnailUrl);
           }
 
-          // Fallback: orjinal yoksa ilk video
-          if (!finalImg && item.firstVideoId) {
-            finalImg = `https://i.ytimg.com/vi/${item.firstVideoId}/maxresdefault.jpg`;
-          }
-
-          // Temizle, sadece id, name, img kalsın
+          // Video fallbacksiz sadece gerçek playlist resmi kalacak şekilde feed'e yazıyoruz
           item.img = finalImg || '';
           delete item.thumbnailUrl;
-          delete item.firstVideoId;
 
-          await delay(300); // GitHub API rate limit için
+          await delay(300); // GitHub API koruması
         }
       }
 
       fullFeed[langCode] = sectionData;
-      console.log(`   ✅ ${sectionData.length} kategori başarıyla çekildi!`);
+      console.log(`    ✅ [${langCode.toUpperCase()}] kategorileri başarıyla tamamlandı!`);
 
     } catch (error) {
-      console.error(`   ❌ Hata oluştu [${langCode}]:`, error.message);
+      console.error(`    ❌ Hata oluştu [${langCode}]:`, error.message);
     } finally {
       await page.close();
     }
