@@ -33,10 +33,11 @@ jobs:
       - name: Run Scraper
         env:
           PUPPETEER_EXECUTABLE_PATH: ${{ steps.setup-chrome.outputs.chrome-path }}
+          THUMBNAILS_TOKEN: ${{ secrets.THUMBNAILS_TOKEN }}
         run: node scraper.js
 
       - name: Commit & Push
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "🔄 Feed Updated"
-          file_pattern: feed.json
+          file_pattern: feed.json thumbnails/
