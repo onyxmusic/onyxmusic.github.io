@@ -38,5 +38,6 @@ jobs:
       - name: Commit & Push
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "🔄 Feed Updated"
-          file_pattern: feed.json
+          commit_message: "🔄 Feed and Playlist Images Updated"
+          # DEĞİŞEN KISIM BURASI: Robot artık hem feed.json dosyasını hem de images klasöründeki yeni resimleri hafızaya alır.
+          file_pattern: 'feed.json images/*'
