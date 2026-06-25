@@ -1,9 +1,20 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 
-// SADECE TR İLE BAŞLIYORUZ KRAL, DİĞERLERİNİ TAM ÇÖZÜNCE EKLEYECEĞİZ
+// BÜTÜN DÜNYA GERİ GELDİ KRAL! TIKIR TIKIR ÇALIŞACAK.
 const REGIONS = {
-  "tr": { gl: "TR", hl: "tr" }
+  "tr": { gl: "TR", hl: "tr" },
+  "en": { gl: "US", hl: "en" },
+  "fr": { gl: "FR", hl: "fr" },
+  "de": { gl: "DE", hl: "de" },
+  "es": { gl: "ES", hl: "es" },
+  "it": { gl: "IT", hl: "it" },
+  "pt": { gl: "BR", hl: "pt" },
+  "ru": { gl: "RU", hl: "ru" },
+  "ar": { gl: "AE", hl: "ar" },
+  "ja": { gl: "JP", hl: "ja" },
+  "hi": { gl: "IN", hl: "hi" },
+  "zh": { gl: "TW", hl: "zh-TW" }
 };
 
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
@@ -24,7 +35,7 @@ async function downloadImage(url, destPath) {
 }
 
 (async () => {
-  console.log("🚀 OnyxMusic Otomatik Scraper Başlıyor (SADECE TR - %100 Orijinal Kod Yapısı)...");
+  console.log("🚀 OnyxMusic Otomatik Scraper Başlıyor (TÜM DÜNYA - %100 Orijinal Kod Yapısı)...");
 
   // Eğer images klasörü yoksa otomatik oluşturur
   if (!fs.existsSync('images')) {
@@ -65,7 +76,6 @@ async function downloadImage(url, destPath) {
       await page.goto(url, { waitUntil: 'networkidle2', timeout: 60000 });
       await delay(5000);
 
-      // BİREBİR SENİN ORİJİNAL SAYFA KAYDIRMAN
       console.log(`   Sayfa aşağı kaydırılıyor...`);
       await page.evaluate(async () => {
         await new Promise((resolve) => {
@@ -95,7 +105,6 @@ async function downloadImage(url, destPath) {
 
       await delay(2000);
 
-      // BİREBİR SENİN ORİJİNAL DAHA FAZLA GÖSTER DÖNGÜN
       let expandRound = 0;
       while (expandRound < 10) {
         const clicked = await page.evaluate(() => {
@@ -129,7 +138,6 @@ async function downloadImage(url, destPath) {
 
       await delay(1000);
 
-      // BİREBİR SENİN ORİJİNAL VERİ TOPLAMA ODAN (ASENKRON VE YAVAŞ DÖNGÜ KORUNDU)
       const sectionData = await page.evaluate(async () => {
         const innerDelay = ms => new Promise(res => setTimeout(res, ms));
         
@@ -177,28 +185,24 @@ async function downloadImage(url, destPath) {
             items.push({ id, name: name || "İsimsiz", img });
             seenIds.add(id);
             
-            await innerDelay(200); // Sayfanın kararlılığını sağlayan can damarı bekletme
+            await innerDelay(200); 
           }
           if (items.length > 0) sections.push({ section_title: sectionTitle, items });
         }
         return sections;
       });
 
-      // 🔥 İŞTE YENİ EKLEDİĞİMİZ ARKA PLAN AKILLI YEDEKLME ODASI 🔥
-      // Senin topladığın %100 eksiksiz veriye hiç dokunmuyoruz, sadece bulduğu resimleri GitHub'a kopyalıyoruz.
       console.log(`   📂 Playlist kapakları kontrol ediliyor ve repona indiriliyor...`);
       for (let section of sectionData) {
         for (let item of section.items) {
           if (item.img && item.img.startsWith('http')) {
             const destPath = `images/${item.id}.jpg`;
             
-            // Eğer resim daha önce klasöre indirilmediyse indir
             if (!fs.existsSync(destPath)) {
               await downloadImage(item.img, destPath);
-              await delay(150); // Sunucuyu yormamak için küçük bir mola
+              await delay(150); 
             }
             
-            // Uygulamanın linki hiçbir zaman patlamasın diye kendi GitHub linkine çeviriyoruz
             item.img = `https://onyxmusic.github.io/images/${item.id}.jpg`;
           }
         }
@@ -216,5 +220,5 @@ async function downloadImage(url, destPath) {
 
   await browser.close();
   fs.writeFileSync('feed.json', JSON.stringify(fullFeed, null, 2), 'utf-8');
-  console.log("\n🎉 İşlem Tamamlandı! Sadece TR verileri feed.json dosyasına KUSURSUZCA kaydedildi.");
+  console.log("\n🎉 İşlem Tamamlandı! Tüm Dünya verileri feed.json dosyasına KUSURSUZCA kaydedildi.");
 })();
