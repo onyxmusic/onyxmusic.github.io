@@ -24,7 +24,7 @@ async function downloadImage(url, destPath) {
 }
 
 (async () => {
-  console.log("🚀 OnyxMusic "TR" Özel Nefes Alma Testi Başlıyor...");
+  console.log("🚀 OnyxMusic 'TR' Özel Nefes Alma Testi Başlıyor..."); // Hata veren tırnak kısmı düzeltildi!
 
   if (!fs.existsSync('images')) {
     fs.mkdirSync('images');
@@ -158,11 +158,11 @@ async function downloadImage(url, destPath) {
               });
             }
 
-            // 🛑 LAZY LOAD "NEFES ALMA" ODASI: Kartı ekrana odakla ve YouTube'un resmi yüklemesini bekle!
+            // LAZY LOAD NEFES ALMA ODASI: Kartı ekrana odakla ve resmi yüklemesi için robota süre tanı
             try {
               card.scrollIntoView({ block: 'center' });
             } catch (e) {}
-            await innerDelay(150); // Resmi ekrana çizmesi için robota tanınan nefes hakkı
+            await innerDelay(150); 
 
             const imgEl = card.querySelector('ytd-thumbnail img, ytd-playlist-thumbnail img, yt-img-shadow img, img');
             let img = "";
@@ -189,7 +189,7 @@ async function downloadImage(url, destPath) {
           if (item.img && item.img.startsWith('http')) {
             const destPath = `images/${item.id}.jpg`;
             
-            // Resmi indirip eskisinin üzerine yazar, firesiz günceller
+            // Eski resimlerin üzerine yazarak günceller
             await downloadImage(item.img, destPath);
             await delay(100); 
             
