@@ -1,7 +1,7 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 
-// 12 ÜLKENİN TAMAMI: ARTIK HEPSİ NEFES ALMA AYARIYLA FİRESİZ ÇALIŞACAK!
+// 12 ÜLKENİN TAMAMI: AKILLI HIZ KONTROLÜ VE EKSİK RESİM FİLTRESİYLE AKTİF!
 const REGIONS = {
   "tr": { gl: "TR", hl: "tr" },
   "en": { gl: "US", hl: "en" },
@@ -9,7 +9,7 @@ const REGIONS = {
   "de": { gl: "DE", hl: "de" },
   "es": { gl: "ES", hl: "es" },
   "it": { gl: "IT", hl: "it" },
-  "pt": { gl: "BR", pt: "pt" },
+  "pt": { gl: "BR", hl: "pt" },
   "ru": { gl: "RU", hl: "ru" },
   "ar": { gl: "AE", hl: "ar" },
   "ja": { gl: "JP", hl: "ja" },
@@ -19,7 +19,7 @@ const REGIONS = {
 
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
-// Resmi internetten indiren fonksiyon (Eski resimlerin üzerine yazar, cam gibi günceller)
+// Resmi internetten indiren fonksiyon
 async function downloadImage(url, destPath) {
   try {
     const response = await fetch(url);
@@ -35,7 +35,7 @@ async function downloadImage(url, destPath) {
 }
 
 (async () => {
-  console.log("🚀 OnyxMusic Tüm Dünya İçin Kusursuz Scraper Başlıyor...");
+  console.log("🚀 OnyxMusic Akıllı Filtreli Dünya Scraper'ı Başlıyor...");
 
   if (!fs.existsSync('images')) {
     fs.mkdirSync('images');
@@ -120,7 +120,7 @@ async function downloadImage(url, destPath) {
               text.includes('ещё')        ||
               text.includes('عرض المزيد')     ||
               text.includes('もっと見る')     ||
-              text.includes('और दिखाएं')         ||
+              text.includes('اور دکھائیں')         ||
               text.includes('顯示完整資訊')
             );
           });
@@ -169,7 +169,7 @@ async function downloadImage(url, destPath) {
               });
             }
 
-            // KUTSAL LAZY LOAD ÖNLEMİ: Her karta tek tek odaklan ve YouTube'un resmi yüklemesi için robota 150ms nefes aldır
+            // LAZY LOAD NEFES ALMA ODASI: Kartı ekrana odakla ve resmi çizmesi için robota 150ms süre tanı
             try {
               card.scrollIntoView({ block: 'center' });
             } catch (e) {}
@@ -194,15 +194,20 @@ async function downloadImage(url, destPath) {
         return sections;
       });
 
-      console.log(`   📂 [${langCode.toUpperCase()}] Orijinal kapaklar indiriliyor ve güncelleniyor...`);
+      console.log(`   📂 [${langCode.toUpperCase()}] Kapaklar kontrol ediliyor...`);
       for (let section of sectionData) {
         for (let item of section.items) {
           if (item.img && item.img.startsWith('http')) {
             const destPath = `images/${item.id}.jpg`;
             
-            // Resmi indirir, klasörde eskisini bulursa acımadan silip üzerine yazar
-            await downloadImage(item.img, destPath);
-            await delay(100); 
+            // 🧠 KRALIN AKILLI KONTROLÜ: Dosya zaten varsa indirmeyi pas geç!
+            if (fs.existsSync(destPath)) {
+              console.log(`      ⏭️ Resim zaten klasörde mevcut, pas geçildi: ${destPath}`);
+            } else {
+              // Dosya silinmişse ya da yeniyse sıfırdan temizce indirir
+              await downloadImage(item.img, destPath);
+              await delay(100);
+            }
             
             item.img = `https://onyxmusic.github.io/images/${item.id}.jpg`;
           }
@@ -210,7 +215,7 @@ async function downloadImage(url, destPath) {
       }
 
       fullFeed[langCode] = sectionData;
-      console.log(`   ✅ [${langCode.toUpperCase()}] Ülke verileri ve orijinal kapaklar başarıyla tamamlandı!`);
+      console.log(`   ✅ [${langCode.toUpperCase()}] Ülke taraması kayıpsız bitti.`);
 
     } catch (error) {
       console.error(`   ❌ Hata oluştu [${langCode}]:`, error.message);
@@ -221,5 +226,5 @@ async function downloadImage(url, destPath) {
 
   await browser.close();
   fs.writeFileSync('feed.json', JSON.stringify(fullFeed, null, 2), 'utf-8');
-  console.log("\n🎉 BÜYÜK FİNAL! 12 Ülkenin tamamı, en güncel orijinal kapak görselleriyle birlikte feed.json dosyasına kusursuzca işlendi.");
+  console.log("\n🎉 GÖREV TAMAMLANDI! Akıllı sistem devrede. feed.json güncellendi, artık sadece eksik kapaklar indirilecek.");
 })();
