@@ -175,7 +175,7 @@ async function downloadImage(url, destPath) {
           // Akıllı Kontrol: Eğer bu kapak zaten indirilmişse pas geç, indirilmemişse indir
           if (!fs.existsSync(destPath)) {
             await downloadImage(item.rawImg, destPath);
-            await delay(300); // YouTube'u çok sıkıştırmamak için milisaniyelik es
+            await delay(1000); // YouTube'u çok sıkıştırmamak için milisaniyelik es
           }
 
           // feed.json içindeki resmi senin kalıcı GitHub Pages linkine çeviriyoruz
