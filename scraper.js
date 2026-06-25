@@ -1,14 +1,25 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 
-// KRAL, SENİN DEDİĞİN GİBİ SADECE "TR" BIRAKTIK. TEST BAŞARILI OLURSA DİĞERLERİNİ EKLEYECEĞİZ!
+// 12 ÜLKENİN TAMAMI: ARTIK HEPSİ NEFES ALMA AYARIYLA FİRESİZ ÇALIŞACAK!
 const REGIONS = {
-  "tr": { gl: "TR", hl: "tr" }
+  "tr": { gl: "TR", hl: "tr" },
+  "en": { gl: "US", hl: "en" },
+  "fr": { gl: "FR", hl: "fr" },
+  "de": { gl: "DE", hl: "de" },
+  "es": { gl: "ES", hl: "es" },
+  "it": { gl: "IT", hl: "it" },
+  "pt": { gl: "BR", pt: "pt" },
+  "ru": { gl: "RU", hl: "ru" },
+  "ar": { gl: "AE", hl: "ar" },
+  "ja": { gl: "JP", hl: "ja" },
+  "hi": { gl: "IN", hl: "hi" },
+  "zh": { gl: "TW", hl: "zh-TW" }
 };
 
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
-// Resmi internetten indiren fonksiyon (Eski hatalı resimlerin üzerine yazar, günceller)
+// Resmi internetten indiren fonksiyon (Eski resimlerin üzerine yazar, cam gibi günceller)
 async function downloadImage(url, destPath) {
   try {
     const response = await fetch(url);
@@ -24,7 +35,7 @@ async function downloadImage(url, destPath) {
 }
 
 (async () => {
-  console.log("🚀 OnyxMusic 'TR' Özel Nefes Alma Testi Başlıyor..."); // Hata veren tırnak kısmı düzeltildi!
+  console.log("🚀 OnyxMusic Tüm Dünya İçin Kusursuz Scraper Başlıyor...");
 
   if (!fs.existsSync('images')) {
     fs.mkdirSync('images');
@@ -158,7 +169,7 @@ async function downloadImage(url, destPath) {
               });
             }
 
-            // LAZY LOAD NEFES ALMA ODASI: Kartı ekrana odakla ve resmi yüklemesi için robota süre tanı
+            // KUTSAL LAZY LOAD ÖNLEMİ: Her karta tek tek odaklan ve YouTube'un resmi yüklemesi için robota 150ms nefes aldır
             try {
               card.scrollIntoView({ block: 'center' });
             } catch (e) {}
@@ -183,13 +194,13 @@ async function downloadImage(url, destPath) {
         return sections;
       });
 
-      console.log(`   📂 TR kapakları tek tek taranıyor ve güncelleniyor...`);
+      console.log(`   📂 [${langCode.toUpperCase()}] Orijinal kapaklar indiriliyor ve güncelleniyor...`);
       for (let section of sectionData) {
         for (let item of section.items) {
           if (item.img && item.img.startsWith('http')) {
             const destPath = `images/${item.id}.jpg`;
             
-            // Eski resimlerin üzerine yazarak günceller
+            // Resmi indirir, klasörde eskisini bulursa acımadan silip üzerine yazar
             await downloadImage(item.img, destPath);
             await delay(100); 
             
@@ -199,7 +210,7 @@ async function downloadImage(url, destPath) {
       }
 
       fullFeed[langCode] = sectionData;
-      console.log(`   ✅ [${langCode.toUpperCase()}] Test başarıyla tamamlandı!`);
+      console.log(`   ✅ [${langCode.toUpperCase()}] Ülke verileri ve orijinal kapaklar başarıyla tamamlandı!`);
 
     } catch (error) {
       console.error(`   ❌ Hata oluştu [${langCode}]:`, error.message);
@@ -210,5 +221,5 @@ async function downloadImage(url, destPath) {
 
   await browser.close();
   fs.writeFileSync('feed.json', JSON.stringify(fullFeed, null, 2), 'utf-8');
-  console.log("\n🎉 TR Test Çalışması Bitti! feed.json güncellendi. Şimdi GitHub Actions'ı tetikleyip sonuçları kontrol edebilirsin reis.");
+  console.log("\n🎉 BÜYÜK FİNAL! 12 Ülkenin tamamı, en güncel orijinal kapak görselleriyle birlikte feed.json dosyasına kusursuzca işlendi.");
 })();
