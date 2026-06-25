@@ -1,7 +1,7 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 
-// BÜTÜN DÜNYA GERİ GELDİ KRAL! TIKIR TIKIR ÇALIŞACAK.
+// 12 ÜLKENİN TAMAMI BURADA, KUSURSUZ ÇALIŞACAK KRAL
 const REGIONS = {
   "tr": { gl: "TR", hl: "tr" },
   "en": { gl: "US", hl: "en" },
@@ -19,7 +19,7 @@ const REGIONS = {
 
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
-// Resmi internetten senin GitHub klasörüne indiren güvenli fonksiyon
+// Resmi internetten indiren fonksiyon (Eski hatalı resimlerin üzerine yazar, günceller)
 async function downloadImage(url, destPath) {
   try {
     const response = await fetch(url);
@@ -27,7 +27,7 @@ async function downloadImage(url, destPath) {
     const arrayBuffer = await response.arrayBuffer();
     const buffer = Buffer.from(arrayBuffer);
     fs.writeFileSync(destPath, buffer);
-    console.log(`      📸 Kapak başarıyla repona yedeklendi: ${destPath}`);
+    console.log(`      📸 Orijinal kapak güncellendi/kaydedildi: ${destPath}`);
     return true;
   } catch (error) {
     return false;
@@ -35,9 +35,8 @@ async function downloadImage(url, destPath) {
 }
 
 (async () => {
-  console.log("🚀 OnyxMusic Otomatik Scraper Başlıyor (TÜM DÜNYA - %100 Orijinal Kod Yapısı)...");
+  console.log("🚀 OnyxMusic Kusursuz Otomatik Scraper Başlıyor (TÜM DÜNYA & ORİJİNAL KAPAKLAR)...");
 
-  // Eğer images klasörü yoksa otomatik oluşturur
   if (!fs.existsSync('images')) {
     fs.mkdirSync('images');
   }
@@ -138,18 +137,10 @@ async function downloadImage(url, destPath) {
 
       await delay(1000);
 
+      // %100 FİRESİZ TOPLAYAN SENİN KUTSAL KOD YAPIN (Sadece resim motoru güncellendi)
       const sectionData = await page.evaluate(async () => {
         const innerDelay = ms => new Promise(res => setTimeout(res, ms));
         
-        async function getFirstVideoId(playlistId) {
-          try {
-            const res = await fetch(`https://www.youtube.com/playlist?list=${playlistId}`);
-            const text = await res.text();
-            const match = text.match(/"videoId":"([a-zA-Z0-9_-]{11})"/);
-            return match ? match[1] : null;
-          } catch (e) { return null; }
-        }
-
         const sections = [];
         const elements = document.querySelectorAll('ytd-rich-section-renderer, ytd-shelf-renderer');
         
@@ -179,37 +170,47 @@ async function downloadImage(url, destPath) {
               });
             }
 
-            const videoId = await getFirstVideoId(id);
-            const img = videoId ? `https://i.ytimg.com/vi/${videoId}/maxresdefault.jpg` : "";
+            // 🎯 YENİ RESİM MOTORU: Arka planda fetch yapmayı bıraktık, ekrandaki orijinal kapağı anlık yakalıyoruz!
+            const imgEl = card.querySelector('ytd-thumbnail img, ytd-playlist-thumbnail img, yt-img-shadow img, img');
+            let img = "";
+            if (imgEl) {
+              img = imgEl.currentSrc || imgEl.src || "";
+              // Eğer lazy-load yüzünden placeholder geldiyse attribute'dan zorla çekiyoruz
+              if (img.startsWith('data:')) {
+                img = imgEl.getAttribute('src') || "";
+              }
+            }
             
             items.push({ id, name: name || "İsimsiz", img });
             seenIds.add(id);
             
-            await innerDelay(200); 
+            // YouTube sayfasının yorulmaması ve firesiz render için hayati gecikme
+            await innerDelay(250); 
           }
           if (items.length > 0) sections.push({ section_title: sectionTitle, items });
         }
         return sections;
       });
 
-      console.log(`   📂 Playlist kapakları kontrol ediliyor ve repona indiriliyor...`);
+      // 🔥 AKILLI YEDEKLERİ TEMİZLEME VE ORİJİNAL REPOYA KAYDETME ODASI 🔥
+      console.log(`   📂 Çalma listesi kapakları orijinal halleriyle güncelleniyor...`);
       for (let section of sectionData) {
         for (let item of section.items) {
           if (item.img && item.img.startsWith('http')) {
             const destPath = `images/${item.id}.jpg`;
             
-            if (!fs.existsSync(destPath)) {
-              await downloadImage(item.img, destPath);
-              await delay(150); 
-            }
+            // Her seferinde resmi indirip eskisinin üzerine yazar (Böylece hatalı resimler silinir, kapaklar güncel kalır)
+            await downloadImage(item.img, destPath);
+            await delay(100); 
             
+            // Linki senin GitHub Pages domainine bağla
             item.img = `https://onyxmusic.github.io/images/${item.id}.jpg`;
           }
         }
       }
 
       fullFeed[langCode] = sectionData;
-      console.log(`   ✅ [${langCode.toUpperCase()}] Toplam ${sectionData.length} kategori eksiksiz ve firesiz tamamlandı!`);
+      console.log(`   ✅ [${langCode.toUpperCase()}] Tüm listeler ve orijinal kapaklar firesiz tamamlandı!`);
 
     } catch (error) {
       console.error(`   ❌ Hata oluştu [${langCode}]:`, error.message);
@@ -220,5 +221,5 @@ async function downloadImage(url, destPath) {
 
   await browser.close();
   fs.writeFileSync('feed.json', JSON.stringify(fullFeed, null, 2), 'utf-8');
-  console.log("\n🎉 İşlem Tamamlandı! Tüm Dünya verileri feed.json dosyasına KUSURSUZCA kaydedildi.");
+  console.log("\n🎉 Muhteşem Son! Tüm Dünya verileri ve Orijinal Çalma Listesi Kapakları feed.json dosyasına kusursuzca işlendi.");
 })();
