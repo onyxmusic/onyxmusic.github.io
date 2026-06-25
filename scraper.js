@@ -120,7 +120,7 @@ async function downloadImage(url, destPath) {
               text.includes('ещё')        ||
               text.includes('عرض المزيد')     ||
               text.includes('もっと見る')     ||
-              text.includes('اور دکھائیں')         ||
+              text.includes('और दिखाएं')         ||
               text.includes('顯示完整資訊')
             );
           });
