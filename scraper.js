@@ -1,25 +1,37 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 
+// ADIM 1: Sadece Türkiye kalacak şekilde bölgeleri sınırlandırdık
 const REGIONS = {
-  "tr": { gl: "TR", hl: "tr" },
-  "en": { gl: "US", hl: "en" },
-  "fr": { gl: "FR", hl: "fr" },
-  "de": { gl: "DE", hl: "de" },
-  "es": { gl: "ES", hl: "es" },
-  "it": { gl: "IT", hl: "it" },
-  "pt": { gl: "BR", hl: "pt" },
-  "ru": { gl: "RU", hl: "ru" },
-  "ar": { gl: "AE", hl: "ar" },
-  "ja": { gl: "JP", hl: "ja" },
-  "hi": { gl: "IN", hl: "hi" },
-  "zh": { gl: "TW", hl: "zh-TW" }
+  "tr": { gl: "TR", hl: "tr" }
 };
 
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
+// ADIM 3: Resmi internetten bilgisayara (GitHub sunucusuna) indiren fonksiyon
+async function downloadImage(url, destPath) {
+  try {
+    const response = await fetch(url);
+    if (!response.ok) throw new Error(`HTTP hatası! Durum: ${response.status}`);
+    const arrayBuffer = await response.arrayBuffer();
+    const buffer = Buffer.from(arrayBuffer);
+    fs.writeFileSync(destPath, buffer);
+    console.log(`      📸 Yeni orijinal kapak indirildi: ${destPath}`);
+    return true;
+  } catch (error) {
+    console.error(`      ❌ Resim indirilemedi: ${url}`, error.message);
+    return false;
+  }
+}
+
 (async () => {
-  console.log("🚀 OnyxMusic Otomatik Scraper Başlıyor...");
+  console.log("🚀 OnyxMusic Otomatik Scraper Başlıyor (Sadece TR & Orijinal Kapak Modu)...");
+
+  // İndirilen resimlerin toplanacağı klasörü kontrol et, yoksa otomatik oluştur
+  if (!fs.existsSync('images')) {
+    fs.mkdirSync('images');
+    console.log("📁 'images' klasörü oluşturuldu.");
+  }
 
   console.log('Chrome Path:', process.env.PUPPETEER_EXECUTABLE_PATH);
   const browser = await puppeteer.launch({
@@ -56,7 +68,6 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
       await delay(5000);
 
       console.log(`   Sayfa aşağı kaydırılıyor...`);
-
       await page.evaluate(async () => {
         await new Promise((resolve) => {
           let lastCardCount = 0;
@@ -85,7 +96,7 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
       await delay(2000);
 
-      // "Daha fazla göster" butonlarına tıkla
+      // "Daha fazla göster" butonlarına tıkla (Sadece Türkçe ve İngilizce butonlar kaldı)
       let expandRound = 0;
       while (expandRound < 10) {
         const clicked = await page.evaluate(() => {
@@ -93,17 +104,7 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
             const text = (btn.textContent || '').trim().toLowerCase();
             return (
               text.includes('daha fazla göster') ||
-              text.includes('show more')  ||
-              text.includes('mostrar más')    ||
-              text.includes('plus')       ||
-              text.includes('mehr anzeigen')       ||
-              text.includes('mostra altro')      ||
-              text.includes('mostrar mais')       ||
-              text.includes('ещё')        ||
-              text.includes('عرض المزيد')     ||
-              text.includes('もっと見る')     ||
-              text.includes('और दिखाएं')         ||
-              text.includes('顯示完整資訊')
+              text.includes('show more')
             );
           });
           if (buttons.length === 0) return 0;
@@ -119,18 +120,8 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
       await delay(1000);
 
-      const sectionData = await page.evaluate(async () => {
-        const innerDelay = ms => new Promise(res => setTimeout(res, ms));
-        
-        async function getFirstVideoId(playlistId) {
-          try {
-            const res = await fetch(`https://www.youtube.com/playlist?list=${playlistId}`);
-            const text = await res.text();
-            const match = text.match(/"videoId":"([a-zA-Z0-9_-]{11})"/);
-            return match ? match[1] : null;
-          } catch (e) { return null; }
-        }
-
+      console.log("   Orijinal kapak linkleri sayfadan toplanıyor...");
+      const sectionData = await page.evaluate(() => {
         const sections = [];
         const elements = document.querySelectorAll('ytd-rich-section-renderer, ytd-shelf-renderer');
         
@@ -160,21 +151,44 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
               });
             }
 
-            const videoId = await getFirstVideoId(id);
-            const img = videoId ? `https://i.ytimg.com/vi/${videoId}/maxresdefault.jpg` : "";
-            
-            items.push({ id, name: name || "İsimsiz", img });
-            seenIds.add(id);
-            
-            await innerDelay(200); 
+            // ADIM 2: F12 testindeki orijinal kapak yakalama mantığı buraya eklendi
+            const imgEl = card.querySelector('img');
+            const rawImg = imgEl?.src || imgEl?.getAttribute('src') || '';
+
+            if (rawImg && !rawImg.startsWith('data:')) {
+              // Resimleri hemen indirmek yerine linki Node.js tarafına paslıyoruz
+              items.push({ id, name: name || "İsimsiz", rawImg });
+              seenIds.add(id);
+            }
           }
           if (items.length > 0) sections.push({ section_title: sectionTitle, items });
         }
         return sections;
       });
 
+      // --- Node.js Tarafında Resimleri Kontrol Edip İndirme ve Link Değiştirme Alanı ---
+      console.log("   📥 Resim indirme ve optimizasyon süreci başladı...");
+      for (let section of sectionData) {
+        for (let item of section.items) {
+          const destPath = `images/${item.id}.jpg`;
+          
+          // Akıllı Kontrol: Eğer bu kapak zaten indirilmişse pas geç, indirilmemişse indir
+          if (!fs.existsSync(destPath)) {
+            await downloadImage(item.rawImg, destPath);
+            await delay(300); // YouTube'u çok sıkıştırmamak için milisaniyelik es
+          }
+
+          // feed.json içindeki resmi senin kalıcı GitHub Pages linkine çeviriyoruz
+          // NOT: GitHub Pages domain yapına göre burayı güncelleyebilirsin (Örn: onyxmusic.github.io/images/...)
+          item.img = `https://onyxmusic.github.io/images/${item.id}.jpg`;
+          
+          // Geçici olarak kullandığımız ham YouTube linkini feed.json'da kirlilik yapmasın diye siliyoruz
+          delete item.rawImg;
+        }
+      }
+
       fullFeed[langCode] = sectionData;
-      console.log(`   ✅ ${sectionData.length} kategori başarıyla çekildi!`);
+      console.log(`   ✅ Türkiye kategorileri orijinal kapaklarla başarıyla işlendi!`);
 
     } catch (error) {
       console.error(`   ❌ Hata oluştu [${langCode}]:`, error.message);
@@ -184,7 +198,6 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
   }
 
   await browser.close();
-
   fs.writeFileSync('feed.json', JSON.stringify(fullFeed, null, 2), 'utf-8');
-  console.log("\n🎉 İşlem Tamamlandı! Tüm diller feed.json dosyasına kaydedildi.");
+  console.log("\n🎉 İşlem Tamamlandı! Türkiye feed.json dosyasına kaydedildi.");
 })();
