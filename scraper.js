@@ -1,20 +1,9 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 
-// 12 ÜLKENİN TAMAMI BURADA, KUSURSUZ ÇALIŞACAK KRAL
+// KRAL, SENİN DEDİĞİN GİBİ SADECE "TR" BIRAKTIK. TEST BAŞARILI OLURSA DİĞERLERİNİ EKLEYECEĞİZ!
 const REGIONS = {
-  "tr": { gl: "TR", hl: "tr" },
-  "en": { gl: "US", hl: "en" },
-  "fr": { gl: "FR", hl: "fr" },
-  "de": { gl: "DE", hl: "de" },
-  "es": { gl: "ES", hl: "es" },
-  "it": { gl: "IT", hl: "it" },
-  "pt": { gl: "BR", hl: "pt" },
-  "ru": { gl: "RU", hl: "ru" },
-  "ar": { gl: "AE", hl: "ar" },
-  "ja": { gl: "JP", hl: "ja" },
-  "hi": { gl: "IN", hl: "hi" },
-  "zh": { gl: "TW", hl: "zh-TW" }
+  "tr": { gl: "TR", hl: "tr" }
 };
 
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
@@ -27,7 +16,7 @@ async function downloadImage(url, destPath) {
     const arrayBuffer = await response.arrayBuffer();
     const buffer = Buffer.from(arrayBuffer);
     fs.writeFileSync(destPath, buffer);
-    console.log(`      📸 Orijinal kapak güncellendi/kaydedildi: ${destPath}`);
+    console.log(`      📸 Orijinal kapak başarıyla repona işlendi: ${destPath}`);
     return true;
   } catch (error) {
     return false;
@@ -35,7 +24,7 @@ async function downloadImage(url, destPath) {
 }
 
 (async () => {
-  console.log("🚀 OnyxMusic Kusursuz Otomatik Scraper Başlıyor (TÜM DÜNYA & ORİJİNAL KAPAKLAR)...");
+  console.log("🚀 OnyxMusic "TR" Özel Nefes Alma Testi Başlıyor...");
 
   if (!fs.existsSync('images')) {
     fs.mkdirSync('images');
@@ -137,7 +126,6 @@ async function downloadImage(url, destPath) {
 
       await delay(1000);
 
-      // %100 FİRESİZ TOPLAYAN SENİN KUTSAL KOD YAPIN (Sadece resim motoru güncellendi)
       const sectionData = await page.evaluate(async () => {
         const innerDelay = ms => new Promise(res => setTimeout(res, ms));
         
@@ -170,12 +158,16 @@ async function downloadImage(url, destPath) {
               });
             }
 
-            // 🎯 YENİ RESİM MOTORU: Arka planda fetch yapmayı bıraktık, ekrandaki orijinal kapağı anlık yakalıyoruz!
+            // 🛑 LAZY LOAD "NEFES ALMA" ODASI: Kartı ekrana odakla ve YouTube'un resmi yüklemesini bekle!
+            try {
+              card.scrollIntoView({ block: 'center' });
+            } catch (e) {}
+            await innerDelay(150); // Resmi ekrana çizmesi için robota tanınan nefes hakkı
+
             const imgEl = card.querySelector('ytd-thumbnail img, ytd-playlist-thumbnail img, yt-img-shadow img, img');
             let img = "";
             if (imgEl) {
               img = imgEl.currentSrc || imgEl.src || "";
-              // Eğer lazy-load yüzünden placeholder geldiyse attribute'dan zorla çekiyoruz
               if (img.startsWith('data:')) {
                 img = imgEl.getAttribute('src') || "";
               }
@@ -184,33 +176,30 @@ async function downloadImage(url, destPath) {
             items.push({ id, name: name || "İsimsiz", img });
             seenIds.add(id);
             
-            // YouTube sayfasının yorulmaması ve firesiz render için hayati gecikme
-            await innerDelay(250); 
+            await innerDelay(100); 
           }
           if (items.length > 0) sections.push({ section_title: sectionTitle, items });
         }
         return sections;
       });
 
-      // 🔥 AKILLI YEDEKLERİ TEMİZLEME VE ORİJİNAL REPOYA KAYDETME ODASI 🔥
-      console.log(`   📂 Çalma listesi kapakları orijinal halleriyle güncelleniyor...`);
+      console.log(`   📂 TR kapakları tek tek taranıyor ve güncelleniyor...`);
       for (let section of sectionData) {
         for (let item of section.items) {
           if (item.img && item.img.startsWith('http')) {
             const destPath = `images/${item.id}.jpg`;
             
-            // Her seferinde resmi indirip eskisinin üzerine yazar (Böylece hatalı resimler silinir, kapaklar güncel kalır)
+            // Resmi indirip eskisinin üzerine yazar, firesiz günceller
             await downloadImage(item.img, destPath);
             await delay(100); 
             
-            // Linki senin GitHub Pages domainine bağla
             item.img = `https://onyxmusic.github.io/images/${item.id}.jpg`;
           }
         }
       }
 
       fullFeed[langCode] = sectionData;
-      console.log(`   ✅ [${langCode.toUpperCase()}] Tüm listeler ve orijinal kapaklar firesiz tamamlandı!`);
+      console.log(`   ✅ [${langCode.toUpperCase()}] Test başarıyla tamamlandı!`);
 
     } catch (error) {
       console.error(`   ❌ Hata oluştu [${langCode}]:`, error.message);
@@ -221,5 +210,5 @@ async function downloadImage(url, destPath) {
 
   await browser.close();
   fs.writeFileSync('feed.json', JSON.stringify(fullFeed, null, 2), 'utf-8');
-  console.log("\n🎉 Muhteşem Son! Tüm Dünya verileri ve Orijinal Çalma Listesi Kapakları feed.json dosyasına kusursuzca işlendi.");
+  console.log("\n🎉 TR Test Çalışması Bitti! feed.json güncellendi. Şimdi GitHub Actions'ı tetikleyip sonuçları kontrol edebilirsin reis.");
 })();
