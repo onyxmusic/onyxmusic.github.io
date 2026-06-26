@@ -19,15 +19,24 @@ const REGIONS = {
 
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
-// Resmi internetten indiren fonksiyon
+// Resmi internetten indiren ve YouTube sunucusunda optimize eden fonksiyon
 async function downloadImage(url, destPath) {
   try {
+    // 🚀 SİHİRLİ LİNK MANİPÜLASYONU: 
+    // YouTube'un devasa boyutlu (=w544-h544) resimlerini doğrudan sunucuda 250x250 boyutuna ve %80 kalitesine düşürüyoruz.
+    if (url.includes('googleusercontent.com') || url.includes('ggpht.com')) {
+      const index = url.indexOf('=');
+      if (index !== -1) {
+        url = url.substring(0, index) + '=w250-h250-l80-rj';
+      }
+    }
+
     const response = await fetch(url);
     if (!response.ok) throw new Error(`HTTP hatası! Durum: ${response.status}`);
     const arrayBuffer = await response.arrayBuffer();
     const buffer = Buffer.from(arrayBuffer);
     fs.writeFileSync(destPath, buffer);
-    console.log(`      📸 Orijinal kapak başarıyla repona işlendi: ${destPath}`);
+    console.log(`      📸 Optimize edilmiş hafif kapak repona işlendi: ${destPath}`);
     return true;
   } catch (error) {
     return false;
@@ -169,7 +178,6 @@ async function downloadImage(url, destPath) {
               });
             }
 
-            // LAZY LOAD NEFES ALMA ODASI: Kartı ekrana odakla ve resmi çizmesi için robota 150ms süre tanı
             try {
               card.scrollIntoView({ block: 'center' });
             } catch (e) {}
@@ -200,11 +208,10 @@ async function downloadImage(url, destPath) {
           if (item.img && item.img.startsWith('http')) {
             const destPath = `images/${item.id}.jpg`;
             
-            // 🧠 KRALIN AKILLI KONTROLÜ: Dosya zaten varsa indirmeyi pas geç!
+            // Dosya zaten varsa indirmeyi pas geç (Akıllı kontrol)
             if (fs.existsSync(destPath)) {
               console.log(`      ⏭️ Resim zaten klasörde mevcut, pas geçildi: ${destPath}`);
             } else {
-              // Dosya silinmişse ya da yeniyse sıfırdan temizce indirir
               await downloadImage(item.img, destPath);
               await delay(100);
             }
@@ -226,5 +233,5 @@ async function downloadImage(url, destPath) {
 
   await browser.close();
   fs.writeFileSync('feed.json', JSON.stringify(fullFeed, null, 2), 'utf-8');
-  console.log("\n🎉 GÖREV TAMAMLANDI! Akıllı sistem devrede. feed.json güncellendi, artık sadece eksik kapaklar indirilecek.");
+  console.log("\n🎉 GÖREV TAMAMLANDI! Akıllı sistem devrede. feed.json güncellendi, artık resimler ultra hafif formatta indirilecek.");
 })();
