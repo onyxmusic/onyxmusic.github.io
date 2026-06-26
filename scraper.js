@@ -27,7 +27,7 @@ async function downloadImage(url, destPath) {
     const arrayBuffer = await response.arrayBuffer();
     const buffer = Buffer.from(arrayBuffer);
     fs.writeFileSync(destPath, buffer);
-    console.log(`      📸 Orijinal kapak başarıyla repona işlendi: ${destPath}`);
+    console.log(`      📸 Optimize edilmiş kapak başarıyla repona işlendi: ${destPath}`);
     return true;
   } catch (error) {
     return false;
@@ -130,7 +130,7 @@ async function downloadImage(url, destPath) {
         });
 
         if (clicked === 0) break;
-        console.log(`   📂 ${clicked} "Daha fazla göster" butonu tıklandı...`);
+        console.log(`    📂 ${clicked} "Daha fazla göster" butonu tıklandı...`);
         await delay(1500);
         expandRound++;
       }
@@ -169,7 +169,6 @@ async function downloadImage(url, destPath) {
               });
             }
 
-            // LAZY LOAD NEFES ALMA ODASI: Kartı ekrana odakla ve resmi çizmesi için robota 150ms süre tanı
             try {
               card.scrollIntoView({ block: 'center' });
             } catch (e) {}
@@ -194,17 +193,29 @@ async function downloadImage(url, destPath) {
         return sections;
       });
 
-      console.log(`   📂 [${langCode.toUpperCase()}] Kapaklar kontrol ediliyor...`);
+      console.log(`    📂 [${langCode.toUpperCase()}] Kapaklar kontrol ediliyor...`);
       for (let section of sectionData) {
         for (let item of section.items) {
           if (item.img && item.img.startsWith('http')) {
+            
+            // 🔥 ARKA PLANDA ÇALIŞAN AKILLI BOYUT KÜÇÜLTME MOTORU
+            if (item.img.includes('maxresdefault')) {
+              item.img = item.img.replace('maxresdefault', 'hqdefault');
+            } else if (item.img.includes('sddefault')) {
+              item.img = item.img.replace('sddefault', 'hqdefault');
+            } else if (item.img.includes('googleusercontent.com') || item.img.includes('ggpht.com')) {
+              // YouTube Music'in devasa =w540-h540 kapaklarını mobil için tüy gibi hafif olan =w250-h250 boyutuna çeker
+              item.img = item.img.replace(/=w\d+-h\d+/, '=w250-h250');
+              item.img = item.img.replace(/=s\d+/, '=s250');
+            }
+
             const destPath = `images/${item.id}.jpg`;
             
             // 🧠 KRALIN AKILLI KONTROLÜ: Dosya zaten varsa indirmeyi pas geç!
             if (fs.existsSync(destPath)) {
-              console.log(`      ⏭️ Resim zaten klasörde mevcut, pas geçildi: ${destPath}`);
+              console.log(`                  ⏭️ Resim zaten klasörde mevcut, pas geçildi: ${destPath}`);
             } else {
-              // Dosya silinmişse ya da yeniyse sıfırdan temizce indirir
+              // Dosya silinmişse ya da yeniyse sıfırdan temizce ve HAFİFÇE indirir
               await downloadImage(item.img, destPath);
               await delay(100);
             }
@@ -215,10 +226,10 @@ async function downloadImage(url, destPath) {
       }
 
       fullFeed[langCode] = sectionData;
-      console.log(`   ✅ [${langCode.toUpperCase()}] Ülke taraması kayıpsız bitti.`);
+      console.log(`    ✅ [${langCode.toUpperCase()}] Ülke taraması kayıpsız bitti.`);
 
     } catch (error) {
-      console.error(`   ❌ Hata oluştu [${langCode}]:`, error.message);
+      console.error(`    ❌ Hata oluştu [${langCode}]:`, error.message);
     } finally {
       await page.close();
     }
@@ -226,5 +237,5 @@ async function downloadImage(url, destPath) {
 
   await browser.close();
   fs.writeFileSync('feed.json', JSON.stringify(fullFeed, null, 2), 'utf-8');
-  console.log("\n🎉 GÖREV TAMAMLANDI! Akıllı sistem devrede. feed.json güncellendi, artık sadece eksik kapaklar indirilecek.");
+  console.log("\n🎉 GÖREV TAMAMLANDI! Akıllı sistem devrede. feed.json güncellendi, artık sadece hafif ve küçük kapaklar indirilecek.");
 })();
