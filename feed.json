@@ -2503,13 +2503,8 @@
   ],
   "pt": [
     {
-      "section_title": "Torcida pelo Brasil 🇧🇷⚽",
+      "section_title": "A festa do futebol ⚽",
       "items": [
-        {
-          "id": "RDCLAK5uy_khMgnOqejqkxlibg018jDIIL0XobU1i9k",
-          "name": "Vai, Brasil",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_khMgnOqejqkxlibg018jDIIL0XobU1i9k.jpg"
-        },
         {
           "id": "RDCLAK5uy_mG4e0qrPPQG9ukBuGbMRNtZ-jh_UKdhNQ",
           "name": "Pagode e Futebol",
@@ -2524,6 +2519,11 @@
           "id": "RDCLAK5uy_nKMe0pfVZXSxbOU2TySCu3VgAKpviEUX0",
           "name": "Pagode Samba Clube",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nKMe0pfVZXSxbOU2TySCu3VgAKpviEUX0.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_khMgnOqejqkxlibg018jDIIL0XobU1i9k",
+          "name": "Vai, Brasil",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_khMgnOqejqkxlibg018jDIIL0XobU1i9k.jpg"
         },
         {
           "id": "RDCLAK5uy_mXL6FEB4PZxOngOFFi6pFjberT2oMYL-c",
