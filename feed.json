@@ -543,7 +543,7 @@
       ]
     },
     {
-      "section_title": "The Beautiful Game: Music for the group stage",
+      "section_title": "The Beautiful Game: Music for the semi-finals",
       "items": [
         {
           "id": "RDCLAK5uy_n6wY0J-gqiwfyjFOJUGrp-EdEVV37Kaww",
@@ -644,6 +644,71 @@
           "id": "RDCLAK5uy_mU14EejSbDsfLuPc9KpNzoC0o-YQvi6I4",
           "name": "Christian Hits",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mU14EejSbDsfLuPc9KpNzoC0o-YQvi6I4.jpg"
+        }
+      ]
+    },
+    {
+      "section_title": "Brazilian Funk Month",
+      "items": [
+        {
+          "id": "RDCLAK5uy_mjQ6Q0lC99-3W0fl9Dla-wPtaNoLzbaSI",
+          "name": "Global Baile Funk",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mjQ6Q0lC99-3W0fl9Dla-wPtaNoLzbaSI.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mrFf8MOdXpsgjmDPmy9UrarANZUJv4IOw",
+          "name": "Trending Brazilian Funk",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mrFf8MOdXpsgjmDPmy9UrarANZUJv4IOw.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_lgSwXk2kYOiiPKHgOGWj1FtPiyQRE4GaU",
+          "name": "Brazilian Funk Hits",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lgSwXk2kYOiiPKHgOGWj1FtPiyQRE4GaU.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_ljghXQ9bHNpyxDxcXOagYeZYIITqGj7eU",
+          "name": "Brazilian Funk Party",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_ljghXQ9bHNpyxDxcXOagYeZYIITqGj7eU.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mYlgwlzb6MhLE-vBnrvgeK4B_E344jJNw",
+          "name": "Brazilian Funk Summer",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mYlgwlzb6MhLE-vBnrvgeK4B_E344jJNw.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_lg7kgahbMfqDRgqOzaHeAfpEE5cmL0jGI",
+          "name": "'10s Brazilian Funk",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lg7kgahbMfqDRgqOzaHeAfpEE5cmL0jGI.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_kke9T2P-dmjs38MKEjeke_twoTzio3gTM",
+          "name": "Bubblegum Brazilian Funk",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kke9T2P-dmjs38MKEjeke_twoTzio3gTM.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_kGkR7V7cd7-CC6FkeYB1d-Jn9_4iWgZ4M",
+          "name": "Brazilian Funk Big Beats",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kGkR7V7cd7-CC6FkeYB1d-Jn9_4iWgZ4M.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_k7qLmEOK9-ALDAwpzKcf8zIROAQzy0kv4",
+          "name": "Brazilian Funk Rave",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_k7qLmEOK9-ALDAwpzKcf8zIROAQzy0kv4.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mzsD-JGeST8vqNlEDCc-pDqcZ8EqMzF_M",
+          "name": "Brazilian Funk Gym",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mzsD-JGeST8vqNlEDCc-pDqcZ8EqMzF_M.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_l25AQxHfJ5BsgN-sedW7QLB8bgQLIM2uU",
+          "name": "Chill Baile Funk",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_l25AQxHfJ5BsgN-sedW7QLB8bgQLIM2uU.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n0cyvxiewOQVswuvYqqBOHvAS1pFL6oHA",
+          "name": "Brazilian Funk and Phonk",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_n0cyvxiewOQVswuvYqqBOHvAS1pFL6oHA.jpg"
         }
       ]
     },
