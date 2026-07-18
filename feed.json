@@ -534,6 +534,11 @@
           "id": "RDCLAK5uy_nGZRi-an-ruqiZlNJSGhCDHucdp2FBNfI",
           "name": "New R&B",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nGZRi-an-ruqiZlNJSGhCDHucdp2FBNfI.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n7QjhERM2Q4Ha5B6t6ZmzyhOtRYjQtxKk",
+          "name": "Flow Superior",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_n7QjhERM2Q4Ha5B6t6ZmzyhOtRYjQtxKk.jpg"
         }
       ]
     },
@@ -656,9 +661,19 @@
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mrFf8MOdXpsgjmDPmy9UrarANZUJv4IOw.jpg"
         },
         {
+          "id": "RDCLAK5uy_lgSwXk2kYOiiPKHgOGWj1FtPiyQRE4GaU",
+          "name": "Brazilian Funk Hits",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lgSwXk2kYOiiPKHgOGWj1FtPiyQRE4GaU.jpg"
+        },
+        {
           "id": "RDCLAK5uy_ljghXQ9bHNpyxDxcXOagYeZYIITqGj7eU",
           "name": "Brazilian Funk Party",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_ljghXQ9bHNpyxDxcXOagYeZYIITqGj7eU.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mYlgwlzb6MhLE-vBnrvgeK4B_E344jJNw",
+          "name": "Brazilian Funk Summer",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mYlgwlzb6MhLE-vBnrvgeK4B_E344jJNw.jpg"
         },
         {
           "id": "RDCLAK5uy_lg7kgahbMfqDRgqOzaHeAfpEE5cmL0jGI",
@@ -666,9 +681,24 @@
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lg7kgahbMfqDRgqOzaHeAfpEE5cmL0jGI.jpg"
         },
         {
+          "id": "RDCLAK5uy_kke9T2P-dmjs38MKEjeke_twoTzio3gTM",
+          "name": "Bubblegum Brazilian Funk",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kke9T2P-dmjs38MKEjeke_twoTzio3gTM.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_kGkR7V7cd7-CC6FkeYB1d-Jn9_4iWgZ4M",
+          "name": "Brazilian Funk Big Beats",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kGkR7V7cd7-CC6FkeYB1d-Jn9_4iWgZ4M.jpg"
+        },
+        {
           "id": "RDCLAK5uy_k7qLmEOK9-ALDAwpzKcf8zIROAQzy0kv4",
           "name": "Brazilian Funk Rave",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_k7qLmEOK9-ALDAwpzKcf8zIROAQzy0kv4.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mzsD-JGeST8vqNlEDCc-pDqcZ8EqMzF_M",
+          "name": "Brazilian Funk Gym",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mzsD-JGeST8vqNlEDCc-pDqcZ8EqMzF_M.jpg"
         },
         {
           "id": "RDCLAK5uy_l25AQxHfJ5BsgN-sedW7QLB8bgQLIM2uU",
@@ -679,11 +709,6 @@
           "id": "RDCLAK5uy_n0cyvxiewOQVswuvYqqBOHvAS1pFL6oHA",
           "name": "Brazilian Funk and Phonk",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_n0cyvxiewOQVswuvYqqBOHvAS1pFL6oHA.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_n7BeRlZPyxX9IsjKnxW3Y__ZMNnbIsj_E",
-          "name": "Viral Brazilian Funk",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_n7BeRlZPyxX9IsjKnxW3Y__ZMNnbIsj_E.jpg"
         }
       ]
     },
@@ -730,6 +755,11 @@
     {
       "section_title": "Music for any Mood, Moment, or Vibe",
       "items": [
+        {
+          "id": "RDCLAK5uy_k1VVBVsS6pu1pVkYZK2B0EWic3i4j_TY4",
+          "name": "Beast Mode Hip-Hop",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_k1VVBVsS6pu1pVkYZK2B0EWic3i4j_TY4.jpg"
+        },
         {
           "id": "RDCLAK5uy_mVJ3RRi_YBfUJnZnQxLAedQQcXHujbUcg",
           "name": "Pump-Up Pop",
@@ -781,6 +811,16 @@
       "section_title": "Top Charts",
       "items": [
         {
+          "id": "PL4fGSI1pDJn6O1LS0XSdF3RyO0Rq_LDeI",
+          "name": "Top 100 Songs United States",
+          "img": "https://onyxmusic.github.io/images/PL4fGSI1pDJn6O1LS0XSdF3RyO0Rq_LDeI.jpg"
+        },
+        {
+          "id": "PL4fGSI1pDJn69On1f-8NAvX_CYlx7QyZc",
+          "name": "Top 100 Music Videos United States",
+          "img": "https://onyxmusic.github.io/images/PL4fGSI1pDJn69On1f-8NAvX_CYlx7QyZc.jpg"
+        },
+        {
           "id": "PL4fGSI1pDJn6puJdseH2Rt9sMvt9E2M4i",
           "name": "Top 100 Songs Global",
           "img": "https://onyxmusic.github.io/images/PL4fGSI1pDJn6puJdseH2Rt9sMvt9E2M4i.jpg"
@@ -794,6 +834,11 @@
           "id": "PL4fGSI1pDJn77aK7sAW2AT0oOzo5inWY8",
           "name": "Top 50 Pop Music Videos United States",
           "img": "https://onyxmusic.github.io/images/PL4fGSI1pDJn77aK7sAW2AT0oOzo5inWY8.jpg"
+        },
+        {
+          "id": "PL4fGSI1pDJn4fmCoF1vKHLtivI0f9yHiF",
+          "name": "Top 50 Hip Hop Music Videos United States",
+          "img": "https://onyxmusic.github.io/images/PL4fGSI1pDJn4fmCoF1vKHLtivI0f9yHiF.jpg"
         },
         {
           "id": "PL4fGSI1pDJn5O8siDeZuI_4hbk6JWtTX1",
