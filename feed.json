@@ -69,6 +69,11 @@
       "section_title": "Hit Şarkılar",
       "items": [
         {
+          "id": "RDCLAK5uy_kplYm7rOpLU7HMTWiuKRt3LB5gg9IH9jQ",
+          "name": "2026'nın Hitleri (Şimdiye Kadar)",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kplYm7rOpLU7HMTWiuKRt3LB5gg9IH9jQ.jpg"
+        },
+        {
           "id": "RDCLAK5uy_n7OdwqgA4C6ewA6dD-YAXJEqUC0lPHqUA",
           "name": "Hit Şarkılar Türkiye",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_n7OdwqgA4C6ewA6dD-YAXJEqUC0lPHqUA.jpg"
@@ -122,11 +127,6 @@
           "id": "RDCLAK5uy_nyWocYSe0j8kcLWxzE7KlyO8ZMI9LLCK4",
           "name": "Türkçe Akustik Hotlist",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nyWocYSe0j8kcLWxzE7KlyO8ZMI9LLCK4.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_mvKJYMoCTwilbYjf-87ACK2MJahpsHrjE",
-          "name": "Arabesk Rap Hotlist",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mvKJYMoCTwilbYjf-87ACK2MJahpsHrjE.jpg"
         }
       ]
     },
