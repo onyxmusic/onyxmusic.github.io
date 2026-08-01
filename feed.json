@@ -546,6 +546,11 @@
       "section_title": "Today's Biggest Hits",
       "items": [
         {
+          "id": "RDCLAK5uy_mEjQ-AXbQqd6l_gsdgMU-hw_UNntQ-NWE",
+          "name": "Hits of 2026 (So Far)",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mEjQ-AXbQqd6l_gsdgMU-hw_UNntQ-NWE.jpg"
+        },
+        {
           "id": "RDCLAK5uy_kmPRjHDECIcuVwnKsx2Ng7fyNgFKWNJFs",
           "name": "The Hit List",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kmPRjHDECIcuVwnKsx2Ng7fyNgFKWNJFs.jpg"
@@ -599,11 +604,6 @@
           "id": "RDCLAK5uy_kUFCSc-grF3m-L_49W6p1QyGsMbueEbog",
           "name": "Caribbean Pulse",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kUFCSc-grF3m-L_49W6p1QyGsMbueEbog.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_mU14EejSbDsfLuPc9KpNzoC0o-YQvi6I4",
-          "name": "Christian Hits",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mU14EejSbDsfLuPc9KpNzoC0o-YQvi6I4.jpg"
         }
       ]
     },
@@ -2776,6 +2776,11 @@
       "section_title": "Hits de hoje",
       "items": [
         {
+          "id": "RDCLAK5uy_nsMyc5Am9I2svXsTro8oaxtqFeTqQY7xQ",
+          "name": "Hits de 2026 (até agora)",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nsMyc5Am9I2svXsTro8oaxtqFeTqQY7xQ.jpg"
+        },
+        {
           "id": "RDCLAK5uy_lyO8CdV-pHd2Vu54Qzf-cFYvKJB4GiILY",
           "name": "The Hit List",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lyO8CdV-pHd2Vu54Qzf-cFYvKJB4GiILY.jpg"
@@ -2829,11 +2834,6 @@
           "id": "RDCLAK5uy_nr96xyZDAYajRMchGlje_A0Sl-VvU0_Po",
           "name": "Trapical Trap Brasil",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nr96xyZDAYajRMchGlje_A0Sl-VvU0_Po.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_lgPYYooWtt2YMzGzCsIJg8TQFHzU5THCM",
-          "name": "Hashtag Hits",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lgPYYooWtt2YMzGzCsIJg8TQFHzU5THCM.jpg"
         }
       ]
     }
