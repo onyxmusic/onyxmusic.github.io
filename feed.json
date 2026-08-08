@@ -546,11 +546,6 @@
       "section_title": "Today's Biggest Hits",
       "items": [
         {
-          "id": "RDCLAK5uy_mEjQ-AXbQqd6l_gsdgMU-hw_UNntQ-NWE",
-          "name": "Hits of 2026 (So Far)",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mEjQ-AXbQqd6l_gsdgMU-hw_UNntQ-NWE.jpg"
-        },
-        {
           "id": "RDCLAK5uy_kmPRjHDECIcuVwnKsx2Ng7fyNgFKWNJFs",
           "name": "The Hit List",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kmPRjHDECIcuVwnKsx2Ng7fyNgFKWNJFs.jpg"
@@ -564,6 +559,11 @@
           "id": "RDCLAK5uy_lBGRuQnsG37Akr1CY4SxL0VWFbPrbO4gs",
           "name": "On Everything: Today's Hip-Hop Hits",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lBGRuQnsG37Akr1CY4SxL0VWFbPrbO4gs.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mEjQ-AXbQqd6l_gsdgMU-hw_UNntQ-NWE",
+          "name": "Hits of 2026 (So Far)",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mEjQ-AXbQqd6l_gsdgMU-hw_UNntQ-NWE.jpg"
         },
         {
           "id": "RDCLAK5uy_lOAAW-PX5XUed76iQefCxkOXd6m6ZvyiM",
