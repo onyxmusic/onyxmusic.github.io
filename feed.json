@@ -2438,6 +2438,31 @@
       ]
     },
     {
+      "section_title": "Mais tocadas",
+      "items": [
+        {
+          "id": "PL4fGSI1pDJn7rGBE8kEC0CqTa1nMh9AKB",
+          "name": "Top 100 músicas — Brasil",
+          "img": "https://onyxmusic.github.io/images/PL4fGSI1pDJn7rGBE8kEC0CqTa1nMh9AKB.jpg"
+        },
+        {
+          "id": "PL4fGSI1pDJn4Gs2meaJRo9O8PNYvhjHIg",
+          "name": "Top 100 vídeos de música — Brasil",
+          "img": "https://onyxmusic.github.io/images/PL4fGSI1pDJn4Gs2meaJRo9O8PNYvhjHIg.jpg"
+        },
+        {
+          "id": "PL4fGSI1pDJn6puJdseH2Rt9sMvt9E2M4i",
+          "name": "Top 100 músicas no mundo",
+          "img": "https://onyxmusic.github.io/images/PL4fGSI1pDJn6puJdseH2Rt9sMvt9E2M4i.jpg"
+        },
+        {
+          "id": "PL4fGSI1pDJn5kI81J1fYWK5eZRl1zJ5kM",
+          "name": "Top 100 vídeos de música no mundo",
+          "img": "https://onyxmusic.github.io/images/PL4fGSI1pDJn5kI81J1fYWK5eZRl1zJ5kM.jpg"
+        }
+      ]
+    },
+    {
       "section_title": "Sertanejo",
       "items": [
         {
@@ -2614,31 +2639,6 @@
           "id": "RDCLAK5uy_l_1tz0QYbDY4ZRw3uH0dyZugjHHgyGhDM",
           "name": "Pop Up: estímulo pop",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_l_1tz0QYbDY4ZRw3uH0dyZugjHHgyGhDM.jpg"
-        }
-      ]
-    },
-    {
-      "section_title": "Mais tocadas",
-      "items": [
-        {
-          "id": "PL4fGSI1pDJn7rGBE8kEC0CqTa1nMh9AKB",
-          "name": "Top 100 músicas — Brasil",
-          "img": "https://onyxmusic.github.io/images/PL4fGSI1pDJn7rGBE8kEC0CqTa1nMh9AKB.jpg"
-        },
-        {
-          "id": "PL4fGSI1pDJn4Gs2meaJRo9O8PNYvhjHIg",
-          "name": "Top 100 vídeos de música — Brasil",
-          "img": "https://onyxmusic.github.io/images/PL4fGSI1pDJn4Gs2meaJRo9O8PNYvhjHIg.jpg"
-        },
-        {
-          "id": "PL4fGSI1pDJn6puJdseH2Rt9sMvt9E2M4i",
-          "name": "Top 100 músicas no mundo",
-          "img": "https://onyxmusic.github.io/images/PL4fGSI1pDJn6puJdseH2Rt9sMvt9E2M4i.jpg"
-        },
-        {
-          "id": "PL4fGSI1pDJn5kI81J1fYWK5eZRl1zJ5kM",
-          "name": "Top 100 vídeos de música no mundo",
-          "img": "https://onyxmusic.github.io/images/PL4fGSI1pDJn5kI81J1fYWK5eZRl1zJ5kM.jpg"
         }
       ]
     },
