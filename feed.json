@@ -903,11 +903,6 @@
       "section_title": "Hits incontournables",
       "items": [
         {
-          "id": "RDCLAK5uy_mIlC20KCZ7bC_f54yOiUd9-FTqdUnuNvQ",
-          "name": "Hits 2026 (jusqu'ici)",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mIlC20KCZ7bC_f54yOiUd9-FTqdUnuNvQ.jpg"
-        },
-        {
           "id": "RDCLAK5uy_ly6s4irLuZAcjEDwJmqcA_UtSipMyGgbQ",
           "name": "La Hit List",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_ly6s4irLuZAcjEDwJmqcA_UtSipMyGgbQ.jpg"
@@ -961,6 +956,11 @@
           "id": "RDCLAK5uy_lBGRuQnsG37Akr1CY4SxL0VWFbPrbO4gs",
           "name": "Tubes hip-hop du moment",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lBGRuQnsG37Akr1CY4SxL0VWFbPrbO4gs.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mS-A5v9SDIJsEYXuu5D3g4cClUQei3y_4",
+          "name": "The Short List",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mS-A5v9SDIJsEYXuu5D3g4cClUQei3y_4.jpg"
         }
       ]
     },
@@ -1170,11 +1170,6 @@
       "section_title": "All-Time-Hits",
       "items": [
         {
-          "id": "RDCLAK5uy_lE8vDUUYCoBsJBbfDuXtEvUFS0T5kno3E",
-          "name": "Hits zum Mitsingen",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lE8vDUUYCoBsJBbfDuXtEvUFS0T5kno3E.jpg"
-        },
-        {
           "id": "RDCLAK5uy_khNGopKCT_t38MZ1W7z4kERrqprkXovxo",
           "name": "Megahits der 80er",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_khNGopKCT_t38MZ1W7z4kERrqprkXovxo.jpg"
@@ -1228,6 +1223,11 @@
           "id": "RDCLAK5uy_mUGmSJdYQ0-QVRlHtO6i31P9z777fp2mQ",
           "name": "Megahits der 00er",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mUGmSJdYQ0-QVRlHtO6i31P9z777fp2mQ.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n2cB9bcNdoboeec971YTzpvg3XUI0hyQg",
+          "name": "Indie Gold",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_n2cB9bcNdoboeec971YTzpvg3XUI0hyQg.jpg"
         }
       ]
     },
