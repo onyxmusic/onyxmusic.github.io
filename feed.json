@@ -813,6 +813,11 @@
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_n8xRDDZKf5vOGK0qLOhvgb4I8oDzk0CWA.jpg"
         },
         {
+          "id": "RDCLAK5uy_mR3VE_wMgQT1A6F4XmBGdBq2rxuvfKJ4k",
+          "name": "Nouveautés indie françaises",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mR3VE_wMgQT1A6F4XmBGdBq2rxuvfKJ4k.jpg"
+        },
+        {
           "id": "RDCLAK5uy_ll67QNQ4bbLx_AhpkeWe3tzSq4b0X5-6U",
           "name": "Afro vibes",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_ll67QNQ4bbLx_AhpkeWe3tzSq4b0X5-6U.jpg"
@@ -1554,136 +1559,6 @@
   ],
   "es": [
     {
-      "section_title": "Today's Biggest Hits",
-      "items": [
-        {
-          "id": "RDCLAK5uy_kmPRjHDECIcuVwnKsx2Ng7fyNgFKWNJFs",
-          "name": "The Hit List",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kmPRjHDECIcuVwnKsx2Ng7fyNgFKWNJFs.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_kLWIr9gv1XLlPbaDS965-Db4TrBoUTxQ8",
-          "name": "Éxitos actuales del dance",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kLWIr9gv1XLlPbaDS965-Db4TrBoUTxQ8.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_nhf3h98yS3LCk_bVNQu6GjWG7ARvMaiFQ",
-          "name": "NEON: Éxitos Pop",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nhf3h98yS3LCk_bVNQu6GjWG7ARvMaiFQ.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_lBGRuQnsG37Akr1CY4SxL0VWFbPrbO4gs",
-          "name": "Éxitos actuales de hiphop",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lBGRuQnsG37Akr1CY4SxL0VWFbPrbO4gs.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_nHGuTnohZ82uuk0HQle7s-UgP7h3aoCqg",
-          "name": "Música electrónica de baile fresca",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nHGuTnohZ82uuk0HQle7s-UgP7h3aoCqg.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_lOAAW-PX5XUed76iQefCxkOXd6m6ZvyiM",
-          "name": "Latin Now",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lOAAW-PX5XUed76iQefCxkOXd6m6ZvyiM.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_lfU6d5d-whk0KvABtxS0yZrj6n4NW2eTM",
-          "name": "Disturbio Sonoro: Éxitos de Rock",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lfU6d5d-whk0KvABtxS0yZrj6n4NW2eTM.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_mu-BhJj3yO1OXEMzahs_aJVtNWJwAwFEE",
-          "name": "Highline R&B",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mu-BhJj3yO1OXEMzahs_aJVtNWJwAwFEE.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_mFO2tSOkp3Ti5zWQoaPsXJ-rhcKZ6iv30",
-          "name": "Feel",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mFO2tSOkp3Ti5zWQoaPsXJ-rhcKZ6iv30.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_m0Nsi5Jnn_g6qbvc7fywPRhEv1qN0PcMM",
-          "name": "Today's Indie Hits",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_m0Nsi5Jnn_g6qbvc7fywPRhEv1qN0PcMM.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_k5vcGRXixxemtzK1eKDS7BeHys7mvYOdk",
-          "name": "Maximum Decibels: Today's Rock Hits",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_k5vcGRXixxemtzK1eKDS7BeHys7mvYOdk.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_n4oG0HK-gS2c_tstquxLhCBjs-CF2g8Qg",
-          "name": "Cartel: Indie + Alternativo",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_n4oG0HK-gS2c_tstquxLhCBjs-CF2g8Qg.jpg"
-        }
-      ]
-    },
-    {
-      "section_title": "New & Trending",
-      "items": [
-        {
-          "id": "RDCLAK5uy_k5n4srrEB1wgvIjPNTXS9G1ufE9WQxhnA",
-          "name": "RELEASED",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_k5n4srrEB1wgvIjPNTXS9G1ufE9WQxhnA.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_kLwgLlrxA4-_EchctXgTyHR4rwRaRv1wk",
-          "name": "Música House 2026",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kLwgLlrxA4-_EchctXgTyHR4rwRaRv1wk.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_kgq15xjENxUuOZNY3PFZhM_FcQjvwZn28",
-          "name": "Afropoppin'",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kgq15xjENxUuOZNY3PFZhM_FcQjvwZn28.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_nOwL35BM_GUTEbdbw_9FmvQhPWWdd3sAg",
-          "name": "Pop Fresh",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nOwL35BM_GUTEbdbw_9FmvQhPWWdd3sAg.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_m0X_CFV7sbR3EKDoP_FvqyK5faV7xorUY",
-          "name": "Tranquilo y Fresco: Pop Alternativo e Indie",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_m0X_CFV7sbR3EKDoP_FvqyK5faV7xorUY.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_n3-fNPhB7TmNTTBRXDZhcnQJg2ahWDIY8",
-          "name": "Drum & Bass 2026",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_n3-fNPhB7TmNTTBRXDZhcnQJg2ahWDIY8.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_nh3v6aejB2HjZPMJa7uuCMfyIKyH2K-kw",
-          "name": "Stereo Pesado: Rock Indie",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nh3v6aejB2HjZPMJa7uuCMfyIKyH2K-kw.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_ktkqrgIqlP46yBkUsZp4go2j59McnSsYY",
-          "name": "Alegría Tranquila",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_ktkqrgIqlP46yBkUsZp4go2j59McnSsYY.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_lcd5mG0YlkNyzKYgBvnlAmAuALm5o6Wnk",
-          "name": "Joven y Aturdido",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lcd5mG0YlkNyzKYgBvnlAmAuALm5o6Wnk.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_k0KkqT3D_36qFNHE9rq_Iz8VT-ZV7Jt0o",
-          "name": "Alt-Frequencies",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_k0KkqT3D_36qFNHE9rq_Iz8VT-ZV7Jt0o.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_kumKEaPpcfaAOpnEdpjtp4jyLoiqZdRnU",
-          "name": "Luxe Life",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kumKEaPpcfaAOpnEdpjtp4jyLoiqZdRnU.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_kBbljBMZ2exMXUc3MZdtXHsMwvGqf3eE8",
-          "name": "Nueva Electrónica",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kBbljBMZ2exMXUc3MZdtXHsMwvGqf3eE8.jpg"
-        }
-      ]
-    },
-    {
       "section_title": "All The Hits",
       "items": [
         {
@@ -1874,6 +1749,136 @@
       ]
     },
     {
+      "section_title": "Today's Biggest Hits",
+      "items": [
+        {
+          "id": "RDCLAK5uy_kmPRjHDECIcuVwnKsx2Ng7fyNgFKWNJFs",
+          "name": "The Hit List",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kmPRjHDECIcuVwnKsx2Ng7fyNgFKWNJFs.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_kLWIr9gv1XLlPbaDS965-Db4TrBoUTxQ8",
+          "name": "Éxitos actuales del dance",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kLWIr9gv1XLlPbaDS965-Db4TrBoUTxQ8.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nhf3h98yS3LCk_bVNQu6GjWG7ARvMaiFQ",
+          "name": "NEON: Éxitos Pop",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nhf3h98yS3LCk_bVNQu6GjWG7ARvMaiFQ.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_lBGRuQnsG37Akr1CY4SxL0VWFbPrbO4gs",
+          "name": "Éxitos actuales de hiphop",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lBGRuQnsG37Akr1CY4SxL0VWFbPrbO4gs.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nHGuTnohZ82uuk0HQle7s-UgP7h3aoCqg",
+          "name": "Música electrónica de baile fresca",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nHGuTnohZ82uuk0HQle7s-UgP7h3aoCqg.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_lOAAW-PX5XUed76iQefCxkOXd6m6ZvyiM",
+          "name": "Latin Now",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lOAAW-PX5XUed76iQefCxkOXd6m6ZvyiM.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_lfU6d5d-whk0KvABtxS0yZrj6n4NW2eTM",
+          "name": "Disturbio Sonoro: Éxitos de Rock",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lfU6d5d-whk0KvABtxS0yZrj6n4NW2eTM.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mu-BhJj3yO1OXEMzahs_aJVtNWJwAwFEE",
+          "name": "Highline R&B",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mu-BhJj3yO1OXEMzahs_aJVtNWJwAwFEE.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mFO2tSOkp3Ti5zWQoaPsXJ-rhcKZ6iv30",
+          "name": "Feel",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mFO2tSOkp3Ti5zWQoaPsXJ-rhcKZ6iv30.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_m0Nsi5Jnn_g6qbvc7fywPRhEv1qN0PcMM",
+          "name": "Today's Indie Hits",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_m0Nsi5Jnn_g6qbvc7fywPRhEv1qN0PcMM.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_k5vcGRXixxemtzK1eKDS7BeHys7mvYOdk",
+          "name": "Maximum Decibels: Today's Rock Hits",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_k5vcGRXixxemtzK1eKDS7BeHys7mvYOdk.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n4oG0HK-gS2c_tstquxLhCBjs-CF2g8Qg",
+          "name": "Cartel: Indie + Alternativo",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_n4oG0HK-gS2c_tstquxLhCBjs-CF2g8Qg.jpg"
+        }
+      ]
+    },
+    {
+      "section_title": "New & Trending",
+      "items": [
+        {
+          "id": "RDCLAK5uy_k5n4srrEB1wgvIjPNTXS9G1ufE9WQxhnA",
+          "name": "RELEASED",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_k5n4srrEB1wgvIjPNTXS9G1ufE9WQxhnA.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_kLwgLlrxA4-_EchctXgTyHR4rwRaRv1wk",
+          "name": "Música House 2026",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kLwgLlrxA4-_EchctXgTyHR4rwRaRv1wk.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_kgq15xjENxUuOZNY3PFZhM_FcQjvwZn28",
+          "name": "Afropoppin'",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kgq15xjENxUuOZNY3PFZhM_FcQjvwZn28.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nOwL35BM_GUTEbdbw_9FmvQhPWWdd3sAg",
+          "name": "Pop Fresh",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nOwL35BM_GUTEbdbw_9FmvQhPWWdd3sAg.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_m0X_CFV7sbR3EKDoP_FvqyK5faV7xorUY",
+          "name": "Tranquilo y Fresco: Pop Alternativo e Indie",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_m0X_CFV7sbR3EKDoP_FvqyK5faV7xorUY.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n3-fNPhB7TmNTTBRXDZhcnQJg2ahWDIY8",
+          "name": "Drum & Bass 2026",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_n3-fNPhB7TmNTTBRXDZhcnQJg2ahWDIY8.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nh3v6aejB2HjZPMJa7uuCMfyIKyH2K-kw",
+          "name": "Stereo Pesado: Rock Indie",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nh3v6aejB2HjZPMJa7uuCMfyIKyH2K-kw.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_ktkqrgIqlP46yBkUsZp4go2j59McnSsYY",
+          "name": "Alegría Tranquila",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_ktkqrgIqlP46yBkUsZp4go2j59McnSsYY.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_lcd5mG0YlkNyzKYgBvnlAmAuALm5o6Wnk",
+          "name": "Joven y Aturdido",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lcd5mG0YlkNyzKYgBvnlAmAuALm5o6Wnk.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_k0KkqT3D_36qFNHE9rq_Iz8VT-ZV7Jt0o",
+          "name": "Alt-Frequencies",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_k0KkqT3D_36qFNHE9rq_Iz8VT-ZV7Jt0o.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_kumKEaPpcfaAOpnEdpjtp4jyLoiqZdRnU",
+          "name": "Luxe Life",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kumKEaPpcfaAOpnEdpjtp4jyLoiqZdRnU.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_kBbljBMZ2exMXUc3MZdtXHsMwvGqf3eE8",
+          "name": "Nueva Electrónica",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kBbljBMZ2exMXUc3MZdtXHsMwvGqf3eE8.jpg"
+        }
+      ]
+    },
+    {
       "section_title": "Music from Spain",
       "items": [
         {
@@ -1925,136 +1930,6 @@
     }
   ],
   "it": [
-    {
-      "section_title": "Today's Biggest Hits",
-      "items": [
-        {
-          "id": "RDCLAK5uy_kmPRjHDECIcuVwnKsx2Ng7fyNgFKWNJFs",
-          "name": "The Hit List",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kmPRjHDECIcuVwnKsx2Ng7fyNgFKWNJFs.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_kLWIr9gv1XLlPbaDS965-Db4TrBoUTxQ8",
-          "name": "Le hit dance del momento",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kLWIr9gv1XLlPbaDS965-Db4TrBoUTxQ8.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_nhf3h98yS3LCk_bVNQu6GjWG7ARvMaiFQ",
-          "name": "NEON: Pop Hits",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nhf3h98yS3LCk_bVNQu6GjWG7ARvMaiFQ.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_lBGRuQnsG37Akr1CY4SxL0VWFbPrbO4gs",
-          "name": "I successi hip hop del momento",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lBGRuQnsG37Akr1CY4SxL0VWFbPrbO4gs.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_nHGuTnohZ82uuk0HQle7s-UgP7h3aoCqg",
-          "name": "Nuova musica dance elettronica",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nHGuTnohZ82uuk0HQle7s-UgP7h3aoCqg.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_lOAAW-PX5XUed76iQefCxkOXd6m6ZvyiM",
-          "name": "Latin Now",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lOAAW-PX5XUed76iQefCxkOXd6m6ZvyiM.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_lfU6d5d-whk0KvABtxS0yZrj6n4NW2eTM",
-          "name": "Noise Riot: Rock Hits",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lfU6d5d-whk0KvABtxS0yZrj6n4NW2eTM.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_mu-BhJj3yO1OXEMzahs_aJVtNWJwAwFEE",
-          "name": "Highline R&B",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mu-BhJj3yO1OXEMzahs_aJVtNWJwAwFEE.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_mFO2tSOkp3Ti5zWQoaPsXJ-rhcKZ6iv30",
-          "name": "Feel",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mFO2tSOkp3Ti5zWQoaPsXJ-rhcKZ6iv30.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_m0Nsi5Jnn_g6qbvc7fywPRhEv1qN0PcMM",
-          "name": "Today's Indie Hits",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_m0Nsi5Jnn_g6qbvc7fywPRhEv1qN0PcMM.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_k5vcGRXixxemtzK1eKDS7BeHys7mvYOdk",
-          "name": "Maximum Decibels: Today's Rock Hits",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_k5vcGRXixxemtzK1eKDS7BeHys7mvYOdk.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_n4oG0HK-gS2c_tstquxLhCBjs-CF2g8Qg",
-          "name": "Line Up: Indie + Alternative",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_n4oG0HK-gS2c_tstquxLhCBjs-CF2g8Qg.jpg"
-        }
-      ]
-    },
-    {
-      "section_title": "New & Trending",
-      "items": [
-        {
-          "id": "RDCLAK5uy_k5n4srrEB1wgvIjPNTXS9G1ufE9WQxhnA",
-          "name": "NUOVE USCITE",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_k5n4srrEB1wgvIjPNTXS9G1ufE9WQxhnA.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_kLwgLlrxA4-_EchctXgTyHR4rwRaRv1wk",
-          "name": "House Music 2026",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kLwgLlrxA4-_EchctXgTyHR4rwRaRv1wk.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_kgq15xjENxUuOZNY3PFZhM_FcQjvwZn28",
-          "name": "Afropoppin'",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kgq15xjENxUuOZNY3PFZhM_FcQjvwZn28.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_nOwL35BM_GUTEbdbw_9FmvQhPWWdd3sAg",
-          "name": "Novità pop",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nOwL35BM_GUTEbdbw_9FmvQhPWWdd3sAg.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_m0X_CFV7sbR3EKDoP_FvqyK5faV7xorUY",
-          "name": "Nuovo e tranquillo",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_m0X_CFV7sbR3EKDoP_FvqyK5faV7xorUY.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_n3-fNPhB7TmNTTBRXDZhcnQJg2ahWDIY8",
-          "name": "Drum & Bass 2026",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_n3-fNPhB7TmNTTBRXDZhcnQJg2ahWDIY8.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_nh3v6aejB2HjZPMJa7uuCMfyIKyH2K-kw",
-          "name": "Heavy Stereo: Indie Rock",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nh3v6aejB2HjZPMJa7uuCMfyIKyH2K-kw.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_ktkqrgIqlP46yBkUsZp4go2j59McnSsYY",
-          "name": "Mellow Hype",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_ktkqrgIqlP46yBkUsZp4go2j59McnSsYY.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_lcd5mG0YlkNyzKYgBvnlAmAuALm5o6Wnk",
-          "name": "Young x Dazed",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lcd5mG0YlkNyzKYgBvnlAmAuALm5o6Wnk.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_k0KkqT3D_36qFNHE9rq_Iz8VT-ZV7Jt0o",
-          "name": "Alt-Frequencies",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_k0KkqT3D_36qFNHE9rq_Iz8VT-ZV7Jt0o.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_kumKEaPpcfaAOpnEdpjtp4jyLoiqZdRnU",
-          "name": "Luxe Life",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kumKEaPpcfaAOpnEdpjtp4jyLoiqZdRnU.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_kBbljBMZ2exMXUc3MZdtXHsMwvGqf3eE8",
-          "name": "New Electronica",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kBbljBMZ2exMXUc3MZdtXHsMwvGqf3eE8.jpg"
-        }
-      ]
-    },
     {
       "section_title": "All The Hits",
       "items": [
@@ -2242,6 +2117,136 @@
           "id": "RDCLAK5uy_m0wlRoNn5iCTTgBedfoOQ19Jq9P3XTLIA",
           "name": "Pop e rock allegri",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_m0wlRoNn5iCTTgBedfoOQ19Jq9P3XTLIA.jpg"
+        }
+      ]
+    },
+    {
+      "section_title": "Today's Biggest Hits",
+      "items": [
+        {
+          "id": "RDCLAK5uy_kmPRjHDECIcuVwnKsx2Ng7fyNgFKWNJFs",
+          "name": "The Hit List",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kmPRjHDECIcuVwnKsx2Ng7fyNgFKWNJFs.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_kLWIr9gv1XLlPbaDS965-Db4TrBoUTxQ8",
+          "name": "Le hit dance del momento",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kLWIr9gv1XLlPbaDS965-Db4TrBoUTxQ8.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nhf3h98yS3LCk_bVNQu6GjWG7ARvMaiFQ",
+          "name": "NEON: Pop Hits",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nhf3h98yS3LCk_bVNQu6GjWG7ARvMaiFQ.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_lBGRuQnsG37Akr1CY4SxL0VWFbPrbO4gs",
+          "name": "I successi hip hop del momento",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lBGRuQnsG37Akr1CY4SxL0VWFbPrbO4gs.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nHGuTnohZ82uuk0HQle7s-UgP7h3aoCqg",
+          "name": "Nuova musica dance elettronica",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nHGuTnohZ82uuk0HQle7s-UgP7h3aoCqg.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_lOAAW-PX5XUed76iQefCxkOXd6m6ZvyiM",
+          "name": "Latin Now",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lOAAW-PX5XUed76iQefCxkOXd6m6ZvyiM.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_lfU6d5d-whk0KvABtxS0yZrj6n4NW2eTM",
+          "name": "Noise Riot: Rock Hits",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lfU6d5d-whk0KvABtxS0yZrj6n4NW2eTM.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mu-BhJj3yO1OXEMzahs_aJVtNWJwAwFEE",
+          "name": "Highline R&B",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mu-BhJj3yO1OXEMzahs_aJVtNWJwAwFEE.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mFO2tSOkp3Ti5zWQoaPsXJ-rhcKZ6iv30",
+          "name": "Feel",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mFO2tSOkp3Ti5zWQoaPsXJ-rhcKZ6iv30.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_m0Nsi5Jnn_g6qbvc7fywPRhEv1qN0PcMM",
+          "name": "Today's Indie Hits",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_m0Nsi5Jnn_g6qbvc7fywPRhEv1qN0PcMM.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_k5vcGRXixxemtzK1eKDS7BeHys7mvYOdk",
+          "name": "Maximum Decibels: Today's Rock Hits",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_k5vcGRXixxemtzK1eKDS7BeHys7mvYOdk.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n4oG0HK-gS2c_tstquxLhCBjs-CF2g8Qg",
+          "name": "Line Up: Indie + Alternative",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_n4oG0HK-gS2c_tstquxLhCBjs-CF2g8Qg.jpg"
+        }
+      ]
+    },
+    {
+      "section_title": "New & Trending",
+      "items": [
+        {
+          "id": "RDCLAK5uy_k5n4srrEB1wgvIjPNTXS9G1ufE9WQxhnA",
+          "name": "NUOVE USCITE",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_k5n4srrEB1wgvIjPNTXS9G1ufE9WQxhnA.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_kLwgLlrxA4-_EchctXgTyHR4rwRaRv1wk",
+          "name": "House Music 2026",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kLwgLlrxA4-_EchctXgTyHR4rwRaRv1wk.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_kgq15xjENxUuOZNY3PFZhM_FcQjvwZn28",
+          "name": "Afropoppin'",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kgq15xjENxUuOZNY3PFZhM_FcQjvwZn28.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nOwL35BM_GUTEbdbw_9FmvQhPWWdd3sAg",
+          "name": "Novità pop",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nOwL35BM_GUTEbdbw_9FmvQhPWWdd3sAg.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_m0X_CFV7sbR3EKDoP_FvqyK5faV7xorUY",
+          "name": "Nuovo e tranquillo",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_m0X_CFV7sbR3EKDoP_FvqyK5faV7xorUY.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n3-fNPhB7TmNTTBRXDZhcnQJg2ahWDIY8",
+          "name": "Drum & Bass 2026",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_n3-fNPhB7TmNTTBRXDZhcnQJg2ahWDIY8.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nh3v6aejB2HjZPMJa7uuCMfyIKyH2K-kw",
+          "name": "Heavy Stereo: Indie Rock",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nh3v6aejB2HjZPMJa7uuCMfyIKyH2K-kw.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_ktkqrgIqlP46yBkUsZp4go2j59McnSsYY",
+          "name": "Mellow Hype",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_ktkqrgIqlP46yBkUsZp4go2j59McnSsYY.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_lcd5mG0YlkNyzKYgBvnlAmAuALm5o6Wnk",
+          "name": "Young x Dazed",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lcd5mG0YlkNyzKYgBvnlAmAuALm5o6Wnk.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_k0KkqT3D_36qFNHE9rq_Iz8VT-ZV7Jt0o",
+          "name": "Alt-Frequencies",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_k0KkqT3D_36qFNHE9rq_Iz8VT-ZV7Jt0o.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_kumKEaPpcfaAOpnEdpjtp4jyLoiqZdRnU",
+          "name": "Luxe Life",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kumKEaPpcfaAOpnEdpjtp4jyLoiqZdRnU.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_kBbljBMZ2exMXUc3MZdtXHsMwvGqf3eE8",
+          "name": "New Electronica",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kBbljBMZ2exMXUc3MZdtXHsMwvGqf3eE8.jpg"
         }
       ]
     },
@@ -2660,136 +2665,6 @@
   ],
   "ru": [
     {
-      "section_title": "Today's Biggest Hits",
-      "items": [
-        {
-          "id": "RDCLAK5uy_kmPRjHDECIcuVwnKsx2Ng7fyNgFKWNJFs",
-          "name": "The Hit List",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kmPRjHDECIcuVwnKsx2Ng7fyNgFKWNJFs.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_kLWIr9gv1XLlPbaDS965-Db4TrBoUTxQ8",
-          "name": "Современные танцевальные хиты",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kLWIr9gv1XLlPbaDS965-Db4TrBoUTxQ8.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_nhf3h98yS3LCk_bVNQu6GjWG7ARvMaiFQ",
-          "name": "NEON: Pop Hits",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nhf3h98yS3LCk_bVNQu6GjWG7ARvMaiFQ.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_lBGRuQnsG37Akr1CY4SxL0VWFbPrbO4gs",
-          "name": "Современные хиты хип-хопа",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lBGRuQnsG37Akr1CY4SxL0VWFbPrbO4gs.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_nHGuTnohZ82uuk0HQle7s-UgP7h3aoCqg",
-          "name": "Свежая электронная танцевальная музыка",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nHGuTnohZ82uuk0HQle7s-UgP7h3aoCqg.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_lOAAW-PX5XUed76iQefCxkOXd6m6ZvyiM",
-          "name": "Latin Now",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lOAAW-PX5XUed76iQefCxkOXd6m6ZvyiM.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_lfU6d5d-whk0KvABtxS0yZrj6n4NW2eTM",
-          "name": "Noise Riot: Rock Hits",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lfU6d5d-whk0KvABtxS0yZrj6n4NW2eTM.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_mu-BhJj3yO1OXEMzahs_aJVtNWJwAwFEE",
-          "name": "Highline R&B",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mu-BhJj3yO1OXEMzahs_aJVtNWJwAwFEE.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_mFO2tSOkp3Ti5zWQoaPsXJ-rhcKZ6iv30",
-          "name": "Feel",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mFO2tSOkp3Ti5zWQoaPsXJ-rhcKZ6iv30.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_m0Nsi5Jnn_g6qbvc7fywPRhEv1qN0PcMM",
-          "name": "Today's Indie Hits",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_m0Nsi5Jnn_g6qbvc7fywPRhEv1qN0PcMM.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_k5vcGRXixxemtzK1eKDS7BeHys7mvYOdk",
-          "name": "Maximum Decibels: Today's Rock Hits",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_k5vcGRXixxemtzK1eKDS7BeHys7mvYOdk.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_n4oG0HK-gS2c_tstquxLhCBjs-CF2g8Qg",
-          "name": "Line Up: Indie + Alternative",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_n4oG0HK-gS2c_tstquxLhCBjs-CF2g8Qg.jpg"
-        }
-      ]
-    },
-    {
-      "section_title": "New & Trending",
-      "items": [
-        {
-          "id": "RDCLAK5uy_k5n4srrEB1wgvIjPNTXS9G1ufE9WQxhnA",
-          "name": "НОВИНКИ",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_k5n4srrEB1wgvIjPNTXS9G1ufE9WQxhnA.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_kLwgLlrxA4-_EchctXgTyHR4rwRaRv1wk",
-          "name": "House Music 2026",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kLwgLlrxA4-_EchctXgTyHR4rwRaRv1wk.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_kgq15xjENxUuOZNY3PFZhM_FcQjvwZn28",
-          "name": "Afropoppin'",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kgq15xjENxUuOZNY3PFZhM_FcQjvwZn28.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_nOwL35BM_GUTEbdbw_9FmvQhPWWdd3sAg",
-          "name": "Поп фреш",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nOwL35BM_GUTEbdbw_9FmvQhPWWdd3sAg.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_m0X_CFV7sbR3EKDoP_FvqyK5faV7xorUY",
-          "name": "Освежающий инди-поп",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_m0X_CFV7sbR3EKDoP_FvqyK5faV7xorUY.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_n3-fNPhB7TmNTTBRXDZhcnQJg2ahWDIY8",
-          "name": "Drum & Bass 2026",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_n3-fNPhB7TmNTTBRXDZhcnQJg2ahWDIY8.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_nh3v6aejB2HjZPMJa7uuCMfyIKyH2K-kw",
-          "name": "Heavy Stereo: Indie Rock",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nh3v6aejB2HjZPMJa7uuCMfyIKyH2K-kw.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_ktkqrgIqlP46yBkUsZp4go2j59McnSsYY",
-          "name": "Mellow Hype",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_ktkqrgIqlP46yBkUsZp4go2j59McnSsYY.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_lcd5mG0YlkNyzKYgBvnlAmAuALm5o6Wnk",
-          "name": "Истома юности",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lcd5mG0YlkNyzKYgBvnlAmAuALm5o6Wnk.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_k0KkqT3D_36qFNHE9rq_Iz8VT-ZV7Jt0o",
-          "name": "Альт-частоты",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_k0KkqT3D_36qFNHE9rq_Iz8VT-ZV7Jt0o.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_kumKEaPpcfaAOpnEdpjtp4jyLoiqZdRnU",
-          "name": "Luxe Life",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kumKEaPpcfaAOpnEdpjtp4jyLoiqZdRnU.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_kBbljBMZ2exMXUc3MZdtXHsMwvGqf3eE8",
-          "name": "Новинки электроники",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kBbljBMZ2exMXUc3MZdtXHsMwvGqf3eE8.jpg"
-        }
-      ]
-    },
-    {
       "section_title": "All The Hits",
       "items": [
         {
@@ -2976,6 +2851,136 @@
           "id": "RDCLAK5uy_m0wlRoNn5iCTTgBedfoOQ19Jq9P3XTLIA",
           "name": "Позитивный поп и рок",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_m0wlRoNn5iCTTgBedfoOQ19Jq9P3XTLIA.jpg"
+        }
+      ]
+    },
+    {
+      "section_title": "Today's Biggest Hits",
+      "items": [
+        {
+          "id": "RDCLAK5uy_kmPRjHDECIcuVwnKsx2Ng7fyNgFKWNJFs",
+          "name": "The Hit List",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kmPRjHDECIcuVwnKsx2Ng7fyNgFKWNJFs.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_kLWIr9gv1XLlPbaDS965-Db4TrBoUTxQ8",
+          "name": "Современные танцевальные хиты",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kLWIr9gv1XLlPbaDS965-Db4TrBoUTxQ8.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nhf3h98yS3LCk_bVNQu6GjWG7ARvMaiFQ",
+          "name": "NEON: Pop Hits",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nhf3h98yS3LCk_bVNQu6GjWG7ARvMaiFQ.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_lBGRuQnsG37Akr1CY4SxL0VWFbPrbO4gs",
+          "name": "Современные хиты хип-хопа",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lBGRuQnsG37Akr1CY4SxL0VWFbPrbO4gs.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nHGuTnohZ82uuk0HQle7s-UgP7h3aoCqg",
+          "name": "Свежая электронная танцевальная музыка",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nHGuTnohZ82uuk0HQle7s-UgP7h3aoCqg.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_lOAAW-PX5XUed76iQefCxkOXd6m6ZvyiM",
+          "name": "Latin Now",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lOAAW-PX5XUed76iQefCxkOXd6m6ZvyiM.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_lfU6d5d-whk0KvABtxS0yZrj6n4NW2eTM",
+          "name": "Noise Riot: Rock Hits",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lfU6d5d-whk0KvABtxS0yZrj6n4NW2eTM.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mu-BhJj3yO1OXEMzahs_aJVtNWJwAwFEE",
+          "name": "Highline R&B",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mu-BhJj3yO1OXEMzahs_aJVtNWJwAwFEE.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mFO2tSOkp3Ti5zWQoaPsXJ-rhcKZ6iv30",
+          "name": "Feel",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mFO2tSOkp3Ti5zWQoaPsXJ-rhcKZ6iv30.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_m0Nsi5Jnn_g6qbvc7fywPRhEv1qN0PcMM",
+          "name": "Today's Indie Hits",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_m0Nsi5Jnn_g6qbvc7fywPRhEv1qN0PcMM.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_k5vcGRXixxemtzK1eKDS7BeHys7mvYOdk",
+          "name": "Maximum Decibels: Today's Rock Hits",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_k5vcGRXixxemtzK1eKDS7BeHys7mvYOdk.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n4oG0HK-gS2c_tstquxLhCBjs-CF2g8Qg",
+          "name": "Line Up: Indie + Alternative",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_n4oG0HK-gS2c_tstquxLhCBjs-CF2g8Qg.jpg"
+        }
+      ]
+    },
+    {
+      "section_title": "New & Trending",
+      "items": [
+        {
+          "id": "RDCLAK5uy_k5n4srrEB1wgvIjPNTXS9G1ufE9WQxhnA",
+          "name": "НОВИНКИ",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_k5n4srrEB1wgvIjPNTXS9G1ufE9WQxhnA.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_kLwgLlrxA4-_EchctXgTyHR4rwRaRv1wk",
+          "name": "House Music 2026",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kLwgLlrxA4-_EchctXgTyHR4rwRaRv1wk.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_kgq15xjENxUuOZNY3PFZhM_FcQjvwZn28",
+          "name": "Afropoppin'",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kgq15xjENxUuOZNY3PFZhM_FcQjvwZn28.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nOwL35BM_GUTEbdbw_9FmvQhPWWdd3sAg",
+          "name": "Поп фреш",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nOwL35BM_GUTEbdbw_9FmvQhPWWdd3sAg.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_m0X_CFV7sbR3EKDoP_FvqyK5faV7xorUY",
+          "name": "Освежающий инди-поп",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_m0X_CFV7sbR3EKDoP_FvqyK5faV7xorUY.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n3-fNPhB7TmNTTBRXDZhcnQJg2ahWDIY8",
+          "name": "Drum & Bass 2026",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_n3-fNPhB7TmNTTBRXDZhcnQJg2ahWDIY8.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nh3v6aejB2HjZPMJa7uuCMfyIKyH2K-kw",
+          "name": "Heavy Stereo: Indie Rock",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nh3v6aejB2HjZPMJa7uuCMfyIKyH2K-kw.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_ktkqrgIqlP46yBkUsZp4go2j59McnSsYY",
+          "name": "Mellow Hype",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_ktkqrgIqlP46yBkUsZp4go2j59McnSsYY.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_lcd5mG0YlkNyzKYgBvnlAmAuALm5o6Wnk",
+          "name": "Истома юности",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lcd5mG0YlkNyzKYgBvnlAmAuALm5o6Wnk.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_k0KkqT3D_36qFNHE9rq_Iz8VT-ZV7Jt0o",
+          "name": "Альт-частоты",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_k0KkqT3D_36qFNHE9rq_Iz8VT-ZV7Jt0o.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_kumKEaPpcfaAOpnEdpjtp4jyLoiqZdRnU",
+          "name": "Luxe Life",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kumKEaPpcfaAOpnEdpjtp4jyLoiqZdRnU.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_kBbljBMZ2exMXUc3MZdtXHsMwvGqf3eE8",
+          "name": "Новинки электроники",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kBbljBMZ2exMXUc3MZdtXHsMwvGqf3eE8.jpg"
         }
       ]
     },
