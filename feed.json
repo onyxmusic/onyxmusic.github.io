@@ -2621,11 +2621,6 @@
       "section_title": "Hits de hoje",
       "items": [
         {
-          "id": "RDCLAK5uy_nsMyc5Am9I2svXsTro8oaxtqFeTqQY7xQ",
-          "name": "Hits de 2026 (até agora)",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nsMyc5Am9I2svXsTro8oaxtqFeTqQY7xQ.jpg"
-        },
-        {
           "id": "RDCLAK5uy_lyO8CdV-pHd2Vu54Qzf-cFYvKJB4GiILY",
           "name": "The Hit List",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lyO8CdV-pHd2Vu54Qzf-cFYvKJB4GiILY.jpg"
@@ -2679,6 +2674,11 @@
           "id": "RDCLAK5uy_nr96xyZDAYajRMchGlje_A0Sl-VvU0_Po",
           "name": "Trapical Trap Brasil",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nr96xyZDAYajRMchGlje_A0Sl-VvU0_Po.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_lgPYYooWtt2YMzGzCsIJg8TQFHzU5THCM",
+          "name": "Hashtag Hits",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lgPYYooWtt2YMzGzCsIJg8TQFHzU5THCM.jpg"
         }
       ]
     }
