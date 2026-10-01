@@ -785,6 +785,71 @@
   ],
   "fr": [
     {
+      "section_title": "Brise d'automne 🍂",
+      "items": [
+        {
+          "id": "RDCLAK5uy_mXandMujpa1klEdyxHzQU-kyDqmVhk098",
+          "name": "Couleurs d'automne",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mXandMujpa1klEdyxHzQU-kyDqmVhk098.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_kqQ1zj3L4fZK6ye75srlXMLYXdh2jMFPQ",
+          "name": "Soul moderne apaisante",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kqQ1zj3L4fZK6ye75srlXMLYXdh2jMFPQ.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nGla7fZdBfRak2-LrbYP0aHdjz8Lwv7lQ",
+          "name": "Ultimate Indie Anthems",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nGla7fZdBfRak2-LrbYP0aHdjz8Lwv7lQ.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n2MRgJm8KVbRLo9wpqSGGX8CQ8rLCRsWg",
+          "name": "Chill house",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_n2MRgJm8KVbRLo9wpqSGGX8CQ8rLCRsWg.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_kL57PLcOmExjhzqGfGhvA82ZWe4fPH2c4",
+          "name": "Jazz feutré",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kL57PLcOmExjhzqGfGhvA82ZWe4fPH2c4.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_kFiFlofDDuvu9gYiBrcI8cMG3V2Lab8xA",
+          "name": "Les pépites du blues",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kFiFlofDDuvu9gYiBrcI8cMG3V2Lab8xA.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_k1VhMCqnxKBUtnyLY2-ukw7d7LEW4_By4",
+          "name": "Intimes chansons françaises",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_k1VhMCqnxKBUtnyLY2-ukw7d7LEW4_By4.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_njvsGKIUycy_a4h7zTS8upbKhHcMVzHFM",
+          "name": "Pop Rock Chill",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_njvsGKIUycy_a4h7zTS8upbKhHcMVzHFM.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nDL8KeBrUagwyISwNmyEiSfYgz1gVCesg",
+          "name": "Mellow Pop Classics",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nDL8KeBrUagwyISwNmyEiSfYgz1gVCesg.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n3QuG8R7-PdIR0VmWV_yUIPtwbDDmlMqg",
+          "name": "Bossa Nova Time",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_n3QuG8R7-PdIR0VmWV_yUIPtwbDDmlMqg.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nzH63bHyuNIx-Bqaz7qnrkejDgsSOYfWM",
+          "name": "Soul vintage ensoleillée",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nzH63bHyuNIx-Bqaz7qnrkejDgsSOYfWM.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nxpDij9qedpxoq-Fuzu_EC1PcFNB3txpY",
+          "name": "Classiques de l'automne",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nxpDij9qedpxoq-Fuzu_EC1PcFNB3txpY.jpg"
+        }
+      ]
+    },
+    {
       "section_title": "Nouveaux sons",
       "items": [
         {
@@ -3005,11 +3070,6 @@
       "section_title": "أجمل الأغاني اليوم",
       "items": [
         {
-          "id": "RDCLAK5uy_n6hLT-TJL4JV9p2KXNchaEImHwb2XgONc",
-          "name": "أبرز الأغاني الناجحة لعام 2026 (حتى الآن)",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_n6hLT-TJL4JV9p2KXNchaEImHwb2XgONc.jpg"
-        },
-        {
           "id": "RDCLAK5uy_lTF8NR57ogCQH2sespedzwyUhf5zlb0QE",
           "name": "أيوَه عربي",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lTF8NR57ogCQH2sespedzwyUhf5zlb0QE.jpg"
@@ -3432,11 +3492,6 @@
       "section_title": "話題の音楽",
       "items": [
         {
-          "id": "RDCLAK5uy_mqWhkrJke_7BMI6fN-wj5KCqOo91m_Lzo",
-          "name": "Hits of 2026 (上半期)",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mqWhkrJke_7BMI6fN-wj5KCqOo91m_Lzo.jpg"
-        },
-        {
           "id": "RDCLAK5uy_m1h6RaRmM8e_3k7ec4ZVJzfo2pXdLrY_k",
           "name": "The Hit List",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_m1h6RaRmM8e_3k7ec4ZVJzfo2pXdLrY_k.jpg"
@@ -3490,6 +3545,11 @@
           "id": "RDCLAK5uy_kHiJYeN9KHADI5iV9WxeMU_hHtXn6o498",
           "name": "Tokyo Clubbing",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kHiJYeN9KHADI5iV9WxeMU_hHtXn6o498.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mD1l6qiKHTiFmKKUax1NUznpM9m6daNTw",
+          "name": "Boys Group Japan",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mD1l6qiKHTiFmKKUax1NUznpM9m6daNTw.jpg"
         }
       ]
     },
@@ -3724,11 +3784,6 @@
       "section_title": "India's Biggest Hits",
       "items": [
         {
-          "id": "RDCLAK5uy_kCicKSTh7ylcZSwvrN0vV4dI3eqEpXR4A",
-          "name": "2026 के हिट्स (अब तक)",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kCicKSTh7ylcZSwvrN0vV4dI3eqEpXR4A.jpg"
-        },
-        {
           "id": "RDCLAK5uy_n9Fbdw7e6ap-98_A-8JYBmPv64v-Uaq1g",
           "name": "बॉलीवुड हिटलिस्ट",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_n9Fbdw7e6ap-98_A-8JYBmPv64v-Uaq1g.jpg"
@@ -3782,6 +3837,11 @@
           "id": "RDCLAK5uy_mPBQePobkU9UZ100tOTfvTCdwWOHoiiPo",
           "name": "सैंडलवुड हिटलिस्ट",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mPBQePobkU9UZ100tOTfvTCdwWOHoiiPo.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_kjNBBWqyQ_Cy14B0P4xrcKgd39CRjXXKk",
+          "name": "बॉलीवुड डांस हिटलिस्ट",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kjNBBWqyQ_Cy14B0P4xrcKgd39CRjXXKk.jpg"
         }
       ]
     },
@@ -4240,11 +4300,6 @@
     {
       "section_title": "最新上架及熱門歌曲",
       "items": [
-        {
-          "id": "RDCLAK5uy_k_yl8gjV-PJh51G4U7ITZ9WqX18l8t1B0",
-          "name": "Hits of 2026 (So Far)",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_k_yl8gjV-PJh51G4U7ITZ9WqX18l8t1B0.jpg"
-        },
         {
           "id": "RDCLAK5uy_lJ2jhjVX1Ln1WjewDILbpp7vf4va4WhCE",
           "name": "Hits of 2026 (So Far)",
