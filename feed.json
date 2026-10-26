@@ -1707,6 +1707,11 @@
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mCvOm3kQy1RTBwDOGYkNhtHwMO89ffquk.jpg"
         },
         {
+          "id": "RDCLAK5uy_lTF8NR57ogCQH2sespedzwyUhf5zlb0QE",
+          "name": "Aywa Araby: Éxitos árabes",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lTF8NR57ogCQH2sespedzwyUhf5zlb0QE.jpg"
+        },
+        {
           "id": "RDCLAK5uy_kvnwY7lh8VQkr7uLLsFPB06mhIwKAljbE",
           "name": "Hits Brasileros",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kvnwY7lh8VQkr7uLLsFPB06mhIwKAljbE.jpg"
@@ -1852,9 +1857,9 @@
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_k5vcGRXixxemtzK1eKDS7BeHys7mvYOdk.jpg"
         },
         {
-          "id": "RDCLAK5uy_lbQ87tFQihzaDxmmfDoHbw5xQwBWUrMDk",
-          "name": "Conducted",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lbQ87tFQihzaDxmmfDoHbw5xQwBWUrMDk.jpg"
+          "id": "RDCLAK5uy_n4oG0HK-gS2c_tstquxLhCBjs-CF2g8Qg",
+          "name": "Cartel: Indie + Alternativo",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_n4oG0HK-gS2c_tstquxLhCBjs-CF2g8Qg.jpg"
         }
       ]
     },
@@ -2506,6 +2511,11 @@
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lk7Xld9FJ_E7nqSwDGgLwnb8tEFEdBZH0.jpg"
         },
         {
+          "id": "RDCLAK5uy_kNueKS0Wo4zrtTFdYSa571cAP4a6z8GcA",
+          "name": "Sertanejo de boa",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kNueKS0Wo4zrtTFdYSa571cAP4a6z8GcA.jpg"
+        },
+        {
           "id": "RDCLAK5uy_mBd42om_D1VsqmeJAY3XKzRGRVhLBHgGk",
           "name": "Mulheres do sertanejo",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mBd42om_D1VsqmeJAY3XKzRGRVhLBHgGk.jpg"
@@ -2556,6 +2566,11 @@
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mT83Azg90Paotlpt3foUZFYeK1x4Rkylk.jpg"
         },
         {
+          "id": "RDCLAK5uy_lHAc8IzmTYSw6TW4t90RSXWjK1AoFCV7s",
+          "name": "Pique Funk 150 BPM",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lHAc8IzmTYSw6TW4t90RSXWjK1AoFCV7s.jpg"
+        },
+        {
           "id": "RDCLAK5uy_kke9T2P-dmjs38MKEjeke_twoTzio3gTM",
           "name": "Funk chiclete",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kke9T2P-dmjs38MKEjeke_twoTzio3gTM.jpg"
@@ -2569,12 +2584,22 @@
           "id": "RDCLAK5uy_mb6USApIgQTkWJBW1MhquqHg_zlq4kdjk",
           "name": "Funk apaixonado",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mb6USApIgQTkWJBW1MhquqHg_zlq4kdjk.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_kGkR7V7cd7-CC6FkeYB1d-Jn9_4iWgZ4M",
+          "name": "Batidão do funk",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kGkR7V7cd7-CC6FkeYB1d-Jn9_4iWgZ4M.jpg"
         }
       ]
     },
     {
       "section_title": "Pop",
       "items": [
+        {
+          "id": "RDCLAK5uy_lLpCPAfWWOWD9bhvrwzXYhzAzW0iUqMX0",
+          "name": "Pop Suave",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lLpCPAfWWOWD9bhvrwzXYhzAzW0iUqMX0.jpg"
+        },
         {
           "id": "RDCLAK5uy_kEeMXVnyMll_xhEBH1Aza4lEYO58yeQ0M",
           "name": "Sossego pop",
@@ -2601,9 +2626,24 @@
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_ncy0g6vzxM_3fq_zXKlbbaKARhV28jzVo.jpg"
         },
         {
+          "id": "RDCLAK5uy_k7luUc1su0rR7giA3M6e5muEHqpaavR60",
+          "name": "Tudo dance pop",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_k7luUc1su0rR7giA3M6e5muEHqpaavR60.jpg"
+        },
+        {
           "id": "RDCLAK5uy_m2yHQrTVW4MoJuhGAYRWRhVhf6SUg4KA0",
           "name": "Amor com certeza",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_m2yHQrTVW4MoJuhGAYRWRhVhf6SUg4KA0.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mzYSsYfdCm5vN0hl-VFLn3qllz2G2kjzY",
+          "name": "Hits infalíveis do pop nacional",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mzYSsYfdCm5vN0hl-VFLn3qllz2G2kjzY.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_l_1tz0QYbDY4ZRw3uH0dyZugjHHgyGhDM",
+          "name": "Pop Up: estímulo pop",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_l_1tz0QYbDY4ZRw3uH0dyZugjHHgyGhDM.jpg"
         }
       ]
     },
@@ -2629,6 +2669,16 @@
           "id": "RDCLAK5uy_mrFf8MOdXpsgjmDPmy9UrarANZUJv4IOw",
           "name": "Funk em Alta",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mrFf8MOdXpsgjmDPmy9UrarANZUJv4IOw.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n0COhN_xYbYY9RGEPF1oa3annopsPfkH0",
+          "name": "Quentura Forró",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_n0COhN_xYbYY9RGEPF1oa3annopsPfkH0.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nGKsW16ocmP8l8wL1oMIyR53cu4N5fyKI",
+          "name": "GIF Pop BR",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nGKsW16ocmP8l8wL1oMIyR53cu4N5fyKI.jpg"
         },
         {
           "id": "RDCLAK5uy_l9Qw11eDkPAlLBB1xlZdxG-u0sXffJhy0",
