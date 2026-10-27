@@ -1108,14 +1108,14 @@
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mZ1fDGGu-3pu8gX5nFxx076m7ftsOpo3I.jpg"
         },
         {
-          "id": "RDCLAK5uy_mWwefjEmOc-aIL0y5ce5hrur6-HPEHRsM",
-          "name": "Tubes des années 80",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mWwefjEmOc-aIL0y5ce5hrur6-HPEHRsM.jpg"
-        },
-        {
           "id": "RDCLAK5uy_nZiG9ehz_MQoWQxY5yElsLHCcG0tv9PRg",
           "name": "Classiques du rock",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nZiG9ehz_MQoWQxY5yElsLHCcG0tv9PRg.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nChBVgXy64NLLJ53YCQCWj1tG-LXLC8b8",
+          "name": "Les vrais savent",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nChBVgXy64NLLJ53YCQCWj1tG-LXLC8b8.jpg"
         }
       ]
     }
@@ -1158,11 +1158,6 @@
           "id": "RDCLAK5uy_khNGopKCT_t38MZ1W7z4kERrqprkXovxo",
           "name": "Megahits der 80er",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_khNGopKCT_t38MZ1W7z4kERrqprkXovxo.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_mgp55cLDaUpOfO6foH8FeCecHjwcf7WQk",
-          "name": "Schlagerklassiker",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mgp55cLDaUpOfO6foH8FeCecHjwcf7WQk.jpg"
         },
         {
           "id": "RDCLAK5uy_kOXsvZ4T6fkCUI0c2SzeW0attMxbnPSsQ",
@@ -1213,6 +1208,11 @@
           "id": "RDCLAK5uy_n2cB9bcNdoboeec971YTzpvg3XUI0hyQg",
           "name": "Indie Gold",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_n2cB9bcNdoboeec971YTzpvg3XUI0hyQg.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mWHdP8iDX6p1uIzWpPxs4ZWuplwHONxao",
+          "name": "Deutschrock Gold",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mWHdP8iDX6p1uIzWpPxs4ZWuplwHONxao.jpg"
         }
       ]
     },
@@ -1223,11 +1223,6 @@
           "id": "RDCLAK5uy_n7Y4Fp2-4cjm5UUvSZwdRaiZowRs5Tcz0",
           "name": "The Hit List",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_n7Y4Fp2-4cjm5UUvSZwdRaiZowRs5Tcz0.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_kj3rhiar1LINmyDcuFnXihEO0K1NQa2jI",
-          "name": "Deutschrap Hits Now",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kj3rhiar1LINmyDcuFnXihEO0K1NQa2jI.jpg"
         },
         {
           "id": "RDCLAK5uy_nCVF_zUZizzRcojIUuYmaXxMoPgg2WMDo",
@@ -1243,11 +1238,6 @@
           "id": "RDCLAK5uy_l6lSnRziP_Qt6EA5-nmhXZ3uQz76JRZw4",
           "name": "Glow: Dance Hits",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_l6lSnRziP_Qt6EA5-nmhXZ3uQz76JRZw4.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_k8X5cgTG2AnXbnkwEV7uQFptEKvSRmkjU",
-          "name": "Lautstark: Indie & Deutschrock Hits",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_k8X5cgTG2AnXbnkwEV7uQFptEKvSRmkjU.jpg"
         },
         {
           "id": "RDCLAK5uy_l7H4q0R8IUIwZI2gnfpnzQzkVUnnHqH00",
@@ -1340,11 +1330,6 @@
       "section_title": "Deutschrap",
       "items": [
         {
-          "id": "RDCLAK5uy_kj3rhiar1LINmyDcuFnXihEO0K1NQa2jI",
-          "name": "Deutschrap Hits Now",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kj3rhiar1LINmyDcuFnXihEO0K1NQa2jI.jpg"
-        },
-        {
           "id": "RDCLAK5uy_mBaPfGKJ4A4o0Y1cNfLM4eCt4wvzmwqiE",
           "name": "Deutschrap Elite",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mBaPfGKJ4A4o0Y1cNfLM4eCt4wvzmwqiE.jpg"
@@ -1383,11 +1368,6 @@
           "id": "RDCLAK5uy_lKL2i08SARZR_vSo5PW_JlM0YW12agYf0",
           "name": "Deutschrap Takeoff",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lKL2i08SARZR_vSo5PW_JlM0YW12agYf0.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_n_0Hb7zC0P1j7UCRF4bbaMjn046Z9oyyU",
-          "name": "Lass die Straße reden!",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_n_0Hb7zC0P1j7UCRF4bbaMjn046Z9oyyU.jpg"
         }
       ]
     },
@@ -1405,11 +1385,6 @@
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_meKJG4fRVGUG1Z5P6O-OVRJIja9U3Ctt8.jpg"
         },
         {
-          "id": "RDCLAK5uy_mgp55cLDaUpOfO6foH8FeCecHjwcf7WQk",
-          "name": "Schlagerklassiker",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mgp55cLDaUpOfO6foH8FeCecHjwcf7WQk.jpg"
-        },
-        {
           "id": "RDCLAK5uy_nenOSTslbPzvZvk80XYPco7MsXFpzFhO0",
           "name": "Malle für Alle!",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nenOSTslbPzvZvk80XYPco7MsXFpzFhO0.jpg"
@@ -1423,11 +1398,6 @@
           "id": "RDCLAK5uy_nmIXHaaeVFhiHZtMELYpv6_dNb6t3jPrM",
           "name": "Schlager Motivation",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nmIXHaaeVFhiHZtMELYpv6_dNb6t3jPrM.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_ku902qxzW4E40XXPJDuMzt3rs5X8lxu6Y",
-          "name": "Modern Schlager",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_ku902qxzW4E40XXPJDuMzt3rs5X8lxu6Y.jpg"
         }
       ]
     },
@@ -3290,11 +3260,6 @@
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mkQJpBKTH7S8iAdlq1khNLX-c1OhOhocM.jpg"
         },
         {
-          "id": "RDCLAK5uy_k3dazOzqqDagSIBhGET4VrDKHS9dEjXPA",
-          "name": "أغاني خليجية هادئة",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_k3dazOzqqDagSIBhGET4VrDKHS9dEjXPA.jpg"
-        },
-        {
           "id": "RDCLAK5uy_n_0vMGj-9WtHuj2fbdwMGsSxL_7qglBCI",
           "name": "أغاني مصرية للاسترخاء",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_n_0vMGj-9WtHuj2fbdwMGsSxL_7qglBCI.jpg"
@@ -3318,11 +3283,6 @@
           "id": "RDCLAK5uy_mlHYBL9nz1_lgeGUTYxuP-3RP9bM4UPZw",
           "name": "أغاني حب عربية",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mlHYBL9nz1_lgeGUTYxuP-3RP9bM4UPZw.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_noue4s9rsIYdEi4B0SlmW-UAmxLFdExPQ",
-          "name": "أغاني حب خليجية",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_noue4s9rsIYdEi4B0SlmW-UAmxLFdExPQ.jpg"
         }
       ]
     },
@@ -3834,11 +3794,6 @@
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lyVnWI5JnuwKJiuE-n1x-Un0mj9WlEyZw.jpg"
         },
         {
-          "id": "RDCLAK5uy_nTbyVypdXPQd00z15bTWjZr7pG-26yyQ4",
-          "name": "कॉलीवुड हिटलिस्ट",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nTbyVypdXPQd00z15bTWjZr7pG-26yyQ4.jpg"
-        },
-        {
           "id": "RDCLAK5uy_mOvRWCE7v4C98UgkSVh5FTlD3osGjolas",
           "name": "एकदम",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mOvRWCE7v4C98UgkSVh5FTlD3osGjolas.jpg"
@@ -4162,11 +4117,6 @@
           "id": "RDCLAK5uy_mXUrV3_kqn3WUflvb3nZr35f3F5Q049H0",
           "name": "कॉलीवुड रोमांस हॉटलिस्ट",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mXUrV3_kqn3WUflvb3nZr35f3F5Q049H0.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_l-eWGUE283_FOVP60LfNdv6rjkDd-yGbQ",
-          "name": "व्हिस्पर्स इन बेड",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_l-eWGUE283_FOVP60LfNdv6rjkDd-yGbQ.jpg"
         },
         {
           "id": "RDCLAK5uy_nvuvhmyPOP2y3L7hx-QYL7ABCl2E1amQQ",
