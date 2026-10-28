@@ -40,4 +40,4 @@ jobs:
         with:
           commit_message: "🔄 Feed and Playlist Images Updated"
           # DEĞİŞEN KISIM BURASI: Robot artık hem feed.json dosyasını hem de images klasöründeki yeni resimleri hafızaya alır.
-          file_pattern: 'feed.json images/*'
+          file_pattern: 'feed.json images/* regions/*'
