@@ -14,7 +14,7 @@ const REGIONS = {
   "ar": { gl: "AE", hl: "ar" },
   "ja": { gl: "JP", hl: "ja" },
   "hi": { gl: "IN", hl: "hi" },
-  "zh": { gl: "TW", hl: "zh-TW" }
+  "zh": { gl: "TW", hl: "zh-TW" },
   "za": { gl: "ZA", hl: "en" },    // Güney Afrika
   "kr": { gl: "KR", hl: "ko" },    // Güney Kore
   "id": { gl: "ID", hl: "id" },    // Endonezya
