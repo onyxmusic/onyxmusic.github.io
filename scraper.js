@@ -15,6 +15,18 @@ const REGIONS = {
   "ja": { gl: "JP", hl: "ja" },
   "hi": { gl: "IN", hl: "hi" },
   "zh": { gl: "TW", hl: "zh-TW" }
+  "za": { gl: "ZA", hl: "en" },    // Güney Afrika
+  "kr": { gl: "KR", hl: "ko" },    // Güney Kore
+  "id": { gl: "ID", hl: "id" },    // Endonezya
+  "mx": { gl: "MX", hl: "es" },    // Meksika
+  "ng": { gl: "NG", hl: "en" },    // Nijerya
+  "ph": { gl: "PH", hl: "en" },    // Filipinler
+  "gb": { gl: "GB", hl: "en-GB" }, // Birleşik Krallık
+  "eg": { gl: "EG", hl: "ar" },    // Mısır
+  "th": { gl: "TH", hl: "th" },    // Tayland
+  "vn": { gl: "VN", hl: "vi" },    // Vietnam
+  "arg": { gl: "AR", hl: "es" },   // Arjantin
+  "co": { gl: "CO", hl: "es" }     // Kolombiya
 };
 
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
@@ -160,7 +172,11 @@ async function downloadImage(page, url, destPath) {
               text.includes('عرض المزيد')     ||
               text.includes('もっと見る')     ||
               text.includes('और दिखाएं')         ||
-              text.includes('顯示完整資訊')
+              text.includes('顯示完整資訊') ||
+              text.includes('더보기') ||
+              text.includes('tampilkan lebih banyak') ||
+              text.includes('แสดงเพิ่มเติม') ||
+              text.includes('hiện thêm')
             );
           });
           if (buttons.length === 0) return 0;
@@ -262,7 +278,79 @@ async function downloadImage(page, url, destPath) {
   }
 
   await browser.close();
-  fs.writeFileSync('feed.json', JSON.stringify(fullFeed, null, 2), 'utf-8');
+  // 1. ESKİ UYGULAMALAR İÇİN 12 DİLİ KORU
+const oldLanguages = [
+  'tr', 'en', 'fr', 'de', 'es', 'it',
+  'pt', 'ru', 'ar', 'ja', 'hi', 'zh'
+];
+
+// Önceki verileri oku (hata olursa yedek olarak kullan).
+let previousFeed = {};
+
+try {
+  if (fs.existsSync('feed.json')) {
+    previousFeed = JSON.parse(
+      fs.readFileSync('feed.json', 'utf-8')
+    );
+  }
+} catch (error) {
+  console.warn('Eski feed.json okunamadi:', error.message);
+}
+
+const oldFeed = {};
+
+for (const lang of oldLanguages) {
+  if (Array.isArray(fullFeed[lang]) && fullFeed[lang].length > 0) {
+    oldFeed[lang] = fullFeed[lang];
+  } else if (
+    Array.isArray(previousFeed[lang]) &&
+    previousFeed[lang].length > 0
+  ) {
+    oldFeed[lang] = previousFeed[lang];
+    console.warn(`Eski veri korundu: ${lang}`);
+  }
+}
+
+// Eksik veri varsa eski feed.json dosyasına dokunma.
+if (Object.keys(oldFeed).length === oldLanguages.length) {
+  fs.writeFileSync(
+    'feed.json',
+    JSON.stringify(oldFeed, null, 2),
+    'utf-8'
+  );
+  console.log('✅ Eski 12 dilli feed.json hazir.');
+} else {
+  console.warn('⚠️ feed.json degistirilmedi: eksik dil var.');
+}
+
+// 2. YENİ SİSTEM İÇİN ÜLKELERİ AYRI KAYDET
+if (!fs.existsSync('regions')) {
+  fs.mkdirSync('regions', { recursive: true });
+}
+
+for (const [regionCode, sections] of Object.entries(fullFeed)) {
+  if (!Array.isArray(sections) || sections.length === 0) {
+    console.warn(`⚠️ Bos bolge atlandi: ${regionCode}`);
+    continue;
+  }
+
+  fs.writeFileSync(
+    `regions/${regionCode}.json`,
+    JSON.stringify(sections, null, 2),
+    'utf-8'
+  );
+
+  const playlistCount = sections.reduce(
+    (total, section) => total + (section.items?.length || 0),
+    0
+  );
+
+  console.log(
+    `✅ ${regionCode}: ${sections.length} bolum, ${playlistCount} playlist`
+  );
+}
+
+console.log('✅ Bolge JSON dosyalari olusturuldu.');
   console.log("\n🎉 İŞLEM BİTTİ! Link formatı ne olursa olsun tüm kapaklar başarıyla 250x250 ve %80 kalitede kaydedildi.");
 })();
 
