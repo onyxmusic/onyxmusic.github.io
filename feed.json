@@ -66,7 +66,7 @@
       ]
     },
     {
-      "section_title": "Hit Şarkılar",
+      "section_title": "Günün en büyük hitleri",
       "items": [
         {
           "id": "RDCLAK5uy_kplYm7rOpLU7HMTWiuKRt3LB5gg9IH9jQ",
@@ -915,7 +915,7 @@
       ]
     },
     {
-      "section_title": "Hits incontournables",
+      "section_title": "Hits du moment",
       "items": [
         {
           "id": "RDCLAK5uy_ly6s4irLuZAcjEDwJmqcA_UtSipMyGgbQ",
@@ -1232,7 +1232,7 @@
       ]
     },
     {
-      "section_title": "Today's Hits",
+      "section_title": "Die größten Hits von heute",
       "items": [
         {
           "id": "RDCLAK5uy_n7Y4Fp2-4cjm5UUvSZwdRaiZowRs5Tcz0",
@@ -1814,7 +1814,7 @@
       ]
     },
     {
-      "section_title": "Today's Biggest Hits",
+      "section_title": "Grandes éxitos del momento",
       "items": [
         {
           "id": "RDCLAK5uy_kmPRjHDECIcuVwnKsx2Ng7fyNgFKWNJFs",
@@ -2186,7 +2186,7 @@
       ]
     },
     {
-      "section_title": "Today's Biggest Hits",
+      "section_title": "Le più grandi hit del momento",
       "items": [
         {
           "id": "RDCLAK5uy_kmPRjHDECIcuVwnKsx2Ng7fyNgFKWNJFs",
@@ -2663,7 +2663,7 @@
       ]
     },
     {
-      "section_title": "Hits de hoje",
+      "section_title": "Sucessos do momento",
       "items": [
         {
           "id": "RDCLAK5uy_lyO8CdV-pHd2Vu54Qzf-cFYvKJB4GiILY",
@@ -2920,7 +2920,7 @@
       ]
     },
     {
-      "section_title": "Today's Biggest Hits",
+      "section_title": "Свежие хиты",
       "items": [
         {
           "id": "RDCLAK5uy_kmPRjHDECIcuVwnKsx2Ng7fyNgFKWNJFs",
@@ -3112,7 +3112,7 @@
       ]
     },
     {
-      "section_title": "أجمل الأغاني اليوم",
+      "section_title": "أنجح الأغاني اليوم",
       "items": [
         {
           "id": "RDCLAK5uy_lTF8NR57ogCQH2sespedzwyUhf5zlb0QE",
@@ -3529,7 +3529,7 @@
       ]
     },
     {
-      "section_title": "話題の音楽",
+      "section_title": "最新の大ヒット",
       "items": [
         {
           "id": "RDCLAK5uy_m1h6RaRmM8e_3k7ec4ZVJzfo2pXdLrY_k",
@@ -4338,7 +4338,7 @@
   ],
   "zh": [
     {
-      "section_title": "最新上架及熱門歌曲",
+      "section_title": "近期人氣歌曲",
       "items": [
         {
           "id": "RDCLAK5uy_lJ2jhjVX1Ln1WjewDILbpp7vf4va4WhCE",
