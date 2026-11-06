@@ -26,7 +26,7 @@
       ]
     },
     {
-      "section_title": "Yeni Şarkılar",
+      "section_title": "Yeni ve trend olan şarkılar",
       "items": [
         {
           "id": "RDCLAK5uy_ncwbM766_rhOk_JllLnAXmv_5v21_b2bc",
@@ -466,7 +466,7 @@
       ]
     },
     {
-      "section_title": "Listeler",
+      "section_title": "En çok dinlenenler listesi",
       "items": [
         {
           "id": "PL4fGSI1pDJn6rnJKpaAkK1XK8QUfa9KqP",
@@ -850,7 +850,7 @@
       ]
     },
     {
-      "section_title": "Nouveaux sons",
+      "section_title": "Nouveautés et titres tendance",
       "items": [
         {
           "id": "RDCLAK5uy_mztvVkPbbOgYQFQUOi9VbLcZ4ewdmBczw",
@@ -1045,7 +1045,7 @@
       ]
     },
     {
-      "section_title": "Classements",
+      "section_title": "Meilleurs classements",
       "items": [
         {
           "id": "PL4fGSI1pDJn7bK3y1Hx-qpHBqfr6cesNs",
@@ -1537,7 +1537,7 @@
       ]
     },
     {
-      "section_title": "Brandneue Musik",
+      "section_title": "Neue und angesagte Songs",
       "items": [
         {
           "id": "RDCLAK5uy_n4JlAuNLjhr4Sz8BQVS9IfeQiiKnx2_bc",
@@ -1597,7 +1597,7 @@
       ]
     },
     {
-      "section_title": "Charts",
+      "section_title": "Top-Charts",
       "items": [
         {
           "id": "PL4fGSI1pDJn6KpOXlp0MH8qA9tngXaUJ-",
@@ -1879,7 +1879,7 @@
       ]
     },
     {
-      "section_title": "New & Trending",
+      "section_title": "Nuevas canciones y tendencias",
       "items": [
         {
           "id": "RDCLAK5uy_k5n4srrEB1wgvIjPNTXS9G1ufE9WQxhnA",
@@ -1979,7 +1979,7 @@
       ]
     },
     {
-      "section_title": "Charts",
+      "section_title": "Más populares",
       "items": [
         {
           "id": "PL4fGSI1pDJn6puJdseH2Rt9sMvt9E2M4i",
@@ -2251,7 +2251,7 @@
       ]
     },
     {
-      "section_title": "New & Trending",
+      "section_title": "Brani nuovi e di tendenza",
       "items": [
         {
           "id": "RDCLAK5uy_k5n4srrEB1wgvIjPNTXS9G1ufE9WQxhnA",
@@ -2381,7 +2381,7 @@
       ]
     },
     {
-      "section_title": "Charts",
+      "section_title": "Classifiche",
       "items": [
         {
           "id": "PL4fGSI1pDJn6puJdseH2Rt9sMvt9E2M4i",
@@ -2398,7 +2398,7 @@
   ],
   "pt": [
     {
-      "section_title": "Novidades e em alta",
+      "section_title": "Músicas novas e em alta",
       "items": [
         {
           "id": "RDCLAK5uy_lJLWbvlgOPedbqoQeFUoxLTrzbBSb1qQA",
@@ -2452,7 +2452,7 @@
         },
         {
           "id": "RDCLAK5uy_lgPYYooWtt2YMzGzCsIJg8TQFHzU5THCM",
-          "name": "Hashtag Hits",
+          "name": "Internet Hits",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lgPYYooWtt2YMzGzCsIJg8TQFHzU5THCM.jpg"
         }
       ]
@@ -2722,7 +2722,7 @@
         },
         {
           "id": "RDCLAK5uy_lgPYYooWtt2YMzGzCsIJg8TQFHzU5THCM",
-          "name": "Hashtag Hits",
+          "name": "Internet Hits",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lgPYYooWtt2YMzGzCsIJg8TQFHzU5THCM.jpg"
         }
       ]
@@ -2985,7 +2985,7 @@
       ]
     },
     {
-      "section_title": "New & Trending",
+      "section_title": "Популярные новинки",
       "items": [
         {
           "id": "RDCLAK5uy_k5n4srrEB1wgvIjPNTXS9G1ufE9WQxhnA",
@@ -3050,7 +3050,7 @@
       ]
     },
     {
-      "section_title": "Charts",
+      "section_title": "Топ-чарты",
       "items": [
         {
           "id": "PL4fGSI1pDJn6puJdseH2Rt9sMvt9E2M4i",
@@ -3067,7 +3067,7 @@
   ],
   "ar": [
     {
-      "section_title": "أجدد و أجمل الأغاني",
+      "section_title": "أغانٍ جديدة ورائجة",
       "items": [
         {
           "id": "RDCLAK5uy_mC3tHtlDlzdSAyD3fIb0fWjPAvbXxSEjQ",
@@ -3474,7 +3474,7 @@
   ],
   "ja": [
     {
-      "section_title": "新着＆トレンド",
+      "section_title": "新曲と急上昇の曲",
       "items": [
         {
           "id": "RDCLAK5uy_kl6OeTaLdRv4PeSblTfo75t13PAx_vzg8",
@@ -3694,7 +3694,7 @@
       ]
     },
     {
-      "section_title": "チャート",
+      "section_title": "トップチャート",
       "items": [
         {
           "id": "PL4fGSI1pDJn4-UIb6RKHdxam-oAUULIGB",
@@ -3821,7 +3821,7 @@
   ],
   "hi": [
     {
-      "section_title": "India's Biggest Hits",
+      "section_title": "आज सबसे ज़्यादा लोकप्रिय",
       "items": [
         {
           "id": "RDCLAK5uy_n9Fbdw7e6ap-98_A-8JYBmPv64v-Uaq1g",
@@ -3991,7 +3991,7 @@
       ]
     },
     {
-      "section_title": "Discover New Music",
+      "section_title": "नए और ट्रेंडिंग गाने",
       "items": [
         {
           "id": "RDCLAK5uy_ksEjgm3H_7zOJ_RHzRjN1wY-_FFcs7aAU",
@@ -4121,7 +4121,7 @@
       ]
     },
     {
-      "section_title": "Charts",
+      "section_title": "टॉप चार्ट",
       "items": [
         {
           "id": "PL4fGSI1pDJn40WjZ6utkIuj2rNg-7iGsq",
