@@ -573,66 +573,6 @@
       ]
     },
     {
-      "section_title": "New & Trending Songs",
-      "items": [
-        {
-          "id": "RDCLAK5uy_k5n4srrEB1wgvIjPNTXS9G1ufE9WQxhnA",
-          "name": "RELEASED",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_k5n4srrEB1wgvIjPNTXS9G1ufE9WQxhnA.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_lS3E3PgpboCkZ_PfLPCkLLNPI1uH6kfc0",
-          "name": "The Short List",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lS3E3PgpboCkZ_PfLPCkLLNPI1uH6kfc0.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_kkkZR6KAV5kBSqDCeaBb_pDDhA83VGFwg",
-          "name": "Pop Before It Breaks",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kkkZR6KAV5kBSqDCeaBb_pDDhA83VGFwg.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_m5k78k1nN5yDlb_kmGHUVXALhIgHjtq4s",
-          "name": "INTERNET HITS",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_m5k78k1nN5yDlb_kmGHUVXALhIgHjtq4s.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_k7O9KByATGA1TqFYhyOkylpJ6fM1avtww",
-          "name": "Clout Rising: New Hip-Hop",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_k7O9KByATGA1TqFYhyOkylpJ6fM1avtww.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_l-JbTcCK10aQ5AFrXLmiNt9sVCbnCDVC0",
-          "name": "Nuevas Vibras",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_l-JbTcCK10aQ5AFrXLmiNt9sVCbnCDVC0.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_n0vqPVYwwLGVv8XMpjj7IovO50hqegreo",
-          "name": "Country's New Crop",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_n0vqPVYwwLGVv8XMpjj7IovO50hqegreo.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_lFJ89YweCFLE5XiRWX9CZ6UHulZ5uTAWw",
-          "name": "Genre Blurring",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lFJ89YweCFLE5XiRWX9CZ6UHulZ5uTAWw.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_mB1zoU6QkDs2Ls369_DU8_JbHCp3Wdd90",
-          "name": "Urbano 2026",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mB1zoU6QkDs2Ls369_DU8_JbHCp3Wdd90.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_nGZRi-an-ruqiZlNJSGhCDHucdp2FBNfI",
-          "name": "New R&B",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nGZRi-an-ruqiZlNJSGhCDHucdp2FBNfI.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_n7QjhERM2Q4Ha5B6t6ZmzyhOtRYjQtxKk",
-          "name": "Flow Superior",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_n7QjhERM2Q4Ha5B6t6ZmzyhOtRYjQtxKk.jpg"
-        }
-      ]
-    },
-    {
       "section_title": "Today's Biggest Hits",
       "items": [
         {
@@ -694,6 +634,66 @@
           "id": "RDCLAK5uy_kUFCSc-grF3m-L_49W6p1QyGsMbueEbog",
           "name": "Caribbean Pulse",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kUFCSc-grF3m-L_49W6p1QyGsMbueEbog.jpg"
+        }
+      ]
+    },
+    {
+      "section_title": "New & Trending Songs",
+      "items": [
+        {
+          "id": "RDCLAK5uy_k5n4srrEB1wgvIjPNTXS9G1ufE9WQxhnA",
+          "name": "RELEASED",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_k5n4srrEB1wgvIjPNTXS9G1ufE9WQxhnA.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_lS3E3PgpboCkZ_PfLPCkLLNPI1uH6kfc0",
+          "name": "The Short List",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lS3E3PgpboCkZ_PfLPCkLLNPI1uH6kfc0.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_kkkZR6KAV5kBSqDCeaBb_pDDhA83VGFwg",
+          "name": "Pop Before It Breaks",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kkkZR6KAV5kBSqDCeaBb_pDDhA83VGFwg.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_m5k78k1nN5yDlb_kmGHUVXALhIgHjtq4s",
+          "name": "INTERNET HITS",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_m5k78k1nN5yDlb_kmGHUVXALhIgHjtq4s.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_k7O9KByATGA1TqFYhyOkylpJ6fM1avtww",
+          "name": "Clout Rising: New Hip-Hop",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_k7O9KByATGA1TqFYhyOkylpJ6fM1avtww.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_l-JbTcCK10aQ5AFrXLmiNt9sVCbnCDVC0",
+          "name": "Nuevas Vibras",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_l-JbTcCK10aQ5AFrXLmiNt9sVCbnCDVC0.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n0vqPVYwwLGVv8XMpjj7IovO50hqegreo",
+          "name": "Country's New Crop",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_n0vqPVYwwLGVv8XMpjj7IovO50hqegreo.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_lFJ89YweCFLE5XiRWX9CZ6UHulZ5uTAWw",
+          "name": "Genre Blurring",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lFJ89YweCFLE5XiRWX9CZ6UHulZ5uTAWw.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mB1zoU6QkDs2Ls369_DU8_JbHCp3Wdd90",
+          "name": "Urbano 2026",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mB1zoU6QkDs2Ls369_DU8_JbHCp3Wdd90.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nGZRi-an-ruqiZlNJSGhCDHucdp2FBNfI",
+          "name": "New R&B",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nGZRi-an-ruqiZlNJSGhCDHucdp2FBNfI.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n7QjhERM2Q4Ha5B6t6ZmzyhOtRYjQtxKk",
+          "name": "Flow Superior",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_n7QjhERM2Q4Ha5B6t6ZmzyhOtRYjQtxKk.jpg"
         }
       ]
     },
@@ -875,51 +875,6 @@
   ],
   "fr": [
     {
-      "section_title": "GTA VI",
-      "items": [
-        {
-          "id": "RDCLAK5uy_llicVTy8JTX0jwExxTZpE2iiFxWO6exs8",
-          "name": "Grand Theft Auto Series",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_llicVTy8JTX0jwExxTZpE2iiFxWO6exs8.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_n9PTezEY6LrODsz6rl2KDtFzC9e5Qzz9Y",
-          "name": "Gaming Hits",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_n9PTezEY6LrODsz6rl2KDtFzC9e5Qzz9Y.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_nMRqcKbbYRujfKKitokBwvLQSFHnsomls",
-          "name": "Gaming Hits",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nMRqcKbbYRujfKKitokBwvLQSFHnsomls.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_nk0P4ZGsDyiVWxbFT3NpSsYljIGNqVNoQ",
-          "name": "Pop Gaming Hits",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nk0P4ZGsDyiVWxbFT3NpSsYljIGNqVNoQ.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_mXyIZ5Uf2qxFKbrZQuscMFOhbMS1Uv360",
-          "name": "Latin Gaming Hits",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mXyIZ5Uf2qxFKbrZQuscMFOhbMS1Uv360.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_mye9f9qenh7mhLVdhOrty7On3HFk0YVIc",
-          "name": "Rock Gaming Hits",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mye9f9qenh7mhLVdhOrty7On3HFk0YVIc.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_l13tlEqPP354YV6iWvMmRksG0n3BfxC8A",
-          "name": "Desi Gaming Flow",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_l13tlEqPP354YV6iWvMmRksG0n3BfxC8A.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_kOwmIQLjxvqBZ98AP3eARfb2MI1kaie4g",
-          "name": "Gaming Phonk",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kOwmIQLjxvqBZ98AP3eARfb2MI1kaie4g.jpg"
-        }
-      ]
-    },
-    {
       "section_title": "Brise d'automne 🍂",
       "items": [
         {
@@ -981,6 +936,51 @@
           "id": "RDCLAK5uy_nxpDij9qedpxoq-Fuzu_EC1PcFNB3txpY",
           "name": "Classiques de l'automne",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nxpDij9qedpxoq-Fuzu_EC1PcFNB3txpY.jpg"
+        }
+      ]
+    },
+    {
+      "section_title": "GTA VI",
+      "items": [
+        {
+          "id": "RDCLAK5uy_llicVTy8JTX0jwExxTZpE2iiFxWO6exs8",
+          "name": "Grand Theft Auto Series",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_llicVTy8JTX0jwExxTZpE2iiFxWO6exs8.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n9PTezEY6LrODsz6rl2KDtFzC9e5Qzz9Y",
+          "name": "Gaming Hits",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_n9PTezEY6LrODsz6rl2KDtFzC9e5Qzz9Y.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nMRqcKbbYRujfKKitokBwvLQSFHnsomls",
+          "name": "Gaming Hits",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nMRqcKbbYRujfKKitokBwvLQSFHnsomls.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nk0P4ZGsDyiVWxbFT3NpSsYljIGNqVNoQ",
+          "name": "Pop Gaming Hits",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nk0P4ZGsDyiVWxbFT3NpSsYljIGNqVNoQ.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mXyIZ5Uf2qxFKbrZQuscMFOhbMS1Uv360",
+          "name": "Latin Gaming Hits",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mXyIZ5Uf2qxFKbrZQuscMFOhbMS1Uv360.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mye9f9qenh7mhLVdhOrty7On3HFk0YVIc",
+          "name": "Rock Gaming Hits",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mye9f9qenh7mhLVdhOrty7On3HFk0YVIc.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_l13tlEqPP354YV6iWvMmRksG0n3BfxC8A",
+          "name": "Desi Gaming Flow",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_l13tlEqPP354YV6iWvMmRksG0n3BfxC8A.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_kOwmIQLjxvqBZ98AP3eARfb2MI1kaie4g",
+          "name": "Gaming Phonk",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kOwmIQLjxvqBZ98AP3eARfb2MI1kaie4g.jpg"
         }
       ]
     },
@@ -1272,6 +1272,36 @@
   ],
   "de": [
     {
+      "section_title": "Herbststimmung",
+      "items": [
+        {
+          "id": "RDCLAK5uy_k8d0XHQgAWWSZe7l7tUp0xLmEV_ncPxck",
+          "name": "Herbst HIts",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_k8d0XHQgAWWSZe7l7tUp0xLmEV_ncPxck.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n_goavyhecaj4JOjSN-fWLxKmgZli6kj4",
+          "name": "Herbst Melodien",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_n_goavyhecaj4JOjSN-fWLxKmgZli6kj4.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_lE5hd-xT1yLqpoQWn8BOo99JL45hC31d8",
+          "name": "sanft",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lE5hd-xT1yLqpoQWn8BOo99JL45hC31d8.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n8Hg9csbDQCPDH-PKmWZmKVG_oMgvrozY",
+          "name": "Melancholiebe",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_n8Hg9csbDQCPDH-PKmWZmKVG_oMgvrozY.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mTrr21OCLdb2dJgl_BJ-6MdJDXWqB-1gc",
+          "name": "Yoga & Meditation - Entspannungsmusik",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mTrr21OCLdb2dJgl_BJ-6MdJDXWqB-1gc.jpg"
+        }
+      ]
+    },
+    {
       "section_title": "GTA VI",
       "items": [
         {
@@ -1313,36 +1343,6 @@
           "id": "RDCLAK5uy_kOwmIQLjxvqBZ98AP3eARfb2MI1kaie4g",
           "name": "Gaming Phonk",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kOwmIQLjxvqBZ98AP3eARfb2MI1kaie4g.jpg"
-        }
-      ]
-    },
-    {
-      "section_title": "Herbststimmung",
-      "items": [
-        {
-          "id": "RDCLAK5uy_k8d0XHQgAWWSZe7l7tUp0xLmEV_ncPxck",
-          "name": "Herbst HIts",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_k8d0XHQgAWWSZe7l7tUp0xLmEV_ncPxck.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_n_goavyhecaj4JOjSN-fWLxKmgZli6kj4",
-          "name": "Herbst Melodien",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_n_goavyhecaj4JOjSN-fWLxKmgZli6kj4.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_lE5hd-xT1yLqpoQWn8BOo99JL45hC31d8",
-          "name": "sanft",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_lE5hd-xT1yLqpoQWn8BOo99JL45hC31d8.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_n8Hg9csbDQCPDH-PKmWZmKVG_oMgvrozY",
-          "name": "Melancholiebe",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_n8Hg9csbDQCPDH-PKmWZmKVG_oMgvrozY.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_mTrr21OCLdb2dJgl_BJ-6MdJDXWqB-1gc",
-          "name": "Yoga & Meditation - Entspannungsmusik",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mTrr21OCLdb2dJgl_BJ-6MdJDXWqB-1gc.jpg"
         }
       ]
     },
@@ -3679,51 +3679,6 @@
   ],
   "ja": [
     {
-      "section_title": "GTA VI",
-      "items": [
-        {
-          "id": "RDCLAK5uy_llicVTy8JTX0jwExxTZpE2iiFxWO6exs8",
-          "name": "グランド・セフト・オートシリーズ",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_llicVTy8JTX0jwExxTZpE2iiFxWO6exs8.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_n9PTezEY6LrODsz6rl2KDtFzC9e5Qzz9Y",
-          "name": "Gaming Hits",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_n9PTezEY6LrODsz6rl2KDtFzC9e5Qzz9Y.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_nMRqcKbbYRujfKKitokBwvLQSFHnsomls",
-          "name": "Hip-Hop Gaming Hits",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nMRqcKbbYRujfKKitokBwvLQSFHnsomls.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_nk0P4ZGsDyiVWxbFT3NpSsYljIGNqVNoQ",
-          "name": "Pop Gaming Hits",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nk0P4ZGsDyiVWxbFT3NpSsYljIGNqVNoQ.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_mXyIZ5Uf2qxFKbrZQuscMFOhbMS1Uv360",
-          "name": "Latin Gaming Hits",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mXyIZ5Uf2qxFKbrZQuscMFOhbMS1Uv360.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_mye9f9qenh7mhLVdhOrty7On3HFk0YVIc",
-          "name": "Rock Gaming Hits",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mye9f9qenh7mhLVdhOrty7On3HFk0YVIc.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_l13tlEqPP354YV6iWvMmRksG0n3BfxC8A",
-          "name": "Desi Gaming Flow",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_l13tlEqPP354YV6iWvMmRksG0n3BfxC8A.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_kOwmIQLjxvqBZ98AP3eARfb2MI1kaie4g",
-          "name": "Gaming Phonk",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kOwmIQLjxvqBZ98AP3eARfb2MI1kaie4g.jpg"
-        }
-      ]
-    },
-    {
       "section_title": "新曲と急上昇の曲",
       "items": [
         {
@@ -3910,6 +3865,51 @@
           "id": "RDCLAK5uy_kSSYZ41jnUPCIaYvFSZnU67VJEosUro5Q",
           "name": "Japan Ballads",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kSSYZ41jnUPCIaYvFSZnU67VJEosUro5Q.jpg"
+        }
+      ]
+    },
+    {
+      "section_title": "GTA VI",
+      "items": [
+        {
+          "id": "RDCLAK5uy_llicVTy8JTX0jwExxTZpE2iiFxWO6exs8",
+          "name": "グランド・セフト・オートシリーズ",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_llicVTy8JTX0jwExxTZpE2iiFxWO6exs8.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n9PTezEY6LrODsz6rl2KDtFzC9e5Qzz9Y",
+          "name": "Gaming Hits",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_n9PTezEY6LrODsz6rl2KDtFzC9e5Qzz9Y.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nMRqcKbbYRujfKKitokBwvLQSFHnsomls",
+          "name": "Hip-Hop Gaming Hits",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nMRqcKbbYRujfKKitokBwvLQSFHnsomls.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nk0P4ZGsDyiVWxbFT3NpSsYljIGNqVNoQ",
+          "name": "Pop Gaming Hits",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nk0P4ZGsDyiVWxbFT3NpSsYljIGNqVNoQ.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mXyIZ5Uf2qxFKbrZQuscMFOhbMS1Uv360",
+          "name": "Latin Gaming Hits",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mXyIZ5Uf2qxFKbrZQuscMFOhbMS1Uv360.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mye9f9qenh7mhLVdhOrty7On3HFk0YVIc",
+          "name": "Rock Gaming Hits",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mye9f9qenh7mhLVdhOrty7On3HFk0YVIc.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_l13tlEqPP354YV6iWvMmRksG0n3BfxC8A",
+          "name": "Desi Gaming Flow",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_l13tlEqPP354YV6iWvMmRksG0n3BfxC8A.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_kOwmIQLjxvqBZ98AP3eARfb2MI1kaie4g",
+          "name": "Gaming Phonk",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kOwmIQLjxvqBZ98AP3eARfb2MI1kaie4g.jpg"
         }
       ]
     },
@@ -4181,51 +4181,6 @@
       ]
     },
     {
-      "section_title": "GTA VI",
-      "items": [
-        {
-          "id": "RDCLAK5uy_llicVTy8JTX0jwExxTZpE2iiFxWO6exs8",
-          "name": "ग्रैंड थेफ्ट ऑटो सीरीज़",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_llicVTy8JTX0jwExxTZpE2iiFxWO6exs8.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_n9PTezEY6LrODsz6rl2KDtFzC9e5Qzz9Y",
-          "name": "Gaming Hits",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_n9PTezEY6LrODsz6rl2KDtFzC9e5Qzz9Y.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_nMRqcKbbYRujfKKitokBwvLQSFHnsomls",
-          "name": "गेमिंग",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nMRqcKbbYRujfKKitokBwvLQSFHnsomls.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_nk0P4ZGsDyiVWxbFT3NpSsYljIGNqVNoQ",
-          "name": "Pop Gaming Hits",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nk0P4ZGsDyiVWxbFT3NpSsYljIGNqVNoQ.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_mXyIZ5Uf2qxFKbrZQuscMFOhbMS1Uv360",
-          "name": "Latin Gaming Hits",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mXyIZ5Uf2qxFKbrZQuscMFOhbMS1Uv360.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_mye9f9qenh7mhLVdhOrty7On3HFk0YVIc",
-          "name": "Rock Gaming Hits",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mye9f9qenh7mhLVdhOrty7On3HFk0YVIc.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_l13tlEqPP354YV6iWvMmRksG0n3BfxC8A",
-          "name": "देसी गेमिंग फ्लो",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_l13tlEqPP354YV6iWvMmRksG0n3BfxC8A.jpg"
-        },
-        {
-          "id": "RDCLAK5uy_kOwmIQLjxvqBZ98AP3eARfb2MI1kaie4g",
-          "name": "गेमिंग फोंक",
-          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kOwmIQLjxvqBZ98AP3eARfb2MI1kaie4g.jpg"
-        }
-      ]
-    },
-    {
       "section_title": "नए और ट्रेंडिंग गाने",
       "items": [
         {
@@ -4482,6 +4437,51 @@
           "id": "RDCLAK5uy_kymAL5cE4HeekmTy6-3OXYuAucHRpvJ28",
           "name": "मराठी पार्टी",
           "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kymAL5cE4HeekmTy6-3OXYuAucHRpvJ28.jpg"
+        }
+      ]
+    },
+    {
+      "section_title": "GTA VI",
+      "items": [
+        {
+          "id": "RDCLAK5uy_llicVTy8JTX0jwExxTZpE2iiFxWO6exs8",
+          "name": "ग्रैंड थेफ्ट ऑटो सीरीज़",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_llicVTy8JTX0jwExxTZpE2iiFxWO6exs8.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_n9PTezEY6LrODsz6rl2KDtFzC9e5Qzz9Y",
+          "name": "Gaming Hits",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_n9PTezEY6LrODsz6rl2KDtFzC9e5Qzz9Y.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nMRqcKbbYRujfKKitokBwvLQSFHnsomls",
+          "name": "गेमिंग",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nMRqcKbbYRujfKKitokBwvLQSFHnsomls.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_nk0P4ZGsDyiVWxbFT3NpSsYljIGNqVNoQ",
+          "name": "Pop Gaming Hits",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_nk0P4ZGsDyiVWxbFT3NpSsYljIGNqVNoQ.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mXyIZ5Uf2qxFKbrZQuscMFOhbMS1Uv360",
+          "name": "Latin Gaming Hits",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mXyIZ5Uf2qxFKbrZQuscMFOhbMS1Uv360.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_mye9f9qenh7mhLVdhOrty7On3HFk0YVIc",
+          "name": "Rock Gaming Hits",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_mye9f9qenh7mhLVdhOrty7On3HFk0YVIc.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_l13tlEqPP354YV6iWvMmRksG0n3BfxC8A",
+          "name": "देसी गेमिंग फ्लो",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_l13tlEqPP354YV6iWvMmRksG0n3BfxC8A.jpg"
+        },
+        {
+          "id": "RDCLAK5uy_kOwmIQLjxvqBZ98AP3eARfb2MI1kaie4g",
+          "name": "गेमिंग फोंक",
+          "img": "https://onyxmusic.github.io/images/RDCLAK5uy_kOwmIQLjxvqBZ98AP3eARfb2MI1kaie4g.jpg"
         }
       ]
     },
