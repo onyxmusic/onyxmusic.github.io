@@ -100,6 +100,8 @@ async function downloadImage(page, url, destPath) {
   });
 
   const fullFeed = {};
+  // 🔥 TREND: Her ülkenin "20 Trend Video" listesi (OLAK5uy_ ile başlar).
+  const trendFeed = {};
 
   for (const [langCode, config] of Object.entries(REGIONS)) {
     const url = `https://www.youtube.com/feed/music`;
@@ -268,6 +270,47 @@ async function downloadImage(page, url, destPath) {
       }
 
       fullFeed[langCode] = sectionData;
+
+      // 🔥 TREND VİDEOLAR: "En çok dinlenenler" bölümündeki "20 Trend Video" listesi.
+      // Kimliği OLAK5uy_ ile başladığı için yukarıdaki RDCLAK|PL taraması onu almıyor.
+      // Ayrı dosyaya yazılır; regions/<ülke>.json dosyalarına dokunulmaz.
+      try {
+        const trendData = await page.evaluate(() => {
+          const sections = document.querySelectorAll('ytd-rich-section-renderer, ytd-shelf-renderer');
+          for (const section of sections) {
+            // Trend listesi, "En Popüler 100" (PL4fGSI1pD...) listeleriyle aynı bölümde durur.
+            if (!section.querySelector('a[href*="list=PL4fGSI1pD"]')) continue;
+
+            const linkEl = section.querySelector('a[href*="list=OLAK5uy_"]');
+            if (!linkEl) continue;
+
+            const match = linkEl.href.match(/list=(OLAK5uy_[^&]+)/);
+            if (!match) continue;
+
+            const card = linkEl.closest('ytd-rich-item-renderer, ytd-grid-playlist-renderer, ytd-compact-playlist-renderer, ytd-lockup-view-model') || section;
+            const name =
+              card.querySelector('#video-title')?.textContent?.trim() ||
+              card.querySelector('h3')?.textContent?.trim() ||
+              '';
+
+            const imgEl = card.querySelector('ytd-thumbnail img, ytd-playlist-thumbnail img, yt-img-shadow img, img');
+            let img = imgEl ? (imgEl.currentSrc || imgEl.src || '') : '';
+            if (img.startsWith('data:')) img = '';
+
+            return { id: match[1], name, img };
+          }
+          return null;
+        });
+
+        if (trendData && trendData.id) {
+          trendFeed[langCode] = trendData;
+          console.log(` 🔥 [${langCode.toUpperCase()}] Trend listesi bulundu: ${trendData.id}`);
+        } else {
+          console.warn(` ⚠️ [${langCode.toUpperCase()}] Trend listesi bulunamadi.`);
+        }
+      } catch (trendError) {
+        console.warn(` ⚠️ [${langCode.toUpperCase()}] Trend taramasi atlandi:`, trendError.message);
+      }
       console.log(`   ✅ [${langCode.toUpperCase()}] Ülke taraması kayıpsız bitti.`);
 
     } catch (error) {
@@ -351,6 +394,17 @@ for (const [regionCode, sections] of Object.entries(fullFeed)) {
 }
 
 console.log('✅ Bolge JSON dosyalari olusturuldu.');
+
+// 3. TREND LİSTELERİNİ AYRI KAYDET (regions/trend_<ülke>.json)
+// Bulunamayan ülkede eski dosya korunur, silinmez.
+for (const [regionCode, trend] of Object.entries(trendFeed)) {
+  fs.writeFileSync(
+    `regions/trend_${regionCode}.json`,
+    JSON.stringify({ ...trend, updated: new Date().toISOString() }, null, 2),
+    'utf-8'
+  );
+}
+console.log(`✅ Trend dosyalari: ${Object.keys(trendFeed).length} ulke`);
   console.log("\n🎉 İŞLEM BİTTİ! Link formatı ne olursa olsun tüm kapaklar başarıyla 250x250 ve %80 kalitede kaydedildi.");
 })();
 
